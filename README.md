@@ -28,7 +28,7 @@ The public AI functions and simulator are retained from the inspected 06 Oct 202
 
 Simulation uses native role-default item presets in their original order; custom account loadouts are not imported. Unassigned roles are inferred. With a full visible scout, configuration tests use that enemy plan and your side. Otherwise they use three native enemy presets on both sides. The selected configuration is the best of 64 on those deterministic tests, not a real-match probability or global-optimality proof.
 
-The DOM reader refuses unrecognized history layouts. Manual correction is available. Tests cover native score parity, simulator payload parity on both sides, normal/mirrored histories, information boundaries and completed teams. Browser checks exercise automatic detection on a replay of the observed native markup and the manual practice board. A userscript manager has not been installed or tested on the user's authenticated account; ranked/PvP integration remains unverified.
+The DOM reader refuses unrecognized history layouts. Manual correction is available. Tests cover native score parity, simulator payload parity on both sides, normal/mirrored histories, information boundaries and completed teams. Browser checks exercise the self-contained userscript on a replay of the observed native markup, including detection recovery, native role changes and optimizer cancellation, plus the manual practice board. A userscript manager has not been installed or tested on the user's authenticated account; ranked/PvP integration remains unverified.
 
 See [source URLs and hashes](dist/source-manifest.json) and [methodology](docs/methodology.md). This project is not affiliated with DotaCaptain or Valve.
 

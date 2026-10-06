@@ -13,7 +13,7 @@
  }
  function explain(id,action,state,row){const reasons=[];
   const counters=action==='pick'?D.counters.tu(id,state.enemy):D.counters.tu(id,state.own);
-  for(const c of counters.slice(0,2))reasons.push(`${action==='ban'?'Protects against':'Counters'} ${byId.get(c.heroId)?.localized_name}: ${c.reason} (${c.tier}; timing/item conditions may apply)`);
+  for(const c of counters.slice(0,2))reasons.push(`${action==='ban'?`Protects ${byId.get(c.heroId)?.localized_name} from ${byId.get(id)?.localized_name}`:`Counters ${byId.get(c.heroId)?.localized_name}`}: ${c.reason} (${c.tier}; timing/item conditions may apply)`);
   if(action==='pick'){const links=D.synergy.vH([...state.own,id]).filter(s=>s.a===id||s.b===id);for(const s of links.slice(0,2))reasons.push(`Mapped synergy with ${byId.get(s.a===id?s.b:s.a)?.localized_name}: ${s.reason}`);const labels={compositionFit:'Team balance',threatCoverage:'Counter coverage',doctrineAlignment:'Strategy fit',timingFit:'Power timing',roleLaneFit:'Role fit'};for(const [key,value]of Object.entries(row.components||{}).filter(([k,v])=>labels[k]&&v>0).sort((a,b)=>b[1]-a[1]).slice(0,2))reasons.push(`${labels[key]} +${value.toFixed(1)} native points`);}
   if(!reasons.length)reasons.push(action==='ban'?'Native AI deny/protection value for your current draft and plan.':'Fits an open role under the native AI draft model.');return reasons.slice(0,3);
  }

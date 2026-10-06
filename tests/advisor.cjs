@@ -14,6 +14,17 @@ assert.equal(decodeDraftSnapshot({...observed,groups:observed.groups.slice(1)},n
 assert.equal(decodeDraftSnapshot({...observed,yourTurn:false},null,D,A),null);
 assert.equal(decodeDraftSnapshot({...observed,groups:observed.groups.map((g,i)=>i===0?{...g,numbers:[99]}:g)},null,D,A),null);
 const normal=decodeDraftSnapshot(snapshot({0:'Leshrac',1:'Pudge'},2,false),{side:'radiant'},D,A);assert.equal(normal.sequence[0].team,'radiant');assert.deepEqual(normal.ownBans,[id('Leshrac'),id('Pudge')]);
+// Exercise every CM prefix on both opening orders and both factions, including skipped bans.
+for(const mirror of [false,true])for(const side of ['radiant','dire'])for(let turn=0;turn<24;turn++){
+ const history=Object.fromEntries(Array.from({length:turn},(_,i)=>[i,D.heroes[i].localized_name]));delete history[0];
+ const snap=snapshot(history,turn,mirror),decoded=decodeDraftSnapshot(snap,{side},D,A);
+ assert.equal(decoded.turn,turn);assert.equal(decoded.side,side);
+ for(const kind of ['own','enemy','bans','ownBans']){
+  const expected=Object.entries(history).filter(([index])=>{const step=decoded.sequence[+index];return kind==='bans'?step.action==='ban':kind==='ownBans'?step.action==='ban'&&step.team===side:step.action==='pick'&&(kind==='own'?step.team===side:step.team!==side)}).map(([,name])=>id(name));
+  assert.deepEqual([...decoded[kind]].sort((a,b)=>a-b),expected.sort((a,b)=>a-b));
+ }
+}
+assert.deepEqual(decodeDraftSnapshot({brief:true,side:'dire',axes:D.presets.earlyAggro},null,D,A).enemyChoices,D.presets.earlyAggro);
 const own=['Muerta','Mirana'].map(id),enemy=[id('Chaos Knight')],state={...blank,own,enemy,bans:[id('Axe')],roles:{[own[0]]:'carry',[own[1]]:'mid'}},choices=A.bestPlan(state),rows=A.recommend(state,'pick',choices),bans=A.recommend(state,'ban',choices);
 assert(rows.length>10);assert(bans.length>10);assert(rows.every(r=>![...own,...enemy,...state.bans].includes(r.id)));assert(rows.every(r=>!['carry','mid'].includes(r.role)));assert(rows.every((r,i)=>!i||rows[i-1].score>=r.score));assert(rows.every(r=>r.reasons.length>0));assert(bans.every(r=>!own.includes(r.id)));
 const native=D.draft.decisionPlan({available:D.heroes.filter(h=>![...own,...enemy,...state.bans].includes(h.id)),aiPicks:own.map(i=>A.byId.get(i)),playerPicks:enemy.map(i=>A.byId.get(i)),aiDraftRoles:A.assigned(own,state.roles),action:'pick',ownStrategyChoices:choices,personality:'standard',aiPickIndex:2,stepIndex:2,draftSequence:A.sequence,playerTeam:'radiant',aiBansSoFar:[]},()=>0);
@@ -26,3 +37,10 @@ assert.equal(A.recommend(full,'pick',choices).length,0);assert.equal(A.plans.len
 const best=A.bestPlan(full);assert.equal(A.nativeScore(fullOwn,best,full.roles),Math.max(...A.plans.map(p=>A.nativeScore(fullOwn,p,full.roles))));
 for(const side of ['radiant','dire']){const ours=fullOwn.map(i=>A.byId.get(i)),theirs=fullEnemy.map(i=>A.byId.get(i)),ownRoles=A.assigned(fullOwn,full.roles),enemyRoles=A.assigned(fullEnemy),result=D.simulate({radiant:side==='radiant'?ours:theirs,dire:side==='dire'?ours:theirs,playerTeam:side,strategyChoices:best,strategyHeroRoles:ownRoles,enemyStrategyChoices:D.presets.lateScale,enemyStrategyHeroRoles:enemyRoles,enemyRolesExplicit:true,playerItemBuilds:Object.fromEntries(ours.map(h=>[h.id,D.builds.z8(h.id,ownRoles[h.id])])),enemyItemBuilds:Object.fromEntries(theirs.map(h=>[h.id,D.builds.z8(h.id,enemyRoles[h.id])]))});const adapted=A.simulate(full,best,D.presets.lateScale,side),totals=result.timeline.at(-1).totals;assert.equal(adapted.win,result.winner===side);assert.equal(adapted.minute,result.finalMinute);assert.equal(adapted.nw,(side==='radiant'?1:-1)*(totals.radiantNetWorth-totals.direNetWorth));}
 console.log('Verified paired/mirrored live history, revealed information boundaries, native rankings, legality, role locks, 64-plan fit and original simulator payload parity on both sides.');
+
+for(let count=0;count<5;count++){
+ const partial={...blank,own:fullOwn.slice(0,count),enemy:fullEnemy.slice(0,count),roles:Object.fromEntries(fullOwn.slice(0,count).map((id,i)=>[id,A.roles[i]]))};
+ for(const role of A.roles.slice(count)){const candidates=A.recommend(partial,'pick',A.bestPlan(partial),role);assert(candidates.length>=3);assert(candidates.every(r=>Number.isFinite(r.score)&&r.role===role&&!partial.own.includes(r.id)&&!partial.enemy.includes(r.id)))}
+}
+assert(A.recommend({...state,own:[id('Medusa')],roles:{}},'ban',choices).find(r=>r.id===id('Anti-Mage')).reasons.some(r=>r.includes('Protects Medusa from Anti-Mage')));
+console.log('Verified all 96 draft prefixes, skipped bans, visible scout, every remaining role and ban explanation direction.');
