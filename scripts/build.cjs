@@ -5,7 +5,7 @@ const read=name=>fs.readFileSync(path.join(dist,name),'utf8');
 const metadata=`// ==UserScript==
 // @name         DotaCaptain Draft Advisor
 // @namespace    https://github.com/HVS13/DotaCaptainLab
-// @version      2.0.2
+// @version      2.0.3
 // @description  Live native pick/ban rankings, visible-draft detection, explanations and configuration advice.
 // @match        https://dotacaptain.com/*
 // @grant        none
