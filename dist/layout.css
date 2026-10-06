@@ -15,3 +15,4 @@ body[data-view="draft"] .workspace{grid-template-columns:minmax(0,1fr)}body[data
 
 /* Readable controls and result text while retaining the compact calculator layout. */
 label,select,input[type=search],button,.muted,.intro p{font-size:14px}.note,.toolbar p,.defaultItems,.counterCards p,.method p{font-size:13px}.heroCell button,td{font-size:14px}th{font-size:13px}.optControls label,.adviceTable button{font-size:14px}.viewTabs button{min-height:40px}
+#ranking th,#ranking th button{white-space:normal;overflow-wrap:anywhere;line-height:1.35}.optControls select{width:190px}
