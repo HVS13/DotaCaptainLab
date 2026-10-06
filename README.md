@@ -1,43 +1,47 @@
-# DotaCaptain Lab
+# DotaCaptain Draft Advisor
 
-A free, unofficial DotaCaptain draft and team-comparison calculator. Runs entirely in your browser; no account, subscription, server, or installation is required.
+A live draft overlay rebuilt around the DotaCaptain-native assistant concept. It reads the revealed draft, ranks available heroes with native AI functions, explains counters and mapped synergies, and checks strategy configurations.
 
-**Open:** [DotaCaptain Lab](https://hvs13.github.io/DotaCaptainLab/)
+[Installation and practice board](https://hvs13.github.io/DotaCaptainLab/) | [Install userscript](https://hvs13.github.io/DotaCaptainLab/dotacaptain-advisor.user.js)
 
-## Use the calculator
+## Install
 
-1. **Quick picks & bans (default):** choose a hero by role. Three pick suggestions and three native protection-ban candidates per open role update automatically. Record a ban to get replacements without losing picks. Once the five picks are filled, a configuration is shown immediately and simulation optimization starts automatically. Unknown opponents use the balanced 128-profile benchmark, both sides, and source item defaults; Stop optimization retains the displayed configuration.
+1. Install [Tampermonkey](https://www.tampermonkey.net/) from its official browser-store links.
+2. Open the userscript link and confirm installation in the manager. Follow browser prompts to enable userscripts if needed. If the file opens as text, create a new userscript, paste the complete file and save.
+3. Open DotaCaptain and start a draft. Keep the script enabled during the scout briefing so the visible enemy strategy can be retained for the page session.
+4. Read Top picks or Top bans. Find in game search fills the native search field; you still choose and confirm game actions. The panel can be minimized.
 
-2. **Draft assistant:** enter your lottery side, first-pick side, and actual CM turn. Record confirmed picks and bans. Leave unknown enemy heroes, roles, and strategy axes blank. Recommendations never submit actions to DotaCaptain.
-3. **Composition ranking:** browse the pre-tested 120-team reference, filter heroes, sort results, and pin up to four teams. Choose a comparison baseline explicitly; the difference column compares native draft points.
-4. **Inspect a team:** see its assigned roles, native default item presets, nearby hero alternatives, strategy settings, and three hypothetical counter lineups.
-5. **Test changes:** Find candidate teams gives a native-score shortlist. Benchmark selected batch tests its displayed strategies. Auto optimize screens strategies on training scenarios and evaluates the selected configuration separately. Choose the team count and opponent sample size before running; large jobs take longer and can be cancelled.
-6. **Selected matchup:** enter all five enemy heroes. Assign their roles or allow inference. A single-match simulation also needs your side and all six enemy strategy choices. The six-scenario test instead checks both sides and three preset enemy plans.
+## Features
 
-General ranking deliberately ignores live enemy inputs. Current-draft ranking constrains hypothetical completions to revealed picks and supplied assumptions. General wins and Solo-weighted percentages are simulator benchmarks, **not actual win probabilities**. A rank range shows sensitivity across generated opponent samples, not a confidence interval.
+- Automatic detection of the inspected 24-turn history, paired/mirrored columns, current turn and faction.
+- Visible scout capture; future picks and unreported enemy roles remain unknown.
+- Native pick/ban rankings, hero search, role filtering, counter/synergy reasons and capability gaps.
+- Manual correction when detection fails, plus intended own-role overrides.
+- Native-fit configuration after five own picks; all 64 configurations can be simulated once both teams are revealed.
+- A manual practice board using the same advisor panel.
 
-## Accuracy and limitations
+The userscript bundles the native client data, has no external script dependencies, does not call account APIs and does not upload draft data. Hero portraits use public CDN URLs from the game data. It does not automate picks, bans or strategy submission.
 
-The public DotaCaptain client simulator, data, AI score coefficients, and role-default item presets are retained. The default reference has 61,440 scenario results. Unknown enemy roles and lineups are explicit assumptions. Private server settings, ranked profiles, organization modifiers, and account comfort history are unavailable; live-server parity and a global optimum are not established.
+## Accuracy and limits
 
-See [calculation methodology](docs/methodology.md) and [source URLs and hashes](dist/source-manifest.json). This project is not affiliated with DotaCaptain. Interface workflow inspired by [wuwa_calc](https://riley31415.github.io/wuwa_calc).
+The public AI functions and simulator are retained from the inspected 06 Oct 2026 client snapshot. Recommendations use the standard captain personality without account comfort history. Auto doctrine uses mean native fit over your picks; this aggregation is our policy, not an official win score.
 
-## Run locally
+Simulation uses native role-default item presets in their original order; custom account loadouts are not imported. Unassigned roles are inferred. With a full visible scout, configuration tests use that enemy plan and your side. Otherwise they use three native enemy presets on both sides. The selected configuration is the best of 64 on those deterministic tests, not a real-match probability or global-optimality proof.
 
-From this repository, serve the static files over HTTP:
+The DOM reader refuses unrecognized history layouts. Manual correction is available. Tests cover native score parity, simulator payload parity on both sides, normal/mirrored histories, information boundaries and completed teams. Browser checks exercise automatic detection on a replay of the observed native markup and the manual practice board. A userscript manager has not been installed or tested on the user's authenticated account; ranked/PvP integration remains unverified.
+
+See [source URLs and hashes](dist/source-manifest.json) and [methodology](docs/methodology.md). This project is not affiliated with DotaCaptain or Valve.
+
+## Development
+
+No package installation is needed. With Node.js 18+:
 
 ```sh
-python -m http.server 8765 --directory dist
+node scripts/build.cjs
+node tests/advisor.cjs
+python -m http.server 8765
 ```
 
-Then open http://localhost:8765. Opening the HTML directly as a file does not support the calculation worker.
+Open `/dist/` for installation and practice; `/tests/native-fixture.html` replays native markup with automatic detection enabled.
 
-Run the included calculation checks with Node.js 18 or later:
-
-```sh
-node tests/verify.cjs
-```
-
-## Publishing
-
-Push to `main` to validate and publish `dist/` with the GitHub Pages workflow. GitHub Pages hosting and standard GitHub Actions runners are free for this public repository. No paid hosting provider or custom domain is required.
+Editable sources live in `rebuild/`. The build copies them into `dist/` and emits the self-contained userscript. `dist/engine.js` is the unchanged native snapshot. Pushes to `main` build, verify and publish through GitHub Pages.

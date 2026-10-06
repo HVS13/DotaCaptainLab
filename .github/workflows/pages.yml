@@ -24,12 +24,10 @@ jobs:
       - uses: actions/checkout@v6
       - name: Verify calculator
         run: |
-          node --check dist/app.js
-          node --check dist/worker.js
-          node --check dist/quick.js
-          node --check dist/quick-model.js
-          node --check dist/hero-picker.js
-          node tests/verify.cjs
+          node scripts/build.cjs
+          node --check dist/overlay.js
+          node --check dist/dotacaptain-advisor.user.js
+          node tests/advisor.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

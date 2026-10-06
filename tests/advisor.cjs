@@ -1,0 +1,27 @@
+const assert=require('node:assert/strict');
+require('../dist/engine.js');require('../dist/solver.js');
+const {DRAFT_PAIRS,decodeDraftSnapshot}=require('../dist/detector.js'),D=DC,A=Advisor;
+const id=name=>D.heroes.find(h=>h.localized_name===name).id;
+const blank={own:[],enemy:[],bans:[],ownBans:[],roles:{},enemyRoles:{},enemyChoices:{},side:'radiant',turn:2};
+function snapshot(history={},turn=2,mirror=true){return{groups:DRAFT_PAIRS.map(pair=>{const p=mirror?[pair[1],pair[0]]:pair;return{numbers:pair.filter(n=>n!==null).map(n=>n+1).sort((a,b)=>a-b),left:p[0]===null?null:history[p[0]]||null,right:p[1]===null?null:history[p[1]]||null,leftSlot:p[0]!==null,rightSlot:p[1]!==null,current:pair.includes(turn)?turn+1:null}}),roles:{},yourTurn:true,enemyTurn:false}}
+// The observed mirrored board: Leshrac / Pudge are turns 1 / 2, while
+// the same paired visual row contains the current Radiant turn 3.
+const observed=snapshot({0:'Leshrac',1:'Pudge'}),detected=decodeDraftSnapshot(observed,null,D,A);
+assert.equal(detected.side,'radiant');assert.equal(detected.turn,2);assert.equal(detected.sequence[0].team,'dire');assert.deepEqual(detected.bans,[id('Leshrac'),id('Pudge')]);assert.deepEqual(detected.ownBans,[]);assert.deepEqual(detected.own,[]);assert.deepEqual(detected.enemy,[]);
+const picks=snapshot({0:'Leshrac',1:'Pudge',7:'Chaos Knight',8:'Muerta'},9),draft=decodeDraftSnapshot(picks,{side:'radiant',enemyChoices:D.presets.lateScale},D,A);
+assert.deepEqual(draft.own,[id('Muerta')]);assert.deepEqual(draft.enemy,[id('Chaos Knight')]);assert.deepEqual(draft.enemyRoles,{});assert.deepEqual(draft.enemyChoices,D.presets.lateScale);
+assert.equal(decodeDraftSnapshot({...observed,groups:observed.groups.slice(1)},null,D,A),null);
+assert.equal(decodeDraftSnapshot({...observed,yourTurn:false},null,D,A),null);
+assert.equal(decodeDraftSnapshot({...observed,groups:observed.groups.map((g,i)=>i===0?{...g,numbers:[99]}:g)},null,D,A),null);
+const normal=decodeDraftSnapshot(snapshot({0:'Leshrac',1:'Pudge'},2,false),{side:'radiant'},D,A);assert.equal(normal.sequence[0].team,'radiant');assert.deepEqual(normal.ownBans,[id('Leshrac'),id('Pudge')]);
+const own=['Muerta','Mirana'].map(id),enemy=[id('Chaos Knight')],state={...blank,own,enemy,bans:[id('Axe')],roles:{[own[0]]:'carry',[own[1]]:'mid'}},choices=A.bestPlan(state),rows=A.recommend(state,'pick',choices),bans=A.recommend(state,'ban',choices);
+assert(rows.length>10);assert(bans.length>10);assert(rows.every(r=>![...own,...enemy,...state.bans].includes(r.id)));assert(rows.every(r=>!['carry','mid'].includes(r.role)));assert(rows.every((r,i)=>!i||rows[i-1].score>=r.score));assert(rows.every(r=>r.reasons.length>0));assert(bans.every(r=>!own.includes(r.id)));
+const native=D.draft.decisionPlan({available:D.heroes.filter(h=>![...own,...enemy,...state.bans].includes(h.id)),aiPicks:own.map(i=>A.byId.get(i)),playerPicks:enemy.map(i=>A.byId.get(i)),aiDraftRoles:A.assigned(own,state.roles),action:'pick',ownStrategyChoices:choices,personality:'standard',aiPickIndex:2,stepIndex:2,draftSequence:A.sequence,playerTeam:'radiant',aiBansSoFar:[]},()=>0);
+for(const row of rows)assert.equal(row.score,native.scored.find(x=>x.hero.id===row.id).score);
+assert.throws(()=>A.recommend({...state,bans:[...state.bans,own[0]]},'pick',choices),/more than one/);
+const fullOwn=['Muerta','Mirana','Mars','Hoodwink','Lion'].map(id),fullEnemy=['Gyrocopter','Batrider','Centaur Warrunner','Vengeful Spirit','Rubick'].map(id),full={...blank,own:fullOwn,enemy:fullEnemy,roles:Object.fromEntries(fullOwn.map((id,i)=>[id,A.roles[i]]))};
+const complete=decodeDraftSnapshot({completed:{radiant:fullOwn,dire:fullEnemy},groups:[],roles:full.roles},{side:'radiant'},D,A);assert.deepEqual(complete.own,fullOwn);assert.deepEqual(complete.enemy,fullEnemy);assert.deepEqual(complete.enemyRoles,{});
+assert.equal(A.recommend(full,'pick',choices).length,0);assert.equal(A.plans.length,64);
+const best=A.bestPlan(full);assert.equal(A.nativeScore(fullOwn,best,full.roles),Math.max(...A.plans.map(p=>A.nativeScore(fullOwn,p,full.roles))));
+for(const side of ['radiant','dire']){const ours=fullOwn.map(i=>A.byId.get(i)),theirs=fullEnemy.map(i=>A.byId.get(i)),ownRoles=A.assigned(fullOwn,full.roles),enemyRoles=A.assigned(fullEnemy),result=D.simulate({radiant:side==='radiant'?ours:theirs,dire:side==='dire'?ours:theirs,playerTeam:side,strategyChoices:best,strategyHeroRoles:ownRoles,enemyStrategyChoices:D.presets.lateScale,enemyStrategyHeroRoles:enemyRoles,enemyRolesExplicit:true,playerItemBuilds:Object.fromEntries(ours.map(h=>[h.id,D.builds.z8(h.id,ownRoles[h.id])])),enemyItemBuilds:Object.fromEntries(theirs.map(h=>[h.id,D.builds.z8(h.id,enemyRoles[h.id])]))});const adapted=A.simulate(full,best,D.presets.lateScale,side),totals=result.timeline.at(-1).totals;assert.equal(adapted.win,result.winner===side);assert.equal(adapted.minute,result.finalMinute);assert.equal(adapted.nw,(side==='radiant'?1:-1)*(totals.radiantNetWorth-totals.direNetWorth));}
+console.log('Verified paired/mirrored live history, revealed information boundaries, native rankings, legality, role locks, 64-plan fit and original simulator payload parity on both sides.');

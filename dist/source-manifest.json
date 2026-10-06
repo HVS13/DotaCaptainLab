@@ -253,7 +253,6 @@
   "nativeDraftFormula": {
     "module": 16286,
     "exposed": "Original internal decisionPlan j and pickScore A; export table only, formula bodies unchanged",
-    "catalogueValue": "Arithmetic mean of five native pick scores, each assessed in its assigned role with the other four teammates. This aggregation is ours; no custom component weights.",
     "refresh": [
       {
         "url": "https://dotacaptain.com/_next/static/chunks/8380-4fbfd01e442735c8.js",
@@ -270,7 +269,8 @@
         "sha256": "26ca584abcad48d67340a25dd2ea07893120db8883be0218cdd71452e84b8277",
         "unchanged": true
       }
-    ]
+    ],
+    "teamAggregation": "Auto doctrine uses mean native fit over current own picks; not an official win score."
   },
   "draftFlow": {
     "sequenceModule": 32354,
@@ -278,29 +278,10 @@
     "pvpSyncModule": 13177,
     "page": "https://dotacaptain.com/_next/static/chunks/app/draft/page-9f6500ccff4b7bdd.js",
     "knowledge": "Confirmed picks appended each action. pickPhaseReveal is own final lineup, not hidden enemy picks. Solo scout doctrine/style may be visible before first ban. PvP hides intel and syncs enemy strategy/final roles only during simulating/complete. Internal AI role state is not treated as user-visible knowledge.",
-    "calculator": "Blank opponent by default. Actual CM turn selected explicitly because bans can be skipped. Enemy roles require explicit analysis assignments or permission to infer; hypothetical single-match optimization requires an explicit complete plan and side."
+    "advisor": "Reads visible rendered history, scout and completed own role assignments; intended roles may be corrected. Enemy roles remain inferred unless visibly labelled."
   },
-  "generalAnalysis": {
-    "nativeSimulator": "unchanged module 90218.G",
-    "generalSampling": "256 profiles; all 64 enemy plans under two explicit lineup policies, both sides; common seeded rules with legal exclusions; two complete 128-profile replication batches",
-    "referenceCandidates": 120,
-    "referenceResults": 61440,
-    "ranking": "scenario win fraction, mean final NW lead, native draft value",
-    "counterSearch": "up to 36 lineups screened across three native presets; all 64 plans for four finalists; both sides against fixed displayed target configuration",
-    "banPriority": "exact found-lineup coverage, then original native protection ban score",
-    "limits": "Sampling and aggregation are calculator methods, not official probabilities, meta-frequency estimates, or global-optimality guarantees.",
-    "training": "64 own plans screened on a balanced 16-profile design; eight finalists plus the current plan refined on 128 profiles with distinct training seeds; evaluation never selects the strategy",
-    "uncertainty": "Policy subgroup results and replication ranks are sensitivity diagnostics, not real win probabilities or confidence intervals. Bounded candidate search and preferred-role opponent population. Duplicate cases retain weights; overlap and unique counts are reported.",
-    "soloDoctrinePrior": {
-      "module": "97174.R0",
-      "source": "https://dotacaptain.com/_next/static/chunks/5774-65ac83f0c17be11c.js",
-      "basePresets": "95363.Vx plus the two extra generator bases, deduplicated",
-      "flipCountWeights": [
-        0.35,
-        0.4875,
-        0.1625
-      ],
-      "assumption": "Uniform random draws; source-derived strategy prior only, with hypothetical hero policies. Verified against 200000 seeds of the original module."
-    }
-  }
+  "learningReferences": [
+    "https://dotacaptain.com/learn",
+    "https://dotacaptain.com/guide"
+  ]
 }
