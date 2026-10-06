@@ -9,6 +9,7 @@ for(const select of document.querySelectorAll('[data-quick-role],#quickBan')){
  const list=document.createElement('div');list.id=`hero-options-${key}`;list.className='heroPickerList';list.setAttribute('role','listbox');list.setAttribute('aria-label',isBan?'Heroes to ban':`${name} heroes`);list.hidden=true;
  const hint=document.createElement('p');hint.className='heroPickerHint';hint.setAttribute('role','status');hint.setAttribute('aria-live','polite');hint.hidden=true;
  wrap.append(input,clear,list,hint);label.after(wrap);label.htmlFor=input.id;select.hidden=true;select.setAttribute('aria-hidden','true');
+ if(isBan){const field=document.createElement('div');field.className='heroPickerField';label.before(field);field.append(label,wrap)}
  let matches=[],active=-1;
  const selectedText=()=>select.value?select.selectedOptions[0].textContent:'';
  function sync(){input.value=selectedText();clear.hidden=!input.value;input.disabled=select.disabled}
