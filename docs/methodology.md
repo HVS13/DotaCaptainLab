@@ -17,3 +17,5 @@ Checks cover paired/mirrored action histories, invalid-layout rejection, reveale
 # Official learning library
 
 Reviewed the visible [learning library](https://dotacaptain.com/learn) and its [captain playbook](https://dotacaptain.com/guide), v1.3 updated July 27, 2026. They describe roles before tags, the real visible solo scout, contextual named counters, six strategy axes, and item order as timing. The advisor uses native role, counter, synergy, capability and simulation functions for these mechanics rather than adding independent manual weights. Match outcomes include random event decisions; repeatable client scenarios are not empirical win probabilities. The live captain playbook reads events and does not control the match; this advisor likewise does not submit match actions.
+
+Selecting a pick-role filter recalculates candidates with native pickScore for that requested open role, using native role eligibility. The unfiltered list retains native next-turn role priority.
