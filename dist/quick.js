@@ -1,7 +1,8 @@
 let quickRows=[],quickFocus=null,quickWorker=null,quickRevision=0,quickTimer;
-const quickPanel=document.createElement('section');quickPanel.id='quickPanel';$('viewTabs')?.after(quickPanel);
+const quickPanel=document.createElement('section');quickPanel.id='quickPanel';
 document.querySelector('.viewTabs').after(quickPanel);
 quickPanel.innerHTML=`<h2>Pick your heroes. We handle the rest.</h2><p>Choose a hero by role, or use a suggestion. Record any ban; your picks stay fixed and replacements update automatically.</p><p class="note">No opponent setup needed: recommendations assume varied hypothetical opponents, both sides, and DotaCaptain’s default item presets. Fast suggestions use native draft scores. Ban candidates protect your picks, without predicting enemy roles. Completed teams optimize automatically; simulation can take several minutes.</p><div id="quickRoles" class="quickRoles"></div><div class="quickBanBar"><label>Record a banned hero<select id="quickBan" aria-label="Record a banned hero"></select></label><button id="quickReset">Clear picks & bans</button></div><div id="quickBans" class="chips"></div><p id="quickStatus" role="status" aria-live="polite"></p><section id="quickResult"></section>`;
+$('quickStatus').after($('quickRoles'));
 $('quickRoles').innerHTML=L.roles.map(role=>`<article><h3>${L.names[role]}</h3><label>Choose ${L.names[role].split(' · ')[0]}<select data-quick-role="${role}" aria-label="Quick ${role}"><option value="">Choose hero…</option>${D.heroes.filter(h=>L.valid(h,role)).map(h=>`<option value="${h.id}">${escape(h.localized_name)}</option>`).join('')}</select></label><div data-quick-suggestions="${role}"></div></article>`).join('');
 $('quickBan').innerHTML=options(null,'Choose banned hero…');
 const previousSetView=setView;
