@@ -49,3 +49,18 @@ const candidates = L.search({ locks: { carry: t.ids[0] }, bans: [opponent.ids[0]
 assert(candidates.length > 0);
 assert(candidates.every(x => x.ids[0] === t.ids[0] && !x.ids.includes(opponent.ids[0])));
 console.log(`Verified ${data.teams.length} teams, ${matches} stored results, legal roles, source presets, balanced profiles, Solo weights and native replay.`);
+require('../dist/quick-model.js');
+const idFor = name => D.heroes.find(h => h.localized_name === name).id;
+const muerta = idFor('Muerta'), mirana = idFor('Mirana'), axe = idFor('Axe');
+const quickArgs = { locks: { carry: muerta, mid: mirana }, bans: [axe], reference: data.teams.map(t => ({ ids: t.ids, choices: t.choices })), focus: data.teams.find(t => t.ids[0] === muerta && t.ids[1] === mirana) };
+const replacements = L.quickTeams(quickArgs);
+assert(replacements.length > 0);
+assert(replacements.every(t => t.ids[0] === muerta && t.ids[1] === mirana && !t.ids.includes(axe) && new Set(t.ids).size === 5));
+assert(replacements.every(t => t.ids.every((id, i) => L.valid(L.byId.get(id), L.roles[i]))));
+assert.deepEqual(L.quickTeams(quickArgs), replacements);
+const completed = replacements[0], fixed = L.quickTeams({ locks: Object.fromEntries(L.roles.map((r, i) => [r, completed.ids[i]])), bans: [axe] });
+assert.equal(fixed.length, 1);
+assert.deepEqual(fixed[0].ids, completed.ids);
+assert.equal(fixed[0].score, Math.max(...L.plans.map(p => L.score(completed.ids, p).score)));
+assert.throws(() => L.quickTeams({ locks: { carry: muerta }, bans: [muerta] }), /unavailable/);
+console.log('Verified Muerta/Mirana locks, banned Axe replacements, deterministic quick search and best native configuration across all 64 plans.');

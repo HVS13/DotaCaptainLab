@@ -26,6 +26,8 @@ jobs:
         run: |
           node --check dist/app.js
           node --check dist/worker.js
+          node --check dist/quick.js
+          node --check dist/quick-model.js
           node tests/verify.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

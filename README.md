@@ -6,11 +6,13 @@ A free, unofficial DotaCaptain draft and team-comparison calculator. Runs entire
 
 ## Use the calculator
 
-1. **Draft assistant:** enter your lottery side, first-pick side, and actual CM turn. Record confirmed picks and bans. Leave unknown enemy heroes, roles, and strategy axes blank. Recommendations never submit actions to DotaCaptain.
-2. **Composition ranking:** browse the pre-tested 120-team reference, filter heroes, sort results, and pin up to four teams. Choose a comparison baseline explicitly; the difference column compares native draft points.
-3. **Inspect a team:** see its assigned roles, native default item presets, nearby hero alternatives, strategy settings, and three hypothetical counter lineups.
-4. **Test changes:** Find candidate teams gives a native-score shortlist. Benchmark selected batch tests its displayed strategies. Auto optimize screens strategies on training scenarios and evaluates the selected configuration separately. Choose the team count and opponent sample size before running; large jobs take longer and can be cancelled.
-5. **Selected matchup:** enter all five enemy heroes. Assign their roles or allow inference. A single-match simulation also needs your side and all six enemy strategy choices. The six-scenario test instead checks both sides and three preset enemy plans.
+1. **Quick picks & bans (default):** choose a hero by role. Three pick suggestions and three native protection-ban candidates per open role update automatically. Record a ban to get replacements without losing picks. Once the five picks are filled, a configuration is shown immediately and simulation optimization starts automatically. Unknown opponents use the balanced 128-profile benchmark, both sides, and source item defaults; Stop optimization retains the displayed configuration.
+
+2. **Draft assistant:** enter your lottery side, first-pick side, and actual CM turn. Record confirmed picks and bans. Leave unknown enemy heroes, roles, and strategy axes blank. Recommendations never submit actions to DotaCaptain.
+3. **Composition ranking:** browse the pre-tested 120-team reference, filter heroes, sort results, and pin up to four teams. Choose a comparison baseline explicitly; the difference column compares native draft points.
+4. **Inspect a team:** see its assigned roles, native default item presets, nearby hero alternatives, strategy settings, and three hypothetical counter lineups.
+5. **Test changes:** Find candidate teams gives a native-score shortlist. Benchmark selected batch tests its displayed strategies. Auto optimize screens strategies on training scenarios and evaluates the selected configuration separately. Choose the team count and opponent sample size before running; large jobs take longer and can be cancelled.
+6. **Selected matchup:** enter all five enemy heroes. Assign their roles or allow inference. A single-match simulation also needs your side and all six enemy strategy choices. The six-scenario test instead checks both sides and three preset enemy plans.
 
 General ranking deliberately ignores live enemy inputs. Current-draft ranking constrains hypothetical completions to revealed picks and supplied assumptions. General wins and Solo-weighted percentages are simulator benchmarks, **not actual win probabilities**. A rank range shows sensitivity across generated opponent samples, not a confidence interval.
 

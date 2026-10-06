@@ -1,7 +1,8 @@
-importScripts('engine.js','model.js','general.js');
+importScripts('engine.js','model.js','general.js','quick-model.js');
 self.onmessage=({data})=>{try{
  const {action,args}=data;let result;
- if(action==='generalSearch')result=Lab.search({...args,limit:120});
+ if(action==='quick')result=Lab.quickTeams(args);
+ else if(action==='generalSearch')result=Lab.search({...args,limit:120});
  else if(action==='generalTest'){result=args.teams.map((t,i)=>({...t,overall:Lab.overall(t,args.context,(n,total)=>postMessage({progress:`Testing overall team ${i+1}/${args.teams.length} · opponent ${n}/${total}`}))})).sort(Lab.overallSort)}
  else if(action==='generalOptimize'){result=args.teams.map((t,i)=>({...Lab.optimizeGeneral(t,args.context,(n,total,p,count)=>postMessage({progress:`Optimizing team ${i+1}/${args.teams.length} · strategy ${n}/${total} · opponent ${p}/${count}`})),originalIndex:t.originalIndex})).sort(Lab.overallSort)}
  else if(action==='counters')result=Lab.counterSearch(args.team,args.context,(stage,i,total,n)=>postMessage({progress:stage==='screen'?`Counter screening ${i}/${total}`:`Counter lineup ${i}/${total} · strategy ${n}/64 · both sides`}));
