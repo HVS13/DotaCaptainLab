@@ -1,0 +1,306 @@
+{
+  "retrieved": "2026-10-06",
+  "engine": "Public browser module 90218.G",
+  "modules": [
+    "90218",
+    "39657",
+    "61964",
+    "18155",
+    "41652",
+    "64092",
+    "96276",
+    "92490",
+    "10199",
+    "30431",
+    "80876",
+    "91694",
+    "6068",
+    "85126",
+    "30726",
+    "30721",
+    "9218",
+    "40124",
+    "65259",
+    "67121",
+    "5092",
+    "31567",
+    "36592",
+    "37668",
+    "19293",
+    "23726",
+    "82636",
+    "96943",
+    "65824",
+    "67401",
+    "74440",
+    "38254",
+    "4801",
+    "82952",
+    "12711",
+    "41175",
+    "61485",
+    "67762",
+    "216",
+    "25995",
+    "62216",
+    "18261",
+    "81864",
+    "95704",
+    "53965",
+    "40583",
+    "95363",
+    "16286",
+    "38288",
+    "32354"
+  ],
+  "sources": [
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/1000-7bab9f6d3d6dae97.js",
+      "sha256": "126163a62cfe5df7586d81dccd700272591ad9b24b83cba9d0e6df289c86e9c1"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/1255-8cd1c999d15ffc76.js",
+      "sha256": "326c92116a5bd284e43510fc60bf0108e3a2f5e529869eab89230d710e6e8598"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/1356-2ed480e29f4f7933.js",
+      "sha256": "caa49e8ebaa92eef215adbef8bfd5e6aa1d447f9d05191f0d2152f2f2b6056d1"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/1457-9fa8bab7b9b5fe63.js",
+      "sha256": "04cf7beb9574b643e019839370d960d1326af0d0b664002bffe0826e504282a0"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/1602-29c27e0e44875c73.js",
+      "sha256": "2f9c56fa704fd418a201f768425e382529d0416a33cf305d7af67447e0f9edb3"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/18-ed1f5965e15c098e.js",
+      "sha256": "0f31880c0bc624e7859999793205c31514db1fec56c4f6961ae109229c239706"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/1882-af0ffe1de271d9a9.js",
+      "sha256": "c62f37f752e60a1554def4fd28099af3a635f7ea8fc69c794f5a247c7bad52ba"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/2606-f94717a478445b51.js",
+      "sha256": "00a9e8250c063132b3f68c7d342d248bccc4be950138982e08fbc4d2b7826a50"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/2703-106e11ef6160cedf.js",
+      "sha256": "adfd6280a6580d7135ceb5fdae8bfcafa8ce57cbba2e830b44c75be6fa4d1e58"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/3225-b9e2b8075728a113.js",
+      "sha256": "f69b723bf52429c779289ead280d7bc131ab10c010de8262413913ba4e0dd8da"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/4254-84fb634e399f0dd1.js",
+      "sha256": "62fc32a41d022b4d626584ea58522e2d955808eef9c7a124045e0e27fdc49877"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/4314-4f4ce0dbb2428dd4.js",
+      "sha256": "d6b8ffb92a1d2a6922a73dfccebfd0766237741f358afff613c63a7b10e1b3ea"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/4440-d8c9c92d468e2435.js",
+      "sha256": "b484c15ed21650d1d3333fd8a722bd29812e8ea512570d88f84e089607f19fea"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/44530001-d4512e4b279339d4.js",
+      "sha256": "20b46ca991ed285cd93a1a938ed55113407e215645c4675d6e83e7cd726258a4"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/4680-c6c349305e8c9549.js",
+      "sha256": "28fee4170dde07b47b6ad174abd4d7fe40851358ebface8042f451dfdfa31e63"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/4801-55dbb2af6623bfbd.js",
+      "sha256": "5425db2fc23c234e3fd8bd0dd6aa3c708f325e90b1f4f527e2e4cd645ef3940b"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/4bd1b696-100b9d70ed4e49c1.js",
+      "sha256": "5421e13a91a9389517b66179f3b4b5eaa0d95245438066d4d7b19ac30aeb809b"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/5092-5a99710c50cac7a8.js",
+      "sha256": "2a92dd56ac4575d3aa3ff8bb543cbe3dda56fb23a3b306287e4bc4c93f258b58"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/522-c0d9f6551708896c.js",
+      "sha256": "c31007a94ffd03de7d1321d0c2af71b319221f9df72beedae207067ca10aae10"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/5317-9ae572ca793c2c4e.js",
+      "sha256": "a0be860a03f285c7f0aac408440233354061b4e8ba240d984bcce34e717b2ace"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/5357-fa1dbb1b3ab12650.js",
+      "sha256": "c57b7d0535e4d79532f45f4f75223755347b0aaa814fb5af60610c62eee77d90"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/55-cb46c1dcb8f8ea4f.js",
+      "sha256": "0d18426ee24af0b00ac73a8f09514d3d9d4b3299e278beb2b278a071a9d89c15"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/5543-baef9ff712b9fd31.js",
+      "sha256": "362e4c95f7d4ecf21184e5c3ef7f2840e841b8a6ec825004212758033414c2d2"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/5774-65ac83f0c17be11c.js",
+      "sha256": "88c2814b8cb4feec7ee36cf69de06e43a22532b3ad3aa98f129614e21865da63"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/5791-09fcbd2bfffc6229.js",
+      "sha256": "cdf2e9a6ee33fba6c9f16456cf2c20a2019f7c76906018a0938070cf7bf462b2"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/5857-67bb7e1eaeccb7c9.js",
+      "sha256": "3ccef87ec3bb3c0d6021016e260716009ec2a006e42a840a791428e7f9727afc"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/6962-9c33a032070a6575.js",
+      "sha256": "80c3a72a3fc377474e6dd58bc6835b477595bd295899daf5ea58421c256e734d"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/7174-e5e0df2237a64071.js",
+      "sha256": "91ec95feeff9fc82fe1dd12b90fe349badccb92d717cec965d5cf87b01915d5b"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/7368-5d5470d81c49b8f7.js",
+      "sha256": "4761fe82e8238a3f77b6259b7088ac9ecccbb036f8cdedfa96af9c279449e08f"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/7596-39beb7d7f466ae23.js",
+      "sha256": "c1b028ce975cc27a1b5e43bd380cf8dcb393d202d3a69abdb26f07e18bc00a85"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/8145-a867556100a7ce74.js",
+      "sha256": "aed94f7b8fd411b5108d1b75524e97f909437fc82f867f350c9bdf444992abcb"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/8380-4fbfd01e442735c8.js",
+      "sha256": "3fc4dcdf2e71fb1291f23cd9cdc56dd07809727aec3c817c1f411e64dd71e206"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/9218-9b7a3d6906b19314.js",
+      "sha256": "58b74fcb0c4886e7f4cec434a8db45bea5f87a2970a17e3c517dc5bce67523c5"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/9657-6a159b7caa7e6997.js",
+      "sha256": "ab2962d5c8c222d6fdacaaa283fa9eb93fff217e0b27c535480abcacb93e5ac1"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/9da6db1e-078f1075a212564e.js",
+      "sha256": "649c8f06e6091970e5584f5be9c8c2650f8e8409373784bc3b239b7c4ce65977"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/app/error-ab45cdc19708e353.js",
+      "sha256": "aa888330da746fc658bc104268d241f623629442139645ce68f0a545094efd12"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/app/global-error-ad9791812530a247.js",
+      "sha256": "ec5e2a65add163c89b13043751b363e6d7094aa2ba2cbc120bfad1ad65cd8c5c"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/app/guide/page-a4ff20fb5699b57e.js",
+      "sha256": "1ea767b77c2c699d7971a6f5470ff7d6e1151c484af8cdc79cba36cc3015d880"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/app/heroes/page-35abae30f7fd7f53.js",
+      "sha256": "99d8cedd48215acb3e763827bcbf40ace9243294c7c6ae581325e28681ad373b"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/app/items/page-05b04d53c777885c.js",
+      "sha256": "fd12828a833511957120350928fc2299f2f627005b15360d98ccae35b4543b15"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/app/layout-c142b71a9db9af0c.js",
+      "sha256": "f37aa6f0ed40db6f22f4f39d68764ef6c9c85f6346613f41d58fd644559de672"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/app/not-found-0f40925d684c8576.js",
+      "sha256": "280b862cecaaea3b8f32bae66b32432989a5f87c81127f9d01176c1ee5035f06"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/app/page-6755df4f0ca27f15.js",
+      "sha256": "2696a1212fe5df1cb88e0d45bc62e6e3b22c2e08b09468f4e7b664c6ea39ec01"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/main-app-a54ce036ed77cd31.js",
+      "sha256": "27d9f321a3c1e93edebaaa0609c46f2550cb470a427815733771c09ee94bda93"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "url": "https://dotacaptain.com/_next/static/chunks/webpack-0ecb760e9313b608.js",
+      "sha256": "82ad22234a0f2166785eb7989190a44b647616bee599d4bd14058c923fbcaaa1"
+    }
+  ],
+  "limitations": [
+    "Client snapshot; server parity unverified",
+    "Deterministic seed derives from hero IDs and player side",
+    "Search is bounded; global optimum not proven",
+    "Scenario win fraction is not a calibrated win probability"
+  ],
+  "defaultItemPreset": "DotaCaptain /draft role-aware default: module 5092.z8(heroId, assignedRole). Applied to both teams; original order preserved.",
+  "draftDefaultEvidence": {
+    "url": "https://dotacaptain.com/_next/static/chunks/app/draft/page-9f6500ccff4b7bdd.js",
+    "sha256": "26ca584abcad48d67340a25dd2ea07893120db8883be0218cdd71452e84b8277"
+  },
+  "nativeDraftFormula": {
+    "module": 16286,
+    "exposed": "Original internal decisionPlan j and pickScore A; export table only, formula bodies unchanged",
+    "catalogueValue": "Arithmetic mean of five native pick scores, each assessed in its assigned role with the other four teammates. This aggregation is ours; no custom component weights.",
+    "refresh": [
+      {
+        "url": "https://dotacaptain.com/_next/static/chunks/8380-4fbfd01e442735c8.js",
+        "sha256": "3fc4dcdf2e71fb1291f23cd9cdc56dd07809727aec3c817c1f411e64dd71e206",
+        "unchanged": true
+      },
+      {
+        "url": "https://dotacaptain.com/_next/static/chunks/5774-65ac83f0c17be11c.js",
+        "sha256": "88c2814b8cb4feec7ee36cf69de06e43a22532b3ad3aa98f129614e21865da63",
+        "unchanged": true
+      },
+      {
+        "url": "https://dotacaptain.com/_next/static/chunks/app/draft/page-9f6500ccff4b7bdd.js",
+        "sha256": "26ca584abcad48d67340a25dd2ea07893120db8883be0218cdd71452e84b8277",
+        "unchanged": true
+      }
+    ]
+  },
+  "draftFlow": {
+    "sequenceModule": 32354,
+    "soloStoreModule": 14822,
+    "pvpSyncModule": 13177,
+    "page": "https://dotacaptain.com/_next/static/chunks/app/draft/page-9f6500ccff4b7bdd.js",
+    "knowledge": "Confirmed picks appended each action. pickPhaseReveal is own final lineup, not hidden enemy picks. Solo scout doctrine/style may be visible before first ban. PvP hides intel and syncs enemy strategy/final roles only during simulating/complete. Internal AI role state is not treated as user-visible knowledge.",
+    "calculator": "Blank opponent by default. Actual CM turn selected explicitly because bans can be skipped. Enemy roles require explicit analysis assignments or permission to infer; hypothetical single-match optimization requires an explicit complete plan and side."
+  },
+  "generalAnalysis": {
+    "nativeSimulator": "unchanged module 90218.G",
+    "generalSampling": "256 profiles; all 64 enemy plans under two explicit lineup policies, both sides; common seeded rules with legal exclusions; two complete 128-profile replication batches",
+    "referenceCandidates": 120,
+    "referenceResults": 61440,
+    "ranking": "scenario win fraction, mean final NW lead, native draft value",
+    "counterSearch": "up to 36 lineups screened across three native presets; all 64 plans for four finalists; both sides against fixed displayed target configuration",
+    "banPriority": "exact found-lineup coverage, then original native protection ban score",
+    "limits": "Sampling and aggregation are calculator methods, not official probabilities, meta-frequency estimates, or global-optimality guarantees.",
+    "training": "64 own plans screened on a balanced 16-profile design; eight finalists plus the current plan refined on 128 profiles with distinct training seeds; evaluation never selects the strategy",
+    "uncertainty": "Policy subgroup results and replication ranks are sensitivity diagnostics, not real win probabilities or confidence intervals. Bounded candidate search and preferred-role opponent population. Duplicate cases retain weights; overlap and unique counts are reported.",
+    "soloDoctrinePrior": {
+      "module": "97174.R0",
+      "source": "https://dotacaptain.com/_next/static/chunks/5774-65ac83f0c17be11c.js",
+      "basePresets": "95363.Vx plus the two extra generator bases, deduplicated",
+      "flipCountWeights": [
+        0.35,
+        0.4875,
+        0.1625
+      ],
+      "assumption": "Uniform random draws; source-derived strategy prior only, with hypothetical hero policies. Verified against 200000 seeds of the original module."
+    }
+  }
+}
