@@ -270,7 +270,7 @@
         "unchanged": true
       }
     ],
-    "teamAggregation": "Auto doctrine uses mean native fit over current own picks; not an official win score."
+    "teamAggregation": "Auto doctrine uses mean native pickScore over current own picks; not the game fit meter or an official win score."
   },
   "draftFlow": {
     "sequenceModule": 32354,
@@ -283,5 +283,6 @@
   "learningReferences": [
     "https://dotacaptain.com/learn",
     "https://dotacaptain.com/guide"
-  ]
+  ],
+  "configurationEvaluation": "64 own strategies; known side fixed. Visible scout axes constrain enemy strategies. No scout: Quick uses 3 native presets; Thorough uses all 64 enemy binary strategies. Ordered by deterministic scenario wins then mean NW; worst NW also shown. Fixed hero compositions, role assignments and default builds; no calibrated win probabilities."
 }

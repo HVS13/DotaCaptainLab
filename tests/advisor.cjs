@@ -44,3 +44,14 @@ for(let count=0;count<5;count++){
 }
 assert(A.recommend({...state,own:[id('Medusa')],roles:{}},'ban',choices).find(r=>r.id===id('Anti-Mage')).reasons.some(r=>r.includes('Protects Medusa from Anti-Mage')));
 console.log('Verified all 96 draft prefixes, skipped bans, visible scout, every remaining role and ban explanation direction.');
+
+assert.deepEqual(A.scenarios(full).sides,['radiant']);assert.equal(A.scenarios(full).enemyPlans.length,3);
+assert.equal(A.scenarios({...full,side:null}).sides.length,2);
+assert.equal(A.scenarios(full,'full').enemyPlans.length,64);
+assert.equal(new Set(A.scenarios(full,'full').enemyPlans.map(p=>JSON.stringify(p))).size,64);
+const partialScout=A.scenarios({...full,enemyChoices:{early_late:'b',fight_split:'a'}});
+assert.equal(partialScout.enemyPlans.length,16);assert(partialScout.enemyPlans.every(p=>p.early_late==='b'&&p.fight_split==='a'));
+assert.equal(A.scenarios({...full,enemyChoices:D.presets.lateScale},'full').enemyPlans.length,1);
+assert.deepEqual(A.summarize(A.plans[0],[{win:true,nw:10},{win:false,nw:-4}]),{choices:A.plans[0],wins:1,total:2,nw:3,worstNW:-4});
+assert.deepEqual([{wins:1,nw:8},{wins:2,nw:-9},{wins:1,nw:12}].sort(A.compare),[{wins:2,nw:-9},{wins:1,nw:12},{wins:1,nw:8}]);
+console.log('Verified known-side conditioning, 64 distinct enemy strategies, partial scout constraints, denominators and ranking.');

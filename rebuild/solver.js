@@ -19,6 +19,14 @@
  }
  function coverage(state){const rm=assigned(state.own,state.roles);return D.capabilities.Im(lineup(state.own),h=>rm[h.id]).capability}
  function simulate(state,choices,enemyChoices,side){validate(state);if(state.own.length!==5||state.enemy.length!==5)throw Error('Simulation requires both completed teams.');const own=lineup(state.own),enemy=lineup(state.enemy),ownRoles=assigned(state.own,state.roles),enemyRoles=assigned(state.enemy,state.enemyRoles);const result=D.simulate({radiant:side==='radiant'?own:enemy,dire:side==='dire'?own:enemy,playerTeam:side,strategyChoices:choices,strategyHeroRoles:ownRoles,enemyStrategyChoices:enemyChoices,enemyStrategyHeroRoles:enemyRoles,enemyRolesExplicit:true,playerItemBuilds:Object.fromEntries(own.map(h=>[h.id,D.builds.z8(h.id,ownRoles[h.id])])),enemyItemBuilds:Object.fromEntries(enemy.map(h=>[h.id,D.builds.z8(h.id,enemyRoles[h.id])]))});const totals=result.timeline.at(-1).totals;return{win:result.winner===side,nw:(side==='radiant'?1:-1)*(totals.radiantNetWorth-totals.direNetWorth),minute:result.finalMinute}}
- function optimize(state,progress){const explicit=D.questions.every(q=>state.enemyChoices?.[q.id]),scenarios=explicit?[state.enemyChoices]:[D.presets.earlyAggro,D.presets.lateScale,D.presets.teamfightRosh],sides=explicit&&state.side?[state.side]:['radiant','dire'];let best;for(const [i,choices]of plans.entries()){const tests=scenarios.flatMap(enemyChoices=>sides.map(side=>simulate(state,choices,enemyChoices,side))),r={choices,wins:tests.filter(t=>t.win).length,total:tests.length,nw:tests.reduce((s,t)=>s+t.nw,0)/tests.length,explicit};if(!best||r.wins>best.wins||r.wins===best.wins&&r.nw>best.nw)best=r;progress?.(i+1,64)}return best}
- root.Advisor={roles,names,byId,plans,sequence,assigned,nativeScore,bestPlan,recommend,coverage,simulate,optimize,validate};
+ function scenarios(state,mode='fast'){
+  const known=Object.entries(state.enemyChoices||{}).filter(([key,value])=>D.questions.some(q=>q.id===key)&&(value==='a'||value==='b'));
+  const enemyPlans=known.length?plans.filter(plan=>known.every(([key,value])=>plan[key]===value)):mode==='full'?plans:[D.presets.earlyAggro,D.presets.lateScale,D.presets.teamfightRosh];
+  return{enemyPlans,sides:state.side? [state.side]:['radiant','dire'],known:known.length,mode};
+ }
+ function summarize(choices,tests){return{choices,wins:tests.filter(t=>t.win).length,total:tests.length,nw:tests.reduce((sum,t)=>sum+t.nw,0)/tests.length,worstNW:Math.min(...tests.map(t=>t.nw))}}
+ function compare(a,b){return b.wins-a.wins||b.nw-a.nw}
+ function optimize(state,progress,mode='fast'){const {enemyPlans,sides}=scenarios(state,mode),results=[];for(const [i,choices]of plans.entries()){const tests=enemyPlans.flatMap(enemyChoices=>sides.map(side=>simulate(state,choices,enemyChoices,side)));results.push(summarize(choices,tests));progress?.(i+1,64)}results.sort(compare);return{...results[0],alternatives:results.slice(0,3),mode}}
+
+ root.Advisor={roles,names,byId,plans,sequence,assigned,nativeScore,bestPlan,recommend,coverage,simulate,scenarios,summarize,compare,optimize,validate};
 })(typeof window==='undefined'?globalThis:window);
