@@ -20,7 +20,7 @@ A live draft overlay rebuilt around the DotaCaptain-native assistant concept. It
 - Native draft-value configuration after five own picks; all 64 configurations can be simulated once both teams are revealed.
 - A manual practice board using the same advisor panel.
 
-The userscript bundles the native client data, has no external script dependencies, does not call account APIs and does not upload draft data. Hero portraits use public CDN URLs from the game data. It does not automate picks, bans or strategy submission.
+The userscript bundles the native client data, has no external script dependencies, does not call account APIs and does not upload draft data. Hero portraits use public CDN URLs from the game data. Auto mode is opt-in for one match: Start Auto on a recognized live draft, and Stop Auto or Escape returns control. It selects/confirms the highest native pick/ban recommendation on your turn, waits for opponents, runs Quick optimization for the completed draft, applies inferred/intended own roles and six strategy choices, then clicks Continue. It never starts another match automatically. A manual pointer interaction in the game stops Auto. Missing or ambiguous controls stop it. Keep the game’s default item builds; custom account builds are not imported or edited.
 
 ## Accuracy and limits
 
@@ -45,3 +45,7 @@ python -m http.server 8765
 Open `/dist/` for installation and practice; `/tests/native-fixture.html` replays native markup with automatic detection enabled.
 
 Editable sources live in `rebuild/`. The build copies them into `dist/` and emits the self-contained userscript. `dist/engine.js` is the unchanged native snapshot. Pushes to `main` build, verify and publish through GitHub Pages.
+
+## Auto mode verification
+
+The native-control replay exercises hero selection, confirmation, opponent turns, all 24 CM actions, own-role assignment, six sequential strategy options and Continue. Authenticated live Auto operation remains unverified. The userscript uses visible DOM controls, not private store methods or account APIs.

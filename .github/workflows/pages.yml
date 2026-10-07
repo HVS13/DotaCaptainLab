@@ -28,6 +28,7 @@ jobs:
           node --check dist/overlay.js
           node --check dist/dotacaptain-advisor.user.js
           node tests/advisor.cjs
+          node tests/game-controls.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
