@@ -55,3 +55,17 @@ assert.equal(A.scenarios({...full,enemyChoices:D.presets.lateScale},'full').enem
 assert.deepEqual(A.summarize(A.plans[0],[{win:true,nw:10},{win:false,nw:-4}]),{choices:A.plans[0],wins:1,total:2,nw:3,worstNW:-4});
 assert.deepEqual([{wins:1,nw:8},{wins:2,nw:-9},{wins:1,nw:12}].sort(A.compare),[{wins:2,nw:-9},{wins:1,nw:12},{wins:1,nw:8}]);
 console.log('Verified known-side conditioning, 64 distinct enemy strategies, partial scout constraints, denominators and ranking.');
+
+// Controlled RNG makes selection replayable without replacing the native sampling policy.
+const empty={...blank,turn:0};
+const openings=new Set(),firstBans=new Set(),firstPicks=new Set();
+for(let n=0;n<100;n++){
+ const rng=()=>n/100,plan=A.openingPlan(rng);openings.add(JSON.stringify(plan));
+ for(const action of ['pick','ban']){const r=A.autoDecision(empty,action,plan,rng);assert(r.pool.includes(r.id));assert(Number.isFinite(r.score));(action==='ban'?firstBans:firstPicks).add(r.id)}
+ const r=A.autoDecision(state,'pick',choices,rng);assert(![...state.own,...state.enemy,...state.bans].includes(r.id));assert(!Object.values(A.assigned(state.own,state.roles)).includes(r.role));
+ const reference=D.draft.decisionPlan({available:D.heroes.filter(h=>![...own,...enemy,...state.bans].includes(h.id)),aiPicks:own.map(i=>A.byId.get(i)),playerPicks:enemy.map(i=>A.byId.get(i)),aiDraftRoles:A.assigned(own,state.roles),action:'pick',ownStrategyChoices:choices,personality:'standard',aiPickIndex:2,stepIndex:2,draftSequence:A.sequence,playerTeam:'radiant',aiBansSoFar:[]},rng);
+ assert.equal(r.id,reference.selected.id);assert.equal(r.role,reference.draftRole);assert.equal(r.score,reference.scored.find(x=>x.hero.id===r.id).score);
+}
+assert.equal(openings.size,3);assert(firstBans.size>1);assert(firstPicks.size>1);
+for(let count=0;count<5;count++){const partial={...blank,own:fullOwn.slice(0,count),enemy:fullEnemy.slice(0,count),roles:Object.fromEntries(fullOwn.slice(0,count).map((id,i)=>[id,A.roles[i]]))};for(const value of [.01,.4,.9]){const result=A.autoDecision(partial,'pick',A.bestPlan(partial),()=>value);assert(result.pool.includes(result.id));assert(!Object.values(A.assigned(partial.own,partial.roles)).includes(result.role));}}
+console.log('Verified weighted native parity over 100 RNG values, opening diversity, strong candidate pools, exclusions and open roles. Distinct first bans:',firstBans.size,'first picks:',firstPicks.size);
