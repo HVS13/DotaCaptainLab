@@ -69,3 +69,12 @@ for(let n=0;n<100;n++){
 assert.equal(openings.size,3);assert(firstBans.size>1);assert(firstPicks.size>1);
 for(let count=0;count<5;count++){const partial={...blank,own:fullOwn.slice(0,count),enemy:fullEnemy.slice(0,count),roles:Object.fromEntries(fullOwn.slice(0,count).map((id,i)=>[id,A.roles[i]]))};for(const value of [.01,.4,.9]){const result=A.autoDecision(partial,'pick',A.bestPlan(partial),()=>value);assert(result.pool.includes(result.id));assert(!Object.values(A.assigned(partial.own,partial.roles)).includes(result.role));}}
 console.log('Verified weighted native parity over 100 RNG values, opening diversity, strong candidate pools, exclusions and open roles. Distinct first bans:',firstBans.size,'first picks:',firstPicks.size);
+
+const {readDraftSnapshot}=require('../dist/detector.js');
+function visibleParagraph(text){return{textContent:text,getClientRects:()=>[{}]}}
+function draftDocument(paragraphs){return{body:{children:paragraphs.map(p=>({...p,innerText:p.textContent,id:''}))},querySelectorAll:selector=>selector==='p'?paragraphs:[]}}
+const reported=readDraftSnapshot(draftDocument([visibleParagraph('DAWNBREAKER SELECTED')]),D);assert.equal(reported.selectedHero,id('Dawnbreaker'));assert.equal(reported.yourTurn,true);
+const selection=readDraftSnapshot(draftDocument([visibleParagraph('MUERTA SELECTED')]),D);assert.equal(selection.selectedHero,id('Muerta'));assert.equal(selection.yourTurn,true);assert.equal(selection.enemyTurn,false);
+const thinking=readDraftSnapshot(draftDocument([visibleParagraph('DIRE IS CHOOSING...')]),D);assert.equal(thinking.enemyTurn,true);assert.equal(thinking.yourTurn,false);
+const hidden={textContent:'MUERTA SELECTED',getClientRects:()=>[]};assert.equal(readDraftSnapshot(draftDocument([hidden]),D).selectedHero,null);
+console.log('Verified selected-hero turn transition, native opponent wording and hidden-banner exclusion.');

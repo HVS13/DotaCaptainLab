@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DotaCaptain Draft Advisor
 // @namespace    https://github.com/HVS13/DotaCaptainLab
-// @version      2.3.0
+// @version      2.3.1
 // @description  Live native pick/ban rankings, visible-draft detection, explanations and configuration advice.
 // @match        https://dotacaptain.com/*
 // @grant        none
@@ -82,13 +82,14 @@ function readDraftSnapshot(doc,DC){
  if(brief)for(const q of DC.questions){const p=Array.from(doc.querySelectorAll('p')).find(e=>e.offsetParent&&e.textContent.trim()===q.title);const answer=p?.parentElement.querySelectorAll('p')[1]?.textContent.trim();if(answer===q.optionA.name)axes[q.id]='a';if(answer===q.optionB.name)axes[q.id]='b'}
  const grids=Array.from(doc.querySelectorAll('div[style]')).filter(e=>e.offsetParent&&(e.getAttribute('style')||'').includes('grid-template-columns: 1fr 36px 1fr')&&e.children.length===3&&e.children[1].querySelector('span'));
  const groups=grids.map(e=>{const middle=Array.from(e.children[1].querySelectorAll('span')),nums=middle.map(s=>Number(s.textContent)).filter(n=>n>=1&&n<=24);return{numbers:nums,left:e.children[0].querySelector('img')?.alt||null,right:e.children[2].querySelector('img')?.alt||null,leftSlot:!!e.children[0].querySelector('div[style*="width:"]'),rightSlot:!!e.children[2].querySelector('div[style*="width:"]'),current:Number(middle.find(s=>s.classList.contains('font-bold'))?.textContent)||null}});
+ const selectedBanner=Array.from(doc.querySelectorAll('p')).filter(p=>p.getClientRects().length).map(p=>p.textContent.trim());const selectedHero=DC.heroes.find(h=>selectedBanner.includes(h.localized_name.toUpperCase()+' SELECTED'))?.id||null;
  const roles={},owned=[],roleNames={Carry:'carry',Mid:'mid',Offlane:'offlane',Support:'support','Hard support':'hard_support','Soft support':'support','Hard Support':'hard_support'};
  for(const b of doc.querySelectorAll('button[aria-label]')){if(!b.offsetParent)continue;const label=b.getAttribute('aria-label'),name=label.split(',')[0],hero=DC.heroes.find(h=>h.localized_name===name),role=roleNames[label.split(',').slice(1).join(',').trim()];if(hero&&role)roles[hero.id]=role}
  for(const select of doc.querySelectorAll('select[id^="lineup-role-"]')){if(!select.offsetParent)continue;const id=Number(select.id.slice('lineup-role-'.length));if(DC.heroes.some(h=>h.id===id)){owned.push(id);if(['carry','mid','offlane','support','hard_support'].includes(select.value))roles[id]=select.value}}
  let completed=null;const byName=new Map(DC.heroes.map(h=>[h.localized_name,h.id]));for(const header of doc.querySelectorAll('[aria-label="Match drafts with prep countdown"],[aria-label="Radiant versus Dire"],[aria-label^="Strategy prep,"]')){if(!header.offsetParent)continue;const ids=Array.from(header.querySelectorAll('img')).map(img=>byName.get(img.alt||img.title||img.parentElement.title)).filter(Boolean);if(ids.length===10&&new Set(ids).size===10){completed={radiant:ids.slice(0,5),dire:ids.slice(5)};break}}
- return{brief,side,axes,groups,roles,owned,completed,lobby:Array.from(doc.querySelectorAll('button')).some(b=>b.textContent.trim()==='Start Draft'),yourTurn:/YOUR TEAM.S TURN|YOUR TURN|RESERVE TIME — (?:BAN|PICK) A HERO/i.test(text),enemyTurn:/OPPONENT.S TURN|OPPONENT TEAM.S TURN|ENEMY TEAM.S TURN/i.test(text)};
+ return{brief,side,axes,groups,roles,owned,completed,selectedHero,lobby:Array.from(doc.querySelectorAll('button')).some(b=>b.textContent.trim()==='Start Draft'),yourTurn:!!selectedHero||/YOUR TEAM.S TURN|YOUR TURN|RESERVE TIME — (?:BAN|PICK) A HERO/i.test(text),enemyTurn:/OPPONENT.S TURN|OPPONENT TEAM.S TURN|ENEMY TEAM.S TURN|ENEMY IS CHOOSING|(?:RADIANT|DIRE) IS CHOOSING/i.test(text)};
 }
-if(typeof module!=='undefined')module.exports={DRAFT_PAIRS,decodeDraftSnapshot};
+if(typeof module!=='undefined')module.exports={DRAFT_PAIRS,decodeDraftSnapshot,readDraftSnapshot};
 
 (function(window){(function(root){
  const visible=el=>!!el&&!!el.getClientRects().length;
@@ -160,7 +161,7 @@ const AdvisorGame=scope.AdvisorGame;
   const step=state.sequence?.[state.turn];if(!step)throw Error('Current turn is unknown.');if(step.team!==state.side){$('autoStatus').textContent='Auto on · waiting for opponent.';return}
   if(autoTurn!==state.turn){autoTurn=state.turn;autoHero=null;autoPhase='draft'}
   if(autoPhase==='select'){AdvisorGame.hero(document,Advisor.byId.get(autoHero.id).localized_name).click();autoPhase='confirm';$('autoStatus').textContent='Auto on · selecting '+Advisor.byId.get(autoHero.id).localized_name+' for '+step.action+' · weighted native choice ('+autoHero.score.toFixed(1)+' points).';return}
-  if(autoPhase==='confirm'){const snapshot=readDraftSnapshot(document,DC);if(!snapshot.yourTurn||snapshot.enemyTurn)throw Error('Your turn cannot be verified.');AdvisorGame.confirm(document,Advisor.byId.get(autoHero.id).localized_name,step.action).click();if(step.action==='pick'){roleCorrections[autoHero.id]=autoHero.role}autoPhase='submitted';$('autoStatus').textContent='Auto on · '+step.action+' submitted; waiting for next turn.';return}
+  if(autoPhase==='confirm'){const snapshot=readDraftSnapshot(document,DC);if(!snapshot.yourTurn||snapshot.enemyTurn||snapshot.selectedHero&&snapshot.selectedHero!==autoHero.id)throw Error('Selected hero or your turn cannot be verified.');AdvisorGame.confirm(document,Advisor.byId.get(autoHero.id).localized_name,step.action).click();if(step.action==='pick'){roleCorrections[autoHero.id]=autoHero.role}autoPhase='submitted';$('autoStatus').textContent='Auto on · '+step.action+' submitted; waiting for next turn.';return}
   if(autoPhase==='submitted')return;
   const snapshot=readDraftSnapshot(document,DC);if(!snapshot.yourTurn||snapshot.enemyTurn)throw Error('Your turn cannot be verified.');autoHero=Advisor.autoDecision(state,step.action,choices);if(!autoHero)throw Error('No legal recommendation.');
   const input=document.querySelector('input[placeholder="Search heroes..."]');if(input){Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(input,Advisor.byId.get(autoHero.id).localized_name);input.dispatchEvent(new Event('input',{bubbles:true}))}
