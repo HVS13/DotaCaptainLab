@@ -7,3 +7,5 @@ assert.throws(()=>G.hero(doc([card,card]),'Bane'),/ambiguous/);assert.throws(()=
 const q={title:'Tempo',optionA:{name:'Early game'},optionB:{name:'Late game'}},early=button('A Early game',[],['A','Early game']),late=button('B Late game',[],['B','Late game']);assert.equal(G.strategy(doc([early,late]),q,'b'),late);assert.throws(()=>G.strategy(doc([button('A Early game',[],['A','Early game'],true)]),q,'a'),/missing/);
 const next=button('Continue');assert.equal(G.proceed(doc([next,button('Double Down'),button('Start Draft')])),next);assert.throws(()=>G.proceed(doc([next,next])),/ambiguous/);
 console.log('Verified exact hero/confirmation matching, disabled and ambiguous controls, sequential options, and exact Continue scope.');
+
+const clock={getClientRects:()=>[{}],innerText:'2:56',getAttribute:()=> 'Match drafts with prep countdown'};assert.equal(G.prepSeconds(doc([clock])),176);assert.equal(G.prepSeconds(doc([{...clock,getClientRects:()=>[]}])),null);
