@@ -11,8 +11,8 @@ console.log('Verified exact hero/confirmation matching, disabled and ambiguous c
 const clock={getClientRects:()=>[{}],innerText:'2:56',getAttribute:()=> 'Match drafts with prep countdown'};assert.equal(G.prepSeconds(doc([clock])),176);assert.equal(G.prepSeconds(doc([{...clock,getClientRects:()=>[]}])),null);
 
 const page=content=>({body:{children:[{id:'game',innerText:content,getClientRects:()=>[{}]},{id:'dcl-advisor',innerText:'LIVE MATCH',getClientRects:()=>[{}]}]}});
-assert.equal(G.prepStatus(page('Draft complete 5 Opening strategy…')),'opening');
-assert.equal(G.prepStatus(page('Waiting for opponent They are finishing strategy — the match starts when both players continue.')),'locked');
-assert.equal(G.prepStatus(page('Locking…')),'pending');
+assert.equal(G.prepStatus(page('Draft complete 5 Opening strategyâ€¦')),'opening');
+assert.equal(G.prepStatus(page('Waiting for opponent They are finishing strategy â€” the match starts when both players continue.')),'locked');
+assert.equal(G.prepStatus(page('Lockingâ€¦')),'pending');
 assert.equal(G.prepStatus(page('LIVE MATCH')),'started');
 assert.equal(G.prepStatus(page('Continue')),null);
