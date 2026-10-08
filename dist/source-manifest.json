@@ -245,7 +245,7 @@
     "Search is bounded; global optimum not proven",
     "Scenario win fraction is not a calibrated win probability"
   ],
-  "defaultItemPreset": "DotaCaptain /draft role-aware default: module 5092.z8(heroId, assignedRole). Applied to both teams; original order preserved.",
+  "defaultItemPreset": "Native role-default builds seed the search and model unknown enemy items; optimized own builds are passed explicitly in purchase order.",
   "draftDefaultEvidence": {
     "url": "https://dotacaptain.com/_next/static/chunks/app/draft/page-9f6500ccff4b7bdd.js",
     "sha256": "26ca584abcad48d67340a25dd2ea07893120db8883be0218cdd71452e84b8277"
@@ -284,5 +284,5 @@
     "https://dotacaptain.com/learn",
     "https://dotacaptain.com/guide"
   ],
-  "configurationEvaluation": "64 own strategies; known side fixed. Visible scout axes constrain enemy strategies. No scout: Quick uses 3 native presets; Thorough uses all 64 enemy binary strategies. Ordered by deterministic scenario wins then mean NW; worst NW also shown. Fixed hero compositions, role assignments and default builds; no calibrated win probabilities."
+  "configurationEvaluation": "64 own strategies on conditioned enemy strategy assumptions, followed by up to 60 seconds and two greedy item-catalog replacement/order-swap passes and strategy retuning when time permits. Only fully completed scenario groups update the selected result. Unknown enemy items remain role defaults. Bounded search, not a global optimum or calibrated win probability."
 }

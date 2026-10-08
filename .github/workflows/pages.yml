@@ -29,6 +29,7 @@ jobs:
           node --check dist/dotacaptain-advisor.user.js
           node tests/advisor.cjs
           node tests/game-controls.cjs
+          node tests/items.cjs
           node tests/optimization-deadline.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

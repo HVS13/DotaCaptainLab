@@ -16,3 +16,5 @@ assert.equal(G.prepStatus(page('Waiting for opponent They are finishing strategy
 assert.equal(G.prepStatus(page('Locking…')),'pending');
 assert.equal(G.prepStatus(page('LIVE MATCH')),'started');
 assert.equal(G.prepStatus(page('Continue')),null);
+
+const slots=Array.from({length:6},(_,i)=>{const b=button('',['Item '+i]);b.title='Item '+i;b.querySelector=()=>({alt:'Item '+i});b.click=()=>b.clicked=true;return b});const select={getClientRects:()=>[{}],parentElement:doc(slots)};const itemDoc={querySelectorAll:selector=>selector.startsWith('select')?[select]:[]};assert.equal(G.setItem(itemDoc,1,'Hero',0,{name:'Item 0'}),'verified');assert.equal(G.setItem(itemDoc,1,'Hero',0,{name:'New item'}),'opened');assert.equal(slots[0].clicked,true);const chosen=button('New item',['New item']);chosen.click=()=>chosen.clicked=true;const dialog={getClientRects:()=>[{}],getAttribute:()=> 'Choose item for slot 1',querySelectorAll:()=>[chosen]};assert.equal(G.setItem({querySelectorAll:()=>[dialog]},1,'Hero',0,{name:'New item'}),'picked');assert.equal(chosen.clicked,true);
