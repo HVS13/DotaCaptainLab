@@ -24,3 +24,19 @@ assert.equal(G.roleControl(doc([hiddenRole,visibleRole]),1,'Hero'),visibleRole);
 assert.throws(()=>G.roleControl(doc([visibleRole,visibleRole]),1,'Hero'),/ambiguous/);
 assert.throws(()=>G.setSelect({options:[{value:'carry',disabled:true}]},'carry'),/taken/);
 console.log('Verified hidden duplicate role controls and disabled taken-role rejection.');
+
+(async()=>{
+ const fs=require('node:fs'),vm=require('node:vm'),source=fs.readFileSync('rebuild/overlay.js','utf8'),fn=source.slice(source.indexOf(' async function autoStep('),source.indexOf(' // Keep movement'));
+ let banner={yourTurn:false,enemyTurn:true},decisions=0,selections=0,confirmations=0;const nodes={};
+ const context={auto:true,autoBusy:false,autoPhase:'draft',autoTurn:10,autoHero:null,state:{own:[],enemy:[],detected:true,side:'radiant',turn:11,sequence:Array.from({length:12},()=>({team:'radiant',action:'ban'}))},manual:false,choices:{},roleCorrections:{},document:{querySelector:()=>null},DC:{},$:id=>nodes[id]||(nodes[id]={}),scan:()=>{},readDraftSnapshot:()=>banner,stopAuto:message=>{context.auto=false;context.stopped=message},Advisor:{autoDecision:()=>{decisions++;return{id:1,score:10}},byId:new Map([[1,{localized_name:'Axe'}]])},AdvisorGame:{prepStatus:()=>null,hero:()=>({click:()=>selections++}),confirm:()=>({click:()=>confirmations++})}};
+ vm.createContext(context);vm.runInContext(fn+';this.step=autoStep;',context);
+ await context.step();assert.equal(context.auto,true);assert.equal(decisions,0);assert.match(nodes.autoStatus.textContent,/waiting.*verify/);
+ banner={yourTurn:false,enemyTurn:false};await context.step();assert.equal(decisions,0);
+ banner={yourTurn:true,enemyTurn:false};await context.step();assert.equal(decisions,1);assert.equal(context.autoPhase,'select');
+ banner={yourTurn:true,enemyTurn:true};await context.step();assert.equal(context.auto,true);assert.equal(selections,0);
+ banner={yourTurn:true,enemyTurn:false};await context.step();assert.equal(selections,1);assert.equal(context.autoPhase,'confirm');
+ banner={yourTurn:false,enemyTurn:true};await context.step();assert.equal(confirmations,0);assert.equal(context.auto,true);
+ banner={yourTurn:true,enemyTurn:false,selectedHero:1};await context.step();assert.equal(confirmations,1);assert.equal(context.autoPhase,'submitted');await context.step();assert.equal(confirmations,1);
+ context.autoPhase='confirm';banner.selectedHero=2;await context.step();assert.equal(context.auto,false);assert.match(context.stopped,/Selected hero/);
+ console.log('Verified opponent-to-own Turn 12 lag, blank/conflicting banners, resumed selection/confirmation, single submission and wrong-hero rejection.');
+})().catch(error=>{console.error(error);process.exitCode=1});
