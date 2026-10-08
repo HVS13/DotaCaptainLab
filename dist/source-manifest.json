@@ -284,5 +284,16 @@
     "https://dotacaptain.com/learn",
     "https://dotacaptain.com/guide"
   ],
-  "configurationEvaluation": "64 own strategies on conditioned enemy strategy assumptions, followed by up to 60 seconds and two greedy item-catalog replacement/order-swap passes and strategy retuning when time permits. Only fully completed scenario groups update the selected result. Unknown enemy items remain role defaults. Bounded search, not a global optimum or calibrated win probability."
+  "configurationEvaluation": "64 own strategies on conditioned enemy strategy assumptions, followed by up to 60 seconds and two greedy item-catalog replacement/order-swap passes and strategy retuning when time permits. Only fully completed scenario groups update the selected result. Unknown enemy items remain role defaults. Bounded search, not a global optimum or calibrated win probability.",
+  "lastVerifiedPublicChunks": {
+    "date": "2026-10-08",
+    "files": [
+      "8380-4fbfd01e442735c8.js",
+      "5774-65ac83f0c17be11c.js",
+      "8145-a867556100a7ce74.js",
+      "9657-6a159b7caa7e6997.js",
+      "app/draft/page-9f6500ccff4b7bdd.js"
+    ],
+    "result": "Downloaded current public assets and verified all five SHA-256 hashes match the stored snapshot. Covers native draft/simulation, hero data, items and draft controls; does not verify private server settings."
+  }
 }
