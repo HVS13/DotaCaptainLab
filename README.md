@@ -60,6 +60,8 @@ Editable sources live in `rebuild/`. The build copies them into `dist/` and emit
 
 The native-control replay exercises hero selection, confirmation, opponent turns, all 24 CM actions, own-role assignment, six sequential strategy options and Continue. Authenticated live Auto operation remains unverified. The userscript uses visible DOM controls, not private store methods or account APIs.
 
+[Scout flow verification](docs/research/scout-flow-2026-10-09.md): PvP hides enemy strategy until simulation/result, so its empty pregame enemy choices are expected. Version 2.7.6 separately preserves already observed Solo scout axes across partial or empty reads of the same briefing. New-run reset and unknown PvP inputs remain covered; drafting and configuration selection are unchanged.
+
 ## Research and experimental coverage (2.6.0)
 
 [Bounded drafting lookahead experiment](docs/research/draft-lookahead-2026-10-09.md): eight paired draft tests did not support replacing Auto. The prototype regressed on held-out outcomes and did not improve opening diversity; production drafting remains unchanged. The isolated policy and benchmark are available for reproducible future comparisons.

@@ -4,7 +4,7 @@ const DRAFT_PAIRS=[[0,null],[1,2],[4,3],[null,5],[null,6],[7,8],[9,null],[10,11]
 function decodeDraftSnapshot(snapshot,previous,DC,Advisor){
  const state={own:[],enemy:[],bans:[],ownBans:[],roles:{},enemyRoles:{},enemyChoices:{},side:null,turn:null,source:'automatic',detected:false};
  const byName=new Map(DC.heroes.map(h=>[h.localized_name.toLowerCase(),h.id]));
- if(snapshot.brief){state.side=snapshot.side||previous?.side||null;state.enemyChoices={...snapshot.axes};state.brief=true;return state}
+ if(snapshot.brief){state.side=snapshot.side||previous?.side||null;state.enemyChoices={...(previous?.brief?previous.enemyChoices:{}),...snapshot.axes};state.brief=true;return state}
  if(snapshot.completed){const names=snapshot.completed,ours=snapshot.owned?.length?snapshot.owned:Object.keys(snapshot.roles||{}).map(Number);state.side=snapshot.side||previous?.side||(ours.length&&ours.every(id=>names.radiant.includes(id))?'radiant':ours.length&&ours.every(id=>names.dire.includes(id))?'dire':null);if(!state.side)return null;state.own=names[state.side];state.enemy=names[state.side==='radiant'?'dire':'radiant'];state.bans=previous?.bans||[];state.ownBans=previous?.ownBans||[];state.roles=Object.fromEntries(Object.entries(snapshot.roles||{}).filter(([id])=>state.own.includes(+id)));state.enemyRoles=Object.fromEntries(Object.entries(snapshot.roles||{}).filter(([id])=>state.enemy.includes(+id)));state.enemyChoices=previous?.enemyChoices||{};state.detected=true;Advisor.validate(state);return state}
  if(snapshot.groups.length!==DRAFT_PAIRS.length)return null;
  const first=snapshot.groups[0],mirror=first.rightSlot&&!first.leftSlot;if(first.leftSlot===first.rightSlot)return null;
