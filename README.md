@@ -38,6 +38,10 @@ The DOM reader refuses unrecognized history layouts. Manual correction is availa
 
 See [source URLs and hashes](dist/source-manifest.json) and [methodology](docs/methodology.md). This project is not affiliated with DotaCaptain or Valve.
 
+## Public-source freshness
+
+Run `node scripts/check-source-freshness.cjs` to compare the live draft and Daily public asset lists and SHA-256 hashes with the reviewed baseline. Exit status is 0 for unchanged, 1 for changed, and 2 for an unavailable check. `--output path.json` saves the result. The check never updates or executes downloaded source. Changed bundles require review before replacing native data/formulas or accepting a new baseline; a deployment can change presentation without changing formulas. [Latest published source check](https://hvs13.github.io/DotaCaptainLab/source-freshness.json) is a timestamped check, not a real-time guarantee. Private server changes remain unverifiable. Installed userscripts need updating after a new release.
+
 ## Development
 
 No package installation is needed. With Node.js 18+:
