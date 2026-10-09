@@ -1,0 +1,44 @@
+{
+  "draftClusters": 32,
+  "scenarioCases": 512,
+  "bootstrapResamples": 10000,
+  "mixture": {
+    "standard": 0.96,
+    "creative": 0.04
+  },
+  "point": {
+    "successDelta": -0.0044531250000000005,
+    "severeLossDelta": 0.002265625,
+    "firstPickEntropyDelta": 0.022147366040703886,
+    "firstBanEntropyDelta": 0.027941402369707102,
+    "entropySumDelta": 0.05008876841041099
+  },
+  "bounds": {
+    "successLower95": -0.0078125,
+    "severeLossUpper95": 0.005078125,
+    "entropySumLower95": 0.03258600432437797
+  },
+  "checks": {
+    "success": false,
+    "severeLoss": false,
+    "diversity": true
+  },
+  "passes": false,
+  "standard": {
+    "wins": 327,
+    "severeLosses": 90,
+    "firstPick": {
+      "entropy": 3.2959585933443494,
+      "distinct": 11
+    },
+    "firstBan": {
+      "entropy": 3.0581573285181993,
+      "distinct": 10
+    }
+  },
+  "creative": {
+    "wins": 270,
+    "severeLosses": 119
+  },
+  "interpretation": "Fixed 96/4 native-personality mixture. Stratified paired draft-cluster bootstrap after work-budgeted native strategy/item optimization. These are modeled expected simulator changes, not played PvP win rates; live timers and controls remain unverified."
+}

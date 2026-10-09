@@ -1,0 +1,9 @@
+{
+  "frozenBeforeTesting": true,
+  "mixture": {"standard": 0.96, "creative": 0.04},
+  "sample": {"drafts": 32, "seedStart": 31000019, "seedStep": 104729, "casesPerDraft": 16, "opponents": ["Standard weighted", "Standard top ranked", "Counter weighted", "Creative weighted"], "bothFactions": true},
+  "optimizer": "Execute the production overlay optimize function unchanged in a headless context. Quick screening of 64 strategies on three enemy presets, native item candidate generator with at most 100 yielded candidates total across its two greedy passes, then native strategy retuning when selected items change. Freeze time for reproducibility: this is a work-budgeted algorithm check, not the live 60/90-second budget. Count purchase-order and item-identity candidates separately.",
+  "evaluation": "16 separately seeded enemy strategy/eligible-role/default-order profiles per completed optimized team; exclude exact training preset/default opponent profiles. Same case-specific random streams within each pair. Native simulator unchanged. Own item builds and strategies are the actual completed optimizer selections.",
+  "acceptance": "Use the same 10000 stratified paired draft-cluster bootstrap and 0.5 percentage-point success/severe-loss margins from the previous frozen protocol, plus positive nondeclining opening diversity. No tuning against this batch. These are modeled mixture results, not observed PvP win rates.",
+  "production": "No default change solely from a headless algorithm benchmark; live timing, role/item/strategy application and actual match validation remain separate requirements. No scheduled AI work."
+}

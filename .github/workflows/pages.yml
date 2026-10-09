@@ -39,6 +39,7 @@ jobs:
           node tests/draft-flexibility.cjs
           node tests/draft-personality.cjs
           node tests/draft-personality-analysis.cjs
+          node tests/draft-pipeline.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
