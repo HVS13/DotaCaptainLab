@@ -1,0 +1,52 @@
+{
+  "draftClusters": 16,
+  "scenarioCases": 256,
+  "bootstrapResamples": 10000,
+  "point": {
+    "successDelta": -0.03515625,
+    "severeLossDelta": -0.0078125,
+    "firstPickEntropyDelta": 0,
+    "firstBanEntropyDelta": 0,
+    "entropySumDelta": 0
+  },
+  "bounds": {
+    "successLower95": -0.0859375,
+    "severeLossUpper95": 0.01953125,
+    "entropySumLower95": 0
+  },
+  "checks": {
+    "success": false,
+    "severeLoss": false
+  },
+  "passes": false,
+  "standard": {
+    "wins": 146,
+    "severeLosses": 60,
+    "firstPick": {
+      "entropy": 2.5550365325772657,
+      "distinct": 7
+    },
+    "firstBan": {
+      "entropy": 3.202819531114783,
+      "distinct": 10
+    }
+  },
+  "interpretation": "Same draft and paired held-out profiles; stratified paired whole-draft bootstrap. Opening variation is unchanged and is not a target. Simulator outcomes do not establish PvP win probabilities.",
+  "candidate": {
+    "wins": 137,
+    "severeLosses": 58
+  },
+  "stage": "16-pair pilot only; passing permits further validation, not default activation",
+  "goldChanges": {
+    "meanNW": -1506.7437600253384,
+    "meanWorstNW": 2029.4018494840743
+  },
+  "activity": {
+    "settingsChanged": 16,
+    "reusedFinalEvaluations": 0,
+    "optimizerSimulations": {
+      "standard": 10896,
+      "downside": 10896
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+ "frozenBeforeTesting":true,
+ "stage":"16-pair diagnostic pilot. Do not enlarge or tune on this batch. Pilot alone is not production certification.",
+ "policy":"Replace only optimizer comparator: scenario wins descending, worst signed NW descending, then mean signed NW descending. Exact ties remain stable. Use the same comparator for initial strategy screen, item acceptance and strategy retuning. Keep the existing three enemy presets and native engine. No new scenarios per evaluated candidate, weights, draft policy, role assignment, randomness or scenario coverage. Existing conditional strategy retuning can cause different total simulation counts.",
+ "sample":{"draftPairs":16,"seedStart":111000037,"seedStep":104729,"bothFactions":true,"opponents":["weighted","greedy","counter","creative"],"casesPerPolicyPerDraft":16},
+ "optimization":"Existing production optimizer body with frozen time and 100 ordered item candidates. Candidate sequence can change when accepted builds differ; identical budget does not mean identical item candidates. Final identical settings may reuse marked deterministic evaluation only.",
+ "evaluation":"Same separately seeded held-out enemy strategy/eligible-role/default-order profiles for each pair. Exact three-preset/default-role/default-item training profiles excluded. Enemy custom item identities and all role permutations remain unmodeled. Previous batches and latest uploaded match are not confirmation data.",
+ "acceptance":"10000 stratified paired whole-draft bootstrap resamples. Success lower one-sided 95% bound >= -0.005; severe-loss upper bound <= +0.005, where severe loss means lose and signed NW < -20000. Report mean and worst held-out NW descriptively. Opening diversity is unchanged by design and is not the objective of this configuration experiment. Passing permits further validation only, not default activation or a PvP win-rate claim.",
+ "production":"Unchanged v2.7.5 pending evidence. No scheduler or recurring AI work."
+}

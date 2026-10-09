@@ -45,6 +45,7 @@ jobs:
           node tests/draft-inference.cjs
           node tests/draft-mirror.cjs
           node tests/draft-provisional.cjs
+          node tests/draft-downside.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
