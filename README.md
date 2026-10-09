@@ -49,3 +49,7 @@ Editable sources live in `rebuild/`. The build copies them into `dist/` and emit
 ## Auto mode verification
 
 The native-control replay exercises hero selection, confirmation, opponent turns, all 24 CM actions, own-role assignment, six sequential strategy options and Continue. Authenticated live Auto operation remains unverified. The userscript uses visible DOM controls, not private store methods or account APIs.
+
+## Research and experimental coverage (2.6.0)
+
+[Paper/source research and reproducible benchmarks](docs/research/2026-10-09.md) examine future-draft search, selection overfitting, calibration and native simulation inputs. An optional **Experimental · cross-check finalists** mode rechecks the top three Quick plans against all 64 enemy strategies, using matching coverage for subsequent item candidates. Initial tests improved, but a separate confirmation batch regressed; Auto and default Quick therefore retain their existing selection policy. Extra scenario coverage is not proven to improve PvP win rate. Interrupted cross-checks retain the completed preset results and identify the limited coverage. Native calls that finish after the optimization deadline cannot replace the completed result.

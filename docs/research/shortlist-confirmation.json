@@ -1,0 +1,266 @@
+{
+  "created": "2026-10-09T03:38:39.685Z",
+  "seedStart": 4701,
+  "method": "64 plans screened on three native presets; top three reranked on all 64 enemy plans. Paired holdout: 32 separately seeded native-plan / legal-role-swap / default-item-order variants per lineup. Default own items. Native-generated legal drafts. Simulation stress test, not calibrated PvP win rate.",
+  "results": [
+    {
+      "seed": 4701,
+      "side": "radiant",
+      "own": [
+        98,
+        30,
+        64,
+        13,
+        59
+      ],
+      "enemy": [
+        39,
+        107,
+        92,
+        19,
+        20
+      ],
+      "roles": {
+        "13": "mid",
+        "30": "hard_support",
+        "59": "carry",
+        "64": "support",
+        "98": "offlane"
+      },
+      "baseline": {
+        "plan": "bbabbb",
+        "screenWins": 3,
+        "wins": 14,
+        "total": 32,
+        "nw": -1.6736831311707192
+      },
+      "refined": {
+        "plan": "bbabbb",
+        "trainingWins": 33,
+        "trainingTotal": 64,
+        "wins": 14,
+        "total": 32,
+        "nw": -1.6736831311707192
+      },
+      "trainingSimulations": 375,
+      "elapsedMs": 26863
+    },
+    {
+      "seed": 4702,
+      "side": "dire",
+      "own": [
+        2,
+        90,
+        16,
+        39,
+        28
+      ],
+      "enemy": [
+        98,
+        30,
+        129,
+        88,
+        19
+      ],
+      "roles": {
+        "2": "offlane",
+        "16": "support",
+        "28": "carry",
+        "39": "mid",
+        "90": "hard_support"
+      },
+      "baseline": {
+        "plan": "aabbaa",
+        "screenWins": 3,
+        "wins": 25,
+        "total": 32,
+        "nw": 19055.476409530493
+      },
+      "refined": {
+        "plan": "aabbaa",
+        "trainingWins": 53,
+        "trainingTotal": 64,
+        "wins": 25,
+        "total": 32,
+        "nw": 19055.476409530493
+      },
+      "trainingSimulations": 375,
+      "elapsedMs": 21041
+    },
+    {
+      "seed": 4703,
+      "side": "radiant",
+      "own": [
+        98,
+        20,
+        68,
+        81,
+        39
+      ],
+      "enemy": [
+        13,
+        131,
+        37,
+        104,
+        7
+      ],
+      "roles": {
+        "20": "hard_support",
+        "39": "mid",
+        "68": "support",
+        "81": "carry",
+        "98": "offlane"
+      },
+      "baseline": {
+        "plan": "aabbba",
+        "screenWins": 3,
+        "wins": 19,
+        "total": 32,
+        "nw": 6638.658162706753
+      },
+      "refined": {
+        "plan": "aabbba",
+        "trainingWins": 32,
+        "trainingTotal": 64,
+        "wins": 19,
+        "total": 32,
+        "nw": 6638.658162706753
+      },
+      "trainingSimulations": 375,
+      "elapsedMs": 27609
+    },
+    {
+      "seed": 4704,
+      "side": "dire",
+      "own": [
+        2,
+        68,
+        92,
+        22,
+        93
+      ],
+      "enemy": [
+        98,
+        112,
+        129,
+        88,
+        81
+      ],
+      "roles": {
+        "2": "offlane",
+        "22": "mid",
+        "68": "hard_support",
+        "92": "support",
+        "93": "carry"
+      },
+      "baseline": {
+        "plan": "aaaaaa",
+        "screenWins": 3,
+        "wins": 19,
+        "total": 32,
+        "nw": 1368.147016495739
+      },
+      "refined": {
+        "plan": "aabbbb",
+        "trainingWins": 42,
+        "trainingTotal": 64,
+        "wins": 20,
+        "total": 32,
+        "nw": 10321.51332363811
+      },
+      "trainingSimulations": 375,
+      "elapsedMs": 32897
+    },
+    {
+      "seed": 4705,
+      "side": "radiant",
+      "own": [
+        96,
+        90,
+        129,
+        65,
+        93
+      ],
+      "enemy": [
+        123,
+        20,
+        92,
+        88,
+        4
+      ],
+      "roles": {
+        "65": "mid",
+        "90": "hard_support",
+        "93": "carry",
+        "96": "offlane",
+        "129": "support"
+      },
+      "baseline": {
+        "plan": "abaaaa",
+        "screenWins": 3,
+        "wins": 15,
+        "total": 32,
+        "nw": 2220.3098797866533
+      },
+      "refined": {
+        "plan": "abaaaa",
+        "trainingWins": 32,
+        "trainingTotal": 64,
+        "wins": 15,
+        "total": 32,
+        "nw": 2220.3098797866533
+      },
+      "trainingSimulations": 375,
+      "elapsedMs": 42199
+    },
+    {
+      "seed": 4706,
+      "side": "dire",
+      "own": [
+        2,
+        20,
+        7,
+        65,
+        81
+      ],
+      "enemy": [
+        51,
+        121,
+        92,
+        93,
+        23
+      ],
+      "roles": {
+        "2": "offlane",
+        "7": "support",
+        "20": "hard_support",
+        "65": "mid",
+        "81": "carry"
+      },
+      "baseline": {
+        "plan": "aaaaaa",
+        "screenWins": 3,
+        "wins": 20,
+        "total": 32,
+        "nw": 2082.336046550773
+      },
+      "refined": {
+        "plan": "aababa",
+        "trainingWins": 31,
+        "trainingTotal": 64,
+        "wins": 14,
+        "total": 32,
+        "nw": 1971.1877682530335
+      },
+      "trainingSimulations": 375,
+      "elapsedMs": 39217
+    }
+  ],
+  "totals": {
+    "baselineWins": 112,
+    "refinedWins": 107,
+    "cases": 192,
+    "improvedDrafts": 1,
+    "worseDrafts": 1
+  }
+}
