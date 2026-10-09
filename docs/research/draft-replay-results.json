@@ -1,0 +1,1355 @@
+{
+  "interpretation": "Ordered simulator ablations, not independent causal effects or PvP validation.",
+  "results": [
+    {
+      "index": 0,
+      "side": "radiant",
+      "mode": "weighted",
+      "turn": 7,
+      "action": "pick",
+      "baseline": "Puck",
+      "override": "Dawnbreaker",
+      "styles": {
+        "standard": {
+          "own": [
+            "Puck",
+            "Dawnbreaker",
+            "Ancient Apparition",
+            "Slark",
+            "Skywrath Mage"
+          ],
+          "enemy": [
+            "Timbersaw",
+            "Vengeful Spirit",
+            "Keeper of the Light",
+            "Batrider",
+            "Chaos Knight"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "selectedPlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 5,
+              "total": 12,
+              "nw": -7689.33914812676,
+              "worstNW": -37183.86247783856,
+              "severeLosses": 4
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 31120.611688936206,
+              "worstNW": 19173.198959610665,
+              "severeLosses": 0
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 31120.611688936206,
+              "worstNW": 19173.198959610665,
+              "severeLosses": 0
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 13,
+              "total": 16,
+              "nw": 27168.419729766127,
+              "worstNW": -18891.018101041685,
+              "severeLosses": 0
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 13,
+              "total": 16,
+              "nw": 27791.25589394949,
+              "worstNW": -18891.018101041685,
+              "severeLosses": 0
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 13,
+              "total": 16,
+              "nw": 26877.528610091234,
+              "worstNW": -37290.8181658602,
+              "severeLosses": 1
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 12,
+              "total": 16,
+              "nw": 30901.681029707925,
+              "worstNW": -12480.492503999703,
+              "severeLosses": 0
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 12,
+              "total": 16,
+              "nw": 34042.24198127318,
+              "worstNW": -10654.889544158752,
+              "severeLosses": 0
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 51868.55799327171,
+              "worstNW": 40568.46546557706,
+              "severeLosses": 0
+            }
+          }
+        },
+        "override": {
+          "own": [
+            "Dawnbreaker",
+            "Vengeful Spirit",
+            "Visage",
+            "Queen of Pain",
+            "Legion Commander"
+          ],
+          "enemy": [
+            "Timbersaw",
+            "Ancient Apparition",
+            "Earthshaker",
+            "Juggernaut",
+            "Batrider"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          "selectedPlan": {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 7,
+              "total": 12,
+              "nw": 8792.493092066663,
+              "worstNW": -29308.994668706015,
+              "severeLosses": 3
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 1016.4421835059862,
+              "worstNW": -17096.153799863896,
+              "severeLosses": 0
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 1016.4421835059862,
+              "worstNW": -17096.153799863896,
+              "severeLosses": 0
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 9,
+              "total": 16,
+              "nw": 464.5612298046308,
+              "worstNW": -30693.81190072646,
+              "severeLosses": 1
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 9,
+              "total": 16,
+              "nw": 740.5528510024378,
+              "worstNW": -30693.81190072646,
+              "severeLosses": 1
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 9,
+              "total": 16,
+              "nw": -175.20232433241472,
+              "worstNW": -30693.81190072646,
+              "severeLosses": 2
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 11,
+              "total": 16,
+              "nw": 9032.080228253937,
+              "worstNW": -24491.628550510795,
+              "severeLosses": 1
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 12,
+              "total": 16,
+              "nw": 15973.765657339402,
+              "worstNW": -35173.62514293329,
+              "severeLosses": 2
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 44881.56138768548,
+              "worstNW": 36806.38347926857,
+              "severeLosses": 0
+            }
+          }
+        }
+      },
+      "deltas": {
+        "forecast": {
+          "successRate": 0.16666666666666669,
+          "nw": 16481.832240193424,
+          "severeRate": -0.08333333333333331
+        },
+        "actualTeamsKnownRoles": {
+          "successRate": -0.33333333333333337,
+          "nw": -30104.169505430218,
+          "severeRate": 0
+        },
+        "actualTeamsInferredRoles": {
+          "successRate": -0.33333333333333337,
+          "nw": -30104.169505430218,
+          "severeRate": 0
+        },
+        "heldoutStrategies": {
+          "successRate": -0.25,
+          "nw": -26703.858499961498,
+          "severeRate": 0.0625
+        },
+        "heldoutRoles": {
+          "successRate": -0.25,
+          "nw": -27050.70304294705,
+          "severeRate": 0.0625
+        },
+        "heldoutOrder": {
+          "successRate": -0.25,
+          "nw": -27052.73093442365,
+          "severeRate": 0.0625
+        },
+        "optimizedStrategy": {
+          "successRate": -0.0625,
+          "nw": -21869.600801453988,
+          "severeRate": 0.0625
+        },
+        "optimizedItems": {
+          "successRate": 0,
+          "nw": -18068.47632393378,
+          "severeRate": 0.125
+        },
+        "optimizerProfiles": {
+          "successRate": 0,
+          "nw": -6986.996605586231,
+          "severeRate": 0
+        }
+      }
+    },
+    {
+      "index": 11,
+      "side": "dire",
+      "mode": "greedy",
+      "turn": 8,
+      "action": "pick",
+      "baseline": "Mars",
+      "override": "Dawnbreaker",
+      "styles": {
+        "standard": {
+          "own": [
+            "Mars",
+            "Winter Wyvern",
+            "Earthshaker",
+            "Zeus",
+            "Tiny"
+          ],
+          "enemy": [
+            "Axe",
+            "Vengeful Spirit",
+            "Visage",
+            "Batrider",
+            "Wraith King"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          "selectedPlan": {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 5,
+              "total": 12,
+              "nw": -9255.916841012257,
+              "worstNW": -74051.58104656564,
+              "severeLosses": 4
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 5580.884585005551,
+              "worstNW": -20954.582187912412,
+              "severeLosses": 1
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 5580.884585005551,
+              "worstNW": -20954.582187912412,
+              "severeLosses": 1
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 10,
+              "total": 16,
+              "nw": -1633.1862588854792,
+              "worstNW": -48804.067117580125,
+              "severeLosses": 6
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 10,
+              "total": 16,
+              "nw": -1633.1862588854792,
+              "worstNW": -48804.067117580125,
+              "severeLosses": 6
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 10,
+              "total": 16,
+              "nw": -1590.7977325990914,
+              "worstNW": -48808.517928688685,
+              "severeLosses": 6
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 6,
+              "total": 16,
+              "nw": -5345.228586847486,
+              "worstNW": -21665.592589062508,
+              "severeLosses": 4
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 15,
+              "total": 16,
+              "nw": 18466.45120295266,
+              "worstNW": -7587.287814615775,
+              "severeLosses": 0
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 38220.20540902215,
+              "worstNW": 26068.676220770023,
+              "severeLosses": 0
+            }
+          }
+        },
+        "override": {
+          "own": [
+            "Dawnbreaker",
+            "Winter Wyvern",
+            "Jakiro",
+            "Queen of Pain",
+            "Wraith King"
+          ],
+          "enemy": [
+            "Axe",
+            "Ancient Apparition",
+            "Omniknight",
+            "Zeus",
+            "Tiny"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          "selectedPlan": {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 9,
+              "total": 12,
+              "nw": 11846.518528698012,
+              "worstNW": -21016.98109171141,
+              "severeLosses": 1
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -10623.509701263589,
+              "worstNW": -29073.07662413566,
+              "severeLosses": 2
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -10623.509701263589,
+              "worstNW": -29073.07662413566,
+              "severeLosses": 2
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 3,
+              "total": 16,
+              "nw": -19001.104194325442,
+              "worstNW": -27962.95209504002,
+              "severeLosses": 10
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 3,
+              "total": 16,
+              "nw": -19001.104194325442,
+              "worstNW": -27962.95209504002,
+              "severeLosses": 10
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 4,
+              "total": 16,
+              "nw": -18818.765414914797,
+              "worstNW": -27962.95209504002,
+              "severeLosses": 10
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 6,
+              "total": 16,
+              "nw": -5136.928024020137,
+              "worstNW": -46520.62950604927,
+              "severeLosses": 5
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 6,
+              "total": 16,
+              "nw": -5169.608257449667,
+              "worstNW": -36072.29481315431,
+              "severeLosses": 7
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 29786.03715418746,
+              "worstNW": 13243.996558816623,
+              "severeLosses": 0
+            }
+          }
+        }
+      },
+      "deltas": {
+        "forecast": {
+          "successRate": 0.3333333333333333,
+          "nw": 21102.43536971027,
+          "severeRate": -0.25
+        },
+        "actualTeamsKnownRoles": {
+          "successRate": -0.3333333333333333,
+          "nw": -16204.39428626914,
+          "severeRate": 0.3333333333333333
+        },
+        "actualTeamsInferredRoles": {
+          "successRate": -0.3333333333333333,
+          "nw": -16204.39428626914,
+          "severeRate": 0.3333333333333333
+        },
+        "heldoutStrategies": {
+          "successRate": -0.4375,
+          "nw": -17367.917935439964,
+          "severeRate": 0.25
+        },
+        "heldoutRoles": {
+          "successRate": -0.4375,
+          "nw": -17367.917935439964,
+          "severeRate": 0.25
+        },
+        "heldoutOrder": {
+          "successRate": -0.375,
+          "nw": -17227.967682315706,
+          "severeRate": 0.25
+        },
+        "optimizedStrategy": {
+          "successRate": 0,
+          "nw": 208.3005628273495,
+          "severeRate": 0.0625
+        },
+        "optimizedItems": {
+          "successRate": -0.5625,
+          "nw": -23636.059460402328,
+          "severeRate": 0.4375
+        },
+        "optimizerProfiles": {
+          "successRate": 0,
+          "nw": -8434.16825483469,
+          "severeRate": 0
+        }
+      }
+    },
+    {
+      "index": 24,
+      "side": "radiant",
+      "mode": "weighted",
+      "turn": 7,
+      "action": "pick",
+      "baseline": "Beastmaster",
+      "override": "Invoker",
+      "styles": {
+        "standard": {
+          "own": [
+            "Beastmaster",
+            "Skywrath Mage",
+            "Vengeful Spirit",
+            "Kunkka",
+            "Huskar"
+          ],
+          "enemy": [
+            "Storm Spirit",
+            "Dawnbreaker",
+            "Sand King",
+            "Chaos Knight",
+            "Dark Willow"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          "selectedPlan": {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 7,
+              "total": 12,
+              "nw": 1397.5374435909653,
+              "worstNW": -39772.10802053052,
+              "severeLosses": 2
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 22951.487205240217,
+              "worstNW": 14928.621441466326,
+              "severeLosses": 0
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 22951.487205240217,
+              "worstNW": 14928.621441466326,
+              "severeLosses": 0
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 15,
+              "total": 16,
+              "nw": 22502.765309936956,
+              "worstNW": -11911.55325791055,
+              "severeLosses": 0
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 15,
+              "total": 16,
+              "nw": 22502.765309936956,
+              "worstNW": -11911.55325791055,
+              "severeLosses": 0
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 13,
+              "total": 16,
+              "nw": 17183.56399470109,
+              "worstNW": -27092.18476792281,
+              "severeLosses": 1
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 4,
+              "total": 16,
+              "nw": -2320.333651728979,
+              "worstNW": -36847.72563073214,
+              "severeLosses": 8
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 5,
+              "total": 16,
+              "nw": 1711.9757877929628,
+              "worstNW": -29742.27477209315,
+              "severeLosses": 7
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 38057.58364381338,
+              "worstNW": 25991.62911527986,
+              "severeLosses": 0
+            }
+          }
+        },
+        "override": {
+          "own": [
+            "Invoker",
+            "Earth Spirit",
+            "Ancient Apparition",
+            "Legion Commander",
+            "Shadow Demon"
+          ],
+          "enemy": [
+            "Puck",
+            "Dawnbreaker",
+            "Visage",
+            "Huskar",
+            "Dark Willow"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          "selectedPlan": {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 9,
+              "total": 12,
+              "nw": 13039.742121363734,
+              "worstNW": -22723.69237089828,
+              "severeLosses": 1
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 22933.956209303942,
+              "worstNW": -1546.0752001515648,
+              "severeLosses": 0
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 6824.488171821667,
+              "worstNW": -22710.50497247385,
+              "severeLosses": 1
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 4,
+              "total": 16,
+              "nw": -6920.084057495595,
+              "worstNW": -26937.52584218372,
+              "severeLosses": 6
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 4,
+              "total": 16,
+              "nw": -6920.084057495595,
+              "worstNW": -26937.52584218372,
+              "severeLosses": 6
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 2,
+              "total": 16,
+              "nw": -12362.651810489795,
+              "worstNW": -26938.48616163498,
+              "severeLosses": 8
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 11,
+              "total": 16,
+              "nw": 12670.731411872132,
+              "worstNW": -10473.303022583903,
+              "severeLosses": 0
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 11,
+              "total": 16,
+              "nw": 15486.47462375562,
+              "worstNW": -13459.014904504904,
+              "severeLosses": 0
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 41217.5465409643,
+              "worstNW": 34284.304569235144,
+              "severeLosses": 0
+            }
+          }
+        }
+      },
+      "deltas": {
+        "forecast": {
+          "successRate": 0.16666666666666663,
+          "nw": 11642.204677772768,
+          "severeRate": -0.08333333333333333
+        },
+        "actualTeamsKnownRoles": {
+          "successRate": 0,
+          "nw": -17.53099593627485,
+          "severeRate": 0
+        },
+        "actualTeamsInferredRoles": {
+          "successRate": -0.33333333333333337,
+          "nw": -16126.99903341855,
+          "severeRate": 0.3333333333333333
+        },
+        "heldoutStrategies": {
+          "successRate": -0.6875,
+          "nw": -29422.84936743255,
+          "severeRate": 0.375
+        },
+        "heldoutRoles": {
+          "successRate": -0.6875,
+          "nw": -29422.84936743255,
+          "severeRate": 0.375
+        },
+        "heldoutOrder": {
+          "successRate": -0.6875,
+          "nw": -29546.215805190885,
+          "severeRate": 0.4375
+        },
+        "optimizedStrategy": {
+          "successRate": 0.4375,
+          "nw": 14991.06506360111,
+          "severeRate": -0.5
+        },
+        "optimizedItems": {
+          "successRate": 0.375,
+          "nw": 13774.498835962657,
+          "severeRate": -0.4375
+        },
+        "optimizerProfiles": {
+          "successRate": 0,
+          "nw": 3159.962897150923,
+          "severeRate": 0
+        }
+      }
+    },
+    {
+      "index": 34,
+      "side": "radiant",
+      "mode": "greedy",
+      "turn": 7,
+      "action": "pick",
+      "baseline": "Puck",
+      "override": "Dawnbreaker",
+      "styles": {
+        "standard": {
+          "own": [
+            "Puck",
+            "Dawnbreaker",
+            "Winter Wyvern",
+            "Slark",
+            "Jakiro"
+          ],
+          "enemy": [
+            "Axe",
+            "Vengeful Spirit",
+            "Ancient Apparition",
+            "Shadow Fiend",
+            "Chaos Knight"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "selectedPlan": {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 4,
+              "total": 12,
+              "nw": -10057.888617505754,
+              "worstNW": -62435.60604303979,
+              "severeLosses": 4
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 0,
+              "total": 3,
+              "nw": -15547.03739139071,
+              "worstNW": -17758.847527765378,
+              "severeLosses": 0
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 14288.736315403496,
+              "worstNW": -10548.135353544589,
+              "severeLosses": 0
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 7,
+              "total": 16,
+              "nw": -6375.137481243732,
+              "worstNW": -33854.06762120387,
+              "severeLosses": 5
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 7,
+              "total": 16,
+              "nw": -6375.137481243732,
+              "worstNW": -33854.06762120387,
+              "severeLosses": 5
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 6,
+              "total": 16,
+              "nw": -6616.734090994743,
+              "worstNW": -33854.06762120387,
+              "severeLosses": 5
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 7,
+              "total": 16,
+              "nw": 10340.395885729555,
+              "worstNW": -31633.650522869764,
+              "severeLosses": 3
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 7,
+              "total": 16,
+              "nw": 13597.898790829222,
+              "worstNW": -21857.9274014205,
+              "severeLosses": 2
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 31125.51740789435,
+              "worstNW": -11900.916339901378,
+              "severeLosses": 0
+            }
+          }
+        },
+        "override": {
+          "own": [
+            "Dawnbreaker",
+            "Winter Wyvern",
+            "Hoodwink",
+            "Nyx Assassin",
+            "Huskar"
+          ],
+          "enemy": [
+            "Axe",
+            "Ancient Apparition",
+            "Omniknight",
+            "Zeus",
+            "Slardar"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          "selectedPlan": {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 7,
+              "total": 12,
+              "nw": 4221.037029210163,
+              "worstNW": -44833.62327225192,
+              "severeLosses": 3
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -11974.223097882,
+              "worstNW": -32563.820573811085,
+              "severeLosses": 2
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -11974.223097882,
+              "worstNW": -32563.820573811085,
+              "severeLosses": 2
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 2,
+              "total": 16,
+              "nw": -15667.94169350533,
+              "worstNW": -32563.820573811085,
+              "severeLosses": 9
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 16,
+              "nw": -15667.94169350533,
+              "worstNW": -32563.820573811085,
+              "severeLosses": 9
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 2,
+              "total": 16,
+              "nw": -15667.851525315878,
+              "worstNW": -32563.820573811085,
+              "severeLosses": 9
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 6,
+              "total": 16,
+              "nw": -4561.7518734937585,
+              "worstNW": -38535.55780973435,
+              "severeLosses": 5
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 7,
+              "total": 16,
+              "nw": 2545.9921450260044,
+              "worstNW": -54514.74359074337,
+              "severeLosses": 5
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 45649.71566863913,
+              "worstNW": 17855.513736418317,
+              "severeLosses": 0
+            }
+          }
+        }
+      },
+      "deltas": {
+        "forecast": {
+          "successRate": 0.25000000000000006,
+          "nw": 14278.925646715918,
+          "severeRate": -0.08333333333333331
+        },
+        "actualTeamsKnownRoles": {
+          "successRate": 0.3333333333333333,
+          "nw": 3572.814293508709,
+          "severeRate": 0.6666666666666666
+        },
+        "actualTeamsInferredRoles": {
+          "successRate": -0.3333333333333333,
+          "nw": -26262.959413285498,
+          "severeRate": 0.6666666666666666
+        },
+        "heldoutStrategies": {
+          "successRate": -0.3125,
+          "nw": -9292.804212261599,
+          "severeRate": 0.25
+        },
+        "heldoutRoles": {
+          "successRate": -0.3125,
+          "nw": -9292.804212261599,
+          "severeRate": 0.25
+        },
+        "heldoutOrder": {
+          "successRate": -0.25,
+          "nw": -9051.117434321135,
+          "severeRate": 0.25
+        },
+        "optimizedStrategy": {
+          "successRate": -0.0625,
+          "nw": -14902.147759223313,
+          "severeRate": 0.125
+        },
+        "optimizedItems": {
+          "successRate": 0,
+          "nw": -11051.906645803218,
+          "severeRate": 0.1875
+        },
+        "optimizerProfiles": {
+          "successRate": 0.33333333333333337,
+          "nw": 14524.198260744783,
+          "severeRate": 0
+        }
+      }
+    },
+    {
+      "index": 56,
+      "side": "radiant",
+      "mode": "weighted",
+      "turn": 7,
+      "action": "pick",
+      "baseline": "Timbersaw",
+      "override": "Dawnbreaker",
+      "styles": {
+        "standard": {
+          "own": [
+            "Timbersaw",
+            "Ancient Apparition",
+            "Vengeful Spirit",
+            "Chaos Knight",
+            "Batrider"
+          ],
+          "enemy": [
+            "Queen of Pain",
+            "Dawnbreaker",
+            "Hoodwink",
+            "Tiny",
+            "Crystal Maiden"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          "selectedPlan": {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 1,
+              "total": 12,
+              "nw": -11773.30489121438,
+              "worstNW": -26815.884994730557,
+              "severeLosses": 4
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 3942.475038561495,
+              "worstNW": -15881.591224728007,
+              "severeLosses": 0
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 19813.133717419227,
+              "worstNW": -20768.589408337168,
+              "severeLosses": 1
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 7,
+              "total": 16,
+              "nw": 10063.129575746345,
+              "worstNW": -8603.772332872017,
+              "severeLosses": 0
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 7,
+              "total": 16,
+              "nw": 10063.129575746345,
+              "worstNW": -8603.772332872017,
+              "severeLosses": 0
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 6,
+              "total": 16,
+              "nw": 9343.877297005307,
+              "worstNW": -8603.772332872017,
+              "severeLosses": 0
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 6,
+              "total": 16,
+              "nw": -10015.768422521076,
+              "worstNW": -34221.98302229321,
+              "severeLosses": 6
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 8,
+              "total": 16,
+              "nw": -4933.20400898781,
+              "worstNW": -30706.22033772763,
+              "severeLosses": 2
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 42810.67416880025,
+              "worstNW": 34040.25543653587,
+              "severeLosses": 0
+            }
+          }
+        },
+        "override": {
+          "own": [
+            "Dawnbreaker",
+            "Vengeful Spirit",
+            "Visage",
+            "Nyx Assassin",
+            "Slardar"
+          ],
+          "enemy": [
+            "Centaur Warrunner",
+            "Ancient Apparition",
+            "Earthshaker",
+            "Zeus",
+            "Huskar"
+          ],
+          "nativePlan": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          "selectedPlan": {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          "stages": {
+            "forecast": {
+              "choices": {},
+              "wins": 7,
+              "total": 12,
+              "nw": 3588.599528724026,
+              "worstNW": -26369.42032668565,
+              "severeLosses": 3
+            },
+            "actualTeamsKnownRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 13267.672484260023,
+              "worstNW": -19414.614903940266,
+              "severeLosses": 0
+            },
+            "actualTeamsInferredRoles": {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 13267.672484260023,
+              "worstNW": -19414.614903940266,
+              "severeLosses": 0
+            },
+            "heldoutStrategies": {
+              "choices": {},
+              "wins": 13,
+              "total": 16,
+              "nw": 20740.071151572483,
+              "worstNW": -22427.111126112475,
+              "severeLosses": 1
+            },
+            "heldoutRoles": {
+              "choices": {},
+              "wins": 13,
+              "total": 16,
+              "nw": 20740.071151572483,
+              "worstNW": -22427.111126112475,
+              "severeLosses": 1
+            },
+            "heldoutOrder": {
+              "choices": {},
+              "wins": 13,
+              "total": 16,
+              "nw": 19761.957118997772,
+              "worstNW": -22427.111126112475,
+              "severeLosses": 1
+            },
+            "optimizedStrategy": {
+              "choices": {},
+              "wins": 8,
+              "total": 16,
+              "nw": 1282.3576625134165,
+              "worstNW": -29597.909894039753,
+              "severeLosses": 2
+            },
+            "optimizedItems": {
+              "choices": {},
+              "wins": 3,
+              "total": 16,
+              "nw": -8182.983658891925,
+              "worstNW": -33492.72945439827,
+              "severeLosses": 2
+            },
+            "optimizerProfiles": {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 18495.75781661922,
+              "worstNW": -2014.0384246648027,
+              "severeLosses": 0
+            }
+          }
+        }
+      },
+      "deltas": {
+        "forecast": {
+          "successRate": 0.5,
+          "nw": 15361.904419938406,
+          "severeRate": -0.08333333333333331
+        },
+        "actualTeamsKnownRoles": {
+          "successRate": 0,
+          "nw": 9325.197445698528,
+          "severeRate": 0
+        },
+        "actualTeamsInferredRoles": {
+          "successRate": 0,
+          "nw": -6545.461233159203,
+          "severeRate": -0.3333333333333333
+        },
+        "heldoutStrategies": {
+          "successRate": 0.375,
+          "nw": 10676.941575826138,
+          "severeRate": 0.0625
+        },
+        "heldoutRoles": {
+          "successRate": 0.375,
+          "nw": 10676.941575826138,
+          "severeRate": 0.0625
+        },
+        "heldoutOrder": {
+          "successRate": 0.4375,
+          "nw": 10418.079821992465,
+          "severeRate": 0.0625
+        },
+        "optimizedStrategy": {
+          "successRate": 0.125,
+          "nw": 11298.126085034492,
+          "severeRate": -0.25
+        },
+        "optimizedItems": {
+          "successRate": -0.3125,
+          "nw": -3249.779649904115,
+          "severeRate": 0
+        },
+        "optimizerProfiles": {
+          "successRate": 0,
+          "nw": -24314.91635218103,
+          "severeRate": 0
+        }
+      }
+    }
+  ]
+}

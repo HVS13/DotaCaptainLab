@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-09T10:34:50.321Z",
+  "status": "unchanged",
+  "pages": [
+    "https://dotacaptain.com/draft",
+    "https://dotacaptain.com/daily-challenge"
+  ],
+  "assetsChecked": 50,
+  "changes": [],
+  "errors": [],
+  "scope": "Public assets referenced by the inspected draft and Daily pages. Asset changes require review; they do not necessarily mean formulas changed. Private server changes cannot be checked."
+}

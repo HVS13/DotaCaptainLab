@@ -1,0 +1,55 @@
+{
+  "draftClusters": 64,
+  "scenarioCases": 1024,
+  "bootstrapResamples": 10000,
+  "point": {
+    "successDelta": -0.0078125,
+    "severeLossDelta": 0.0048828125,
+    "firstPickEntropyDelta": -0.013517610544417469,
+    "firstBanEntropyDelta": 0,
+    "entropySumDelta": -0.013517610544417469
+  },
+  "bounds": {
+    "successLower95": -0.02734375,
+    "severeLossUpper95": 0.021484375,
+    "entropySumLower95": -0.0999487174653253
+  },
+  "checks": {
+    "success": false,
+    "severeLoss": false,
+    "diversity": false
+  },
+  "passes": false,
+  "standard": {
+    "wins": 598,
+    "severeLosses": 203,
+    "firstPick": {
+      "entropy": 3.311681742411679,
+      "distinct": 12
+    },
+    "firstBan": {
+      "entropy": 3.1279968026157965,
+      "distinct": 11
+    }
+  },
+  "interpretation": "64 unseen paired drafts after fixed-work-budget strategy/item optimization. Stratified paired whole-draft bootstrap. Exact-identical states reuse deterministic baseline evaluation; no diluted mixture or PvP probability claim.",
+  "override": {
+    "wins": 590,
+    "severeLosses": 208
+  },
+  "comparison": "Full strict override versus current Standard",
+  "activity": {
+    "ownActions": 768,
+    "changedActions": 5,
+    "trainedActions": 279,
+    "draftsChanged": 5,
+    "continuationSimulations": 7404,
+    "maxDecisionMs": 12004.8652,
+    "executedOptimizations": 69,
+    "reusedEvaluations": 59,
+    "executedItemCandidates": 6900,
+    "executedIdentityCandidates": 1725,
+    "executedOptimizerSimulations": 46989,
+    "executedFinalSimulations": 1104
+  }
+}

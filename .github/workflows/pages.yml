@@ -41,6 +41,8 @@ jobs:
           node tests/draft-personality-analysis.cjs
           node tests/draft-pipeline.cjs
           node tests/draft-context.cjs
+          node tests/draft-override.cjs
+          node tests/draft-inference.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

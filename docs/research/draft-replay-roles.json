@@ -1,0 +1,604 @@
+{
+  "results": [
+    {
+      "index": 0,
+      "turn": 7,
+      "action": "pick",
+      "oldQualified": true,
+      "inferredQualified": false,
+      "inferredDeltaNW": 18470.89877359451,
+      "summaries": [
+        {
+          "choices": {},
+          "wins": 4,
+          "total": 12,
+          "nw": -11060.790180337615,
+          "worstNW": -37183.86247783856,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -10488.193516898238,
+              "worstNW": -37183.86247783856
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -12261.904662551839,
+              "worstNW": -34242.435229674185
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -15144.947117561265,
+              "worstNW": -37024.33207306966
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -6348.115424339111,
+              "worstNW": -30240.583632588154
+            }
+          ]
+        },
+        {
+          "choices": {},
+          "wins": 8,
+          "total": 12,
+          "nw": 7410.108593256893,
+          "worstNW": -41799.98351774075,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -12003.283720239133,
+              "worstNW": -41799.98351774075
+            },
+            {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 22856.496247792875,
+              "worstNW": 9122.300779187484
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -3004.870058391602,
+              "worstNW": -24848.768038945127
+            },
+            {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 21792.091903865432,
+              "worstNW": 18829.90173751254
+            }
+          ]
+        }
+      ],
+      "coverage": [
+        {
+          "known": {
+            "20": "hard_support",
+            "65": "mid",
+            "81": "carry",
+            "90": "support",
+            "98": "offlane"
+          },
+          "inferred": {
+            "20": "hard_support",
+            "65": "mid",
+            "81": "carry",
+            "90": "support",
+            "98": "offlane"
+          },
+          "knownRolesCovered": true
+        },
+        {
+          "known": {
+            "7": "support",
+            "8": "carry",
+            "65": "mid",
+            "68": "hard_support",
+            "98": "offlane"
+          },
+          "inferred": {
+            "7": "support",
+            "8": "carry",
+            "65": "mid",
+            "68": "hard_support",
+            "98": "offlane"
+          },
+          "knownRolesCovered": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "turn": 8,
+      "action": "pick",
+      "oldQualified": true,
+      "inferredQualified": false,
+      "inferredDeltaNW": 15174.962566115344,
+      "summaries": [
+        {
+          "choices": {},
+          "wins": 4,
+          "total": 12,
+          "nw": -10493.031159737033,
+          "worstNW": -74051.58104656564,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -3212.057440181185,
+              "worstNW": -18144.613848311084
+            },
+            {
+              "choices": {},
+              "wins": 0,
+              "total": 3,
+              "nw": -44987.656959400796,
+              "worstNW": -74051.58104656564
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 740.777616355915,
+              "worstNW": -28120.874111766294
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": 5486.812144277933,
+              "worstNW": -18396.099133788783
+            }
+          ]
+        },
+        {
+          "choices": {},
+          "wins": 7,
+          "total": 12,
+          "nw": 4681.93140637831,
+          "worstNW": -21016.98109171141,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 10965.390503228919,
+              "worstNW": -9339.043135802087
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 32.70937968238528,
+              "worstNW": -21016.98109171141
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 8138.02144346977,
+              "worstNW": -8690.488418482782
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -408.3957008678335,
+              "worstNW": -16265.143644638461
+            }
+          ]
+        }
+      ],
+      "coverage": [
+        {
+          "known": {
+            "2": "offlane",
+            "20": "hard_support",
+            "42": "carry",
+            "65": "mid",
+            "92": "support"
+          },
+          "inferred": {
+            "2": "offlane",
+            "20": "hard_support",
+            "42": "carry",
+            "65": "mid",
+            "92": "support"
+          },
+          "knownRolesCovered": true
+        },
+        {
+          "known": {
+            "2": "offlane",
+            "19": "carry",
+            "22": "mid",
+            "57": "support",
+            "68": "hard_support"
+          },
+          "inferred": {
+            "2": "offlane",
+            "19": "carry",
+            "22": "mid",
+            "57": "support",
+            "68": "hard_support"
+          },
+          "knownRolesCovered": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "turn": 7,
+      "action": "pick",
+      "oldQualified": true,
+      "inferredQualified": false,
+      "inferredDeltaNW": 19236.915711420712,
+      "summaries": [
+        {
+          "choices": {},
+          "wins": 5,
+          "total": 12,
+          "nw": -6684.292342357962,
+          "worstNW": -52276.07233271487,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 0,
+              "total": 3,
+              "nw": -22051.193953320995,
+              "worstNW": -52276.07233271487
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 446.3210383964324,
+              "worstNW": -16531.39556504962
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -19499.220106327954,
+              "worstNW": -32416.029957930004
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 14366.923651820669,
+              "worstNW": 1744.776589493791
+            }
+          ]
+        },
+        {
+          "choices": {},
+          "wins": 9,
+          "total": 12,
+          "nw": 12552.62336906275,
+          "worstNW": -27985.309643323286,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -2621.530363835067,
+              "worstNW": -22723.69237089828
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 9302.636649130514,
+              "worstNW": -27985.309643323286
+            },
+            {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 18916.511736653014,
+              "worstNW": 5114.357904564778
+            },
+            {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 24612.875454302542,
+              "worstNW": 7080.681954568834
+            }
+          ]
+        }
+      ],
+      "coverage": [
+        {
+          "known": {
+            "16": "support",
+            "17": "mid",
+            "81": "carry",
+            "119": "hard_support",
+            "131": "offlane"
+          },
+          "inferred": {
+            "16": "support",
+            "17": "mid",
+            "81": "carry",
+            "119": "hard_support",
+            "131": "offlane"
+          },
+          "knownRolesCovered": true
+        },
+        {
+          "known": {
+            "13": "mid",
+            "59": "carry",
+            "92": "support",
+            "119": "hard_support",
+            "131": "offlane"
+          },
+          "inferred": {
+            "13": "mid",
+            "59": "carry",
+            "92": "offlane",
+            "119": "hard_support",
+            "131": "support"
+          },
+          "knownRolesCovered": true
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "turn": 7,
+      "action": "pick",
+      "oldQualified": true,
+      "inferredQualified": true,
+      "inferredDeltaNW": 18597.163908782895,
+      "summaries": [
+        {
+          "choices": {},
+          "wins": 4,
+          "total": 12,
+          "nw": -8770.677193786569,
+          "worstNW": -44257.381979773185,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 0,
+              "total": 3,
+              "nw": -24655.395373469906,
+              "worstNW": -44257.381979773185
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -2804.531159118885,
+              "worstNW": -33048.08455643112
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -15144.947117561265,
+              "worstNW": -37024.33207306966
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 7522.164875003781,
+              "worstNW": -12478.69050338131
+            }
+          ]
+        },
+        {
+          "choices": {},
+          "wins": 8,
+          "total": 12,
+          "nw": 9826.486714996328,
+          "worstNW": -29920.775691956645,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 4236.221711775448,
+              "worstNW": -607.4079923421959
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 17436.235339005263,
+              "worstNW": -29920.775691956645
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -3004.870058391602,
+              "worstNW": -24848.768038945127
+            },
+            {
+              "choices": {},
+              "wins": 3,
+              "total": 3,
+              "nw": 20638.359867596202,
+              "worstNW": 17283.901128030237
+            }
+          ]
+        }
+      ],
+      "coverage": [
+        {
+          "known": {
+            "2": "offlane",
+            "11": "mid",
+            "20": "hard_support",
+            "68": "support",
+            "81": "carry"
+          },
+          "inferred": {
+            "2": "offlane",
+            "11": "mid",
+            "20": "support",
+            "68": "hard_support",
+            "81": "carry"
+          },
+          "knownRolesCovered": true
+        },
+        {
+          "known": {
+            "2": "offlane",
+            "22": "mid",
+            "28": "carry",
+            "57": "support",
+            "68": "hard_support"
+          },
+          "inferred": {
+            "2": "offlane",
+            "22": "mid",
+            "28": "carry",
+            "57": "support",
+            "68": "hard_support"
+          },
+          "knownRolesCovered": true
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "turn": 7,
+      "action": "pick",
+      "oldQualified": true,
+      "inferredQualified": false,
+      "inferredDeltaNW": 15630.151447622553,
+      "summaries": [
+        {
+          "choices": {},
+          "wins": 3,
+          "total": 12,
+          "nw": -13263.66306926147,
+          "worstNW": -38447.701924056455,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 3643.2800729454852,
+              "worstNW": -27403.708354155926
+            },
+            {
+              "choices": {},
+              "wins": 0,
+              "total": 3,
+              "nw": -13072.071133250196,
+              "worstNW": -23443.86577520502
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -18700.450040634678,
+              "worstNW": -38447.701924056455
+            },
+            {
+              "choices": {},
+              "wins": 0,
+              "total": 3,
+              "nw": -24925.411176106485,
+              "worstNW": -37348.69824687594
+            }
+          ]
+        },
+        {
+          "choices": {},
+          "wins": 7,
+          "total": 12,
+          "nw": 2366.4883783610826,
+          "worstNW": -46643.66409114409,
+          "profiles": [
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 16665.930889808053,
+              "worstNW": -10287.75845205882
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 3958.941667975487,
+              "worstNW": -13789.720409473215
+            },
+            {
+              "choices": {},
+              "wins": 1,
+              "total": 3,
+              "nw": -19357.25371971903,
+              "worstNW": -46643.66409114409
+            },
+            {
+              "choices": {},
+              "wins": 2,
+              "total": 3,
+              "nw": 8198.33467537982,
+              "worstNW": -20298.11372574466
+            }
+          ]
+        }
+      ],
+      "coverage": [
+        {
+          "known": {
+            "5": "hard_support",
+            "19": "carry",
+            "39": "mid",
+            "129": "support",
+            "131": "offlane"
+          },
+          "inferred": {
+            "5": "hard_support",
+            "19": "offlane",
+            "39": "mid",
+            "129": "support",
+            "131": "carry"
+          },
+          "knownRolesCovered": true
+        },
+        {
+          "known": {
+            "7": "support",
+            "22": "mid",
+            "59": "carry",
+            "68": "hard_support",
+            "96": "offlane"
+          },
+          "inferred": {
+            "7": "support",
+            "22": "mid",
+            "59": "carry",
+            "68": "hard_support",
+            "96": "offlane"
+          },
+          "knownRolesCovered": true
+        }
+      ]
+    }
+  ]
+}
