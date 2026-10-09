@@ -23,11 +23,13 @@ The defect was in repeated briefing reads: each read replaced all captured choic
 
 This protects against incomplete same-brief reads; it does not prove that such a read occurred in the supplied match. In particular, that match was PvP and had no pregame enemy axes to preserve. No storage layer, inferred preset conversion, hidden-state access or additional simulation was added.
 
+The briefing status previously said `Scout captured` even when the PvP seat screen contained no enemy choices. It now says `Seat detected · enemy strategy unknown` in that case. Observed scout axes retain the existing capture label; this wording does not assert the mode from a generic heading.
+
 ## Verification
 
 The [regression test](../../tests/scout-capture.cjs) covers native-shaped title/option cards, all six axes, hidden cards, a generic headline without axes, genuinely partial knowledge, updating one visible axis while preserving other observed values, empty same-brief reads, briefing → draft → configuration conditioning, and new-run/PvP reset through the actual scanner function. Fully known choices yield one compatible enemy plan; one known axis yields 32 plans; an unscouted PvP state remains unknown.
 
-The test reproduced the preservation failure before the decoder change and passed after it. It uses native-shaped fixtures and a VM replay of the scanner, not an authenticated live match. The repair is one decoder expression plus release metadata and regression coverage. Production remains Standard for drafting and configuration selection.
+The test reproduced the preservation failure before the decoder change and passed after it. It also checks the status text for a briefing with and without observed enemy axes. It uses native-shaped fixtures and a VM replay of the scanner, not an authenticated live match. The repair changes the decoder merge and briefing status expression, plus release metadata and regression coverage. Production remains Standard for drafting and configuration selection.
 
 ```sh
 node scripts/build.cjs
