@@ -1,0 +1,9 @@
+// Research-only pick policy. Constants are hypotheses fixed before evaluation.
+const P=require('./draft-lookahead.cjs'),A=Advisor;
+function options(s,choices,move){const next={...s,own:[...s.own,move.id],roles:{...s.roles,[move.id]:move.role}},filled=new Set(Object.values(A.assigned(next.own,next.roles))),open=A.roles.filter(r=>!filled.has(r)),survivors=open.map(role=>{const rows=A.recommend(next,'pick',choices,role),strong=rows.filter(r=>r.score>=rows[0].score-1);return Math.max(0,strong.length-1)});return{openRoles:open,survivors,value:survivors.length?Math.min(...survivors)+survivors.reduce((a,b)=>a+b,0)/survivors.length:0}}
+function decision(game,turn,baseline,seed){const started=performance.now(),step=A.sequence[turn];const fallback=()=>({move:baseline,changed:false,ms:performance.now()-started,simulations:0});if(step.action!=='pick'||game.teams[step.team].length===4)return fallback();
+ const s=P.state(game,step.team,turn),choices=P.plan(game,step.team),ranked=A.recommend(s,'pick',choices).filter(r=>baseline.pool.includes(r.id));if(!ranked.length)return fallback();const near=ranked.filter(r=>r.score>=ranked[0].score-1);if(near.length<2||!near.some(r=>r.id===baseline.id))return fallback();
+ const rows=near.map(move=>({move,...options(s,choices,move)})),top=Math.max(...rows.map(r=>r.value));if(!top||rows.every(r=>r.value===rows[0].value))return fallback();const temperature=s.own.length?1.75:2.3,weights=rows.map(r=>Math.exp((r.move.score-ranked[0].score)/temperature)*(1+r.value/top)),rng=P.random(seed);let draw=rng()*weights.reduce((a,b)=>a+b,0),chosen=rows.at(-1);for(let i=0;i<rows.length;i++)if((draw-=weights[i])<=0){chosen=rows[i];break}
+ return{move:chosen.move,changed:chosen.move.id!==baseline.id,ms:performance.now()-started,simulations:0,assessment:rows.map(r=>({id:r.move.id,score:r.move.score,survivors:r.survivors,value:r.value}))};
+}
+module.exports={decision,options};

@@ -36,6 +36,7 @@ jobs:
           node tests/daily.cjs
           node tests/draft-lookahead.cjs
           node tests/source-freshness.cjs
+          node tests/draft-flexibility.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
