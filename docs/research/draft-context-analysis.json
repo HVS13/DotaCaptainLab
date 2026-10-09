@@ -1,0 +1,49 @@
+{
+  "draftClusters": 32,
+  "scenarioCases": 512,
+  "bootstrapResamples": 10000,
+  "point": {
+    "successDelta": 0.05859375,
+    "severeLossDelta": -0.041015625,
+    "firstPickEntropyDelta": -0.0798486425607412,
+    "firstBanEntropyDelta": -0.09001826628863263,
+    "entropySumDelta": -0.16986690884937383
+  },
+  "bounds": {
+    "successLower95": -0.005859375,
+    "severeLossUpper95": 0.021484375,
+    "entropySumLower95": -0.43045117221304174
+  },
+  "checks": {
+    "success": false,
+    "severeLoss": false,
+    "diversity": false
+  },
+  "passes": false,
+  "standard": {
+    "wins": 260,
+    "severeLosses": 125,
+    "firstPick": {
+      "entropy": 3.2189462981346573,
+      "distinct": 11
+    },
+    "firstBan": {
+      "entropy": 2.9689462981346573,
+      "distinct": 9
+    }
+  },
+  "interpretation": "Unseen complete paired drafts after fixed-work-budget strategy/item optimization. Stratified paired whole-draft bootstrap; no diluted mixture. Simulator outcomes are not calibrated PvP probabilities.",
+  "context": {
+    "wins": 290,
+    "severeLosses": 104
+  },
+  "comparison": "Full contextual policy versus current Standard",
+  "activity": {
+    "ownActions": 384,
+    "changedActions": 61,
+    "trainedActions": 139,
+    "draftsChanged": 29,
+    "simulations": 1848,
+    "maxDecisionMs": 3571.5412999999244
+  }
+}

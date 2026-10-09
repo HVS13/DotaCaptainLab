@@ -21,4 +21,4 @@ function draft(seed,testedSide,lookahead=false,opponentMode='weighted',policy=de
  return{game,moves};
 }
 function holdout(drafted,side,seed){const g=drafted.game,s=state(g,side,24),rng=random(seed),variants=Array.from(A.opponentVariants(s)),ours=plan(g,side),profiles=Array.from({length:16},()=>({plan:A.plans[Math.floor(rng()*64)],opponent:variants[Math.floor(rng()*variants.length)]})),tests=profiles.map(p=>A.simulate(s,ours,p.plan,side,undefined,p.opponent));return{...A.summarize(ours,tests),roles:s.roles,own:s.own,enemy:s.enemy}}
-module.exports={random,state,plan,native,apply,continuation,decision,draft,holdout};
+module.exports={random,state,plan,native,apply,continuation,evaluateLeaf,decision,draft,holdout};
