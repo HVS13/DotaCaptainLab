@@ -9,7 +9,7 @@ A live draft overlay rebuilt around the DotaCaptain-native assistant concept. It
 1. Install [Tampermonkey](https://www.tampermonkey.net/) from its official browser-store links.
 2. Open the userscript link and confirm installation in the manager. Follow browser prompts to enable userscripts if needed. If the file opens as text, create a new userscript, paste the complete file and save.
 3. Open DotaCaptain and start a draft. Keep the script enabled during the scout briefing so the visible enemy strategy can be retained for the page session.
-4. Read Top picks or Top bans. Find in game search fills the native search field; you still choose and confirm game actions. The panel minimizes to a compact shield icon. Drag the title area to move it; arrow keys also work (Shift for larger steps). Position is remembered locally; the reset button or Home key restores the default.
+4. Read Top picks or Top bans. Find in game search fills the native search field; you still choose and confirm game actions. The panel minimizes to a compact shield icon. Drag the icon to move it, or click it to reopen. Drag the title area to move it; arrow keys also work (Shift for larger steps). Position is remembered locally; the reset button or Home key restores the default.
 
 ## Features
 
