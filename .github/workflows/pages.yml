@@ -34,6 +34,7 @@ jobs:
           node tests/sensitivity.cjs
           node tests/refinement.cjs
           node tests/daily.cjs
+          node tests/draft-lookahead.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

@@ -1,0 +1,2255 @@
+{
+  "seedStart": 8101,
+  "seedStep": 1,
+  "method": "Research-only rollout reranker: baseline native weighted choice plus up to two strongest native-pool alternatives. Two paired native continuations and three native strategy presets per candidate. Replace only for more training wins and nonworse worst gold. Full 24-turn paired drafts with per-turn seeded opponent draws; 16 separately seeded holdout strategy/eligible role/default purchase-order profiles. Default own items and native draft-fit own plan, not production strategy/item optimization. Related deterministic scenarios, not independent PvP matches. No production integration.",
+  "results": [
+    {
+      "seed": 8101,
+      "side": "radiant",
+      "opponentMode": "weighted",
+      "baseline": {
+        "choices": {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        "wins": 12,
+        "total": 16,
+        "nw": 16539.319960617515,
+        "worstNW": -21626.427186067725,
+        "roles": {
+          "5": "hard_support",
+          "7": "support",
+          "19": "carry",
+          "46": "mid",
+          "131": "offlane"
+        },
+        "own": [
+          46,
+          131,
+          7,
+          19,
+          5
+        ],
+        "enemy": [
+          38,
+          3,
+          14,
+          17,
+          42
+        ]
+      },
+      "candidate": {
+        "choices": {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        "wins": 11,
+        "total": 16,
+        "nw": 1034.8731989065905,
+        "worstNW": -65935.16431795753,
+        "roles": {
+          "27": "hard_support",
+          "68": "support",
+          "74": "mid",
+          "93": "carry",
+          "98": "offlane"
+        },
+        "own": [
+          74,
+          98,
+          68,
+          93,
+          27
+        ],
+        "enemy": [
+          13,
+          131,
+          20,
+          28,
+          3
+        ]
+      },
+      "baselineMoves": [
+        {
+          "turn": 0,
+          "team": "radiant",
+          "action": "ban",
+          "id": 1,
+          "baselineId": 1,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 1,
+          "team": "radiant",
+          "action": "ban",
+          "id": 69,
+          "baselineId": 69,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 2,
+          "team": "dire",
+          "action": "ban",
+          "id": 75,
+          "baselineId": 75,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 3,
+          "team": "dire",
+          "action": "ban",
+          "id": 88,
+          "baselineId": 88,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 4,
+          "team": "radiant",
+          "action": "ban",
+          "id": 66,
+          "baselineId": 66,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 5,
+          "team": "dire",
+          "action": "ban",
+          "id": 92,
+          "baselineId": 92,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 6,
+          "team": "dire",
+          "action": "ban",
+          "id": 113,
+          "baselineId": 113,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 7,
+          "team": "radiant",
+          "action": "pick",
+          "id": 46,
+          "baselineId": 46,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 8,
+          "team": "dire",
+          "action": "pick",
+          "id": 38,
+          "baselineId": 38,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 9,
+          "team": "radiant",
+          "action": "ban",
+          "id": 129,
+          "baselineId": 129,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 10,
+          "team": "radiant",
+          "action": "ban",
+          "id": 68,
+          "baselineId": 68,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 11,
+          "team": "dire",
+          "action": "ban",
+          "id": 30,
+          "baselineId": 30,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 12,
+          "team": "dire",
+          "action": "pick",
+          "id": 3,
+          "baselineId": 3,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 13,
+          "team": "radiant",
+          "action": "pick",
+          "id": 131,
+          "baselineId": 131,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 14,
+          "team": "radiant",
+          "action": "pick",
+          "id": 7,
+          "baselineId": 7,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 15,
+          "team": "dire",
+          "action": "pick",
+          "id": 14,
+          "baselineId": 14,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 16,
+          "team": "dire",
+          "action": "pick",
+          "id": 17,
+          "baselineId": 17,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 17,
+          "team": "radiant",
+          "action": "pick",
+          "id": 19,
+          "baselineId": 19,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 18,
+          "team": "radiant",
+          "action": "ban",
+          "id": 56,
+          "baselineId": 56,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 19,
+          "team": "dire",
+          "action": "ban",
+          "id": 21,
+          "baselineId": 21,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 20,
+          "team": "radiant",
+          "action": "ban",
+          "id": 25,
+          "baselineId": 25,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 21,
+          "team": "dire",
+          "action": "ban",
+          "id": 54,
+          "baselineId": 54,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 22,
+          "team": "radiant",
+          "action": "pick",
+          "id": 5,
+          "baselineId": 5,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 23,
+          "team": "dire",
+          "action": "pick",
+          "id": 42,
+          "baselineId": 42,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        }
+      ],
+      "candidateMoves": [
+        {
+          "turn": 0,
+          "team": "radiant",
+          "action": "ban",
+          "id": 1,
+          "baselineId": 1,
+          "changed": false,
+          "ms": 5.345799999999997,
+          "simulations": 0
+        },
+        {
+          "turn": 1,
+          "team": "radiant",
+          "action": "ban",
+          "id": 69,
+          "baselineId": 69,
+          "changed": false,
+          "ms": 1930.8013999999998,
+          "simulations": 12
+        },
+        {
+          "turn": 2,
+          "team": "dire",
+          "action": "ban",
+          "id": 75,
+          "baselineId": 75,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 3,
+          "team": "dire",
+          "action": "ban",
+          "id": 88,
+          "baselineId": 88,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 4,
+          "team": "radiant",
+          "action": "ban",
+          "id": 66,
+          "baselineId": 66,
+          "changed": false,
+          "ms": 1712.7658999999999,
+          "simulations": 12
+        },
+        {
+          "turn": 5,
+          "team": "dire",
+          "action": "ban",
+          "id": 92,
+          "baselineId": 92,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 6,
+          "team": "dire",
+          "action": "ban",
+          "id": 113,
+          "baselineId": 113,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 7,
+          "team": "radiant",
+          "action": "pick",
+          "id": 74,
+          "baselineId": 46,
+          "changed": true,
+          "ms": 2061.0342,
+          "simulations": 18
+        },
+        {
+          "turn": 8,
+          "team": "dire",
+          "action": "pick",
+          "id": 13,
+          "baselineId": 13,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 9,
+          "team": "radiant",
+          "action": "ban",
+          "id": 79,
+          "baselineId": 25,
+          "changed": true,
+          "ms": 2152.0881,
+          "simulations": 18
+        },
+        {
+          "turn": 10,
+          "team": "radiant",
+          "action": "ban",
+          "id": 26,
+          "baselineId": 26,
+          "changed": false,
+          "ms": 1235.2227000000003,
+          "simulations": 12
+        },
+        {
+          "turn": 11,
+          "team": "dire",
+          "action": "ban",
+          "id": 30,
+          "baselineId": 30,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 12,
+          "team": "dire",
+          "action": "pick",
+          "id": 131,
+          "baselineId": 131,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 13,
+          "team": "radiant",
+          "action": "pick",
+          "id": 98,
+          "baselineId": 107,
+          "changed": true,
+          "ms": 1209.2747,
+          "simulations": 12
+        },
+        {
+          "turn": 14,
+          "team": "radiant",
+          "action": "pick",
+          "id": 68,
+          "baselineId": 68,
+          "changed": false,
+          "ms": 1155.6057,
+          "simulations": 12
+        },
+        {
+          "turn": 15,
+          "team": "dire",
+          "action": "pick",
+          "id": 20,
+          "baselineId": 20,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 16,
+          "team": "dire",
+          "action": "pick",
+          "id": 28,
+          "baselineId": 28,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 17,
+          "team": "radiant",
+          "action": "pick",
+          "id": 93,
+          "baselineId": 93,
+          "changed": false,
+          "ms": 1214.4663,
+          "simulations": 12
+        },
+        {
+          "turn": 18,
+          "team": "radiant",
+          "action": "ban",
+          "id": 104,
+          "baselineId": 104,
+          "changed": false,
+          "ms": 1026.7893000000004,
+          "simulations": 12
+        },
+        {
+          "turn": 19,
+          "team": "dire",
+          "action": "ban",
+          "id": 83,
+          "baselineId": 83,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 20,
+          "team": "radiant",
+          "action": "ban",
+          "id": 8,
+          "baselineId": 8,
+          "changed": false,
+          "ms": 1288.4194000000007,
+          "simulations": 18
+        },
+        {
+          "turn": 21,
+          "team": "dire",
+          "action": "ban",
+          "id": 38,
+          "baselineId": 38,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 22,
+          "team": "radiant",
+          "action": "pick",
+          "id": 27,
+          "baselineId": 27,
+          "changed": false,
+          "ms": 1115.1643000000004,
+          "simulations": 18
+        },
+        {
+          "turn": 23,
+          "team": "dire",
+          "action": "pick",
+          "id": 3,
+          "baselineId": 3,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        }
+      ],
+      "changes": 3,
+      "simulationCount": 156,
+      "maxDecisionMs": 2152.0881
+    },
+    {
+      "seed": 8102,
+      "side": "dire",
+      "opponentMode": "weighted",
+      "baseline": {
+        "choices": {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        "wins": 3,
+        "total": 16,
+        "nw": -8864.3264445978,
+        "worstNW": -31936.79695665202,
+        "roles": {
+          "3": "hard_support",
+          "14": "support",
+          "17": "mid",
+          "38": "offlane",
+          "42": "carry"
+        },
+        "own": [
+          38,
+          3,
+          14,
+          17,
+          42
+        ],
+        "enemy": [
+          46,
+          131,
+          7,
+          19,
+          5
+        ]
+      },
+      "candidate": {
+        "choices": {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        "wins": 6,
+        "total": 16,
+        "nw": -6280.986579535993,
+        "worstNW": -43406.382813465156,
+        "roles": {
+          "14": "support",
+          "17": "mid",
+          "20": "hard_support",
+          "28": "carry",
+          "38": "offlane"
+        },
+        "own": [
+          38,
+          20,
+          14,
+          17,
+          28
+        ],
+        "enemy": [
+          46,
+          131,
+          7,
+          19,
+          101
+        ]
+      },
+      "baselineMoves": [
+        {
+          "turn": 0,
+          "team": "radiant",
+          "action": "ban",
+          "id": 1,
+          "baselineId": 1,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 1,
+          "team": "radiant",
+          "action": "ban",
+          "id": 69,
+          "baselineId": 69,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 2,
+          "team": "dire",
+          "action": "ban",
+          "id": 75,
+          "baselineId": 75,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 3,
+          "team": "dire",
+          "action": "ban",
+          "id": 88,
+          "baselineId": 88,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 4,
+          "team": "radiant",
+          "action": "ban",
+          "id": 66,
+          "baselineId": 66,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 5,
+          "team": "dire",
+          "action": "ban",
+          "id": 92,
+          "baselineId": 92,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 6,
+          "team": "dire",
+          "action": "ban",
+          "id": 113,
+          "baselineId": 113,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 7,
+          "team": "radiant",
+          "action": "pick",
+          "id": 46,
+          "baselineId": 46,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 8,
+          "team": "dire",
+          "action": "pick",
+          "id": 38,
+          "baselineId": 38,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 9,
+          "team": "radiant",
+          "action": "ban",
+          "id": 129,
+          "baselineId": 129,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 10,
+          "team": "radiant",
+          "action": "ban",
+          "id": 68,
+          "baselineId": 68,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 11,
+          "team": "dire",
+          "action": "ban",
+          "id": 30,
+          "baselineId": 30,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 12,
+          "team": "dire",
+          "action": "pick",
+          "id": 3,
+          "baselineId": 3,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 13,
+          "team": "radiant",
+          "action": "pick",
+          "id": 131,
+          "baselineId": 131,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 14,
+          "team": "radiant",
+          "action": "pick",
+          "id": 7,
+          "baselineId": 7,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 15,
+          "team": "dire",
+          "action": "pick",
+          "id": 14,
+          "baselineId": 14,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 16,
+          "team": "dire",
+          "action": "pick",
+          "id": 17,
+          "baselineId": 17,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 17,
+          "team": "radiant",
+          "action": "pick",
+          "id": 19,
+          "baselineId": 19,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 18,
+          "team": "radiant",
+          "action": "ban",
+          "id": 56,
+          "baselineId": 56,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 19,
+          "team": "dire",
+          "action": "ban",
+          "id": 21,
+          "baselineId": 21,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 20,
+          "team": "radiant",
+          "action": "ban",
+          "id": 25,
+          "baselineId": 25,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 21,
+          "team": "dire",
+          "action": "ban",
+          "id": 36,
+          "baselineId": 36,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 22,
+          "team": "radiant",
+          "action": "pick",
+          "id": 5,
+          "baselineId": 5,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 23,
+          "team": "dire",
+          "action": "pick",
+          "id": 42,
+          "baselineId": 42,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        }
+      ],
+      "candidateMoves": [
+        {
+          "turn": 0,
+          "team": "radiant",
+          "action": "ban",
+          "id": 1,
+          "baselineId": 1,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 1,
+          "team": "radiant",
+          "action": "ban",
+          "id": 69,
+          "baselineId": 69,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 2,
+          "team": "dire",
+          "action": "ban",
+          "id": 75,
+          "baselineId": 75,
+          "changed": false,
+          "ms": 1403.400099999999,
+          "simulations": 12
+        },
+        {
+          "turn": 3,
+          "team": "dire",
+          "action": "ban",
+          "id": 88,
+          "baselineId": 88,
+          "changed": false,
+          "ms": 1975.7050000000017,
+          "simulations": 18
+        },
+        {
+          "turn": 4,
+          "team": "radiant",
+          "action": "ban",
+          "id": 66,
+          "baselineId": 66,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 5,
+          "team": "dire",
+          "action": "ban",
+          "id": 27,
+          "baselineId": 92,
+          "changed": true,
+          "ms": 1987.3756999999969,
+          "simulations": 18
+        },
+        {
+          "turn": 6,
+          "team": "dire",
+          "action": "ban",
+          "id": 9,
+          "baselineId": 9,
+          "changed": false,
+          "ms": 2263.5996000000014,
+          "simulations": 18
+        },
+        {
+          "turn": 7,
+          "team": "radiant",
+          "action": "pick",
+          "id": 46,
+          "baselineId": 46,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 8,
+          "team": "dire",
+          "action": "pick",
+          "id": 38,
+          "baselineId": 38,
+          "changed": false,
+          "ms": 2061.6895000000004,
+          "simulations": 18
+        },
+        {
+          "turn": 9,
+          "team": "radiant",
+          "action": "ban",
+          "id": 129,
+          "baselineId": 129,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 10,
+          "team": "radiant",
+          "action": "ban",
+          "id": 68,
+          "baselineId": 68,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 11,
+          "team": "dire",
+          "action": "ban",
+          "id": 56,
+          "baselineId": 56,
+          "changed": false,
+          "ms": 1343.0784999999996,
+          "simulations": 12
+        },
+        {
+          "turn": 12,
+          "team": "dire",
+          "action": "pick",
+          "id": 20,
+          "baselineId": 3,
+          "changed": true,
+          "ms": 1378.5355999999992,
+          "simulations": 12
+        },
+        {
+          "turn": 13,
+          "team": "radiant",
+          "action": "pick",
+          "id": 131,
+          "baselineId": 131,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 14,
+          "team": "radiant",
+          "action": "pick",
+          "id": 7,
+          "baselineId": 7,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 15,
+          "team": "dire",
+          "action": "pick",
+          "id": 14,
+          "baselineId": 14,
+          "changed": false,
+          "ms": 1398.5596000000005,
+          "simulations": 12
+        },
+        {
+          "turn": 16,
+          "team": "dire",
+          "action": "pick",
+          "id": 17,
+          "baselineId": 17,
+          "changed": false,
+          "ms": 1319.3597000000009,
+          "simulations": 12
+        },
+        {
+          "turn": 17,
+          "team": "radiant",
+          "action": "pick",
+          "id": 19,
+          "baselineId": 19,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 18,
+          "team": "radiant",
+          "action": "ban",
+          "id": 8,
+          "baselineId": 8,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 19,
+          "team": "dire",
+          "action": "ban",
+          "id": 21,
+          "baselineId": 21,
+          "changed": false,
+          "ms": 1123.846900000004,
+          "simulations": 12
+        },
+        {
+          "turn": 20,
+          "team": "radiant",
+          "action": "ban",
+          "id": 25,
+          "baselineId": 25,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 21,
+          "team": "dire",
+          "action": "ban",
+          "id": 54,
+          "baselineId": 32,
+          "changed": true,
+          "ms": 1151.0620000000054,
+          "simulations": 18
+        },
+        {
+          "turn": 22,
+          "team": "radiant",
+          "action": "pick",
+          "id": 101,
+          "baselineId": 101,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 23,
+          "team": "dire",
+          "action": "pick",
+          "id": 28,
+          "baselineId": 28,
+          "changed": false,
+          "ms": 1035.7980000000025,
+          "simulations": 18
+        }
+      ],
+      "changes": 3,
+      "simulationCount": 180,
+      "maxDecisionMs": 2263.5996000000014
+    },
+    {
+      "seed": 8103,
+      "side": "radiant",
+      "opponentMode": "greedy",
+      "baseline": {
+        "choices": {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        "wins": 7,
+        "total": 16,
+        "nw": -3045.5109620290887,
+        "worstNW": -43389.61679450302,
+        "roles": {
+          "28": "carry",
+          "46": "mid",
+          "79": "hard_support",
+          "107": "offlane",
+          "129": "support"
+        },
+        "own": [
+          46,
+          107,
+          129,
+          28,
+          79
+        ],
+        "enemy": [
+          74,
+          131,
+          3,
+          20,
+          59
+        ]
+      },
+      "candidate": {
+        "choices": {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        "wins": 4,
+        "total": 16,
+        "nw": -13793.51598222875,
+        "worstNW": -39412.81118615614,
+        "roles": {
+          "16": "hard_support",
+          "20": "support",
+          "28": "carry",
+          "74": "mid",
+          "98": "offlane"
+        },
+        "own": [
+          74,
+          98,
+          20,
+          28,
+          16
+        ],
+        "enemy": [
+          46,
+          131,
+          3,
+          129,
+          19
+        ]
+      },
+      "baselineMoves": [
+        {
+          "turn": 0,
+          "team": "radiant",
+          "action": "ban",
+          "id": 1,
+          "baselineId": 1,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 1,
+          "team": "radiant",
+          "action": "ban",
+          "id": 69,
+          "baselineId": 69,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 2,
+          "team": "dire",
+          "action": "ban",
+          "id": 75,
+          "baselineId": 75,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 3,
+          "team": "dire",
+          "action": "ban",
+          "id": 12,
+          "baselineId": 88,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 4,
+          "team": "radiant",
+          "action": "ban",
+          "id": 66,
+          "baselineId": 66,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 5,
+          "team": "dire",
+          "action": "ban",
+          "id": 27,
+          "baselineId": 62,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 6,
+          "team": "dire",
+          "action": "ban",
+          "id": 92,
+          "baselineId": 36,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 7,
+          "team": "radiant",
+          "action": "pick",
+          "id": 46,
+          "baselineId": 46,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 8,
+          "team": "dire",
+          "action": "pick",
+          "id": 74,
+          "baselineId": 38,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 9,
+          "team": "radiant",
+          "action": "ban",
+          "id": 25,
+          "baselineId": 25,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 10,
+          "team": "radiant",
+          "action": "ban",
+          "id": 68,
+          "baselineId": 68,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 11,
+          "team": "dire",
+          "action": "ban",
+          "id": 26,
+          "baselineId": 26,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 12,
+          "team": "dire",
+          "action": "pick",
+          "id": 131,
+          "baselineId": 131,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 13,
+          "team": "radiant",
+          "action": "pick",
+          "id": 107,
+          "baselineId": 107,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 14,
+          "team": "radiant",
+          "action": "pick",
+          "id": 129,
+          "baselineId": 129,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 15,
+          "team": "dire",
+          "action": "pick",
+          "id": 3,
+          "baselineId": 20,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 16,
+          "team": "dire",
+          "action": "pick",
+          "id": 20,
+          "baselineId": 14,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 17,
+          "team": "radiant",
+          "action": "pick",
+          "id": 28,
+          "baselineId": 28,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 18,
+          "team": "radiant",
+          "action": "ban",
+          "id": 21,
+          "baselineId": 21,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 19,
+          "team": "dire",
+          "action": "ban",
+          "id": 88,
+          "baselineId": 88,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 20,
+          "team": "radiant",
+          "action": "ban",
+          "id": 56,
+          "baselineId": 56,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 21,
+          "team": "dire",
+          "action": "ban",
+          "id": 83,
+          "baselineId": 84,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 22,
+          "team": "radiant",
+          "action": "pick",
+          "id": 79,
+          "baselineId": 79,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 23,
+          "team": "dire",
+          "action": "pick",
+          "id": 59,
+          "baselineId": 4,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        }
+      ],
+      "candidateMoves": [
+        {
+          "turn": 0,
+          "team": "radiant",
+          "action": "ban",
+          "id": 1,
+          "baselineId": 1,
+          "changed": false,
+          "ms": 2.148800000002666,
+          "simulations": 0
+        },
+        {
+          "turn": 1,
+          "team": "radiant",
+          "action": "ban",
+          "id": 69,
+          "baselineId": 69,
+          "changed": false,
+          "ms": 1459.8208000000013,
+          "simulations": 12
+        },
+        {
+          "turn": 2,
+          "team": "dire",
+          "action": "ban",
+          "id": 75,
+          "baselineId": 75,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 3,
+          "team": "dire",
+          "action": "ban",
+          "id": 12,
+          "baselineId": 88,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 4,
+          "team": "radiant",
+          "action": "ban",
+          "id": 66,
+          "baselineId": 66,
+          "changed": false,
+          "ms": 1399.4199000000008,
+          "simulations": 12
+        },
+        {
+          "turn": 5,
+          "team": "dire",
+          "action": "ban",
+          "id": 27,
+          "baselineId": 62,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 6,
+          "team": "dire",
+          "action": "ban",
+          "id": 92,
+          "baselineId": 36,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 7,
+          "team": "radiant",
+          "action": "pick",
+          "id": 74,
+          "baselineId": 46,
+          "changed": true,
+          "ms": 1906.8854999999967,
+          "simulations": 18
+        },
+        {
+          "turn": 8,
+          "team": "dire",
+          "action": "pick",
+          "id": 46,
+          "baselineId": 13,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 9,
+          "team": "radiant",
+          "action": "ban",
+          "id": 68,
+          "baselineId": 14,
+          "changed": true,
+          "ms": 1852.4242000000013,
+          "simulations": 18
+        },
+        {
+          "turn": 10,
+          "team": "radiant",
+          "action": "ban",
+          "id": 30,
+          "baselineId": 30,
+          "changed": false,
+          "ms": 1145.674199999994,
+          "simulations": 12
+        },
+        {
+          "turn": 11,
+          "team": "dire",
+          "action": "ban",
+          "id": 26,
+          "baselineId": 26,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 12,
+          "team": "dire",
+          "action": "pick",
+          "id": 131,
+          "baselineId": 131,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 13,
+          "team": "radiant",
+          "action": "pick",
+          "id": 98,
+          "baselineId": 107,
+          "changed": true,
+          "ms": 1187.395700000001,
+          "simulations": 12
+        },
+        {
+          "turn": 14,
+          "team": "radiant",
+          "action": "pick",
+          "id": 20,
+          "baselineId": 20,
+          "changed": false,
+          "ms": 1183.4071999999942,
+          "simulations": 12
+        },
+        {
+          "turn": 15,
+          "team": "dire",
+          "action": "pick",
+          "id": 3,
+          "baselineId": 129,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 16,
+          "team": "dire",
+          "action": "pick",
+          "id": 129,
+          "baselineId": 14,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 17,
+          "team": "radiant",
+          "action": "pick",
+          "id": 28,
+          "baselineId": 28,
+          "changed": false,
+          "ms": 1016.6961999999985,
+          "simulations": 12
+        },
+        {
+          "turn": 18,
+          "team": "radiant",
+          "action": "ban",
+          "id": 25,
+          "baselineId": 25,
+          "changed": false,
+          "ms": 1773.3597000000009,
+          "simulations": 18
+        },
+        {
+          "turn": 19,
+          "team": "dire",
+          "action": "ban",
+          "id": 7,
+          "baselineId": 4,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 20,
+          "team": "radiant",
+          "action": "ban",
+          "id": 32,
+          "baselineId": 32,
+          "changed": false,
+          "ms": 1206.8487000000023,
+          "simulations": 18
+        },
+        {
+          "turn": 21,
+          "team": "dire",
+          "action": "ban",
+          "id": 4,
+          "baselineId": 4,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 22,
+          "team": "radiant",
+          "action": "pick",
+          "id": 16,
+          "baselineId": 101,
+          "changed": true,
+          "ms": 977.7137000000002,
+          "simulations": 18
+        },
+        {
+          "turn": 23,
+          "team": "dire",
+          "action": "pick",
+          "id": 19,
+          "baselineId": 81,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        }
+      ],
+      "changes": 4,
+      "simulationCount": 162,
+      "maxDecisionMs": 1906.8854999999967
+    },
+    {
+      "seed": 8104,
+      "side": "dire",
+      "opponentMode": "greedy",
+      "baseline": {
+        "choices": {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        "wins": 11,
+        "total": 16,
+        "nw": 10064.907529585926,
+        "worstNW": -52572.14835853096,
+        "roles": {
+          "13": "mid",
+          "16": "hard_support",
+          "81": "carry",
+          "111": "support",
+          "131": "offlane"
+        },
+        "own": [
+          13,
+          131,
+          111,
+          81,
+          16
+        ],
+        "enemy": [
+          74,
+          107,
+          3,
+          7,
+          18
+        ]
+      },
+      "candidate": {
+        "choices": {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        "wins": 3,
+        "total": 16,
+        "nw": -10276.188883230721,
+        "worstNW": -32073.148245592063,
+        "roles": {
+          "13": "mid",
+          "16": "hard_support",
+          "20": "support",
+          "33": "offlane",
+          "93": "carry"
+        },
+        "own": [
+          33,
+          16,
+          20,
+          13,
+          93
+        ],
+        "enemy": [
+          74,
+          131,
+          14,
+          28,
+          26
+        ]
+      },
+      "baselineMoves": [
+        {
+          "turn": 0,
+          "team": "radiant",
+          "action": "ban",
+          "id": 1,
+          "baselineId": 1,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 1,
+          "team": "radiant",
+          "action": "ban",
+          "id": 69,
+          "baselineId": 69,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 2,
+          "team": "dire",
+          "action": "ban",
+          "id": 75,
+          "baselineId": 75,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 3,
+          "team": "dire",
+          "action": "ban",
+          "id": 88,
+          "baselineId": 88,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 4,
+          "team": "radiant",
+          "action": "ban",
+          "id": 27,
+          "baselineId": 66,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 5,
+          "team": "dire",
+          "action": "ban",
+          "id": 92,
+          "baselineId": 92,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 6,
+          "team": "dire",
+          "action": "ban",
+          "id": 80,
+          "baselineId": 80,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 7,
+          "team": "radiant",
+          "action": "pick",
+          "id": 74,
+          "baselineId": 46,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 8,
+          "team": "dire",
+          "action": "pick",
+          "id": 13,
+          "baselineId": 13,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 9,
+          "team": "radiant",
+          "action": "ban",
+          "id": 68,
+          "baselineId": 26,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 10,
+          "team": "radiant",
+          "action": "ban",
+          "id": 26,
+          "baselineId": 26,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 11,
+          "team": "dire",
+          "action": "ban",
+          "id": 30,
+          "baselineId": 30,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 12,
+          "team": "dire",
+          "action": "pick",
+          "id": 131,
+          "baselineId": 131,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 13,
+          "team": "radiant",
+          "action": "pick",
+          "id": 107,
+          "baselineId": 107,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 14,
+          "team": "radiant",
+          "action": "pick",
+          "id": 3,
+          "baselineId": 129,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 15,
+          "team": "dire",
+          "action": "pick",
+          "id": 111,
+          "baselineId": 111,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 16,
+          "team": "dire",
+          "action": "pick",
+          "id": 81,
+          "baselineId": 81,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 17,
+          "team": "radiant",
+          "action": "pick",
+          "id": 7,
+          "baselineId": 7,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 18,
+          "team": "radiant",
+          "action": "ban",
+          "id": 2,
+          "baselineId": 2,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 19,
+          "team": "dire",
+          "action": "ban",
+          "id": 25,
+          "baselineId": 25,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 20,
+          "team": "radiant",
+          "action": "ban",
+          "id": 84,
+          "baselineId": 83,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 21,
+          "team": "dire",
+          "action": "ban",
+          "id": 56,
+          "baselineId": 56,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 22,
+          "team": "radiant",
+          "action": "pick",
+          "id": 18,
+          "baselineId": 93,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 23,
+          "team": "dire",
+          "action": "pick",
+          "id": 16,
+          "baselineId": 16,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        }
+      ],
+      "candidateMoves": [
+        {
+          "turn": 0,
+          "team": "radiant",
+          "action": "ban",
+          "id": 1,
+          "baselineId": 1,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 1,
+          "team": "radiant",
+          "action": "ban",
+          "id": 69,
+          "baselineId": 69,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 2,
+          "team": "dire",
+          "action": "ban",
+          "id": 75,
+          "baselineId": 75,
+          "changed": false,
+          "ms": 1368.3433000000005,
+          "simulations": 12
+        },
+        {
+          "turn": 3,
+          "team": "dire",
+          "action": "ban",
+          "id": 88,
+          "baselineId": 88,
+          "changed": false,
+          "ms": 1926.0429999999978,
+          "simulations": 18
+        },
+        {
+          "turn": 4,
+          "team": "radiant",
+          "action": "ban",
+          "id": 27,
+          "baselineId": 66,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 5,
+          "team": "dire",
+          "action": "ban",
+          "id": 92,
+          "baselineId": 92,
+          "changed": false,
+          "ms": 1896.9158000000025,
+          "simulations": 18
+        },
+        {
+          "turn": 6,
+          "team": "dire",
+          "action": "ban",
+          "id": 66,
+          "baselineId": 80,
+          "changed": true,
+          "ms": 2027.792499999996,
+          "simulations": 18
+        },
+        {
+          "turn": 7,
+          "team": "radiant",
+          "action": "pick",
+          "id": 74,
+          "baselineId": 46,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 8,
+          "team": "dire",
+          "action": "pick",
+          "id": 33,
+          "baselineId": 13,
+          "changed": true,
+          "ms": 1809.5492999999988,
+          "simulations": 18
+        },
+        {
+          "turn": 9,
+          "team": "radiant",
+          "action": "ban",
+          "id": 68,
+          "baselineId": 79,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 10,
+          "team": "radiant",
+          "action": "ban",
+          "id": 12,
+          "baselineId": 12,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 11,
+          "team": "dire",
+          "action": "ban",
+          "id": 8,
+          "baselineId": 41,
+          "changed": true,
+          "ms": 1161.2274999999936,
+          "simulations": 12
+        },
+        {
+          "turn": 12,
+          "team": "dire",
+          "action": "pick",
+          "id": 16,
+          "baselineId": 16,
+          "changed": false,
+          "ms": 1267.5728999999992,
+          "simulations": 12
+        },
+        {
+          "turn": 13,
+          "team": "radiant",
+          "action": "pick",
+          "id": 131,
+          "baselineId": 131,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 14,
+          "team": "radiant",
+          "action": "pick",
+          "id": 14,
+          "baselineId": 14,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 15,
+          "team": "dire",
+          "action": "pick",
+          "id": 20,
+          "baselineId": 20,
+          "changed": false,
+          "ms": 1035.9279000000097,
+          "simulations": 12
+        },
+        {
+          "turn": 16,
+          "team": "dire",
+          "action": "pick",
+          "id": 13,
+          "baselineId": 13,
+          "changed": false,
+          "ms": 1006.2263000000094,
+          "simulations": 12
+        },
+        {
+          "turn": 17,
+          "team": "radiant",
+          "action": "pick",
+          "id": 28,
+          "baselineId": 28,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 18,
+          "team": "radiant",
+          "action": "ban",
+          "id": 25,
+          "baselineId": 21,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 19,
+          "team": "dire",
+          "action": "ban",
+          "id": 83,
+          "baselineId": 83,
+          "changed": false,
+          "ms": 883.7072000000044,
+          "simulations": 12
+        },
+        {
+          "turn": 20,
+          "team": "radiant",
+          "action": "ban",
+          "id": 36,
+          "baselineId": 21,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 21,
+          "team": "dire",
+          "action": "ban",
+          "id": 101,
+          "baselineId": 101,
+          "changed": false,
+          "ms": 940.3828999999969,
+          "simulations": 18
+        },
+        {
+          "turn": 22,
+          "team": "radiant",
+          "action": "pick",
+          "id": 26,
+          "baselineId": 5,
+          "changed": false,
+          "ms": 0,
+          "simulations": 0
+        },
+        {
+          "turn": 23,
+          "team": "dire",
+          "action": "pick",
+          "id": 93,
+          "baselineId": 93,
+          "changed": false,
+          "ms": 876.1983000000037,
+          "simulations": 18
+        }
+      ],
+      "changes": 3,
+      "simulationCount": 180,
+      "maxDecisionMs": 2027.792499999996
+    }
+  ]
+}
