@@ -1,0 +1,11 @@
+{
+ "frozenBeforeTesting":true,
+ "stage":"16-pair diagnostic pilot, not a production certification. Do not enlarge, tune or enable based on this batch.",
+ "sample":{"draftPairs":16,"seedStart":99000031,"seedStep":104729,"bothFactions":true,"opponents":["weighted","greedy","counter","creative"],"casesPerDraftPerPolicy":16},
+ "mirror":"Keep native Standard draft. Every optimizer evaluation uses the three native presets plus the current own candidate's identical six choices as the fourth enemy scenario. Four equally weighted slots even when mirror equals a preset; that weighting is an experimental hypothesis. Candidate comparisons always have four cases. No native formulas change. Same mirror treatment during strategy screen, item search and strategy retune.",
+ "provisional":"Keep Standard random streams, scores and opening presets. Recompute own intended roles with the existing native role resolver before own actions and after own picks, without hard-locking previous Auto intentions. User-explicit locks are preserved by the resolver. Opponent role behavior unchanged. Finish with unique native-eligible own roles. No future-team rollouts or new weights.",
+ "optimization":"Unchanged production optimizer body with frozen time and 100 item candidates; mirror adapter only adds one scenario. Provisional uses unchanged three-preset optimizer. Never combine candidates in this pilot.",
+ "evaluation":"16 separate seeded profiles per policy. Exclude default-role/default-item profiles for the three presets and either baseline or mirror selected own strategy, using a common plan exclusion union for paired baseline/mirror streams. Provisional uses the same plan exclusions with its own eligible opponent variants. Actual enemy custom item identities remain unmodeled.",
+ "acceptance":"10000 stratified paired whole-draft bootstrap resamples. Performance margins: success lower one-sided 95% bound >= -0.005 and severe-loss upper <= +0.005 (loss with signed NW < -20000). Provisional additionally requires nondeclining first-pick/first-ban entropy and positive entropy sum with lower bound >=0. Pilot alone never enables production behavior. Latest reported match is diagnostic only, not confirmation.",
+ "production":"Only the demonstrated Live match acknowledgement case mismatch may be fixed independently. No scheduler or recurring AI work."
+}

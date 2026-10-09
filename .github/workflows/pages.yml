@@ -43,6 +43,8 @@ jobs:
           node tests/draft-context.cjs
           node tests/draft-override.cjs
           node tests/draft-inference.cjs
+          node tests/draft-mirror.cjs
+          node tests/draft-provisional.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

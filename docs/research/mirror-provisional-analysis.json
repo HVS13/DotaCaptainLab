@@ -1,0 +1,91 @@
+{
+  "stage": "16-pair pilot only; not production certification",
+  "draftClusters": 16,
+  "scenarioCases": 256,
+  "previousHeroReassignments": 2,
+  "newPickRoleChanges": 11,
+  "comparisons": {
+    "mirror": {
+      "draftClusters": 16,
+      "scenarioCases": 256,
+      "bootstrapResamples": 10000,
+      "point": {
+        "successDelta": -0.0703125,
+        "severeLossDelta": 0.0078125,
+        "firstPickEntropyDelta": 0,
+        "firstBanEntropyDelta": 0,
+        "entropySumDelta": 0
+      },
+      "bounds": {
+        "successLower95": -0.15234375,
+        "severeLossUpper95": 0.05078125,
+        "entropySumLower95": 0
+      },
+      "checks": {
+        "success": false,
+        "severeLoss": false,
+        "diversity": false
+      },
+      "passes": false,
+      "standard": {
+        "wins": 142,
+        "severeLosses": 54,
+        "firstPick": {
+          "entropy": 2.827819531114783,
+          "distinct": 8
+        },
+        "firstBan": {
+          "entropy": 2.875,
+          "distinct": 8
+        }
+      },
+      "interpretation": "Stratified paired whole-draft bootstrap on 16 fresh draft clusters; not PvP win probabilities or certification. Mirror is a configuration experiment and does not target opening diversity.",
+      "candidate": {
+        "wins": 124,
+        "severeLosses": 56
+      },
+      "performancePasses": false
+    },
+    "provisional": {
+      "draftClusters": 16,
+      "scenarioCases": 256,
+      "bootstrapResamples": 10000,
+      "point": {
+        "successDelta": -0.0625,
+        "severeLossDelta": 0.08984375,
+        "firstPickEntropyDelta": 0,
+        "firstBanEntropyDelta": 0,
+        "entropySumDelta": 0
+      },
+      "bounds": {
+        "successLower95": -0.140625,
+        "severeLossUpper95": 0.1328125,
+        "entropySumLower95": 0
+      },
+      "checks": {
+        "success": false,
+        "severeLoss": false,
+        "diversity": false
+      },
+      "passes": false,
+      "standard": {
+        "wins": 142,
+        "severeLosses": 54,
+        "firstPick": {
+          "entropy": 2.827819531114783,
+          "distinct": 8
+        },
+        "firstBan": {
+          "entropy": 2.875,
+          "distinct": 8
+        }
+      },
+      "interpretation": "Stratified paired whole-draft bootstrap on 16 fresh draft clusters; not PvP win probabilities or certification. Mirror is a configuration experiment and does not target opening diversity.",
+      "candidate": {
+        "wins": 126,
+        "severeLosses": 77
+      },
+      "performancePasses": false
+    }
+  }
+}

@@ -1,0 +1,5 @@
+const assert=require('node:assert/strict'),R=require('../scripts/draft-provisional.cjs'),P=require('../scripts/draft-lookahead.cjs'),A=Advisor,D=DC;
+const game={teams:{radiant:[9,74],dire:[]},roles:{radiant:{9:'mid',74:'support'},dire:{}}};
+R.reassign(game,'radiant',{9:'support'});assert.equal(game.roles.radiant[9],'support');assert.equal(game.roles.radiant[74],'mid');assert.equal(new Set(Object.values(game.roles.radiant)).size,2);
+for(const mode of ['weighted','greedy','counter','creative'])for(const side of ['radiant','dire']){const first=R.draft(99000031,side,mode),repeat=R.draft(99000031,side,mode);assert.deepEqual(first,repeat);assert.equal(new Set([...first.game.teams.radiant,...first.game.teams.dire,...first.game.bans]).size,24);const state=P.state(first.game,side,24);A.validate(state);assert.equal(new Set(Object.values(state.roles)).size,5);for(const id of state.own)assert(D.roles.aQ(A.byId.get(id),state.roles[id]))}
+console.log('Verified deterministic legal provisional drafts, unique eligible roles and preservation of explicit own role locks.');
