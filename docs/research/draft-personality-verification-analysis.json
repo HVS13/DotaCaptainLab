@@ -1,0 +1,44 @@
+{
+  "draftClusters": 32,
+  "scenarioCases": 512,
+  "bootstrapResamples": 10000,
+  "mixture": {
+    "standard": 0.96,
+    "creative": 0.04
+  },
+  "point": {
+    "successDelta": 0.00203125,
+    "severeLossDelta": -0.000625,
+    "firstPickEntropyDelta": 0.005000263477433986,
+    "firstBanEntropyDelta": 0.0374665707281534,
+    "entropySumDelta": 0.04246683420558739
+  },
+  "bounds": {
+    "successLower95": -0.001640625,
+    "severeLossUpper95": 0.002265625,
+    "entropySumLower95": 0.029503602123882366
+  },
+  "checks": {
+    "success": true,
+    "severeLoss": true,
+    "diversity": true
+  },
+  "passes": true,
+  "standard": {
+    "wins": 207,
+    "severeLosses": 169,
+    "firstPick": {
+      "entropy": 3.2928377974034158,
+      "distinct": 12
+    },
+    "firstBan": {
+      "entropy": 3.078626767019874,
+      "distinct": 10
+    }
+  },
+  "creative": {
+    "wins": 233,
+    "severeLosses": 161
+  },
+  "interpretation": "Stratified paired draft-cluster bootstrap on deterministic simulated scenarios. Mixture differences are modeled expectations, not observed mixed-policy or PvP win rates. Passing only permits further integration testing."
+}

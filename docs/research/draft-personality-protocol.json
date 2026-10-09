@@ -1,0 +1,15 @@
+{
+  "selectedAfterDevelopment": "creative",
+  "selectionReason": "Highest development scenario-win total, fewer severe losses, and positive observed opening-entropy changes in the proposed mixture.",
+  "candidate": {"standard": 0.95, "creative": 0.05},
+  "unit": "One native personality chosen for the entire own draft, never changed between turns.",
+  "confirmation": {"seedStart": 9230009, "seedStep": 104729, "drafts": 32, "casesPerDraft": 16},
+  "validation": {
+    "bootstrap": "10000 paired draft-cluster resamples stratified by faction and opponent policy; no scenario-level independent resampling.",
+    "successMargin": "One-sided 95% lower bound on modeled mixed-minus-Standard success >= -0.005.",
+    "severeLossMargin": "One-sided 95% upper bound on modeled mixed-minus-Standard severe-loss frequency <= 0.005.",
+    "diversity": "Observed first-pick and first-ban mixture entropy must not decline, at least one must increase, and one-sided 95% lower bound on their summed change must be >= 0.",
+    "limits": "Expected mixture outcomes computed from paired complete style drafts, not observed mixed-policy PvP matches. Default own items and native draft-fit strategy, not the production optimizer. Passing these checks permits further integration testing, not a proven real-world win-rate claim."
+  },
+  "frozenBeforeConfirmation": true
+}

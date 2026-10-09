@@ -1,0 +1,16 @@
+{
+  "selectedStyle": "creative",
+  "mixture": {
+    "standard": 0.96,
+    "creative": 0.04
+  },
+  "frozenBeforeVerification": true,
+  "verification": {
+    "seedStart": 18700013,
+    "seedStep": 104729,
+    "drafts": 32,
+    "casesPerDraft": 16
+  },
+  "rules": "Same one-sided 95% stratified paired-draft bootstrap: success lower bound >= -0.005, severe-loss upper bound <= 0.005, observed pick/ban entropy nondeclining with positive sum and sum lower bound >=0. No default replacement solely from this default-item/draft-fit experiment.",
+  "reason": "Five-percent mixture was diverse but its bounds slightly missed the previously fixed margins. Exposure reduced using those results; assess this revised policy only on new verification seeds."
+}
