@@ -91,3 +91,6 @@ Daily automation (2.7.0): inspected public Daily page module 35388 and its rende
 
 
 Daily submission regression (2.7.1): the supplied 2.7.0 Daily report recorded five selected heroes but stopped before clicking submit. Public Daily module 35388 renders the submit button with uppercase styling; mixed-case matching against rendered innerText rejected it. Matching is now case-insensitive while still requiring the native action prefix, opponent name, a visible enabled control and exactly one match. Regression checks cover uppercase submission and rejection of unrelated controls; the browser fixture renders the native uppercase style. No hero scoring or selection policy changed.
+
+
+Advisor QoL (2.7.2): both minimized panels show a 44-pixel shield icon with accessible labels and tooltips. Daily now follows the existing drag, keyboard movement, viewport bounds, reset and local position persistence behavior, with its own storage key. Only Daily action delay changes to a sampled 0–1 second window; its scan interval is 100 ms and still waits for each native selection acknowledgement. Regular draft timing remains 1–5 seconds. Regression checks cover both Daily delay bounds, normal timing and single submission; browser replays verified Daily dragging, keyboard movement, saved position after reload, reset, reopening both icon launchers and Daily completion.

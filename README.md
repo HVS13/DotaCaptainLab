@@ -9,7 +9,7 @@ A live draft overlay rebuilt around the DotaCaptain-native assistant concept. It
 1. Install [Tampermonkey](https://www.tampermonkey.net/) from its official browser-store links.
 2. Open the userscript link and confirm installation in the manager. Follow browser prompts to enable userscripts if needed. If the file opens as text, create a new userscript, paste the complete file and save.
 3. Open DotaCaptain and start a draft. Keep the script enabled during the scout briefing so the visible enemy strategy can be retained for the page session.
-4. Read Top picks or Top bans. Find in game search fills the native search field; you still choose and confirm game actions. The panel can be minimized. Drag the header to move it; arrow keys also work (Shift for larger steps). Position is remembered locally; the reset button or Home key restores the default.
+4. Read Top picks or Top bans. Find in game search fills the native search field; you still choose and confirm game actions. The panel minimizes to a compact shield icon. Drag the title area to move it; arrow keys also work (Shift for larger steps). Position is remembered locally; the reset button or Home key restores the default.
 
 ## Features
 
@@ -24,7 +24,7 @@ The userscript bundles the native client data, has no external script dependenci
 
 ## Auto Daily (2.7.0)
 
-Update the userscript, open [Daily Challenge](https://dotacaptain.com/daily-challenge) and click **Start Auto Daily**. It clears hero filters, preserves existing picks, excludes the fixed enemy lineup, historical bans and unavailable heroes, then fills the remaining slots using the native weighted pick heuristics. Each pick waits 1–5 seconds and must appear in your lineup before the next action. It verifies five legal heroes and clicks **Lock draft & simulate** once, then waits for the native match/result acknowledgement. Stop, Escape or manual game interaction takes control. Download Daily report exports the observed selections and submission status locally.
+Update the userscript, open [Daily Challenge](https://dotacaptain.com/daily-challenge) and click **Start Auto Daily**. It clears hero filters, preserves existing picks, excludes the fixed enemy lineup, historical bans and unavailable heroes, then fills the remaining slots using the native weighted pick heuristics. Each Daily pick waits 0–1 second and must appear in your lineup before the next action. It verifies five legal heroes and clicks **Lock draft & simulate** once, then waits for the native match/result acknowledgement. Stop, Escape or manual game interaction takes control. Download Daily report exports the observed selections and submission status locally. Drag the Daily title area to move the panel; arrow keys, Home and the reset button work as in the regular advisor. Daily and regular panel positions are remembered separately.
 
 Daily exposes hero selection only: its server assigns roles, strategy and items. This mode does not claim a best possible lineup, calibrated win probability or local/server simulation parity. Completed challenges are not restarted. Browser verification uses a local replay of the observed native controls; authenticated live Daily submission remains unverified.
 
