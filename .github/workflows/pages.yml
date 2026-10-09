@@ -33,6 +33,7 @@ jobs:
           node tests/optimization-deadline.cjs
           node tests/sensitivity.cjs
           node tests/refinement.cjs
+          node tests/daily.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
