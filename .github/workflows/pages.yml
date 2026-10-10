@@ -48,6 +48,7 @@ jobs:
           node tests/draft-downside.cjs
           node tests/scout-capture.cjs
           node tests/draft-strategy-transition.cjs
+          node tests/draft-role-swap.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
