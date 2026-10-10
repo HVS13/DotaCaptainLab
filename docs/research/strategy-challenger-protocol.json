@@ -21,5 +21,12 @@
     "scripts/draft-pipeline.cjs": "dddc1b89d331c53555826bfec75923f4e9facae60257ebfea616b7497ffc4a3e",
     "dist/engine.js": "508f8c16bffbb4c53df03e4bb08a899d2c13a1c6f6e5914355fd889ef8e9b45c",
     "rebuild/overlay.js": "ba6ad24b306bbd60401893571e4fb56c70ea999325db399f37f5740cd8e5f3f9"
-  }
+  },
+  "lineEndingNormalizedHashes": {
+    "scripts/strategy-challenger.cjs": "86b0114fe9c9be7936325585f607e1c84e12522c83847e585a8dd397388b8fd5",
+    "scripts/draft-pipeline.cjs": "dddc1b89d331c53555826bfec75923f4e9facae60257ebfea616b7497ffc4a3e",
+    "dist/engine.js": "9c5bf086d42c269b79314fb8df3f2780e273b3dde0e147a137099c477a4d27ab",
+    "rebuild/overlay.js": "80ceffefadba14ab4e5648152daee3ec4e355f1a329ababdfe6b9c0dd0faea9c"
+  },
+  "lineEndingNormalization": "Added after the Linux CI byte-hash failure. Original frozen Windows hashes retained. Every local original hash and Git CRLF-normalized equivalence was verified before this metadata addition; no policy, outcomes or acceptance thresholds changed."
 }

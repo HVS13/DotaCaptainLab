@@ -14,6 +14,8 @@ A challenger must preserve or improve win counts and severe-loss counts in *each
 
 The [protocol](strategy-challenger-protocol.json) and policy/source hashes were frozen before outcomes. The 16 new draft seeds start at 209000057 with step 104729; both factions and weighted/greedy/counter/creative native opponent policies are balanced. Each draft has 16 paired seeded held-out profiles excluding every exact training role-and-item setup. No policy or threshold tuning occurred after this batch. Arbitrary custom enemy item identities and all role permutations are outside the evaluation.
 
+The initial Linux CI run caught byte-hash differences for the engine and overlay caused exclusively by Windows CRLF versus Git LF line endings. All four tested local files still matched their original frozen byte hashes, and their content matched Git exactly after CRLF normalization. The protocol retains those original hashes and records canonical LF hashes for cross-platform checks. Only line endings are normalized; source content remains frozen. This correction changes neither the tested policy nor the statistical limits.
+
 ## Results
 
 | Held-out metric | Production-body baseline | Challenger |
