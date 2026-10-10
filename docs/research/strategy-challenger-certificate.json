@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "draftPairs": 16,
+  "qualificationAndOutcomeCounts": "independently matched",
+  "bootstrapBoundsMatched": true,
+  "successLower95": 0.0234375,
+  "severeLossUpper95": -0.015625,
+  "candidateAcceptedForFurtherChecks": true,
+  "scope": "Fixed diagnostic simulator batch, not live PvP certification."
+}

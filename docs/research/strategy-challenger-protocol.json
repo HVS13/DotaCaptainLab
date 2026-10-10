@@ -1,0 +1,25 @@
+{
+  "frozenBeforeTesting": true,
+  "stage": "16 fresh paired drafts, fixed diagnostic batch; no tuning or pooling previous experiments. Passing permits further live integration checks.",
+  "policy": "At most four distinct plans: actual production optimizer choice first, its top-three alternative choices, then native best draft plan if room. Freeze own heroes, roles and selected ordered items. Enemy variants: inferred roles/default items; first native-eligible role pair if available; first-two carry-purchase swap for each role layout. All compatible enemy strategies evaluated for every row. Require per-variant wins nondecrease and severe-loss count nonincrease, with strict improvement in at least one. Rank eligible candidates by minimum variant wins, total wins, fewer severe losses, summed mean signed gold, then shortlist order. Incomplete matched evaluation retains baseline.",
+  "seedStart": 209000057,
+  "draftPairs": 16,
+  "casesPerDraft": 16,
+  "opponents": [
+    "weighted",
+    "greedy",
+    "counter",
+    "creative"
+  ],
+  "baseline": "Unchanged production optimizer body, frozen clock, 100 item candidates; not a timed authenticated Auto run.",
+  "holdout": "Paired seeded native strategy/default-order/eligible-role profiles excluding all exact training role-and-item settings. No arbitrary custom enemy item identities or all role permutations.",
+  "acceptance": "10000 stratified paired whole-draft bootstrap resamples; success lower one-sided 95% >= -0.005; severe-loss upper <= +0.005. Openings unchanged. No PvP win-rate certification.",
+  "browser": "Standalone real browser-worker runtime/parity, deadline cancellation and synthetic worker denial; inspect actual dotacaptain public-page CSP separately. No automatic authenticated game actions.",
+  "production": "Unchanged v2.7.7. No scheduler or paid service.",
+  "hashes": {
+    "scripts/strategy-challenger.cjs": "86b0114fe9c9be7936325585f607e1c84e12522c83847e585a8dd397388b8fd5",
+    "scripts/draft-pipeline.cjs": "dddc1b89d331c53555826bfec75923f4e9facae60257ebfea616b7497ffc4a3e",
+    "dist/engine.js": "508f8c16bffbb4c53df03e4bb08a899d2c13a1c6f6e5914355fd889ef8e9b45c",
+    "rebuild/overlay.js": "ba6ad24b306bbd60401893571e4fb56c70ea999325db399f37f5740cd8e5f3f9"
+  }
+}

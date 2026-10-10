@@ -1,0 +1,64 @@
+{
+  "browser": "Installed Microsoft Edge, headless fresh context",
+  "results": [
+    {
+      "index": 0,
+      "completed": true,
+      "selected": 0,
+      "elapsedMs": 10218.800000011921,
+      "reason": "complete",
+      "mainThreadTicks": 408,
+      "parity": {
+        "checked": 1024,
+        "maxGoldDifference": 2.9103830456733704e-11,
+        "maxMinuteDifference": 0,
+        "winnersAndSevereClassesExactlyMatched": true,
+        "numericTolerance": 1e-8
+      }
+    },
+    {
+      "index": 4,
+      "completed": true,
+      "selected": 3,
+      "elapsedMs": 11286.800000011921,
+      "reason": "complete",
+      "mainThreadTicks": 451,
+      "parity": {
+        "checked": 1024,
+        "maxGoldDifference": 2.9103830456733704e-11,
+        "maxMinuteDifference": 0,
+        "winnersAndSevereClassesExactlyMatched": true,
+        "numericTolerance": 1e-8
+      }
+    }
+  ],
+  "rollback": {
+    "cancelled": {
+      "index": 0,
+      "reason": "cancelled",
+      "elapsedMs": 113.40000000596046
+    },
+    "expired": {
+      "index": 0,
+      "reason": "deadline",
+      "elapsedMs": 124.2000000178814
+    }
+  },
+  "publicPage": {
+    "url": "https://dotacaptain.com/demo/lobby",
+    "httpStatus": 200,
+    "csp": null,
+    "completed": true,
+    "selected": 0,
+    "reason": "complete",
+    "elapsedMs": 16089.5,
+    "parity": {
+      "checked": 1024,
+      "maxGoldDifference": 2.9103830456733704e-11,
+      "maxMinuteDifference": 0,
+      "winnersAndSevereClassesExactlyMatched": true,
+      "numericTolerance": 1e-8
+    }
+  },
+  "scope": "Real Blob Web Workers in a standalone browser and the unauthenticated page reached from /draft; the recorded URL identifies any redirect. No authenticated strategy-phase CSP, userscript-manager restrictions, role/item application or Continue interaction tested."
+}

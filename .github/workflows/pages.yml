@@ -55,6 +55,11 @@ jobs:
           node scripts/strategy-game-replay.cjs
           python3 scripts/strategy-game-robust-verify.py
           node scripts/strategy-game-robust-replay.cjs
+          node tests/strategy-challenger.cjs
+          node tests/strategy-challenger-workers.cjs
+          node scripts/strategy-challenger-analysis.cjs
+          python3 scripts/strategy-challenger-verify.py
+          node scripts/strategy-challenger-replay.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

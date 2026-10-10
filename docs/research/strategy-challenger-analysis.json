@@ -1,0 +1,46 @@
+{
+  "draftClusters": 16,
+  "scenarioCases": 256,
+  "bootstrapResamples": 10000,
+  "point": {
+    "successDelta": 0.05078125,
+    "severeLossDelta": -0.046875,
+    "firstPickEntropyDelta": 0,
+    "firstBanEntropyDelta": 0,
+    "entropySumDelta": 0
+  },
+  "bounds": {
+    "successLower95": 0.0234375,
+    "severeLossUpper95": -0.015625,
+    "entropySumLower95": 0
+  },
+  "checks": {
+    "success": true,
+    "severeLoss": true
+  },
+  "passes": true,
+  "standard": {
+    "wins": 141,
+    "severeLosses": 50,
+    "firstPick": {
+      "entropy": 2.952819531114783,
+      "distinct": 9
+    },
+    "firstBan": {
+      "entropy": 3.077819531114783,
+      "distinct": 9
+    }
+  },
+  "interpretation": "16 fresh fixed paired draft clusters, native deterministic holdouts outside training role/build settings. Unchanged heroes, own roles/items and opening policy. Node timing under four concurrent benchmark processes, not real-browser/live Auto budget. Passing permits integration investigation, not PvP certification.",
+  "challenger": {
+    "wins": 154,
+    "severeLosses": 38
+  },
+  "activity": {
+    "changedDrafts": 5,
+    "additionalSimulations": 16384,
+    "minMs": 43330.700500000006,
+    "medianMs": 54359.70290000001,
+    "maxMs": 92291.90019999997
+  }
+}

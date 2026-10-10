@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict'),vm=require('node:vm'),fs=require('node:fs');let calls=0,time=0;
+const context={performance:{now:()=>time},Advisor:{bestPlan:()=>({id:3}),opponentVariants:function*(){yield{label:'base',roles:{1:'carry'},items:{1:['a','b']}}},scenarios:()=>({enemyPlans:[{id:0},{id:1}]}),simulate:(_,p,e)=>{calls++;time++;return{win:p.id===1||e.id===0,nw:p.id===2?-30000:100}}}};context.globalThis=context;vm.createContext(context);vm.runInContext(fs.readFileSync('scripts/strategy-challenger.cjs','utf8'),context);const C=context.StrategyChallenger,state={enemy:[1]},config={choices:{id:0},alternatives:[{choices:{id:0}},{choices:{id:1}},{choices:{id:2}}],itemBuilds:{}};
+const complete=C.evaluate(state,config);assert.equal(complete.index,1);assert.equal(complete.simulations,16);assert.equal(complete.plans.length,4);assert(!complete.eligible.includes(2));
+calls=0;time=0;const partial=C.evaluate(state,config,{deadline:15});assert.equal(partial.index,0);assert.equal(partial.completed,false);assert.equal(partial.simulations,15);
+calls=0;time=0;const expired=C.evaluate(state,config,{deadline:0});assert.equal(expired.index,0);assert.equal(calls,0);
+const cancelled=C.evaluate(state,config,{cancelled:()=>true});assert.equal(cancelled.completed,false);assert.equal(cancelled.index,0);
+assert.throws(()=>C.select(complete.rows.slice(0,1).map(r=>r.slice(1)),complete.profile),/complete matched/);
+const poor=complete.rows.map(r=>r.map(()=>({win:false,nw:-30000})));assert.equal(C.select(poor,complete.profile).index,0,'Equal outcomes retain baseline');
+const worsened=complete.rows.map(r=>r.map(t=>({...t})));worsened[1][2]={win:false,nw:-30000};assert.equal(C.select(worsened,complete.profile).index,0,'One variant regression rejects the candidate');
+console.log('Verified matched-variant selection, severe-loss rejection, shortlist deduplication, cancellation and deadline rollback including the final native call.');
