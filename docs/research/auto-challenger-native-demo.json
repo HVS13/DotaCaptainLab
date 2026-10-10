@@ -1,0 +1,1074 @@
+{
+  "mode": "Fresh browser-only Solo demo, rewards disabled; actual native controls",
+  "version": "2.8.0",
+  "elapsedMs": 273592,
+  "configurationVerified": true,
+  "status": "Configuration submitted; match started.",
+  "challenger": {
+    "completed": true,
+    "changed": false,
+    "reason": "Baseline retained",
+    "budgetMs": 30000,
+    "elapsedMs": 1000.4000000059605,
+    "shortlisted": 4,
+    "baselineChoices": {
+      "early_late": "a",
+      "aggro_passive": "a",
+      "fight_split": "a",
+      "farm_gank": "b",
+      "objective_style": "b",
+      "map_control": "b"
+    },
+    "variants": [
+      {
+        "label": "Inferred roles / default item order",
+        "roles": {
+          "7": "offlane",
+          "17": "mid",
+          "37": "hard_support",
+          "41": "carry",
+          "68": "support"
+        },
+        "items": {
+          "7": [
+            "phase_boots",
+            "blink_dagger",
+            "black_king_bar",
+            "aghanims_scepter",
+            "silver_edge",
+            "octarine_core"
+          ],
+          "17": [
+            "power_treads",
+            "kaya",
+            "witch_blade",
+            "black_king_bar",
+            "guardian_greaves",
+            "maelstrom"
+          ],
+          "37": [
+            "arcane_boots",
+            "glimmer_cape",
+            "solar_crest",
+            "force_staff",
+            "aghanims_scepter",
+            "eul_scepter"
+          ],
+          "41": [
+            "power_treads",
+            "mjollnir",
+            "manta_style",
+            "black_king_bar",
+            "butterfly",
+            "satanic"
+          ],
+          "68": [
+            "arcane_boots",
+            "rod_of_atos",
+            "force_staff",
+            "glimmer_cape",
+            "solar_crest",
+            "lotus_orb"
+          ]
+        }
+      },
+      {
+        "label": "Role swap: Warlock / Ancient Apparition",
+        "roles": {
+          "7": "offlane",
+          "17": "mid",
+          "37": "support",
+          "41": "carry",
+          "68": "hard_support"
+        },
+        "items": {
+          "7": [
+            "phase_boots",
+            "blink_dagger",
+            "black_king_bar",
+            "aghanims_scepter",
+            "silver_edge",
+            "octarine_core"
+          ],
+          "17": [
+            "power_treads",
+            "kaya",
+            "witch_blade",
+            "black_king_bar",
+            "guardian_greaves",
+            "maelstrom"
+          ],
+          "37": [
+            "arcane_boots",
+            "glimmer_cape",
+            "force_staff",
+            "solar_crest",
+            "aghanims_scepter",
+            "rod_of_atos"
+          ],
+          "41": [
+            "power_treads",
+            "mjollnir",
+            "manta_style",
+            "black_king_bar",
+            "butterfly",
+            "satanic"
+          ],
+          "68": [
+            "arcane_boots",
+            "rod_of_atos",
+            "glimmer_cape",
+            "force_staff",
+            "solar_crest",
+            "eul_scepter"
+          ]
+        }
+      },
+      {
+        "label": "Inferred roles / default item order + carry purchases 1/2",
+        "roles": {
+          "7": "offlane",
+          "17": "mid",
+          "37": "hard_support",
+          "41": "carry",
+          "68": "support"
+        },
+        "items": {
+          "7": [
+            "phase_boots",
+            "blink_dagger",
+            "black_king_bar",
+            "aghanims_scepter",
+            "silver_edge",
+            "octarine_core"
+          ],
+          "17": [
+            "power_treads",
+            "kaya",
+            "witch_blade",
+            "black_king_bar",
+            "guardian_greaves",
+            "maelstrom"
+          ],
+          "37": [
+            "arcane_boots",
+            "glimmer_cape",
+            "solar_crest",
+            "force_staff",
+            "aghanims_scepter",
+            "eul_scepter"
+          ],
+          "41": [
+            "mjollnir",
+            "power_treads",
+            "manta_style",
+            "black_king_bar",
+            "butterfly",
+            "satanic"
+          ],
+          "68": [
+            "arcane_boots",
+            "rod_of_atos",
+            "force_staff",
+            "glimmer_cape",
+            "solar_crest",
+            "lotus_orb"
+          ]
+        }
+      },
+      {
+        "label": "Role swap: Warlock / Ancient Apparition + carry purchases 1/2",
+        "roles": {
+          "7": "offlane",
+          "17": "mid",
+          "37": "support",
+          "41": "carry",
+          "68": "hard_support"
+        },
+        "items": {
+          "7": [
+            "phase_boots",
+            "blink_dagger",
+            "black_king_bar",
+            "aghanims_scepter",
+            "silver_edge",
+            "octarine_core"
+          ],
+          "17": [
+            "power_treads",
+            "kaya",
+            "witch_blade",
+            "black_king_bar",
+            "guardian_greaves",
+            "maelstrom"
+          ],
+          "37": [
+            "arcane_boots",
+            "glimmer_cape",
+            "force_staff",
+            "solar_crest",
+            "aghanims_scepter",
+            "rod_of_atos"
+          ],
+          "41": [
+            "mjollnir",
+            "power_treads",
+            "manta_style",
+            "black_king_bar",
+            "butterfly",
+            "satanic"
+          ],
+          "68": [
+            "arcane_boots",
+            "rod_of_atos",
+            "glimmer_cape",
+            "force_staff",
+            "solar_crest",
+            "eul_scepter"
+          ]
+        }
+      }
+    ],
+    "enemyPlans": [
+      {
+        "early_late": "b",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "a"
+      }
+    ],
+    "metrics": [
+      [
+        {
+          "wins": 1,
+          "severe": 0,
+          "nw": 52891.1623052183
+        },
+        {
+          "wins": 1,
+          "severe": 0,
+          "nw": 14302.59944676327
+        },
+        {
+          "wins": 1,
+          "severe": 0,
+          "nw": 52840.05223397439
+        },
+        {
+          "wins": 1,
+          "severe": 0,
+          "nw": 14302.598315228359
+        }
+      ],
+      [
+        {
+          "wins": 1,
+          "severe": 0,
+          "nw": 29564.609618716146
+        },
+        {
+          "wins": 0,
+          "severe": 1,
+          "nw": -28094.27075996138
+        },
+        {
+          "wins": 1,
+          "severe": 0,
+          "nw": 29561.148550009282
+        },
+        {
+          "wins": 0,
+          "severe": 1,
+          "nw": -28095.26569605559
+        }
+      ],
+      [
+        {
+          "wins": 1,
+          "severe": 0,
+          "nw": 27546.286998762953
+        },
+        {
+          "wins": 0,
+          "severe": 0,
+          "nw": -14081.486803418193
+        },
+        {
+          "wins": 0,
+          "severe": 0,
+          "nw": 6521.877154443602
+        },
+        {
+          "wins": 0,
+          "severe": 0,
+          "nw": -14081.45975267324
+        }
+      ],
+      [
+        {
+          "wins": 0,
+          "severe": 1,
+          "nw": -24048.628018490228
+        },
+        {
+          "wins": 0,
+          "severe": 1,
+          "nw": -20052.40439162198
+        },
+        {
+          "wins": 0,
+          "severe": 1,
+          "nw": -24066.669537445472
+        },
+        {
+          "wins": 0,
+          "severe": 1,
+          "nw": -20054.478005669283
+        }
+      ]
+    ],
+    "selectedIndex": 0
+  },
+  "selectedStrategy": {
+    "early_late": "a",
+    "aggro_passive": "a",
+    "fight_split": "a",
+    "farm_gank": "b",
+    "objective_style": "b",
+    "map_control": "b"
+  },
+  "observedStrategy": {
+    "early_late": "a",
+    "aggro_passive": "a",
+    "fight_split": "a",
+    "farm_gank": "b",
+    "objective_style": "b",
+    "map_control": "b"
+  },
+  "selectedRoles": {
+    "8": "carry",
+    "14": "support",
+    "22": "mid",
+    "38": "offlane",
+    "111": "hard_support"
+  },
+  "observedRoles": {
+    "8": "carry",
+    "14": "support",
+    "22": "mid",
+    "38": "offlane",
+    "111": "hard_support"
+  },
+  "selectedItems": {
+    "8": [
+      "linkens_sphere",
+      "mjollnir",
+      "swift_blink",
+      "disperser",
+      "overwhelming_blink",
+      "witch_blade"
+    ],
+    "14": [
+      "aether_lens",
+      "tranquil_boots",
+      "consecrated_wraps",
+      "holy_locket",
+      "phylactery",
+      "wind_waker"
+    ],
+    "22": [
+      "crystalys",
+      "witch_blade",
+      "power_treads",
+      "phylactery",
+      "monkey_king_bar",
+      "manta_style"
+    ],
+    "38": [
+      "arcane_boots",
+      "phase_boots",
+      "assault_cuirass",
+      "vladmirs_offering",
+      "black_king_bar",
+      "blink_dagger"
+    ],
+    "111": [
+      "tranquil_boots",
+      "butterfly",
+      "blink_dagger",
+      "arcane_boots",
+      "aghanims_scepter",
+      "black_king_bar"
+    ]
+  },
+  "observedItems": {
+    "8": [
+      "linkens_sphere",
+      "mjollnir",
+      "swift_blink",
+      "disperser",
+      "overwhelming_blink",
+      "witch_blade"
+    ],
+    "14": [
+      "aether_lens",
+      "tranquil_boots",
+      "consecrated_wraps",
+      "holy_locket",
+      "phylactery",
+      "wind_waker"
+    ],
+    "22": [
+      "crystalys",
+      "witch_blade",
+      "power_treads",
+      "phylactery",
+      "monkey_king_bar",
+      "manta_style"
+    ],
+    "38": [
+      "arcane_boots",
+      "phase_boots",
+      "assault_cuirass",
+      "vladmirs_offering",
+      "black_king_bar",
+      "blink_dagger"
+    ],
+    "111": [
+      "tranquil_boots",
+      "butterfly",
+      "blink_dagger",
+      "arcane_boots",
+      "aghanims_scepter",
+      "black_king_bar"
+    ]
+  },
+  "progress": [
+    {
+      "elapsedMs": 7318,
+      "status": "Auto on · ban in 4.7s · random delay."
+    },
+    {
+      "elapsedMs": 8326,
+      "status": "Auto on · ban in 4.0s · random delay."
+    },
+    {
+      "elapsedMs": 9332,
+      "status": "Auto on · ban in 3.3s · random delay."
+    },
+    {
+      "elapsedMs": 10344,
+      "status": "Auto on · ban in 1.9s · random delay."
+    },
+    {
+      "elapsedMs": 11353,
+      "status": "Auto on · ban in 1.2s · random delay."
+    },
+    {
+      "elapsedMs": 12365,
+      "status": "Auto on · finding Anti-Mage for ban."
+    },
+    {
+      "elapsedMs": 13375,
+      "status": "Auto on · selecting Anti-Mage for ban · weighted native choice (39.4 points)."
+    },
+    {
+      "elapsedMs": 14394,
+      "status": "Auto on · ban in 1.9s · random delay."
+    },
+    {
+      "elapsedMs": 15406,
+      "status": "Auto on · ban in 1.2s · random delay."
+    },
+    {
+      "elapsedMs": 16424,
+      "status": "Auto on · finding Doom for ban."
+    },
+    {
+      "elapsedMs": 17433,
+      "status": "Auto on · selecting Doom for ban · weighted native choice (19.0 points)."
+    },
+    {
+      "elapsedMs": 18451,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 19462,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 28569,
+      "status": "Auto on · ban in 2.4s · random delay."
+    },
+    {
+      "elapsedMs": 29576,
+      "status": "Auto on · ban in 1.7s · random delay."
+    },
+    {
+      "elapsedMs": 30591,
+      "status": "Auto on · ban in 0.3s · random delay."
+    },
+    {
+      "elapsedMs": 31603,
+      "status": "Auto on · finding Bounty Hunter for ban."
+    },
+    {
+      "elapsedMs": 32609,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 33622,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 45754,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 46757,
+      "status": "Auto on · pick in 2.1s · random delay."
+    },
+    {
+      "elapsedMs": 47766,
+      "status": "Auto on · pick in 1.4s · random delay."
+    },
+    {
+      "elapsedMs": 48774,
+      "status": "Auto on · finding Beastmaster for pick."
+    },
+    {
+      "elapsedMs": 49785,
+      "status": "Auto on · selecting Beastmaster for pick · weighted native choice (27.6 points)."
+    },
+    {
+      "elapsedMs": 50800,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 59890,
+      "status": "Auto on · ban in 3.3s · random delay."
+    },
+    {
+      "elapsedMs": 60907,
+      "status": "Auto on · ban in 2.6s · random delay."
+    },
+    {
+      "elapsedMs": 61913,
+      "status": "Auto on · ban in 1.9s · random delay."
+    },
+    {
+      "elapsedMs": 62924,
+      "status": "Auto on · ban in 0.5s · random delay."
+    },
+    {
+      "elapsedMs": 63936,
+      "status": "Auto on · finding Sven for ban."
+    },
+    {
+      "elapsedMs": 64947,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 65959,
+      "status": "Auto on · ban in 1.2s · random delay."
+    },
+    {
+      "elapsedMs": 66969,
+      "status": "Auto on · finding Chen for ban."
+    },
+    {
+      "elapsedMs": 67981,
+      "status": "Auto on · selecting Chen for ban · weighted native choice (11.8 points)."
+    },
+    {
+      "elapsedMs": 68993,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 83158,
+      "status": "Auto on · pick in 4.0s · random delay."
+    },
+    {
+      "elapsedMs": 84166,
+      "status": "Auto on · pick in 3.3s · random delay."
+    },
+    {
+      "elapsedMs": 85173,
+      "status": "Auto on · pick in 1.9s · random delay."
+    },
+    {
+      "elapsedMs": 86187,
+      "status": "Auto on · pick in 1.2s · random delay."
+    },
+    {
+      "elapsedMs": 87196,
+      "status": "Auto on · finding Oracle for pick."
+    },
+    {
+      "elapsedMs": 88207,
+      "status": "Auto on · selecting Oracle for pick · weighted native choice (51.9 points)."
+    },
+    {
+      "elapsedMs": 89211,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 90238,
+      "status": "Auto on · pick in 3.6s · random delay."
+    },
+    {
+      "elapsedMs": 91255,
+      "status": "Auto on · pick in 2.9s · random delay."
+    },
+    {
+      "elapsedMs": 92268,
+      "status": "Auto on · pick in 1.5s · random delay."
+    },
+    {
+      "elapsedMs": 93278,
+      "status": "Auto on · pick in 0.8s · random delay."
+    },
+    {
+      "elapsedMs": 94295,
+      "status": "Auto on · finding Pudge for pick."
+    },
+    {
+      "elapsedMs": 95306,
+      "status": "Auto on · selecting Pudge for pick · weighted native choice (51.8 points)."
+    },
+    {
+      "elapsedMs": 96321,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 108472,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 109481,
+      "status": "Auto on · pick in 2.8s · random delay."
+    },
+    {
+      "elapsedMs": 110488,
+      "status": "Auto on · pick in 1.4s · random delay."
+    },
+    {
+      "elapsedMs": 111491,
+      "status": "Auto on · pick in 0.7s · random delay."
+    },
+    {
+      "elapsedMs": 112509,
+      "status": "Auto on · selecting Juggernaut for pick · weighted native choice (48.7 points)."
+    },
+    {
+      "elapsedMs": 113515,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 114527,
+      "status": "Auto on · ban in 2.3s · random delay."
+    },
+    {
+      "elapsedMs": 115540,
+      "status": "Auto on · ban in 1.6s · random delay."
+    },
+    {
+      "elapsedMs": 116553,
+      "status": "Auto on · ban in 0.2s · random delay."
+    },
+    {
+      "elapsedMs": 117569,
+      "status": "Auto on · finding Puck for ban."
+    },
+    {
+      "elapsedMs": 118575,
+      "status": "Auto on · selecting Puck for ban · weighted native choice (45.8 points)."
+    },
+    {
+      "elapsedMs": 119579,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 122611,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 123626,
+      "status": "Auto on · ban in 3.7s · random delay."
+    },
+    {
+      "elapsedMs": 124636,
+      "status": "Auto on · ban in 3.0s · random delay."
+    },
+    {
+      "elapsedMs": 125646,
+      "status": "Auto on · ban in 1.6s · random delay."
+    },
+    {
+      "elapsedMs": 126661,
+      "status": "Auto on · ban in 0.9s · random delay."
+    },
+    {
+      "elapsedMs": 127673,
+      "status": "Auto on · ban in 0.2s · random delay."
+    },
+    {
+      "elapsedMs": 128675,
+      "status": "Auto on · selecting Invoker for ban · weighted native choice (20.9 points)."
+    },
+    {
+      "elapsedMs": 129684,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 130700,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 134754,
+      "status": "Auto on · pick in 4.1s · random delay."
+    },
+    {
+      "elapsedMs": 135764,
+      "status": "Auto on · pick in 3.4s · random delay."
+    },
+    {
+      "elapsedMs": 136782,
+      "status": "Auto on · pick in 2.7s · random delay."
+    },
+    {
+      "elapsedMs": 137790,
+      "status": "Auto on · pick in 1.3s · random delay."
+    },
+    {
+      "elapsedMs": 138801,
+      "status": "Auto on · pick in 0.6s · random delay."
+    },
+    {
+      "elapsedMs": 139810,
+      "status": "Auto on · selecting Zeus for pick · weighted native choice (47.5 points)."
+    },
+    {
+      "elapsedMs": 140821,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 141839,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 147914,
+      "status": "Auto on · draft complete · native strategy screen is opening."
+    },
+    {
+      "elapsedMs": 152989,
+      "status": "Auto on · assigning roles 1/5."
+    },
+    {
+      "elapsedMs": 154009,
+      "status": "Auto on · assigning roles 2/5."
+    },
+    {
+      "elapsedMs": 155026,
+      "status": "Auto on · assigning roles 4/5."
+    },
+    {
+      "elapsedMs": 156041,
+      "status": "Auto on · assigning roles 5/5."
+    },
+    {
+      "elapsedMs": 157053,
+      "status": "Auto on · Configuration 12/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 158103,
+      "status": "Auto on · Configuration 39/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 159144,
+      "status": "Auto on · Item search · 4 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 160192,
+      "status": "Auto on · Item search · 26 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 161218,
+      "status": "Auto on · Item search · 47 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 162249,
+      "status": "Auto on · Item search · 71 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 163256,
+      "status": "Auto on · Item search · 94 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 164290,
+      "status": "Auto on · Item search · 116 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 165314,
+      "status": "Auto on · Item search · 138 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 166342,
+      "status": "Auto on · Item search · 162 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 167351,
+      "status": "Auto on · Item search · 185 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 168420,
+      "status": "Auto on · Item search · 209 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 169444,
+      "status": "Auto on · Item search · 229 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 170488,
+      "status": "Auto on · Item search · 252 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 171516,
+      "status": "Auto on · Item search · 275 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 172552,
+      "status": "Auto on · Item search · 298 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 173599,
+      "status": "Auto on · Item search · 319 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 174616,
+      "status": "Auto on · Item search · 344 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 175642,
+      "status": "Auto on · Item search · 367 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 176691,
+      "status": "Auto on · Item search · 391 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 177723,
+      "status": "Auto on · Item search · 412 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 178732,
+      "status": "Auto on · Item search · 436 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 179762,
+      "status": "Auto on · Item search · 460 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 180807,
+      "status": "Auto on · Item search · 482 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 181855,
+      "status": "Auto on · Item search · 503 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 182909,
+      "status": "Auto on · Item search · 525 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 183937,
+      "status": "Auto on · Item search · 548 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 185010,
+      "status": "Auto on · Item search · 572 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 186039,
+      "status": "Auto on · Item search · 596 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 187062,
+      "status": "Auto on · Item search · 615 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 188082,
+      "status": "Auto on · Item search · 637 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 189098,
+      "status": "Auto on · Item search · 660 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 190114,
+      "status": "Auto on · Item search · 684 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 191143,
+      "status": "Auto on · Item search · 705 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 192255,
+      "status": "Auto on · Item search · 726 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 193313,
+      "status": "Auto on · Item search · 748 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 194368,
+      "status": "Auto on · Item search · 772 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 195416,
+      "status": "Auto on · Item search · 793 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 196509,
+      "status": "Auto on · Item search · 815 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 197537,
+      "status": "Auto on · Item search · 837 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 198561,
+      "status": "Auto on · Item search · 859 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 199608,
+      "status": "Auto on · Item search · 881 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 200679,
+      "status": "Auto on · Item search · 903 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 201719,
+      "status": "Auto on · Item search · 922 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 202733,
+      "status": "Auto on · Item search · 939 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 203761,
+      "status": "Auto on · Item search · 959 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 204808,
+      "status": "Auto on · Item search · 976 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 205897,
+      "status": "Auto on · Item search · 993 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 206935,
+      "status": "Auto on · Item search · 1010 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 207995,
+      "status": "Auto on · Item search · 1030 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 209103,
+      "status": "Auto on · Item search · 1051 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 210183,
+      "status": "Auto on · Item search · 1070 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 211218,
+      "status": "Auto on · Item search · 1088 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 212251,
+      "status": "Auto on · Item search · 1105 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 213301,
+      "status": "Auto on · Item search · 1120 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 214360,
+      "status": "Auto on · Item search · 1136 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 215389,
+      "status": "Auto on · Item search · 1155 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 216446,
+      "status": "Auto on · Item search · 1172 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 217491,
+      "status": "Auto on · Item search · 1189 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 218524,
+      "status": "Auto on · Item search · 1207 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 219628,
+      "status": "Auto on · Strategy with selected items 16/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 220673,
+      "status": "Auto on · Strategy with selected items 39/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 221803,
+      "status": "Auto on · Strategy with selected items 63/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 222878,
+      "status": "Auto on · applying selected item builds, then strategy."
+    },
+    {
+      "elapsedMs": 223888,
+      "status": "Auto on · applying items 0/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 232006,
+      "status": "Auto on · applying items 1/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 240113,
+      "status": "Auto on · applying items 2/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 248224,
+      "status": "Auto on · applying items 3/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 257355,
+      "status": "Auto on · applying items 4/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 270538,
+      "status": "Auto on · Continue submitted · verifying game acknowledgement."
+    },
+    {
+      "elapsedMs": 273575,
+      "status": "Auto off · Configuration submitted; match started."
+    }
+  ],
+  "errors": [],
+  "nativeEnd": {
+    "text": "requestAnimationFrame(function(){$RT=performance.now()});  $RB=[];$RV=function(a){$RT=performance.now();for(var b=0;b<a.length;b+=2){var c=a[b],e=a[b+1];null!==e.parentNode&&e.parentNode.removeChild(e);var f=c.parentNode;if(f){var g=c.previousSibling,h=0;do{if(c&&8===c.nodeType){var d=c.data;if(\"/$\"===d||\"/&\"===d)if(0===h)break;else h--;else\"$\"!==d&&\"$?\"!==d&&\"$~\"!==d&&\"$!\"!==d&&\"&\"!==d||h++}d=c.nextSibling;f.removeChild(c);c=d}while(c);for(;e.firstChild;)f.insertBefore(e.firstChild,c);g.data=\"$\";g._reactRetry&&requestAnimationFrame(g._reactRetry)}}a.length=0};\n$RC=function(a,b){if(b=document.getElementById(b))(a=document.getElementById(a))?(a.previousSibling.data=\"$~\",$RB.push(a,b),2===$RB.length&&(\"number\"!==typeof $RT?requestAnimationFrame($RV.bind(null,$RB)):(a=performance.now(),setTimeout($RV.bind(null,$RB),2300>a&&2E3<a?2300-a:$RT+300-a)))):b.parentNode.removeChild(b)};$RC(\"B:1\",\"S:1\") Demo lobby — Dota Captain                  document.querySelectorAll('body link[rel=\"icon\"], body link[rel=\"apple-touch-icon\"]').forEach(el => document.head.appendChild(el)) $RC(\"B:2\",\"S:2\") $RC(\"B:0\",\"S:0\") (self.__next_f=self.__next_f||[]).push([0]) self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[92718,[\\\"5730\\\",\\\"static/chunks/44530001-d4512e4b279339d4.js\\\",\\\"5791\\\",\\\"static/chunks/5791-09fcbd2bfffc6229.js\\\",\\\"1356\\\",\\\"static/chunks/1356-2ed480e29f4f7933.js\\\",\\\"1000\\\",\\\"static/chunks/1000-7bab9f6d3d6dae97.js\\\",\\\"6962\\\",\\\"static/chunks/6962-9c33a032070a6575.js\\\",\\\"18\\\",\\\"static/chunks/18-ed1f5965e15c098e.js\\\",\\\"1602\\\",\\\"static/chunks/1602-29c27e0e44875c73.js\\\",\\\"4680\\\",\\\"static/chunks/4680-c6c349305e8c9549.js\\\",\\\"9218\\\",\\\"static/chunks/9218-9b7a3d6906b19314.js\\\",\\\"5543\\\",\\\"static/chunks/5543-baef9ff712b9fd31.js\\\",\\\"7596\\\",\\\"static/chunks/7596-39beb7d7f466ae23.js\\\",\\\"8145\\\",\\\"static/chunks/8145-a867556100a7ce74.js\\\",\\\"2606\\\",\\\"static/chunks/2606-f94717a478445b51.js\\\",\\\"9657\\\",\\\"static/chunks/9657-6a159b7caa7e6997.js\\\",\\\"522\\\",\\\"static/chunks/522-c0d9f6551708896c.js\\\",\\\"1457\\\",\\\"static/chunks/1457-9fa8bab7b9b5fe63.js\\\",\\\"5092\\\",\\\"static/chunks/5092-5a99710c50cac7a8.js\\\",\\\"4440\\\",\\\"static/chunks/4440-d8c9c92d468e2435.js\\\",\\\"4801\\\",\\\"static/chunks/4801-55dbb2af6623bfbd.js\\\",\\\"8380\\\",\\\"static/chunks/8380-4fbfd01e442735c8.js\\\",\\\"2703\\\",\\\"static/chunks/2703-106e11ef6160cedf.js\\\",\\\"5774\\\",\\\"static/chunks/5774-65ac83f0c17be11c.js\\\",\\\"5357\\\",\\\"static/chunks/5357-fa1dbb1b3ab12650.js\\\",\\\"7368\\\",\\\"static/chunks/7368-5d5470d81c49b8f7.js\\\",\\\"7177\\\",\\\"static/chunks/app/layout-c14",
+    "scoreLabels": [
+      "Radiant 0 kills versus Dire 0 kills"
+    ]
+  },
+  "scope": "One native Solo demo from pre-draft briefing through draft, preparation and Continue. Authenticated PvP, userscript-manager restrictions and real PvP win rate unverified."
+}

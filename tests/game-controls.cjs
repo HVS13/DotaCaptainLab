@@ -12,7 +12,7 @@ console.log('Verified exact hero/confirmation matching, disabled and ambiguous c
 
 const clock={getClientRects:()=>[{}],innerText:'2:56',getAttribute:()=> 'Match drafts with prep countdown'};assert.equal(G.prepSeconds(doc([clock])),176);assert.equal(G.prepSeconds(doc([{...clock,getClientRects:()=>[]}])),null);
 
-const page=content=>({body:{children:[{id:'game',innerText:content,getClientRects:()=>[{}]},{id:'dcl-advisor',innerText:'LIVE MATCH',getClientRects:()=>[{}]}]}});
+const page=content=>({querySelectorAll:()=>[],body:{children:[{id:'game',innerText:content,getClientRects:()=>[{}]},{id:'dcl-advisor',innerText:'LIVE MATCH',getClientRects:()=>[{}]}]}});
 assert.equal(G.prepStatus(page('Draft complete 5 Opening strategy…')),'opening');
 assert.equal(G.prepStatus(page('Waiting for opponent They are finishing strategy — the match starts when both players continue.')),'locked');
 assert.equal(G.prepStatus(page('WAITING FOR OPPONENT They are finishing strategy — the match starts when both players continue.')),'locked');
@@ -20,9 +20,11 @@ assert.equal(G.prepStatus(page('STARTING MATCH…')),'pending');
 assert.equal(G.prepStatus(page('Locking…')),'pending');
 assert.equal(G.prepStatus(page('LIVE MATCH')),'started');
 assert.equal(G.prepStatus(page('Live match')),'started');
-assert.equal(G.prepStatus({body:{children:[{id:'game',textContent:'Live match',getClientRects:()=>[{}]}]}}),'started');
-assert.equal(G.prepStatus({body:{children:[{id:'game',textContent:'Live match',getClientRects:()=>[]}]}}),null);
+assert.equal(G.prepStatus({...page(''),body:{children:[{id:'game',textContent:'Live match',getClientRects:()=>[{}]}]}}),'started');
+assert.equal(G.prepStatus({...page(''),body:{children:[{id:'game',textContent:'Live match',getClientRects:()=>[]}]}}),null);
 assert.equal(G.prepStatus(page('Continue')),null);
+const desktop={getClientRects:()=>[{}],getAttribute:()=> 'RADIANT 0 kills versus DIRE 0 kills'},desktopPage={...page(''),querySelectorAll:()=>[desktop]};assert.equal(G.prepStatus(desktopPage),'started');assert.equal(G.prepStatus({...desktopPage,querySelectorAll:()=>[{...desktop,getClientRects:()=>[]}]}),null);assert.equal(G.prepStatus({...desktopPage,querySelectorAll:()=>[{...desktop,getAttribute:()=> 'Radiant versus Dire'}]}),null);assert.equal(G.prepStatus({...desktopPage,querySelectorAll:()=>[{...desktop,getAttribute:()=> 'Radiant forecast kills versus Dire forecast kills'}]}),null);
+console.log('Verified native desktop kill-score aria label acknowledges match start when the mobile Live match caption is hidden, without accepting hidden headers or prep/forecast labels.');
 
 const slots=Array.from({length:6},(_,i)=>{const b=button('',['Item '+i]);b.title='Item '+i;b.querySelector=()=>({alt:'Item '+i});b.click=()=>b.clicked=true;return b});const select={getClientRects:()=>[{}],parentElement:doc(slots)};const itemDoc={querySelectorAll:selector=>selector.startsWith('select')?[select]:[]};assert.equal(G.setItem(itemDoc,1,'Hero',0,{name:'Item 0'}),'verified');assert.equal(G.setItem(itemDoc,1,'Hero',0,{name:'New item'}),'opened');assert.equal(slots[0].clicked,true);const chosen=button('New item',['New item']);chosen.click=()=>chosen.clicked=true;const dialog={getClientRects:()=>[{}],getAttribute:()=> 'Choose item for slot 1',querySelectorAll:()=>[chosen]};assert.equal(G.setItem({querySelectorAll:()=>[dialog]},1,'Hero',0,{name:'New item'}),'picked');assert.equal(chosen.clicked,true);
 

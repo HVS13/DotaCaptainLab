@@ -28,5 +28,9 @@
     "dist/engine.js": "9c5bf086d42c269b79314fb8df3f2780e273b3dde0e147a137099c477a4d27ab",
     "rebuild/overlay.js": "80ceffefadba14ab4e5648152daee3ec4e355f1a329ababdfe6b9c0dd0faea9c"
   },
-  "lineEndingNormalization": "Added after the Linux CI byte-hash failure. Original frozen Windows hashes retained. Every local original hash and Git CRLF-normalized equivalence was verified before this metadata addition; no policy, outcomes or acceptance thresholds changed."
+  "lineEndingNormalization": "Added after the Linux CI byte-hash failure. Original frozen Windows hashes retained. Every local original hash and Git CRLF-normalized equivalence was verified before this metadata addition; no policy, outcomes or acceptance thresholds changed.",
+  "sourceSnapshots": {
+    "rebuild/overlay.js": "docs/research/strategy-challenger-overlay-v2.7.7.js"
+  },
+  "snapshotNote": "The original tested overlay is preserved unchanged for reproducibility when production integration advances. Original frozen hashes and outcome data remain unchanged."
 }

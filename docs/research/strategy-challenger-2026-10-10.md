@@ -1,5 +1,7 @@
 # Small final-strategy challenger: positive diagnostic test
 
+Subsequent integration: [Auto v2.8.0](auto-challenger-2026-10-11.md). The results and production boundary below describe the original frozen experiment before that release.
+
 The frozen challenger passed the 16-pair simulator acceptance checks and real browser-worker timing/parity tests. It is research code, not enabled in production Auto v2.7.7. Higher real PvP win rate and authenticated preparation-phase integration remain unverified.
 
 ## Candidate and baseline

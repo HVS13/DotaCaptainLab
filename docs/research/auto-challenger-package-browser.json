@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "version": "2.8.0",
+  "unknownEnemyStrategy": {
+    "compatiblePlans": 64,
+    "checkedCells": 1024,
+    "selectedIndex": 3,
+    "elapsedMs": 9358.800000011921,
+    "winnersAndSevereClassesMatched": true,
+    "maxGoldDifference": 2.9103830456733704e-11,
+    "numericTolerance": 1e-8
+  },
+  "actualCspDenial": {
+    "completed": false,
+    "index": 0,
+    "reason": "worker-error",
+    "elapsedMs": 23.19999998807907
+  },
+  "scope": "Generated dist/challenger.js and its embedded native worker source in fresh Edge. All compatible enemy strategies tested on one fixed recorded fixture; actual worker-src none response tested. Authenticated userscript manager not exercised."
+}
