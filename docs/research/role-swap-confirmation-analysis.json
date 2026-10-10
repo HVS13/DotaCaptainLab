@@ -1,0 +1,49 @@
+{
+  "draftClusters": 32,
+  "scenarioCases": 512,
+  "bootstrapResamples": 10000,
+  "point": {
+    "successDelta": 0.029296875,
+    "severeLossDelta": -0.048828125,
+    "firstPickEntropyDelta": 0,
+    "firstBanEntropyDelta": 0,
+    "entropySumDelta": 0
+  },
+  "bounds": {
+    "successLower95": -0.02734375,
+    "severeLossUpper95": -0.013671875,
+    "entropySumLower95": 0
+  },
+  "checks": {
+    "success": false,
+    "severeLoss": true
+  },
+  "passes": false,
+  "standard": {
+    "wins": 272,
+    "severeLosses": 147,
+    "firstPick": {
+      "entropy": 2.9772170014624826,
+      "distinct": 9
+    },
+    "firstBan": {
+      "entropy": 3.250807235905091,
+      "distinct": 11
+    }
+  },
+  "interpretation": "Fixed hero drafts, one screened role-pair swap at most, same paired held-out profiles and stratified paired whole-draft bootstrap. Opening variation unchanged.",
+  "candidate": {
+    "wins": 287,
+    "severeLosses": 122
+  },
+  "stage": "32-pair independent confirmation, not PvP or integration certification",
+  "activity": {
+    "swappedDrafts": 8,
+    "screenedPairs": 59,
+    "screeningSimulations": 273,
+    "executedOptimizations": 40,
+    "reusedEvaluations": 24,
+    "itemCandidates": 4000,
+    "optimizerSimulations": 27240
+  }
+}
