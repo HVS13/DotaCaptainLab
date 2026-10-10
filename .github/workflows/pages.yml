@@ -53,6 +53,8 @@ jobs:
           node tests/strategy-oracle.cjs
           python3 scripts/strategy-game-verify.py
           node scripts/strategy-game-replay.cjs
+          python3 scripts/strategy-game-robust-verify.py
+          node scripts/strategy-game-robust-replay.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
