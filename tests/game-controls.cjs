@@ -15,6 +15,8 @@ const clock={getClientRects:()=>[{}],innerText:'2:56',getAttribute:()=> 'Match d
 const page=content=>({body:{children:[{id:'game',innerText:content,getClientRects:()=>[{}]},{id:'dcl-advisor',innerText:'LIVE MATCH',getClientRects:()=>[{}]}]}});
 assert.equal(G.prepStatus(page('Draft complete 5 Opening strategy…')),'opening');
 assert.equal(G.prepStatus(page('Waiting for opponent They are finishing strategy — the match starts when both players continue.')),'locked');
+assert.equal(G.prepStatus(page('WAITING FOR OPPONENT They are finishing strategy — the match starts when both players continue.')),'locked');
+assert.equal(G.prepStatus(page('STARTING MATCH…')),'pending');
 assert.equal(G.prepStatus(page('Locking…')),'pending');
 assert.equal(G.prepStatus(page('LIVE MATCH')),'started');
 assert.equal(G.prepStatus(page('Live match')),'started');

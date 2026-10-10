@@ -62,6 +62,8 @@ The native-control replay exercises hero selection, confirmation, opponent turns
 
 [Scout flow verification](docs/research/scout-flow-2026-10-09.md): PvP hides enemy strategy until simulation/result, so its empty pregame enemy choices are expected. Version 2.7.6 separately preserves already observed Solo scout axes across partial or empty reads of the same briefing. New-run reset and unknown PvP inputs remain covered; drafting and configuration selection are unchanged.
 
+[Draft-to-strategy transition fix](docs/research/draft-strategy-transition-2026-10-10.md): version 2.7.7 recognizes the native uppercase reveal labels and clears a preceding layout-gap timer during that recognized phase. Regression coverage follows Auto through the reveal, hidden/resumed ticks, final-pick recovery and role-phase entry while retaining persistent-error protection. Selection policies remain unchanged.
+
 ## Research and experimental coverage (2.6.0)
 
 [Bounded drafting lookahead experiment](docs/research/draft-lookahead-2026-10-09.md): eight paired draft tests did not support replacing Auto. The prototype regressed on held-out outcomes and did not improve opening diversity; production drafting remains unchanged. The isolated policy and benchmark are available for reproducible future comparisons.
