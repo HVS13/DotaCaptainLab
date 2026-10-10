@@ -1,0 +1,7 @@
+{
+  "workers": 4,
+  "simulations": 4096,
+  "elapsedMs": 62312.977100000004,
+  "allCellsMatched": true,
+  "interpretation": "Four native Node processes, complete exact comparison with serial winner/gold/minute cells. Browser workers, CSP and live timing unverified."
+}

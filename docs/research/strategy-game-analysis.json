@@ -1,0 +1,497 @@
+{
+  "solution": {
+    "row": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.0624999999999284,
+      0,
+      0.10416666666662913,
+      0,
+      0,
+      0.041666666666709526,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.04166666666684848,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.020833333333243997,
+      0,
+      0,
+      0.020833333333466344,
+      0.16666666666645313,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.12499999999995456,
+      0,
+      0.020833333333200185,
+      0,
+      0,
+      0,
+      0.020833333333441825,
+      0.04166666666689851,
+      0,
+      0,
+      0,
+      0,
+      0.16666666666667646,
+      0,
+      0,
+      0,
+      0.16666666666654953
+    ],
+    "column": [
+      0,
+      0,
+      0.08333333333349785,
+      0,
+      0,
+      0,
+      0.16666666666681382,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.06250000000003375,
+      0,
+      0.02083333333327001,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.14583333333336398,
+      0,
+      0,
+      0,
+      0.06250000000005367,
+      0,
+      0,
+      0,
+      0,
+      0.08333333333329908,
+      0,
+      0,
+      0.06250000000004734,
+      0,
+      0.041666666666576015,
+      0.12500000000006117,
+      0.04166666666657366,
+      0,
+      0.04166666666654764,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.04166666666657376,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0.02083333333328843,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lower": 0.7708333333330963,
+    "upper": 0.7708333333334999,
+    "gap": 4.035660694512444e-13,
+    "pivots": 487,
+    "worstColumn": 18,
+    "bestRow": 34
+  },
+  "solveMs": 46.4814,
+  "baseline": {
+    "index": 9,
+    "choices": {
+      "early_late": "b",
+      "aggro_passive": "a",
+      "fight_split": "a",
+      "farm_gank": "b",
+      "objective_style": "a",
+      "map_control": "a"
+    },
+    "wins": 49,
+    "total": 64,
+    "worstResponse": 0
+  },
+  "support": [
+    {
+      "index": 13,
+      "probability": 0.0624999999999284,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 15,
+      "probability": 0.10416666666662913,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 18,
+      "probability": 0.041666666666709526,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "b",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 27,
+      "probability": 0.04166666666684848,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "b",
+        "objective_style": "b",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 34,
+      "probability": 0.020833333333243997,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 37,
+      "probability": 0.020833333333466344,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 38,
+      "probability": 0.16666666666645313,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 47,
+      "probability": 0.12499999999995456,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 49,
+      "probability": 0.020833333333200185,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "a",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "b",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 53,
+      "probability": 0.020833333333441825,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "a",
+        "objective_style": "b",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 54,
+      "probability": 0.04166666666689851,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "a",
+        "objective_style": "b",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 59,
+      "probability": 0.16666666666667646,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "b",
+        "objective_style": "b",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 63,
+      "probability": 0.16666666666654953,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "b",
+        "map_control": "b"
+      }
+    }
+  ],
+  "enemySupport": [
+    {
+      "index": 2,
+      "probability": 0.08333333333349785,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 6,
+      "probability": 0.16666666666681382,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 12,
+      "probability": 0.06250000000003375,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 14,
+      "probability": 0.02083333333327001,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 20,
+      "probability": 0.14583333333336398,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "a",
+        "objective_style": "b",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 24,
+      "probability": 0.06250000000005367,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "a",
+        "farm_gank": "b",
+        "objective_style": "b",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 29,
+      "probability": 0.08333333333329908,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "b",
+        "map_control": "a"
+      }
+    },
+    {
+      "index": 32,
+      "probability": 0.06250000000004734,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 34,
+      "probability": 0.041666666666576015,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 35,
+      "probability": 0.12500000000006117,
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 36,
+      "probability": 0.04166666666657366,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 38,
+      "probability": 0.04166666666654764,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 44,
+      "probability": 0.04166666666657376,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    {
+      "index": 50,
+      "probability": 0.02083333333328843,
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "b",
+        "map_control": "b"
+      }
+    }
+  ],
+  "descriptive": {
+    "mixedUniformMean": 0.8916015624999925,
+    "againstBaselineMirror": 0.9583333333332906,
+    "bestPureUniform": 0.9375,
+    "pureMaximin": 0,
+    "baselineDominatingRows": [
+      9
+    ]
+  },
+  "nativeSimulations": 4096,
+  "serialNodeMs": 155599.8445,
+  "interpretation": "Minimax expected win utility against the 64 modeled enemy strategies with fixed explicit roles/items and a hidden independent strategy draw. Not a PvP win probability or a guarantee against other builds."
+}

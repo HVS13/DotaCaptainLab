@@ -49,6 +49,10 @@ jobs:
           node tests/scout-capture.cjs
           node tests/draft-strategy-transition.cjs
           node tests/draft-role-swap.cjs
+          node tests/strategy-game.cjs
+          node tests/strategy-oracle.cjs
+          python3 scripts/strategy-game-verify.py
+          node scripts/strategy-game-replay.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

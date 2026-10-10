@@ -1,0 +1,156 @@
+{
+  "state": {
+    "own": [
+      74,
+      123,
+      9,
+      93,
+      3
+    ],
+    "enemy": [
+      13,
+      20,
+      98,
+      41,
+      30
+    ],
+    "bans": [
+      1,
+      69,
+      2,
+      27,
+      33,
+      68,
+      75,
+      14,
+      5,
+      12,
+      4,
+      91,
+      88,
+      66
+    ],
+    "ownBans": [
+      1,
+      69,
+      27,
+      14,
+      5,
+      4,
+      88
+    ],
+    "roles": {
+      "3": "hard_support",
+      "9": "support",
+      "74": "mid",
+      "93": "carry",
+      "123": "offlane"
+    },
+    "enemyRoles": {},
+    "enemyChoices": {},
+    "side": "radiant",
+    "turn": null,
+    "source": "automatic",
+    "detected": true
+  },
+  "ownItems": {
+    "3": [
+      "arcane_boots",
+      "blink_dagger",
+      "holy_locket",
+      "force_staff",
+      "glimmer_cape",
+      "solar_crest"
+    ],
+    "9": [
+      "force_staff",
+      "solar_crest",
+      "arcane_boots",
+      "aghanims_scepter",
+      "tranquil_boots",
+      "meteor_hammer"
+    ],
+    "74": [
+      "blink_dagger",
+      "black_king_bar",
+      "veil_of_discord",
+      "aghanims_scepter",
+      "rod_of_atos",
+      "kaya"
+    ],
+    "93": [
+      "silver_edge",
+      "assault_cuirass",
+      "black_king_bar",
+      "diffusal_blade",
+      "boots_of_travel",
+      "manta_style"
+    ],
+    "123": [
+      "phase_boots",
+      "desolator",
+      "spirit_vessel",
+      "blink_dagger",
+      "gleipnir",
+      "tranquil_boots"
+    ]
+  },
+  "enemyRoles": {
+    "13": "mid",
+    "20": "support",
+    "30": "hard_support",
+    "41": "carry",
+    "98": "offlane"
+  },
+  "enemyItems": {
+    "13": [
+      "power_treads",
+      "witch_blade",
+      "blink_dagger",
+      "eul_scepter",
+      "aeon_disk",
+      "force_staff"
+    ],
+    "20": [
+      "power_treads",
+      "vladmirs_offering",
+      "aghanims_scepter",
+      "solar_crest",
+      "force_staff",
+      "assault_cuirass"
+    ],
+    "30": [
+      "arcane_boots",
+      "aether_lens",
+      "glimmer_cape",
+      "aghanims_scepter",
+      "force_staff",
+      "octarine_core"
+    ],
+    "41": [
+      "power_treads",
+      "mjollnir",
+      "manta_style",
+      "black_king_bar",
+      "butterfly",
+      "satanic"
+    ],
+    "98": [
+      "power_treads",
+      "vanguard",
+      "kaya",
+      "blink_dagger",
+      "black_king_bar",
+      "aghanims_scepter"
+    ]
+  },
+  "baselineChoices": {
+    "early_late": "b",
+    "aggro_passive": "a",
+    "fight_split": "a",
+    "farm_gank": "b",
+    "objective_style": "a",
+    "map_control": "a"
+  },
+  "assumptions": "Reference uses the uploaded own roles/items. Enemy roles and role-default ordered builds are explicit fixed assumptions, not observed opponent settings. This fixture previously reproduced the recap with one inferred enemy strategy; not proof of unique actual inputs."
+}

@@ -1,0 +1,121 @@
+{
+  "interpretation": "Two descriptive changes to frozen opponent assumptions; no policy tuning, global uncertainty coverage or PvP validation.",
+  "results": [
+    {
+      "variant": "Role swap: Puck / Timbersaw",
+      "enemyRoles": {
+        "13": "offlane",
+        "20": "support",
+        "30": "hard_support",
+        "41": "carry",
+        "98": "mid"
+      },
+      "enemyItems": {
+        "13": [
+          "power_treads",
+          "witch_blade",
+          "blink_dagger",
+          "eul_scepter",
+          "aeon_disk",
+          "force_staff"
+        ],
+        "20": [
+          "power_treads",
+          "vladmirs_offering",
+          "aghanims_scepter",
+          "solar_crest",
+          "force_staff",
+          "assault_cuirass"
+        ],
+        "30": [
+          "arcane_boots",
+          "aether_lens",
+          "glimmer_cape",
+          "aghanims_scepter",
+          "force_staff",
+          "octarine_core"
+        ],
+        "41": [
+          "power_treads",
+          "mjollnir",
+          "manta_style",
+          "black_king_bar",
+          "butterfly",
+          "satanic"
+        ],
+        "98": [
+          "power_treads",
+          "vanguard",
+          "kaya",
+          "blink_dagger",
+          "black_king_bar",
+          "aghanims_scepter"
+        ]
+      },
+      "unchangedMixtureLower": 0.41666666666676644,
+      "unchangedMixtureUniformMean": 0.8037109374999675,
+      "baselineUniformWins": 46,
+      "baselineWorst": 0,
+      "simulations": 896,
+      "elapsedMs": 38030.0916
+    },
+    {
+      "variant": "Faceless Void: swap purchases 1/2",
+      "enemyRoles": {
+        "13": "mid",
+        "20": "support",
+        "30": "hard_support",
+        "41": "carry",
+        "98": "offlane"
+      },
+      "enemyItems": {
+        "13": [
+          "power_treads",
+          "witch_blade",
+          "blink_dagger",
+          "eul_scepter",
+          "aeon_disk",
+          "force_staff"
+        ],
+        "20": [
+          "power_treads",
+          "vladmirs_offering",
+          "aghanims_scepter",
+          "solar_crest",
+          "force_staff",
+          "assault_cuirass"
+        ],
+        "30": [
+          "arcane_boots",
+          "aether_lens",
+          "glimmer_cape",
+          "aghanims_scepter",
+          "force_staff",
+          "octarine_core"
+        ],
+        "41": [
+          "mjollnir",
+          "power_treads",
+          "manta_style",
+          "black_king_bar",
+          "butterfly",
+          "satanic"
+        ],
+        "98": [
+          "power_treads",
+          "vanguard",
+          "kaya",
+          "blink_dagger",
+          "black_king_bar",
+          "aghanims_scepter"
+        ]
+      },
+      "unchangedMixtureLower": 0.6874999999997153,
+      "unchangedMixtureUniformMean": 0.8912760416666619,
+      "baselineUniformWins": 49,
+      "baselineWorst": 0,
+      "simulations": 896,
+      "elapsedMs": 33799.720499999996
+    }
+  ]
+}
