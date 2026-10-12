@@ -49,6 +49,7 @@ jobs:
           node tests/draft-downside.cjs
           node tests/scout-capture.cjs
           node tests/draft-strategy-transition.cjs
+          node tests/preparation-handoff.cjs
           node tests/draft-role-swap.cjs
           node tests/strategy-game.cjs
           node tests/strategy-oracle.cjs

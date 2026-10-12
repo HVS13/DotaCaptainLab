@@ -8,7 +8,7 @@ fs.writeFileSync(path.join(dist,'challenger.js'),challenger);
 const metadata=`// ==UserScript==
 // @name         DotaCaptain Draft Advisor
 // @namespace    https://github.com/HVS13/DotaCaptainLab
-// @version      2.8.1
+// @version      2.8.2
 // @description  Live native pick/ban rankings, visible-draft detection, explanations and configuration advice.
 // @match        https://dotacaptain.com/*
 // @grant        none
