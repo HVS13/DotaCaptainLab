@@ -21,6 +21,7 @@
   if(!reasons.length)reasons.push(action==='ban'?'Native AI deny/protection value for your current draft and plan.':'Fits an open role under the native AI draft model.');return reasons.slice(0,3);
  }
  function coverage(state){const rm=assigned(state.own,state.roles);return D.capabilities.Im(lineup(state.own),h=>rm[h.id]).capability}
+ function coverageSummary(state){const rm=assigned(state.own,state.roles);return D.capabilities.Yg(lineup(state.own),h=>rm[h.id])}
  function defaultBuilds(state){const rm=assigned(state.own,state.roles);return Object.fromEntries(state.own.map(id=>[id,[...D.builds.z8(id,rm[id])]]))}
  function* itemCandidates(state,builds){const current=typeof builds==='function'?builds:()=>builds;const rm=assigned(state.own,state.roles),catalog=D.items.filter(item=>!item.retired),pools=Object.fromEntries(state.own.map(id=>[id,[...catalog.filter(item=>item.roleAffinity.includes(rm[id])),...catalog.filter(item=>!item.roleAffinity.includes(rm[id]))]]));const seen=new Set;function candidate(id,build){if(build.length!==6||new Set(build).size!==6||JSON.stringify(D.builds.c6(build))!==JSON.stringify(build))return null;const key=id+":"+build.join(",");if(seen.has(key)||JSON.stringify(build)===JSON.stringify(current()[id]))return null;seen.add(key);return {...current(),[id]:build}}
   for(let a=0;a<5;a++)for(let b=a+1;b<6;b++)for(const id of state.own){const build=[...current()[id]];[build[a],build[b]]=[build[b],build[a]];const next=candidate(id,build);if(next)yield next}
@@ -37,5 +38,5 @@
  function compare(a,b){return b.wins-a.wins||b.nw-a.nw}
  function optimize(state,progress,mode='fast'){const {enemyPlans,sides}=scenarios(state,mode),results=[];for(const [i,choices]of plans.entries()){const tests=enemyPlans.flatMap(enemyChoices=>sides.map(side=>simulate(state,choices,enemyChoices,side)));results.push(summarize(choices,tests));progress?.(i+1,64)}results.sort(compare);return{...results[0],alternatives:results.slice(0,3),mode}}
 
- root.Advisor={roles,names,byId,plans,sequence,assigned,nativeScore,bestPlan,recommend,autoDecision,openingPlan,coverage,defaultBuilds,itemCandidates,simulate,opponentVariants,scenarios,summarize,compare,optimize,validate};
+ root.Advisor={roles,names,byId,plans,sequence,assigned,nativeScore,bestPlan,recommend,autoDecision,openingPlan,coverage,coverageSummary,defaultBuilds,itemCandidates,simulate,opponentVariants,scenarios,summarize,compare,optimize,validate};
 })(typeof window==='undefined'?globalThis:window);

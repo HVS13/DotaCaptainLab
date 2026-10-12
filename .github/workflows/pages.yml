@@ -28,6 +28,7 @@ jobs:
           node --check dist/overlay.js
           node --check dist/dotacaptain-advisor.user.js
           node tests/advisor.cjs
+          node tests/coverage.cjs
           node tests/game-controls.cjs
           node tests/items.cjs
           node tests/optimization-deadline.cjs
