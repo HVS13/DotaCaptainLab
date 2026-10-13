@@ -1,0 +1,8 @@
+{
+ "seedStart":409000097,"drafts":16,"opponents":["weighted","greedy","counter","creative"],
+ "baseline":"Frozen optimizer: 64 initial strategies, 100 item candidates, 17 selected-item strategies; 541 native simulations including the discarded partial group.",
+ "candidate":"Frozen optimizer: 64 initial strategies, 30 item candidates, incumbent only, then four matched rows across all 64 enemy strategies using inferred enemy roles/default items. Nominate the incumbent and its three one-bit neighbors with highest native draft value. Existing guarded selector requires nondecreasing scenario wins and nonincreasing severe losses, with a strict improvement. Candidate uses at most 539 native simulations. No candidate or budget tuning after results.",
+ "holdout":"16 identical seeded profiles per fresh draft. Native eligible enemy-role and item-order alternatives exclude the default variant used by the risk check; enemy strategies sampled over all 64. Own heroes, roles and opening choices identical across arms; item-search allocation changes within the same total computation bound.",
+ "acceptance":"10000 stratified paired whole-draft bootstrap resamples; success lower one-sided 95% >= -0.005; severe-loss upper <= +0.005. Passing permits browser integration checks; it does not certify PvP win rate.",
+ "liveBudget":"If supported, reserve 20 seconds for the risk check inside the existing 90-second calculation allowance; preserve the separate 90-second application reserve. Interrupted or incomplete matched checks retain the baseline."
+}

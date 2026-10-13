@@ -1,0 +1,8 @@
+// Actual browser worker timing/parity for the failure case; no game actions.
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),{chromium}=require(process.argv[2]||'playwright'),root=path.join(__dirname,'..');
+(async()=>{const browser=await chromium.launch({channel:'msedge',headless:true});try{
+ const page=await browser.newPage();await page.goto('about:blank');for(const file of ['engine.js','solver.js','challenger.js'])await page.addScriptTag({path:path.join(root,'dist',file)});
+ await page.addScriptTag({path:path.join(root,'scripts/strategy-risk.cjs')});await page.addScriptTag({path:path.join(root,'scripts/strategy-challenger-workers.js')});
+ const report=JSON.parse(fs.readFileSync(process.argv[3])),result=await page.evaluate(async r=>{const result=await runStrategyChallengerWorkers(r.draft,r.forecast,{workerSource:AdvisorWorkerSource,budgetMs:20000,policy:StrategyRisk});return{completed:result.completed,index:result.index,reason:result.reason,elapsedMs:result.elapsedMs,metrics:result.metrics,plans:result.plans,rows:result.rows} },report);
+ assert(result.completed,'Matched risk check did not finish within 20 seconds');assert.equal(result.rows.length,4);assert(result.rows.every(row=>row.length===64));console.log(JSON.stringify({completed:result.completed,index:result.index,elapsedMs:result.elapsedMs,metrics:result.metrics,scope:'Native worker computation in fresh headless Edge; recorded failure inputs, no live game actions. Browser background timing remains a separate verification.'}));
+ }finally{await browser.close()}})().catch(e=>{console.error(e);process.exitCode=1});

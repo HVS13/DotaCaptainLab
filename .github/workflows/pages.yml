@@ -62,6 +62,10 @@ jobs:
           node tests/strategy-challenger.cjs
           node tests/strategy-challenger-workers.cjs
           node tests/auto-challenger.cjs
+          node tests/strategy-risk-flow.cjs
+          node tests/strategy-risk.cjs
+          node scripts/strategy-risk-analysis.cjs
+          node scripts/strategy-risk-replay.cjs
           node scripts/strategy-challenger-analysis.cjs
           python3 scripts/strategy-challenger-verify.py
           node scripts/strategy-challenger-replay.cjs

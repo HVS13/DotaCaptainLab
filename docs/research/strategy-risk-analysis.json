@@ -1,0 +1,40 @@
+{
+  "draftClusters": 16,
+  "scenarioCases": 256,
+  "bootstrapResamples": 10000,
+  "point": {
+    "successDelta": 0.12109375,
+    "severeLossDelta": -0.1015625,
+    "firstPickEntropyDelta": 0,
+    "firstBanEntropyDelta": 0,
+    "entropySumDelta": 0
+  },
+  "bounds": {
+    "successLower95": 0.0625,
+    "severeLossUpper95": -0.07421875,
+    "entropySumLower95": 0
+  },
+  "checks": {
+    "success": true,
+    "severeLoss": true
+  },
+  "passes": true,
+  "standard": {
+    "wins": 127,
+    "severeLosses": 80,
+    "firstPick": {
+      "entropy": 2.9056390622295662,
+      "distinct": 8
+    },
+    "firstBan": {
+      "entropy": 3.1556390622295662,
+      "distinct": 10
+    }
+  },
+  "interpretation": "Prespecified paired native-simulator pilot: 16 fresh drafts, 256 held-out nondefault role/item-order cases, equal computation bound. Allocation and strategy checking change jointly. Passing permits browser integration testing, not a live PvP win-rate claim.",
+  "candidate": {
+    "wins": 158,
+    "severeLosses": 54
+  },
+  "changedStrategies": 11
+}

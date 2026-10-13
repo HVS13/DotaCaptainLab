@@ -1,0 +1,5 @@
+{
+  "status": "matched",
+  "directNativeReplays": 512,
+  "scope": "All saved baseline/candidate holdouts directly replayed with explicit original-engine inputs in winner, signed gold and end time."
+}

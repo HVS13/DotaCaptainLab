@@ -1,6 +1,6 @@
 // Browser research runner. Never loaded by production; interrupted work retains baseline.
-(function(root){root.runStrategyChallengerWorkers=function(state,config,{workerSource,budgetMs=30000,signal}={}){
- const started=performance.now(),deadline=started+budgetMs,C=root.StrategyChallenger,plans=C.shortlist(state,config),profile=C.profiles(state),rows=Array(plans.length),workers=[];let url,timer,settled=false;
+(function(root){root.runStrategyChallengerWorkers=function(state,config,{workerSource,budgetMs=30000,signal,policy}={}){
+ const started=performance.now(),deadline=started+budgetMs,C=policy||root.StrategyChallenger,plans=C.shortlist(state,config),profile=C.profiles(state),rows=Array(plans.length),workers=[];let url,timer,settled=false;
  return new Promise(resolve=>{
   const stop=reason=>finish({index:0,completed:false,reason});
   const abort=()=>stop('cancelled');
