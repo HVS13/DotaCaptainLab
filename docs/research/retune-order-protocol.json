@@ -1,0 +1,11 @@
+{
+ "seedStart":309000071,
+ "drafts":16,
+ "opponents":["weighted","greedy","counter","creative"],
+ "itemCandidates":100,
+ "retunedStrategies":17,
+ "policy":"Only selected-item reevaluation order changes: original fixed enumeration versus initial native-simulator ranking. Own heroes, roles, selected items, initial screening, ranking formula and total simulation budget remain paired and unchanged; retain the incumbent.",
+ "budget":"Deterministic operation deadline: 64 initial strategies, 100 item candidates, incumbent plus 16 completed rechecks, three native opponent presets. Same discarded partial-group cost in both arms. This isolates ordering, not live-browser speed.",
+ "holdout":"16 paired seeded native enemy strategy/eligible-role/item-order profiles per fresh draft, excluding exact preset/default training profiles. B.holdout is reused unchanged.",
+ "acceptance":"10000 stratified paired whole-draft bootstrap resamples; success lower one-sided 95% >= -0.005; severe-loss upper <= +0.005. Draft picks/bans identical. One prespecified candidate and budget; no retuning after observing outcomes. Passing permits integration verification, not a PvP win-rate claim."
+}

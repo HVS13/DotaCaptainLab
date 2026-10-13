@@ -1,0 +1,43 @@
+{
+  "draftClusters": 16,
+  "scenarioCases": 256,
+  "bootstrapResamples": 10000,
+  "point": {
+    "successDelta": 0,
+    "severeLossDelta": 0,
+    "firstPickEntropyDelta": 0,
+    "firstBanEntropyDelta": 0,
+    "entropySumDelta": 0
+  },
+  "bounds": {
+    "successLower95": 0,
+    "severeLossUpper95": 0,
+    "entropySumLower95": 0
+  },
+  "checks": {
+    "success": true,
+    "severeLoss": true
+  },
+  "standard": {
+    "wins": 151,
+    "severeLosses": 57,
+    "firstPick": {
+      "entropy": 2.75,
+      "distinct": 8
+    },
+    "firstBan": {
+      "entropy": 2.8522170014624826,
+      "distinct": 9
+    }
+  },
+  "interpretation": "One prespecified 16-draft paired test at a fixed operation budget, 100 item candidates and 17 selected-item strategies. Enemy profiles exclude preset/default training cases. Identical outcomes provide no demonstrated Auto benefit at this tested budget; do not infer PvP win rates or other budgets. Production ordering remains unchanged.",
+  "candidate": {
+    "wins": 151,
+    "severeLosses": 57
+  },
+  "passesRegression": true,
+  "changedSelections": 0,
+  "alternativeListsChanged": 15,
+  "identicalHeldoutResults": true,
+  "recommendedForProduction": false
+}

@@ -13,6 +13,8 @@ A live draft overlay rebuilt around the DotaCaptain-native assistant concept. It
 
 ## Features
 
+The Daily and regular panels and JSON reports use the installed release version. Regular Auto separates initial strategy screening from evaluations with the selected item builds, and gives a specific reason when its extra strategy check is skipped. JSON reports include these stages under `searchCoverage`.
+
 - Automatic detection of the inspected 24-turn history, paired/mirrored columns, current turn and faction.
 - Visible scout capture; future picks and unreported enemy roles remain unknown.
 - Native pick/ban rankings, hero search, role filtering, counter/synergy reasons and capability gaps.
@@ -67,6 +69,8 @@ The native-control replay exercises hero selection, confirmation, opponent turns
 [Draft-to-strategy transition fix](docs/research/draft-strategy-transition-2026-10-10.md): version 2.7.7 recognizes the native uppercase reveal labels and clears a preceding layout-gap timer during that recognized phase. Regression coverage follows Auto through the reveal, hidden/resumed ticks, final-pick recovery and role-phase entry while retaining persistent-error protection. Selection policies remain unchanged.
 
 ## Research and experimental coverage (2.6.0)
+
+[Strategy recheck ordering experiment](docs/research/retune-order-analysis.json): sixteen fresh paired drafts tested initial-ranking order against the existing fixed order, with identical heroes, roles, items and simulation budgets. At 100 item candidates and 17 selected-item strategies, both selected the same configuration in every draft and produced identical outcomes across 256 held-out cases. Alternative lists changed in 15 drafts, but there was no demonstrated Auto benefit at this tested budget. Production ordering remains unchanged. The protocol, paired records and analysis scripts are retained for reproduction; this is not a PvP win-rate measurement.
 
 [Bounded drafting lookahead experiment](docs/research/draft-lookahead-2026-10-09.md): eight paired draft tests did not support replacing Auto. The prototype regressed on held-out outcomes and did not improve opening diversity; production drafting remains unchanged. The isolated policy and benchmark are available for reproducible future comparisons.
 
