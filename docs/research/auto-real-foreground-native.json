@@ -1,0 +1,4255 @@
+{
+  "mode": "Native Solo preparation in foreground",
+  "hiddenVerified": false,
+  "bounds": {
+    "bounds": {
+      "left": 10,
+      "top": 10,
+      "width": 1050,
+      "height": 732,
+      "windowState": "normal"
+    }
+  },
+  "elapsedMs": 309481,
+  "progress": [
+    {
+      "elapsedMs": 8505,
+      "status": "Auto on · ban in 4.6s · random delay."
+    },
+    {
+      "elapsedMs": 9545,
+      "status": "Auto on · ban in 3.9s · random delay."
+    },
+    {
+      "elapsedMs": 11139,
+      "status": "Auto on · ban in 2.5s · random delay."
+    },
+    {
+      "elapsedMs": 12160,
+      "status": "Auto on · ban in 1.1s · random delay."
+    },
+    {
+      "elapsedMs": 13709,
+      "status": "Auto on · finding Anti-Mage for ban."
+    },
+    {
+      "elapsedMs": 15247,
+      "status": "Auto on · selecting Anti-Mage for ban · weighted native choice (39.4 points)."
+    },
+    {
+      "elapsedMs": 16270,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 17297,
+      "status": "Auto on · ban in 2.9s · random delay."
+    },
+    {
+      "elapsedMs": 18331,
+      "status": "Auto on · ban in 1.5s · random delay."
+    },
+    {
+      "elapsedMs": 19356,
+      "status": "Auto on · ban in 0.7s · random delay."
+    },
+    {
+      "elapsedMs": 20889,
+      "status": "Auto on · finding Puck for ban."
+    },
+    {
+      "elapsedMs": 21911,
+      "status": "Auto on · selecting Puck for ban · weighted native choice (8.7 points)."
+    },
+    {
+      "elapsedMs": 22938,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 23460,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 33208,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 34745,
+      "status": "Auto on · ban in 4.8s · random delay."
+    },
+    {
+      "elapsedMs": 35262,
+      "status": "Auto on · ban in 4.0s · random delay."
+    },
+    {
+      "elapsedMs": 36818,
+      "status": "Auto on · ban in 2.7s · random delay."
+    },
+    {
+      "elapsedMs": 37334,
+      "status": "Auto on · ban in 2.0s · random delay."
+    },
+    {
+      "elapsedMs": 38874,
+      "status": "Auto on · ban in 0.6s · random delay."
+    },
+    {
+      "elapsedMs": 40421,
+      "status": "Auto on · finding Visage for ban."
+    },
+    {
+      "elapsedMs": 40933,
+      "status": "Auto on · selecting Visage for ban · weighted native choice (1.5 points)."
+    },
+    {
+      "elapsedMs": 42469,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 42984,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 50706,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 52247,
+      "status": "Auto on · pick in 4.0s · random delay."
+    },
+    {
+      "elapsedMs": 53781,
+      "status": "Auto on · pick in 2.6s · random delay."
+    },
+    {
+      "elapsedMs": 54291,
+      "status": "Auto on · pick in 1.9s · random delay."
+    },
+    {
+      "elapsedMs": 55859,
+      "status": "Auto on · pick in 0.5s · random delay."
+    },
+    {
+      "elapsedMs": 56908,
+      "status": "Auto on · finding Storm Spirit for pick."
+    },
+    {
+      "elapsedMs": 58480,
+      "status": "Auto on · selecting Storm Spirit for pick · weighted native choice (24.8 points)."
+    },
+    {
+      "elapsedMs": 60045,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 60562,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 68813,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 70348,
+      "status": "Auto on · ban in 1.4s · random delay."
+    },
+    {
+      "elapsedMs": 71910,
+      "status": "Auto on · finding Silencer for ban."
+    },
+    {
+      "elapsedMs": 72949,
+      "status": "Auto on · selecting Silencer for ban · weighted native choice (36.3 points)."
+    },
+    {
+      "elapsedMs": 73977,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 74495,
+      "status": "Auto on · ban in 1.2s · random delay."
+    },
+    {
+      "elapsedMs": 75517,
+      "status": "Auto on · ban in 0.6s · random delay."
+    },
+    {
+      "elapsedMs": 76031,
+      "status": "Auto on · finding Lion for ban."
+    },
+    {
+      "elapsedMs": 76552,
+      "status": "Auto on · selecting Lion for ban · weighted native choice (23.9 points)."
+    },
+    {
+      "elapsedMs": 78102,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 78615,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 97184,
+      "status": "Auto on · pick in 2.2s · random delay."
+    },
+    {
+      "elapsedMs": 98201,
+      "status": "Auto on · pick in 0.9s · random delay."
+    },
+    {
+      "elapsedMs": 99236,
+      "status": "Auto on · pick in 0.1s · random delay."
+    },
+    {
+      "elapsedMs": 100268,
+      "status": "Auto on · finding Mars for pick."
+    },
+    {
+      "elapsedMs": 101290,
+      "status": "Auto on · selecting Mars for pick · weighted native choice (42.8 points)."
+    },
+    {
+      "elapsedMs": 101811,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 103359,
+      "status": "Auto on · pick in 2.5s · random delay."
+    },
+    {
+      "elapsedMs": 104910,
+      "status": "Auto on · pick in 1.1s · random delay."
+    },
+    {
+      "elapsedMs": 105421,
+      "status": "Auto on · pick in 0.4s · random delay."
+    },
+    {
+      "elapsedMs": 106967,
+      "status": "Auto on · finding Witch Doctor for pick."
+    },
+    {
+      "elapsedMs": 107997,
+      "status": "Auto on · selecting Witch Doctor for pick · weighted native choice (42.4 points)."
+    },
+    {
+      "elapsedMs": 109033,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 109550,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 130775,
+      "status": "Auto on · pick in 1.4s · random delay."
+    },
+    {
+      "elapsedMs": 131288,
+      "status": "Auto on · pick in 0.9s · random delay."
+    },
+    {
+      "elapsedMs": 132827,
+      "status": "Auto on · finding Vengeful Spirit for pick."
+    },
+    {
+      "elapsedMs": 133361,
+      "status": "Auto on · selecting Vengeful Spirit for pick · weighted native choice (46.6 points)."
+    },
+    {
+      "elapsedMs": 134910,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 135422,
+      "status": "Auto on · ban in 3.9s · random delay."
+    },
+    {
+      "elapsedMs": 135936,
+      "status": "Auto on · ban in 3.3s · random delay."
+    },
+    {
+      "elapsedMs": 136971,
+      "status": "Auto on · ban in 2.6s · random delay."
+    },
+    {
+      "elapsedMs": 137485,
+      "status": "Auto on · ban in 1.9s · random delay."
+    },
+    {
+      "elapsedMs": 139041,
+      "status": "Auto on · ban in 0.5s · random delay."
+    },
+    {
+      "elapsedMs": 139615,
+      "status": "Auto on · finding Legion Commander for ban."
+    },
+    {
+      "elapsedMs": 141233,
+      "status": "Auto on · selecting Legion Commander for ban · weighted native choice (54.9 points)."
+    },
+    {
+      "elapsedMs": 142296,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 143331,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 145395,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 145909,
+      "status": "Auto on · ban in 1.8s · random delay."
+    },
+    {
+      "elapsedMs": 146427,
+      "status": "Auto on · ban in 1.1s · random delay."
+    },
+    {
+      "elapsedMs": 147452,
+      "status": "Auto on · ban in 0.4s · random delay."
+    },
+    {
+      "elapsedMs": 148029,
+      "status": "Auto on · finding Faceless Void for ban."
+    },
+    {
+      "elapsedMs": 148579,
+      "status": "Auto on · selecting Faceless Void for ban · weighted native choice (38.3 points)."
+    },
+    {
+      "elapsedMs": 149698,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 150716,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 153818,
+      "status": "Auto on · pick in 3.0s · random delay."
+    },
+    {
+      "elapsedMs": 154846,
+      "status": "Auto on · pick in 1.7s · random delay."
+    },
+    {
+      "elapsedMs": 156391,
+      "status": "Auto on · pick in 0.3s · random delay."
+    },
+    {
+      "elapsedMs": 157419,
+      "status": "Auto on · finding Slark for pick."
+    },
+    {
+      "elapsedMs": 157929,
+      "status": "Auto on · selecting Slark for pick · weighted native choice (53.4 points)."
+    },
+    {
+      "elapsedMs": 159118,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 160672,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 168822,
+      "status": "Auto on · draft complete · native strategy screen is opening."
+    },
+    {
+      "elapsedMs": 175185,
+      "status": "Auto on · assigning roles before optimization."
+    },
+    {
+      "elapsedMs": 176227,
+      "status": "Auto on · assigning roles 1/5."
+    },
+    {
+      "elapsedMs": 176745,
+      "status": "Auto on · assigning roles 2/5."
+    },
+    {
+      "elapsedMs": 178296,
+      "status": "Auto on · assigning roles 3/5."
+    },
+    {
+      "elapsedMs": 179350,
+      "status": "Auto on · assigning roles 4/5."
+    },
+    {
+      "elapsedMs": 180950,
+      "status": "Auto on · assigning roles 5/5."
+    },
+    {
+      "elapsedMs": 182652,
+      "status": "Auto on · Configuration 1/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 183544,
+      "status": "Auto on · Configuration 5/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 184293,
+      "status": "Auto on · Configuration 9/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 185055,
+      "status": "Auto on · Configuration 14/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 185837,
+      "status": "Auto on · Configuration 19/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 186609,
+      "status": "Auto on · Configuration 24/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 187343,
+      "status": "Auto on · Configuration 29/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 188145,
+      "status": "Auto on · Configuration 34/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 188863,
+      "status": "Auto on · Configuration 39/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 189556,
+      "status": "Auto on · Configuration 44/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 190301,
+      "status": "Auto on · Configuration 49/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 191091,
+      "status": "Auto on · Configuration 54/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 191817,
+      "status": "Auto on · Configuration 59/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 192572,
+      "status": "Auto on · Configuration 64/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 193344,
+      "status": "Auto on · Item search · 5 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 194091,
+      "status": "Auto on · Item search · 10 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 194861,
+      "status": "Auto on · Item search · 16 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 195597,
+      "status": "Auto on · Item search · 21 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 196277,
+      "status": "Auto on · Item search · 26 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 196981,
+      "status": "Auto on · Item search · 31 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 197632,
+      "status": "Auto on · Item search · 36 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 198342,
+      "status": "Auto on · Item search · 41 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 199167,
+      "status": "Auto on · Item search · 47 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 199956,
+      "status": "Auto on · Item search · 53 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 200611,
+      "status": "Auto on · Item search · 58 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 201296,
+      "status": "Auto on · Item search · 62 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 202059,
+      "status": "Auto on · Item search · 67 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 202820,
+      "status": "Auto on · Item search · 72 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 203644,
+      "status": "Auto on · Item search · 77 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 204399,
+      "status": "Auto on · Item search · 82 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 205110,
+      "status": "Auto on · Item search · 87 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 205898,
+      "status": "Auto on · Item search · 93 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 206714,
+      "status": "Auto on · Item search · 99 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 207521,
+      "status": "Auto on · Item search · 105 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 208248,
+      "status": "Auto on · Item search · 110 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 208928,
+      "status": "Auto on · Item search · 115 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 209800,
+      "status": "Auto on · Item search · 121 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 210537,
+      "status": "Auto on · Item search · 127 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 211232,
+      "status": "Auto on · Item search · 132 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 212029,
+      "status": "Auto on · Item search · 138 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 212726,
+      "status": "Auto on · Item search · 143 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 213371,
+      "status": "Auto on · Item search · 148 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 214067,
+      "status": "Auto on · Item search · 153 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 215032,
+      "status": "Auto on · Item search · 160 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 215783,
+      "status": "Auto on · Item search · 165 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 216673,
+      "status": "Auto on · Item search · 170 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 217400,
+      "status": "Auto on · Item search · 175 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 218167,
+      "status": "Auto on · Item search · 180 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 218904,
+      "status": "Auto on · Item search · 185 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 219645,
+      "status": "Auto on · Item search · 190 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 220322,
+      "status": "Auto on · Item search · 195 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 221135,
+      "status": "Auto on · Item search · 201 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 221863,
+      "status": "Auto on · Item search · 206 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 222751,
+      "status": "Auto on · Item search · 212 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 223667,
+      "status": "Auto on · Item search · 218 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 224373,
+      "status": "Auto on · Item search · 223 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 225073,
+      "status": "Auto on · Item search · 228 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 225776,
+      "status": "Auto on · Item search · 233 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 226620,
+      "status": "Auto on · Item search · 239 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 227285,
+      "status": "Auto on · Item search · 244 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 227950,
+      "status": "Auto on · Item search · 249 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 228668,
+      "status": "Auto on · Item search · 254 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 229378,
+      "status": "Auto on · Item search · 259 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 230191,
+      "status": "Auto on · Item search · 264 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 231052,
+      "status": "Auto on · Item search · 269 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 231761,
+      "status": "Auto on · Item search · 274 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 232518,
+      "status": "Auto on · Item search · 279 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 233319,
+      "status": "Auto on · Item search · 285 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 234056,
+      "status": "Auto on · Item search · 290 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 234907,
+      "status": "Auto on · Item search · 296 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 235617,
+      "status": "Auto on · Item search · 301 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 236460,
+      "status": "Auto on · Item search · 306 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 237224,
+      "status": "Auto on · Item search · 311 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 237986,
+      "status": "Auto on · Item search · 316 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 238807,
+      "status": "Auto on · Item search · 321 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 239518,
+      "status": "Auto on · Item search · 325 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 240420,
+      "status": "Auto on · Item search · 330 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 241134,
+      "status": "Auto on · Item search · 335 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 241865,
+      "status": "Auto on · Item search · 340 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 242578,
+      "status": "Auto on · Item search · 345 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 243238,
+      "status": "Auto on · Item search · 350 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 244008,
+      "status": "Auto on · Item search · 355 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 244599,
+      "status": "Auto on · Item search · 360 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 245266,
+      "status": "Auto on · Item search · 365 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 245996,
+      "status": "Auto on · Item search · 370 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 246668,
+      "status": "Auto on · Item search · 375 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 247371,
+      "status": "Auto on · Item search · 380 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 248096,
+      "status": "Auto on · Item search · 385 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 248843,
+      "status": "Auto on · Item search · 391 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 249675,
+      "status": "Auto on · Item search · 397 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 250349,
+      "status": "Auto on · Item search · 402 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 251060,
+      "status": "Auto on · Item search · 407 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 251744,
+      "status": "Auto on · Item search · 412 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 252574,
+      "status": "Auto on · Item search · 418 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 253354,
+      "status": "Auto on · Strategy with selected items 5/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 254129,
+      "status": "Auto on · Strategy with selected items 10/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 254787,
+      "status": "Auto on · Strategy with selected items 13/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 255597,
+      "status": "Auto on · Strategy with selected items 18/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 256430,
+      "status": "Auto on · Strategy with selected items 23/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 257277,
+      "status": "Auto on · Strategy with selected items 28/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 258020,
+      "status": "Auto on · Strategy with selected items 32/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 258813,
+      "status": "Auto on · Strategy with selected items 37/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 259493,
+      "status": "Auto on · Strategy with selected items 42/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 260208,
+      "status": "Auto on · Strategy with selected items 47/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 261017,
+      "status": "Auto on · Strategy with selected items 52/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 261824,
+      "status": "Auto on · Strategy with selected items 58/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 262749,
+      "status": "Auto on · checking a strategy shortlist against enemy role and item-order alternatives."
+    },
+    {
+      "elapsedMs": 264834,
+      "status": "Auto on · applying items 0/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 266913,
+      "status": "Auto on · applying items 1/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 276380,
+      "status": "Auto on · applying items 2/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 288865,
+      "status": "Auto on · applying items 3/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 294396,
+      "status": "Auto on · applying items 4/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 306176,
+      "status": "Auto on · selected configuration applied · verifying Continue."
+    },
+    {
+      "elapsedMs": 307249,
+      "status": "Auto on · Continue submitted · verifying game acknowledgement."
+    },
+    {
+      "elapsedMs": 309431,
+      "status": "Auto off · Configuration submitted; match started."
+    }
+  ],
+  "record": {
+    "version": "2.8.4",
+    "savedAt": "2026-10-13T04:54:18.397Z",
+    "status": "Configuration submitted; match started.",
+    "phase": "finish",
+    "applicationIndex": 6,
+    "configurationVerified": true,
+    "scheduling": {
+      "driver": "worker",
+      "lastWakeAt": 1791867258395,
+      "frameClockInstalledAt": "loading",
+      "frameState": {
+        "active": true,
+        "pending": 2,
+        "lastFrameAt": 0
+      }
+    },
+    "preparationEvidence": {
+      "observedAt": 1791867255566,
+      "status": null,
+      "tabHidden": false,
+      "remainingSeconds": 169,
+      "expectedOwn": [
+        17,
+        123,
+        30,
+        20,
+        93
+      ],
+      "expectedEnemy": [
+        96,
+        101,
+        129,
+        65,
+        4
+      ],
+      "observedOwn": [
+        17,
+        123,
+        30,
+        20,
+        93
+      ],
+      "observedEnemy": [
+        96,
+        101,
+        129,
+        65,
+        4
+      ],
+      "observedRoles": {
+        "17": "mid",
+        "20": "support",
+        "30": "hard_support",
+        "93": "carry",
+        "123": "offlane"
+      }
+    },
+    "draft": {
+      "own": [
+        17,
+        123,
+        30,
+        20,
+        93
+      ],
+      "enemy": [
+        96,
+        101,
+        129,
+        65,
+        4
+      ],
+      "bans": [
+        1,
+        3,
+        13,
+        52,
+        92,
+        14,
+        32,
+        75,
+        79,
+        26,
+        18,
+        104,
+        56,
+        41
+      ],
+      "ownBans": [
+        1,
+        13,
+        92,
+        75,
+        26,
+        104,
+        41
+      ],
+      "roles": {
+        "17": "mid",
+        "20": "support",
+        "30": "hard_support",
+        "93": "carry",
+        "123": "offlane"
+      },
+      "enemyRoles": {},
+      "enemyChoices": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "a",
+        "farm_gank": "b",
+        "objective_style": "b",
+        "map_control": "a"
+      },
+      "side": "dire",
+      "turn": null,
+      "source": "automatic",
+      "detected": true
+    },
+    "heroNames": {
+      "1": "Anti-Mage",
+      "3": "Bane",
+      "4": "Bloodseeker",
+      "13": "Puck",
+      "14": "Pudge",
+      "17": "Storm Spirit",
+      "18": "Sven",
+      "20": "Vengeful Spirit",
+      "26": "Lion",
+      "30": "Witch Doctor",
+      "32": "Riki",
+      "41": "Faceless Void",
+      "52": "Leshrac",
+      "56": "Clinkz",
+      "65": "Batrider",
+      "75": "Silencer",
+      "79": "Shadow Demon",
+      "92": "Visage",
+      "93": "Slark",
+      "96": "Centaur Warrunner",
+      "101": "Skywrath Mage",
+      "104": "Legion Commander",
+      "123": "Mars",
+      "129": "Hoodwink"
+    },
+    "observedApplication": {
+      "roles": {
+        "17": "mid",
+        "20": "support",
+        "30": "hard_support",
+        "93": "carry",
+        "123": "offlane"
+      },
+      "items": {
+        "17": [
+          "power_treads",
+          "kaya",
+          "witch_blade",
+          "black_king_bar",
+          "guardian_greaves",
+          "boots_of_travel"
+        ],
+        "20": [
+          "guardian_greaves",
+          "vladmirs_offering",
+          "aeon_disk",
+          "solar_crest",
+          "spirit_vessel",
+          "assault_cuirass"
+        ],
+        "30": [
+          "aether_lens",
+          "force_staff",
+          "phase_boots",
+          "arcane_boots",
+          "aghanims_scepter",
+          "octarine_core"
+        ],
+        "93": [
+          "mjollnir",
+          "radiance",
+          "hand_of_midas",
+          "echo_sabre",
+          "aghanims_scepter",
+          "silver_edge"
+        ],
+        "123": [
+          "phase_boots",
+          "black_king_bar",
+          "spirit_vessel",
+          "desolator",
+          "blade_mail",
+          "rod_of_atos"
+        ]
+      },
+      "strategy": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    "submissionAcknowledged": true,
+    "pendingStrategy": null,
+    "strategyEvidence": "Visible call progression after requested click; completed choice values are no longer exposed by the native screen.",
+    "selectedRoles": {
+      "17": "mid",
+      "20": "support",
+      "30": "hard_support",
+      "93": "carry",
+      "123": "offlane"
+    },
+    "selectedStrategy": {
+      "early_late": "a",
+      "aggro_passive": "a",
+      "fight_split": "a",
+      "farm_gank": "a",
+      "objective_style": "a",
+      "map_control": "b"
+    },
+    "selectedItems": {
+      "17": [
+        "power_treads",
+        "kaya",
+        "witch_blade",
+        "black_king_bar",
+        "guardian_greaves",
+        "boots_of_travel"
+      ],
+      "20": [
+        "guardian_greaves",
+        "vladmirs_offering",
+        "aeon_disk",
+        "solar_crest",
+        "spirit_vessel",
+        "assault_cuirass"
+      ],
+      "30": [
+        "aether_lens",
+        "force_staff",
+        "phase_boots",
+        "arcane_boots",
+        "aghanims_scepter",
+        "octarine_core"
+      ],
+      "93": [
+        "mjollnir",
+        "radiance",
+        "hand_of_midas",
+        "echo_sabre",
+        "aghanims_scepter",
+        "silver_edge"
+      ],
+      "123": [
+        "phase_boots",
+        "black_king_bar",
+        "spirit_vessel",
+        "desolator",
+        "blade_mail",
+        "rod_of_atos"
+      ]
+    },
+    "forecast": {
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "b"
+      },
+      "wins": 4,
+      "total": 4,
+      "nw": 8434.718771629734,
+      "worstNW": -26191.42276625018,
+      "itemBuilds": {
+        "17": [
+          "power_treads",
+          "kaya",
+          "witch_blade",
+          "black_king_bar",
+          "guardian_greaves",
+          "boots_of_travel"
+        ],
+        "20": [
+          "guardian_greaves",
+          "vladmirs_offering",
+          "aeon_disk",
+          "solar_crest",
+          "spirit_vessel",
+          "assault_cuirass"
+        ],
+        "30": [
+          "aether_lens",
+          "force_staff",
+          "phase_boots",
+          "arcane_boots",
+          "aghanims_scepter",
+          "octarine_core"
+        ],
+        "93": [
+          "mjollnir",
+          "radiance",
+          "hand_of_midas",
+          "echo_sabre",
+          "aghanims_scepter",
+          "silver_edge"
+        ],
+        "123": [
+          "phase_boots",
+          "black_king_bar",
+          "spirit_vessel",
+          "desolator",
+          "blade_mail",
+          "rod_of_atos"
+        ]
+      },
+      "alternatives": [
+        {
+          "choices": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          "wins": 4,
+          "total": 4,
+          "nw": 8434.718771629734,
+          "worstNW": -26191.42276625018,
+          "itemBuilds": {
+            "17": [
+              "power_treads",
+              "kaya",
+              "witch_blade",
+              "black_king_bar",
+              "guardian_greaves",
+              "boots_of_travel"
+            ],
+            "20": [
+              "guardian_greaves",
+              "vladmirs_offering",
+              "aeon_disk",
+              "solar_crest",
+              "spirit_vessel",
+              "assault_cuirass"
+            ],
+            "30": [
+              "aether_lens",
+              "force_staff",
+              "phase_boots",
+              "arcane_boots",
+              "aghanims_scepter",
+              "octarine_core"
+            ],
+            "93": [
+              "mjollnir",
+              "radiance",
+              "hand_of_midas",
+              "echo_sabre",
+              "aghanims_scepter",
+              "silver_edge"
+            ],
+            "123": [
+              "phase_boots",
+              "black_king_bar",
+              "spirit_vessel",
+              "desolator",
+              "blade_mail",
+              "rod_of_atos"
+            ]
+          }
+        },
+        {
+          "choices": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          "wins": 4,
+          "total": 4,
+          "nw": 24503.449538952496,
+          "worstNW": 8048.011131712643,
+          "itemBuilds": {
+            "17": [
+              "power_treads",
+              "kaya",
+              "witch_blade",
+              "black_king_bar",
+              "guardian_greaves",
+              "boots_of_travel"
+            ],
+            "20": [
+              "guardian_greaves",
+              "vladmirs_offering",
+              "aeon_disk",
+              "solar_crest",
+              "spirit_vessel",
+              "assault_cuirass"
+            ],
+            "30": [
+              "aether_lens",
+              "force_staff",
+              "phase_boots",
+              "arcane_boots",
+              "aghanims_scepter",
+              "octarine_core"
+            ],
+            "93": [
+              "mjollnir",
+              "radiance",
+              "hand_of_midas",
+              "echo_sabre",
+              "aghanims_scepter",
+              "silver_edge"
+            ],
+            "123": [
+              "phase_boots",
+              "black_king_bar",
+              "spirit_vessel",
+              "desolator",
+              "blade_mail",
+              "rod_of_atos"
+            ]
+          }
+        },
+        {
+          "choices": {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "wins": 4,
+          "total": 4,
+          "nw": 27933.20368024552,
+          "worstNW": 15211.504947237816,
+          "itemBuilds": {
+            "17": [
+              "power_treads",
+              "kaya",
+              "witch_blade",
+              "black_king_bar",
+              "guardian_greaves",
+              "boots_of_travel"
+            ],
+            "20": [
+              "guardian_greaves",
+              "vladmirs_offering",
+              "aeon_disk",
+              "solar_crest",
+              "spirit_vessel",
+              "assault_cuirass"
+            ],
+            "30": [
+              "aether_lens",
+              "force_staff",
+              "phase_boots",
+              "arcane_boots",
+              "aghanims_scepter",
+              "octarine_core"
+            ],
+            "93": [
+              "mjollnir",
+              "radiance",
+              "hand_of_midas",
+              "echo_sabre",
+              "aghanims_scepter",
+              "silver_edge"
+            ],
+            "123": [
+              "phase_boots",
+              "black_king_bar",
+              "spirit_vessel",
+              "desolator",
+              "blade_mail",
+              "rod_of_atos"
+            ]
+          }
+        },
+        {
+          "choices": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          "wins": 0,
+          "total": 4,
+          "nw": -12998.189294635882,
+          "worstNW": -13631.334092708501,
+          "itemBuilds": {
+            "17": [
+              "power_treads",
+              "kaya",
+              "witch_blade",
+              "black_king_bar",
+              "guardian_greaves",
+              "boots_of_travel"
+            ],
+            "20": [
+              "guardian_greaves",
+              "vladmirs_offering",
+              "aeon_disk",
+              "solar_crest",
+              "spirit_vessel",
+              "assault_cuirass"
+            ],
+            "30": [
+              "aether_lens",
+              "force_staff",
+              "phase_boots",
+              "arcane_boots",
+              "aghanims_scepter",
+              "octarine_core"
+            ],
+            "93": [
+              "mjollnir",
+              "radiance",
+              "hand_of_midas",
+              "echo_sabre",
+              "aghanims_scepter",
+              "silver_edge"
+            ],
+            "123": [
+              "phase_boots",
+              "black_king_bar",
+              "spirit_vessel",
+              "desolator",
+              "blade_mail",
+              "rod_of_atos"
+            ]
+          }
+        }
+      ],
+      "mode": "fast",
+      "evaluated": 64,
+      "screened": 64,
+      "enemyPlanCount": 1,
+      "refinement": null,
+      "itemTests": 418,
+      "passes": 1,
+      "challenger": {
+        "completed": true,
+        "changed": false,
+        "reason": "Baseline retained",
+        "budgetMs": 30000,
+        "elapsedMs": 1936.8999999994412,
+        "shortlisted": 4,
+        "baselineChoices": {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        "variants": [
+          {
+            "label": "Inferred roles / default item order",
+            "roles": {
+              "4": "carry",
+              "65": "mid",
+              "96": "offlane",
+              "101": "hard_support",
+              "129": "support"
+            },
+            "items": {
+              "4": [
+                "phase_boots",
+                "maelstrom",
+                "hand_of_midas",
+                "diffusal_blade",
+                "black_king_bar",
+                "manta_style"
+              ],
+              "65": [
+                "tranquil_boots",
+                "veil_of_discord",
+                "blink_dagger",
+                "force_staff",
+                "black_king_bar",
+                "lotus_orb"
+              ],
+              "96": [
+                "vanguard",
+                "blade_mail",
+                "phase_boots",
+                "blink_dagger",
+                "pipe_of_insight",
+                "black_king_bar"
+              ],
+              "101": [
+                "arcane_boots",
+                "rod_of_atos",
+                "glimmer_cape",
+                "force_staff",
+                "aghanims_scepter",
+                "scythe_of_vyse"
+              ],
+              "129": [
+                "arcane_boots",
+                "gleipnir",
+                "glimmer_cape",
+                "force_staff",
+                "aghanims_scepter",
+                "scythe_of_vyse"
+              ]
+            }
+          },
+          {
+            "label": "Role swap: Hoodwink / Batrider",
+            "roles": {
+              "4": "carry",
+              "65": "support",
+              "96": "offlane",
+              "101": "hard_support",
+              "129": "mid"
+            },
+            "items": {
+              "4": [
+                "phase_boots",
+                "maelstrom",
+                "hand_of_midas",
+                "diffusal_blade",
+                "black_king_bar",
+                "manta_style"
+              ],
+              "65": [
+                "tranquil_boots",
+                "blink_dagger",
+                "force_staff",
+                "aghanims_scepter",
+                "eul_scepter",
+                "glimmer_cape"
+              ],
+              "96": [
+                "vanguard",
+                "blade_mail",
+                "phase_boots",
+                "blink_dagger",
+                "pipe_of_insight",
+                "black_king_bar"
+              ],
+              "101": [
+                "arcane_boots",
+                "rod_of_atos",
+                "glimmer_cape",
+                "force_staff",
+                "aghanims_scepter",
+                "scythe_of_vyse"
+              ],
+              "129": [
+                "power_treads",
+                "gleipnir",
+                "hurricane_pike",
+                "aghanims_scepter",
+                "monkey_king_bar",
+                "daedalus"
+              ]
+            }
+          },
+          {
+            "label": "Inferred roles / default item order + carry purchases 1/2",
+            "roles": {
+              "4": "carry",
+              "65": "mid",
+              "96": "offlane",
+              "101": "hard_support",
+              "129": "support"
+            },
+            "items": {
+              "4": [
+                "maelstrom",
+                "phase_boots",
+                "hand_of_midas",
+                "diffusal_blade",
+                "black_king_bar",
+                "manta_style"
+              ],
+              "65": [
+                "tranquil_boots",
+                "veil_of_discord",
+                "blink_dagger",
+                "force_staff",
+                "black_king_bar",
+                "lotus_orb"
+              ],
+              "96": [
+                "vanguard",
+                "blade_mail",
+                "phase_boots",
+                "blink_dagger",
+                "pipe_of_insight",
+                "black_king_bar"
+              ],
+              "101": [
+                "arcane_boots",
+                "rod_of_atos",
+                "glimmer_cape",
+                "force_staff",
+                "aghanims_scepter",
+                "scythe_of_vyse"
+              ],
+              "129": [
+                "arcane_boots",
+                "gleipnir",
+                "glimmer_cape",
+                "force_staff",
+                "aghanims_scepter",
+                "scythe_of_vyse"
+              ]
+            }
+          },
+          {
+            "label": "Role swap: Hoodwink / Batrider + carry purchases 1/2",
+            "roles": {
+              "4": "carry",
+              "65": "support",
+              "96": "offlane",
+              "101": "hard_support",
+              "129": "mid"
+            },
+            "items": {
+              "4": [
+                "maelstrom",
+                "phase_boots",
+                "hand_of_midas",
+                "diffusal_blade",
+                "black_king_bar",
+                "manta_style"
+              ],
+              "65": [
+                "tranquil_boots",
+                "blink_dagger",
+                "force_staff",
+                "aghanims_scepter",
+                "eul_scepter",
+                "glimmer_cape"
+              ],
+              "96": [
+                "vanguard",
+                "blade_mail",
+                "phase_boots",
+                "blink_dagger",
+                "pipe_of_insight",
+                "black_king_bar"
+              ],
+              "101": [
+                "arcane_boots",
+                "rod_of_atos",
+                "glimmer_cape",
+                "force_staff",
+                "aghanims_scepter",
+                "scythe_of_vyse"
+              ],
+              "129": [
+                "power_treads",
+                "gleipnir",
+                "hurricane_pike",
+                "aghanims_scepter",
+                "monkey_king_bar",
+                "daedalus"
+              ]
+            }
+          }
+        ],
+        "enemyPlans": [
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          }
+        ],
+        "metrics": [
+          [
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 43053.69714928097
+            },
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": -26191.42276625018
+            },
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 43029.32636080535
+            },
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": -26152.725657317205
+            }
+          ],
+          [
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 40955.431129979595
+            },
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 8048.011131712643
+            },
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 40962.33005715787
+            },
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 8048.025836959874
+            }
+          ],
+          [
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 40685.31558594371
+            },
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 15211.504947237816
+            },
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 40624.48457813769
+            },
+            {
+              "wins": 1,
+              "severe": 0,
+              "nw": 15211.509609662855
+            }
+          ],
+          [
+            {
+              "wins": 0,
+              "severe": 0,
+              "nw": -12366.534320553052
+            },
+            {
+              "wins": 0,
+              "severe": 0,
+              "nw": -13631.334092708501
+            },
+            {
+              "wins": 0,
+              "severe": 0,
+              "nw": -12364.547092104098
+            },
+            {
+              "wins": 0,
+              "severe": 0,
+              "nw": -13630.341673177878
+            }
+          ]
+        ],
+        "selectedIndex": 0
+      }
+    },
+    "assumptions": {
+      "enemyRoles": {
+        "4": "carry",
+        "65": "mid",
+        "96": "offlane",
+        "101": "hard_support",
+        "129": "support"
+      },
+      "enemyItems": "Modeled native role defaults and carry purchase-order alternatives",
+      "enemyVariants": [
+        {
+          "label": "Inferred roles / default item order",
+          "roles": {
+            "4": "carry",
+            "65": "mid",
+            "96": "offlane",
+            "101": "hard_support",
+            "129": "support"
+          },
+          "items": {
+            "4": [
+              "phase_boots",
+              "maelstrom",
+              "hand_of_midas",
+              "diffusal_blade",
+              "black_king_bar",
+              "manta_style"
+            ],
+            "65": [
+              "tranquil_boots",
+              "veil_of_discord",
+              "blink_dagger",
+              "force_staff",
+              "black_king_bar",
+              "lotus_orb"
+            ],
+            "96": [
+              "vanguard",
+              "blade_mail",
+              "phase_boots",
+              "blink_dagger",
+              "pipe_of_insight",
+              "black_king_bar"
+            ],
+            "101": [
+              "arcane_boots",
+              "rod_of_atos",
+              "glimmer_cape",
+              "force_staff",
+              "aghanims_scepter",
+              "scythe_of_vyse"
+            ],
+            "129": [
+              "arcane_boots",
+              "gleipnir",
+              "glimmer_cape",
+              "force_staff",
+              "aghanims_scepter",
+              "scythe_of_vyse"
+            ]
+          }
+        },
+        {
+          "label": "Role swap: Hoodwink / Batrider",
+          "roles": {
+            "4": "carry",
+            "65": "support",
+            "96": "offlane",
+            "101": "hard_support",
+            "129": "mid"
+          },
+          "items": {
+            "4": [
+              "phase_boots",
+              "maelstrom",
+              "hand_of_midas",
+              "diffusal_blade",
+              "black_king_bar",
+              "manta_style"
+            ],
+            "65": [
+              "tranquil_boots",
+              "blink_dagger",
+              "force_staff",
+              "aghanims_scepter",
+              "eul_scepter",
+              "glimmer_cape"
+            ],
+            "96": [
+              "vanguard",
+              "blade_mail",
+              "phase_boots",
+              "blink_dagger",
+              "pipe_of_insight",
+              "black_king_bar"
+            ],
+            "101": [
+              "arcane_boots",
+              "rod_of_atos",
+              "glimmer_cape",
+              "force_staff",
+              "aghanims_scepter",
+              "scythe_of_vyse"
+            ],
+            "129": [
+              "power_treads",
+              "gleipnir",
+              "hurricane_pike",
+              "aghanims_scepter",
+              "monkey_king_bar",
+              "daedalus"
+            ]
+          }
+        },
+        {
+          "label": "Inferred roles / default item order + carry purchases 1/2",
+          "roles": {
+            "4": "carry",
+            "65": "mid",
+            "96": "offlane",
+            "101": "hard_support",
+            "129": "support"
+          },
+          "items": {
+            "4": [
+              "maelstrom",
+              "phase_boots",
+              "hand_of_midas",
+              "diffusal_blade",
+              "black_king_bar",
+              "manta_style"
+            ],
+            "65": [
+              "tranquil_boots",
+              "veil_of_discord",
+              "blink_dagger",
+              "force_staff",
+              "black_king_bar",
+              "lotus_orb"
+            ],
+            "96": [
+              "vanguard",
+              "blade_mail",
+              "phase_boots",
+              "blink_dagger",
+              "pipe_of_insight",
+              "black_king_bar"
+            ],
+            "101": [
+              "arcane_boots",
+              "rod_of_atos",
+              "glimmer_cape",
+              "force_staff",
+              "aghanims_scepter",
+              "scythe_of_vyse"
+            ],
+            "129": [
+              "arcane_boots",
+              "gleipnir",
+              "glimmer_cape",
+              "force_staff",
+              "aghanims_scepter",
+              "scythe_of_vyse"
+            ]
+          }
+        },
+        {
+          "label": "Role swap: Hoodwink / Batrider + carry purchases 1/2",
+          "roles": {
+            "4": "carry",
+            "65": "support",
+            "96": "offlane",
+            "101": "hard_support",
+            "129": "mid"
+          },
+          "items": {
+            "4": [
+              "maelstrom",
+              "phase_boots",
+              "hand_of_midas",
+              "diffusal_blade",
+              "black_king_bar",
+              "manta_style"
+            ],
+            "65": [
+              "tranquil_boots",
+              "blink_dagger",
+              "force_staff",
+              "aghanims_scepter",
+              "eul_scepter",
+              "glimmer_cape"
+            ],
+            "96": [
+              "vanguard",
+              "blade_mail",
+              "phase_boots",
+              "blink_dagger",
+              "pipe_of_insight",
+              "black_king_bar"
+            ],
+            "101": [
+              "arcane_boots",
+              "rod_of_atos",
+              "glimmer_cape",
+              "force_staff",
+              "aghanims_scepter",
+              "scythe_of_vyse"
+            ],
+            "129": [
+              "power_treads",
+              "gleipnir",
+              "hurricane_pike",
+              "aghanims_scepter",
+              "monkey_king_bar",
+              "daedalus"
+            ]
+          }
+        }
+      ],
+      "enemyStrategies": [
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        }
+      ],
+      "interpretation": "Deterministic scenario counts, not win probabilities; this is a pregame record, not a match replay."
+    }
+  },
+  "trace": [
+    {
+      "time": 1791866958019,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866958766,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866960178,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866961560,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866962972,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866964371,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866965760,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866966466,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866967869,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866968612,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866969967,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866971360,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866972060,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866972769,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866974161,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866975560,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866976262,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866976965,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866977674,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866979069,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866980466,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866981867,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866982593,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866983959,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866984714,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866986061,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866986770,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866988167,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866989564,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866990272,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866991669,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866992371,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866993073,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866993773,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866994473,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866995864,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866996566,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866997269,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866997969,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866998669,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791866999369,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867000082,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867001462,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867002860,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867003570,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867004968,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867006361,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867007770,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867009164,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867009868,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867010572,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867011961,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867013359,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867014059,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867014761,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867015469,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867016171,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867016872,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867018263,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867019673,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867021069,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867022460,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867023160,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867023861,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867024564,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867025266,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867025974,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867027368,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867028069,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867028769,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867030163,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867030865,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867032270,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867032970,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867033672,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867035064,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867035769,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867037165,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867037868,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867038568,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867039963,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867040669,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867042062,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867042770,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867043471,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867044871,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867046273,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867047663,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867048371,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867049760,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867050462,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867051170,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867052571,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867053965,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867054669,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867056072,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867057460,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867058161,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867058861,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867059562,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867060268,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867061679,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867063073,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867064463,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867065171,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867066570,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867067273,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867067976,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867069361,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867070068,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867071467,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867072173,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867073572,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867074968,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867076363,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867077071,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867078471,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867079862,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867080566,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867081963,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867082677,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867084062,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867084764,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867085464,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867086168,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867086871,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867088268,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867088992,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867090389,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867091768,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867092468,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867093173,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867094562,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867095262,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867095966,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867096667,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867097370,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867098070,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867098775,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867100165,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867101572,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867102972,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867104372,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867105762,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867106463,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867107164,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867108564,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867109967,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867110671,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867111371,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867112074,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867113472,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867114868,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867115568,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867116969,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867118363,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867119075,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867120459,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867121169,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867122569,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867123273,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867124662,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": 178
+    },
+    {
+      "time": 1791867125367,
+      "phase": "roles",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": 177
+    },
+    {
+      "time": 1791867126072,
+      "phase": "roles",
+      "index": 1,
+      "hidden": false,
+      "busy": false,
+      "remaining": 176
+    },
+    {
+      "time": 1791867127470,
+      "phase": "roles",
+      "index": 2,
+      "hidden": false,
+      "busy": false,
+      "remaining": 175
+    },
+    {
+      "time": 1791867128869,
+      "phase": "roles",
+      "index": 3,
+      "hidden": false,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1791867130261,
+      "phase": "roles",
+      "index": 4,
+      "hidden": false,
+      "busy": false,
+      "remaining": 172
+    },
+    {
+      "time": 1791867131670,
+      "phase": "roles",
+      "index": 5,
+      "hidden": false,
+      "busy": false,
+      "remaining": 171
+    },
+    {
+      "time": 1791867132468,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 171
+    },
+    {
+      "time": 1791867133833,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867135198,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867135950,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867137349,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867138687,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867139464,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867140180,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867140892,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867142253,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867143027,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867144403,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867145676,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867146390,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867147172,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867147884,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867149222,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867150669,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867152036,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867153475,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867154881,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867155589,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867156927,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867157659,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867159005,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867160492,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867161878,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867163198,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867164574,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867165326,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867166047,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867166783,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867168142,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867168891,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867170292,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867171661,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867173078,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867174472,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867175177,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867176558,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867177912,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867178614,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867179386,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867180685,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867181451,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867182200,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867183599,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867185006,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867186319,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867187060,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867188516,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867189252,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867189955,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867191277,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867192680,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867194011,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867194801,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867196074,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867196912,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867198225,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867198949,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867200325,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867201692,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867202411,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867203187,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867204483,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867205328,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867206616,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867207369,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867208183,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867209454,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867210819,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867211529,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867212289,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867213564,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": false,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867214271,
+      "phase": "items",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867215663,
+      "phase": "items",
+      "index": 5,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867216363,
+      "phase": "items",
+      "index": 5,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867217763,
+      "phase": "items",
+      "index": 7,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867218464,
+      "phase": "items",
+      "index": 7,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867219909,
+      "phase": "items",
+      "index": 8,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867221272,
+      "phase": "items",
+      "index": 8,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867222668,
+      "phase": "items",
+      "index": 10,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867223372,
+      "phase": "items",
+      "index": 10,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867224761,
+      "phase": "items",
+      "index": 11,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867225465,
+      "phase": "items",
+      "index": 11,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867226172,
+      "phase": "items",
+      "index": 12,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867227570,
+      "phase": "items",
+      "index": 12,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867228967,
+      "phase": "items",
+      "index": 13,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867229670,
+      "phase": "items",
+      "index": 13,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867231072,
+      "phase": "items",
+      "index": 14,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867232460,
+      "phase": "items",
+      "index": 14,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867233167,
+      "phase": "items",
+      "index": 15,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867233873,
+      "phase": "items",
+      "index": 15,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867235265,
+      "phase": "items",
+      "index": 16,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867235972,
+      "phase": "items",
+      "index": 16,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867236674,
+      "phase": "items",
+      "index": 17,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867238066,
+      "phase": "items",
+      "index": 17,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867238768,
+      "phase": "items",
+      "index": 18,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867240159,
+      "phase": "items",
+      "index": 18,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867240861,
+      "phase": "items",
+      "index": 20,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867241564,
+      "phase": "items",
+      "index": 20,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867242269,
+      "phase": "items",
+      "index": 22,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867243669,
+      "phase": "items",
+      "index": 22,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867245068,
+      "phase": "items",
+      "index": 24,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867245773,
+      "phase": "items",
+      "index": 24,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867247168,
+      "phase": "items",
+      "index": 25,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867247874,
+      "phase": "items",
+      "index": 25,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867249266,
+      "phase": "apply",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867249966,
+      "phase": "apply",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867250674,
+      "phase": "apply",
+      "index": 1,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867252068,
+      "phase": "apply",
+      "index": 2,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867253466,
+      "phase": "apply",
+      "index": 3,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867254862,
+      "phase": "apply",
+      "index": 4,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867255563,
+      "phase": "apply",
+      "index": 5,
+      "hidden": false,
+      "busy": false,
+      "remaining": 169
+    },
+    {
+      "time": 1791867256266,
+      "phase": "finish",
+      "index": 6,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867257664,
+      "phase": "finish",
+      "index": 6,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867258395,
+      "phase": "finish",
+      "index": 6,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    }
+  ],
+  "nativeControls": {
+    "footers": [],
+    "animations": []
+  },
+  "scope": "Real browser visibility and scheduler; temporary profile and reward-disabled demo. Actual frozen/discarded tabs and authenticated PvP are not verified."
+}

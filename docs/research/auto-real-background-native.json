@@ -1,0 +1,4069 @@
+{
+  "mode": "Native Solo background preparation with real hidden visibility; window starts minimized; intensive timer grace shortened to 10 seconds for bounded reproduction",
+  "hiddenVerified": true,
+  "hiddenAtCompletion": true,
+  "bounds": {
+    "bounds": {
+      "left": 10,
+      "top": 10,
+      "width": 1050,
+      "height": 732,
+      "windowState": "minimized"
+    }
+  },
+  "elapsedMs": 309639,
+  "progress": [
+    {
+      "elapsedMs": 8827,
+      "status": "Auto on · ban in 2.2s · random delay."
+    },
+    {
+      "elapsedMs": 9885,
+      "status": "Auto on · ban in 1.4s · random delay."
+    },
+    {
+      "elapsedMs": 10498,
+      "status": "Auto on · ban in 0.7s · random delay."
+    },
+    {
+      "elapsedMs": 12073,
+      "status": "Auto on · finding Pudge for ban."
+    },
+    {
+      "elapsedMs": 13105,
+      "status": "Auto on · selecting Pudge for ban · weighted native choice (22.6 points)."
+    },
+    {
+      "elapsedMs": 14164,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 14697,
+      "status": "Auto on · ban in 3.8s · random delay."
+    },
+    {
+      "elapsedMs": 16264,
+      "status": "Auto on · ban in 2.4s · random delay."
+    },
+    {
+      "elapsedMs": 16828,
+      "status": "Auto on · ban in 1.7s · random delay."
+    },
+    {
+      "elapsedMs": 18364,
+      "status": "Auto on · ban in 0.3s · random delay."
+    },
+    {
+      "elapsedMs": 19400,
+      "status": "Auto on · finding Puck for ban."
+    },
+    {
+      "elapsedMs": 20970,
+      "status": "Auto on · selecting Puck for ban · weighted native choice (18.7 points)."
+    },
+    {
+      "elapsedMs": 21498,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 23045,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 31343,
+      "status": "Auto on · ban in 3.3s · random delay."
+    },
+    {
+      "elapsedMs": 32875,
+      "status": "Auto on · ban in 2.0s · random delay."
+    },
+    {
+      "elapsedMs": 34400,
+      "status": "Auto on · ban in 0.6s · random delay."
+    },
+    {
+      "elapsedMs": 35943,
+      "status": "Auto on · finding Chen for ban."
+    },
+    {
+      "elapsedMs": 36965,
+      "status": "Auto on · selecting Chen for ban · weighted native choice (12.6 points)."
+    },
+    {
+      "elapsedMs": 37984,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 39001,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 45703,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 46230,
+      "status": "Auto on · pick in 3.8s · random delay."
+    },
+    {
+      "elapsedMs": 47778,
+      "status": "Auto on · pick in 2.3s · random delay."
+    },
+    {
+      "elapsedMs": 48800,
+      "status": "Auto on · pick in 1.0s · random delay."
+    },
+    {
+      "elapsedMs": 49827,
+      "status": "Auto on · pick in 0.3s · random delay."
+    },
+    {
+      "elapsedMs": 50864,
+      "status": "Auto on · finding Axe for pick."
+    },
+    {
+      "elapsedMs": 51893,
+      "status": "Auto on · selecting Axe for pick · weighted native choice (42.5 points)."
+    },
+    {
+      "elapsedMs": 53470,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 53994,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 60738,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 62292,
+      "status": "Auto on · ban in 1.9s · random delay."
+    },
+    {
+      "elapsedMs": 62809,
+      "status": "Auto on · ban in 1.2s · random delay."
+    },
+    {
+      "elapsedMs": 63837,
+      "status": "Auto on · ban in 0.5s · random delay."
+    },
+    {
+      "elapsedMs": 64900,
+      "status": "Auto on · finding Bloodseeker for ban."
+    },
+    {
+      "elapsedMs": 66447,
+      "status": "Auto on · selecting Bloodseeker for ban · weighted native choice (29.6 points)."
+    },
+    {
+      "elapsedMs": 66988,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 68528,
+      "status": "Auto on · ban in 3.9s · random delay."
+    },
+    {
+      "elapsedMs": 69104,
+      "status": "Auto on · ban in 3.2s · random delay."
+    },
+    {
+      "elapsedMs": 70130,
+      "status": "Auto on · ban in 2.5s · random delay."
+    },
+    {
+      "elapsedMs": 71166,
+      "status": "Auto on · ban in 1.1s · random delay."
+    },
+    {
+      "elapsedMs": 72787,
+      "status": "Auto on · finding Lion for ban."
+    },
+    {
+      "elapsedMs": 73292,
+      "status": "Auto on · selecting Lion for ban · weighted native choice (32.4 points)."
+    },
+    {
+      "elapsedMs": 74865,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 75439,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 92499,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 94566,
+      "status": "Auto on · pick in 2.3s · random delay."
+    },
+    {
+      "elapsedMs": 95071,
+      "status": "Auto on · pick in 1.6s · random delay."
+    },
+    {
+      "elapsedMs": 96620,
+      "status": "Auto on · pick in 0.1s · random delay."
+    },
+    {
+      "elapsedMs": 98629,
+      "status": "Auto on · finding Vengeful Spirit for pick."
+    },
+    {
+      "elapsedMs": 99202,
+      "status": "Auto on · selecting Vengeful Spirit for pick · weighted native choice (48.3 points)."
+    },
+    {
+      "elapsedMs": 100235,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 100740,
+      "status": "Auto on · pick in 3.4s · random delay."
+    },
+    {
+      "elapsedMs": 101258,
+      "status": "Auto on · pick in 2.7s · random delay."
+    },
+    {
+      "elapsedMs": 102771,
+      "status": "Auto on · pick in 1.3s · random delay."
+    },
+    {
+      "elapsedMs": 104285,
+      "status": "Auto on · finding Jakiro for pick."
+    },
+    {
+      "elapsedMs": 105809,
+      "status": "Auto on · selecting Jakiro for pick · weighted native choice (46.1 points)."
+    },
+    {
+      "elapsedMs": 107330,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 107840,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 125229,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 126764,
+      "status": "Auto on · pick in 2.7s · random delay."
+    },
+    {
+      "elapsedMs": 128303,
+      "status": "Auto on · pick in 1.3s · random delay."
+    },
+    {
+      "elapsedMs": 128819,
+      "status": "Auto on · pick in 0.6s · random delay."
+    },
+    {
+      "elapsedMs": 129334,
+      "status": "Auto on · finding Slardar for pick."
+    },
+    {
+      "elapsedMs": 130356,
+      "status": "Auto on · selecting Slardar for pick · weighted native choice (45.1 points)."
+    },
+    {
+      "elapsedMs": 131376,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 132912,
+      "status": "Auto on · ban in 4.7s · random delay."
+    },
+    {
+      "elapsedMs": 133941,
+      "status": "Auto on · ban in 4.0s · random delay."
+    },
+    {
+      "elapsedMs": 134456,
+      "status": "Auto on · ban in 3.3s · random delay."
+    },
+    {
+      "elapsedMs": 134969,
+      "status": "Auto on · ban in 2.6s · random delay."
+    },
+    {
+      "elapsedMs": 136508,
+      "status": "Auto on · ban in 1.2s · random delay."
+    },
+    {
+      "elapsedMs": 137012,
+      "status": "Auto on · ban in 0.5s · random delay."
+    },
+    {
+      "elapsedMs": 138542,
+      "status": "Auto on · finding Silencer for ban."
+    },
+    {
+      "elapsedMs": 139054,
+      "status": "Auto on · selecting Silencer for ban · weighted native choice (51.6 points)."
+    },
+    {
+      "elapsedMs": 140086,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 140597,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 148282,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 150342,
+      "status": "Auto on · ban in 2.3s · random delay."
+    },
+    {
+      "elapsedMs": 151371,
+      "status": "Auto on · ban in 1.6s · random delay."
+    },
+    {
+      "elapsedMs": 151883,
+      "status": "Auto on · ban in 0.9s · random delay."
+    },
+    {
+      "elapsedMs": 152399,
+      "status": "Auto on · ban in 0.2s · random delay."
+    },
+    {
+      "elapsedMs": 153922,
+      "status": "Auto on · finding Windranger for ban."
+    },
+    {
+      "elapsedMs": 155429,
+      "status": "Auto on · selecting Windranger for ban · weighted native choice (39.3 points)."
+    },
+    {
+      "elapsedMs": 155946,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 157466,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 161545,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 163077,
+      "status": "Auto on · pick in 2.1s · random delay."
+    },
+    {
+      "elapsedMs": 164607,
+      "status": "Auto on · pick in 0.7s · random delay."
+    },
+    {
+      "elapsedMs": 166141,
+      "status": "Auto on · finding Batrider for pick."
+    },
+    {
+      "elapsedMs": 166653,
+      "status": "Auto on · selecting Batrider for pick · weighted native choice (44.9 points)."
+    },
+    {
+      "elapsedMs": 168198,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 168710,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 177960,
+      "status": "Auto on · draft complete · native strategy screen is opening."
+    },
+    {
+      "elapsedMs": 184073,
+      "status": "Auto on · assigning roles before optimization."
+    },
+    {
+      "elapsedMs": 184592,
+      "status": "Auto on · assigning roles 1/5."
+    },
+    {
+      "elapsedMs": 185617,
+      "status": "Auto on · assigning roles 2/5."
+    },
+    {
+      "elapsedMs": 186121,
+      "status": "Auto on · assigning roles 3/5."
+    },
+    {
+      "elapsedMs": 187138,
+      "status": "Auto on · assigning roles 4/5."
+    },
+    {
+      "elapsedMs": 187644,
+      "status": "Auto on · assigning roles 5/5."
+    },
+    {
+      "elapsedMs": 188411,
+      "status": "Auto on · Configuration 1/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 189632,
+      "status": "Auto on · Configuration 6/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 190535,
+      "status": "Auto on · Configuration 11/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 191253,
+      "status": "Auto on · Configuration 15/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 192062,
+      "status": "Auto on · Configuration 20/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 192901,
+      "status": "Auto on · Configuration 24/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 193609,
+      "status": "Auto on · Configuration 28/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 194261,
+      "status": "Auto on · Configuration 32/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 195078,
+      "status": "Auto on · Configuration 36/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 195961,
+      "status": "Auto on · Configuration 40/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 197022,
+      "status": "Auto on · Configuration 45/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 197787,
+      "status": "Auto on · Configuration 49/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 198409,
+      "status": "Auto on · Configuration 52/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 199226,
+      "status": "Auto on · Configuration 56/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 199861,
+      "status": "Auto on · Configuration 59/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 200609,
+      "status": "Auto on · Configuration 63/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 201404,
+      "status": "Auto on · Item search · 3 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 202087,
+      "status": "Auto on · Item search · 7 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 202857,
+      "status": "Auto on · Item search · 10 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 203603,
+      "status": "Auto on · Item search · 14 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 204306,
+      "status": "Auto on · Item search · 18 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 205026,
+      "status": "Auto on · Item search · 22 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 205754,
+      "status": "Auto on · Item search · 26 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 206395,
+      "status": "Auto on · Item search · 30 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 207339,
+      "status": "Auto on · Item search · 34 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 208254,
+      "status": "Auto on · Item search · 39 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 209080,
+      "status": "Auto on · Item search · 44 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 209786,
+      "status": "Auto on · Item search · 48 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 210508,
+      "status": "Auto on · Item search · 53 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 211407,
+      "status": "Auto on · Item search · 58 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 212255,
+      "status": "Auto on · Item search · 63 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 213120,
+      "status": "Auto on · Item search · 68 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 214188,
+      "status": "Auto on · Item search · 73 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 214888,
+      "status": "Auto on · Item search · 77 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 215713,
+      "status": "Auto on · Item search · 82 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 216404,
+      "status": "Auto on · Item search · 86 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 217276,
+      "status": "Auto on · Item search · 91 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 218011,
+      "status": "Auto on · Item search · 96 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 218782,
+      "status": "Auto on · Item search · 101 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 219479,
+      "status": "Auto on · Item search · 105 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 220388,
+      "status": "Auto on · Item search · 109 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 221258,
+      "status": "Auto on · Item search · 114 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 222092,
+      "status": "Auto on · Item search · 119 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 222921,
+      "status": "Auto on · Item search · 124 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 223621,
+      "status": "Auto on · Item search · 128 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 224473,
+      "status": "Auto on · Item search · 133 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 225291,
+      "status": "Auto on · Item search · 138 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 225981,
+      "status": "Auto on · Item search · 141 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 226887,
+      "status": "Auto on · Item search · 146 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 227694,
+      "status": "Auto on · Item search · 151 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 228424,
+      "status": "Auto on · Item search · 155 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 229257,
+      "status": "Auto on · Item search · 160 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 230127,
+      "status": "Auto on · Item search · 164 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 230793,
+      "status": "Auto on · Item search · 168 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 231588,
+      "status": "Auto on · Item search · 173 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 232494,
+      "status": "Auto on · Item search · 178 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 233470,
+      "status": "Auto on · Item search · 183 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 234401,
+      "status": "Auto on · Item search · 187 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 235220,
+      "status": "Auto on · Item search · 192 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 235967,
+      "status": "Auto on · Item search · 197 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 236773,
+      "status": "Auto on · Item search · 202 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 237561,
+      "status": "Auto on · Item search · 207 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 238221,
+      "status": "Auto on · Item search · 211 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 239332,
+      "status": "Auto on · Item search · 216 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 239980,
+      "status": "Auto on · Item search · 220 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 240712,
+      "status": "Auto on · Item search · 225 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 241465,
+      "status": "Auto on · Item search · 230 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 242239,
+      "status": "Auto on · Item search · 235 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 243178,
+      "status": "Auto on · Item search · 239 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 243912,
+      "status": "Auto on · Item search · 244 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 244575,
+      "status": "Auto on · Item search · 248 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 245300,
+      "status": "Auto on · Item search · 253 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 246068,
+      "status": "Auto on · Item search · 258 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 246780,
+      "status": "Auto on · Item search · 262 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 247573,
+      "status": "Auto on · Item search · 266 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 248496,
+      "status": "Auto on · Item search · 272 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 249274,
+      "status": "Auto on · Item search · 277 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 249879,
+      "status": "Auto on · Item search · 281 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 250699,
+      "status": "Auto on · Item search · 286 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 251369,
+      "status": "Auto on · Item search · 290 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 252054,
+      "status": "Auto on · Item search · 293 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 252758,
+      "status": "Auto on · Item search · 297 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 253603,
+      "status": "Auto on · Item search · 303 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 254427,
+      "status": "Auto on · Item search · 308 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 255387,
+      "status": "Auto on · Item search · 313 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 256145,
+      "status": "Auto on · Item search · 318 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 256888,
+      "status": "Auto on · Item search · 323 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 257684,
+      "status": "Auto on · Item search · 327 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 258619,
+      "status": "Auto on · Item search · 332 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 259390,
+      "status": "Auto on · Item search · 336 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 260383,
+      "status": "Auto on · Item search · 341 builds checked · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 261212,
+      "status": "Auto on · Strategy with selected items 2/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 261967,
+      "status": "Auto on · Strategy with selected items 6/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 262654,
+      "status": "Auto on · Strategy with selected items 11/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 263373,
+      "status": "Auto on · Strategy with selected items 15/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 264116,
+      "status": "Auto on · Strategy with selected items 20/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 264784,
+      "status": "Auto on · Strategy with selected items 24/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 265465,
+      "status": "Auto on · Strategy with selected items 29/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 266224,
+      "status": "Auto on · Strategy with selected items 33/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 267055,
+      "status": "Auto on · Strategy with selected items 37/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 267810,
+      "status": "Auto on · Strategy with selected items 41/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 268480,
+      "status": "Auto on · Strategy with selected items 45/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 269277,
+      "status": "Auto on · Strategy with selected items 51/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 270172,
+      "status": "Auto on · Strategy with selected items 55/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 270897,
+      "status": "Auto on · Strategy with selected items 59/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 271690,
+      "status": "Auto on · Strategy with selected items 63/64 · scenario 1/1…"
+    },
+    {
+      "elapsedMs": 272362,
+      "status": "Auto on · applying selected item builds, then strategy."
+    },
+    {
+      "elapsedMs": 272878,
+      "status": "Auto on · applying items 0/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 278524,
+      "status": "Auto on · applying items 1/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 286716,
+      "status": "Auto on · applying items 2/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 289829,
+      "status": "Auto on · applying items 3/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 296506,
+      "status": "Auto on · applying items 4/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 305752,
+      "status": "Auto on · selected configuration applied · verifying Continue."
+    },
+    {
+      "elapsedMs": 306760,
+      "status": "Auto on · Continue submitted · verifying game acknowledgement."
+    },
+    {
+      "elapsedMs": 309635,
+      "status": "Auto off · Configuration submitted; match started."
+    }
+  ],
+  "record": {
+    "version": "2.8.4",
+    "savedAt": "2026-10-13T05:04:48.123Z",
+    "status": "Configuration submitted; match started.",
+    "phase": "finish",
+    "applicationIndex": 6,
+    "configurationVerified": true,
+    "scheduling": {
+      "driver": "worker",
+      "lastWakeAt": 1791867888123,
+      "frameClockInstalledAt": "loading",
+      "frameState": {
+        "active": true,
+        "pending": 2,
+        "lastFrameAt": 308644.2999999989
+      }
+    },
+    "preparationEvidence": {
+      "observedAt": 1791867884581,
+      "status": null,
+      "tabHidden": true,
+      "remainingSeconds": 166,
+      "expectedOwn": [
+        2,
+        20,
+        64,
+        28,
+        65
+      ],
+      "expectedEnemy": [
+        136,
+        79,
+        50,
+        88,
+        93
+      ],
+      "observedOwn": [
+        2,
+        20,
+        64,
+        28,
+        65
+      ],
+      "observedEnemy": [
+        136,
+        79,
+        50,
+        88,
+        93
+      ],
+      "observedRoles": {
+        "2": "offlane",
+        "20": "hard_support",
+        "28": "carry",
+        "64": "support",
+        "65": "mid"
+      }
+    },
+    "draft": {
+      "own": [
+        2,
+        20,
+        64,
+        28,
+        65
+      ],
+      "enemy": [
+        136,
+        79,
+        50,
+        88,
+        93
+      ],
+      "bans": [
+        14,
+        3,
+        13,
+        62,
+        66,
+        56,
+        46,
+        4,
+        27,
+        26,
+        38,
+        75,
+        23,
+        21
+      ],
+      "ownBans": [
+        14,
+        13,
+        66,
+        4,
+        26,
+        75,
+        21
+      ],
+      "roles": {
+        "2": "offlane",
+        "20": "hard_support",
+        "28": "carry",
+        "64": "support",
+        "65": "mid"
+      },
+      "enemyRoles": {},
+      "enemyChoices": {
+        "early_late": "a",
+        "aggro_passive": "a",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "a"
+      },
+      "side": "dire",
+      "turn": null,
+      "source": "automatic",
+      "detected": true
+    },
+    "heroNames": {
+      "2": "Axe",
+      "3": "Bane",
+      "4": "Bloodseeker",
+      "13": "Puck",
+      "14": "Pudge",
+      "20": "Vengeful Spirit",
+      "21": "Windranger",
+      "23": "Kunkka",
+      "26": "Lion",
+      "27": "Shadow Shaman",
+      "28": "Slardar",
+      "38": "Beastmaster",
+      "46": "Templar Assassin",
+      "50": "Dazzle",
+      "56": "Clinkz",
+      "62": "Bounty Hunter",
+      "64": "Jakiro",
+      "65": "Batrider",
+      "66": "Chen",
+      "75": "Silencer",
+      "79": "Shadow Demon",
+      "88": "Nyx Assassin",
+      "93": "Slark",
+      "136": "Primal Beast"
+    },
+    "observedApplication": {
+      "roles": {
+        "2": "offlane",
+        "20": "hard_support",
+        "28": "carry",
+        "64": "support",
+        "65": "mid"
+      },
+      "items": {
+        "2": [
+          "aghanims_scepter",
+          "lotus_orb",
+          "pipe_of_insight",
+          "black_king_bar",
+          "shivas_guard",
+          "rod_of_atos"
+        ],
+        "20": [
+          "aghanims_scepter",
+          "power_treads",
+          "holy_locket",
+          "arcane_boots",
+          "glimmer_cape",
+          "force_staff"
+        ],
+        "28": [
+          "black_king_bar",
+          "aeon_disk",
+          "hand_of_midas",
+          "power_treads",
+          "blink_dagger",
+          "pipe_of_insight"
+        ],
+        "64": [
+          "arcane_boots",
+          "eul_scepter",
+          "aether_lens",
+          "glimmer_cape",
+          "force_staff",
+          "refresher"
+        ],
+        "65": [
+          "tranquil_boots",
+          "black_king_bar",
+          "blink_dagger",
+          "force_staff",
+          "veil_of_discord",
+          "manta_style"
+        ]
+      },
+      "strategy": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "b"
+      }
+    },
+    "submissionAcknowledged": true,
+    "pendingStrategy": null,
+    "strategyEvidence": "Visible call progression after requested click; completed choice values are no longer exposed by the native screen.",
+    "selectedRoles": {
+      "2": "offlane",
+      "20": "hard_support",
+      "28": "carry",
+      "64": "support",
+      "65": "mid"
+    },
+    "selectedStrategy": {
+      "early_late": "a",
+      "aggro_passive": "b",
+      "fight_split": "b",
+      "farm_gank": "b",
+      "objective_style": "a",
+      "map_control": "b"
+    },
+    "selectedItems": {
+      "2": [
+        "aghanims_scepter",
+        "lotus_orb",
+        "pipe_of_insight",
+        "black_king_bar",
+        "shivas_guard",
+        "rod_of_atos"
+      ],
+      "20": [
+        "aghanims_scepter",
+        "power_treads",
+        "holy_locket",
+        "arcane_boots",
+        "glimmer_cape",
+        "force_staff"
+      ],
+      "28": [
+        "black_king_bar",
+        "aeon_disk",
+        "hand_of_midas",
+        "power_treads",
+        "blink_dagger",
+        "pipe_of_insight"
+      ],
+      "64": [
+        "arcane_boots",
+        "eul_scepter",
+        "aether_lens",
+        "glimmer_cape",
+        "force_staff",
+        "refresher"
+      ],
+      "65": [
+        "tranquil_boots",
+        "black_king_bar",
+        "blink_dagger",
+        "force_staff",
+        "veil_of_discord",
+        "manta_style"
+      ]
+    },
+    "forecast": {
+      "choices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "b"
+      },
+      "wins": 1,
+      "total": 1,
+      "nw": 56349.7951906746,
+      "worstNW": 56349.7951906746,
+      "itemBuilds": {
+        "2": [
+          "aghanims_scepter",
+          "lotus_orb",
+          "pipe_of_insight",
+          "black_king_bar",
+          "shivas_guard",
+          "rod_of_atos"
+        ],
+        "20": [
+          "aghanims_scepter",
+          "power_treads",
+          "holy_locket",
+          "arcane_boots",
+          "glimmer_cape",
+          "force_staff"
+        ],
+        "28": [
+          "black_king_bar",
+          "aeon_disk",
+          "hand_of_midas",
+          "power_treads",
+          "blink_dagger",
+          "pipe_of_insight"
+        ],
+        "64": [
+          "arcane_boots",
+          "eul_scepter",
+          "aether_lens",
+          "glimmer_cape",
+          "force_staff",
+          "refresher"
+        ],
+        "65": [
+          "tranquil_boots",
+          "black_king_bar",
+          "blink_dagger",
+          "force_staff",
+          "veil_of_discord",
+          "manta_style"
+        ]
+      },
+      "alternatives": [
+        {
+          "choices": {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          "wins": 1,
+          "total": 1,
+          "nw": 56349.7951906746,
+          "worstNW": 56349.7951906746,
+          "itemBuilds": {
+            "2": [
+              "aghanims_scepter",
+              "lotus_orb",
+              "pipe_of_insight",
+              "black_king_bar",
+              "shivas_guard",
+              "rod_of_atos"
+            ],
+            "20": [
+              "aghanims_scepter",
+              "power_treads",
+              "holy_locket",
+              "arcane_boots",
+              "glimmer_cape",
+              "force_staff"
+            ],
+            "28": [
+              "black_king_bar",
+              "aeon_disk",
+              "hand_of_midas",
+              "power_treads",
+              "blink_dagger",
+              "pipe_of_insight"
+            ],
+            "64": [
+              "arcane_boots",
+              "eul_scepter",
+              "aether_lens",
+              "glimmer_cape",
+              "force_staff",
+              "refresher"
+            ],
+            "65": [
+              "tranquil_boots",
+              "black_king_bar",
+              "blink_dagger",
+              "force_staff",
+              "veil_of_discord",
+              "manta_style"
+            ]
+          }
+        },
+        {
+          "choices": {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "wins": 1,
+          "total": 1,
+          "nw": 46438.162831632326,
+          "worstNW": 46438.162831632326,
+          "itemBuilds": {
+            "2": [
+              "aghanims_scepter",
+              "lotus_orb",
+              "pipe_of_insight",
+              "black_king_bar",
+              "shivas_guard",
+              "rod_of_atos"
+            ],
+            "20": [
+              "aghanims_scepter",
+              "power_treads",
+              "holy_locket",
+              "arcane_boots",
+              "glimmer_cape",
+              "force_staff"
+            ],
+            "28": [
+              "black_king_bar",
+              "aeon_disk",
+              "hand_of_midas",
+              "power_treads",
+              "blink_dagger",
+              "pipe_of_insight"
+            ],
+            "64": [
+              "arcane_boots",
+              "eul_scepter",
+              "aether_lens",
+              "glimmer_cape",
+              "force_staff",
+              "refresher"
+            ],
+            "65": [
+              "tranquil_boots",
+              "black_king_bar",
+              "blink_dagger",
+              "force_staff",
+              "veil_of_discord",
+              "manta_style"
+            ]
+          }
+        },
+        {
+          "choices": {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "wins": 1,
+          "total": 1,
+          "nw": 46423.5630356734,
+          "worstNW": 46423.5630356734,
+          "itemBuilds": {
+            "2": [
+              "aghanims_scepter",
+              "lotus_orb",
+              "pipe_of_insight",
+              "black_king_bar",
+              "shivas_guard",
+              "rod_of_atos"
+            ],
+            "20": [
+              "aghanims_scepter",
+              "power_treads",
+              "holy_locket",
+              "arcane_boots",
+              "glimmer_cape",
+              "force_staff"
+            ],
+            "28": [
+              "black_king_bar",
+              "aeon_disk",
+              "hand_of_midas",
+              "power_treads",
+              "blink_dagger",
+              "pipe_of_insight"
+            ],
+            "64": [
+              "arcane_boots",
+              "eul_scepter",
+              "aether_lens",
+              "glimmer_cape",
+              "force_staff",
+              "refresher"
+            ],
+            "65": [
+              "tranquil_boots",
+              "black_king_bar",
+              "blink_dagger",
+              "force_staff",
+              "veil_of_discord",
+              "manta_style"
+            ]
+          }
+        }
+      ],
+      "mode": "fast",
+      "evaluated": 64,
+      "screened": 64,
+      "enemyPlanCount": 1,
+      "refinement": null,
+      "itemTests": 343,
+      "passes": 1,
+      "challenger": {
+        "completed": false,
+        "changed": false,
+        "reason": "No verified spare preparation time"
+      }
+    },
+    "assumptions": {
+      "enemyRoles": {
+        "50": "hard_support",
+        "79": "support",
+        "88": "mid",
+        "93": "carry",
+        "136": "offlane"
+      },
+      "enemyItems": "Native role defaults",
+      "enemyVariants": null,
+      "enemyStrategies": [
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        }
+      ],
+      "interpretation": "Deterministic scenario counts, not win probabilities; this is a pregame record, not a match replay."
+    }
+  },
+  "trace": [
+    {
+      "time": 1791867587736,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867588517,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867589218,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867590638,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867592003,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867592717,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867593423,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867594805,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867595515,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867596910,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867598315,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867599706,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867600415,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867601814,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867603210,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867603916,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867605309,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867606018,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867607403,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867608109,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867608816,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867610212,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867611612,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867613013,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867614413,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867615806,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867616517,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867617908,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867618610,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867620016,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867620716,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867622116,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867622850,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867624212,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867624917,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867626334,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867627705,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867628411,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867629812,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867630515,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867631906,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867632617,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867634014,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867635417,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867636808,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867637516,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867638219,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867638923,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867639629,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867641009,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867641714,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867642449,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867643819,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867645212,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867645923,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867647306,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867648010,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867648715,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867650118,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867651514,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867652216,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867653609,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867654313,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867655714,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867657110,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867657830,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867659206,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867659913,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867661317,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867662704,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867663413,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867664114,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867665511,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867666224,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867667635,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867669008,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867669716,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867671112,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867671818,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867673216,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867673917,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867675315,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867676717,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867678104,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867678806,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867679507,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867680211,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867681614,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867683015,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867684417,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867685809,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867686515,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867687217,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867688608,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867689313,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867690715,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867691417,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867692807,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867693508,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867694217,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867695603,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867696318,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867697020,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867698406,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867699115,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867699817,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867701211,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867701914,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867703307,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867704008,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867704712,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867705417,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867706805,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867707506,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867708208,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867708919,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867710309,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867711709,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867712410,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867713110,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867713812,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867715212,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867715917,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867717304,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867718007,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867718710,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867719412,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867720815,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867722214,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867722914,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867723616,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867725010,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867726407,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867727109,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867727811,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867728514,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867729217,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867729917,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867730617,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867731318,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867732716,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867734115,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867734818,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867736215,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867737615,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867739032,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867740404,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867741108,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867741811,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867743214,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867744607,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867745311,
+      "phase": "select",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867746715,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867747415,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867748118,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867749508,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867750211,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867750914,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867752315,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867753710,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867754410,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867755111,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867756509,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867757210,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867757913,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867759308,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867760016,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867761411,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867762808,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": 178
+    },
+    {
+      "time": 1791867763514,
+      "phase": "roles",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 178
+    },
+    {
+      "time": 1791867764225,
+      "phase": "roles",
+      "index": 1,
+      "hidden": true,
+      "busy": false,
+      "remaining": 177
+    },
+    {
+      "time": 1791867764935,
+      "phase": "roles",
+      "index": 2,
+      "hidden": true,
+      "busy": false,
+      "remaining": 177
+    },
+    {
+      "time": 1791867765642,
+      "phase": "roles",
+      "index": 3,
+      "hidden": true,
+      "busy": false,
+      "remaining": 176
+    },
+    {
+      "time": 1791867766350,
+      "phase": "roles",
+      "index": 4,
+      "hidden": true,
+      "busy": false,
+      "remaining": 175
+    },
+    {
+      "time": 1791867767057,
+      "phase": "roles",
+      "index": 5,
+      "hidden": true,
+      "busy": false,
+      "remaining": 175
+    },
+    {
+      "time": 1791867767770,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1791867768599,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1791867769501,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 173
+    },
+    {
+      "time": 1791867770221,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 172
+    },
+    {
+      "time": 1791867771030,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 171
+    },
+    {
+      "time": 1791867771869,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 170
+    },
+    {
+      "time": 1791867772577,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867773416,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 169
+    },
+    {
+      "time": 1791867774226,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 168
+    },
+    {
+      "time": 1791867774929,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 167
+    },
+    {
+      "time": 1791867775802,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 167
+    },
+    {
+      "time": 1791867776602,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867777377,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867778194,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867779007,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867779750,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867780532,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867781238,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867782029,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867782736,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867783602,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867784471,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867785362,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867786307,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867787221,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867788048,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867788754,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867789475,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867790374,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867791222,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867792087,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867793156,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867793856,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867794681,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867795554,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867796384,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867797092,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867797859,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867798616,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867799356,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867800225,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867801059,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867801889,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867802589,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867803441,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867804260,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867805210,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867805995,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867806834,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867807587,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867808369,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867809094,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867809958,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867810823,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867811715,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867812438,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867813369,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867814188,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867814934,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867815741,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867816528,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867817610,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867818424,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867819176,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867819908,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867820651,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867821430,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867822146,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867822880,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867823701,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867824405,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867825149,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867825882,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867826726,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867827464,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867828242,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867829007,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867829775,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867830499,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867831219,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867832095,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867832822,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867833652,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867834356,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867835113,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867835856,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867836652,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867837587,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867838358,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867839134,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867839918,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867840699,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867841427,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867842342,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867843085,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867843835,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867844542,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867845342,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867846165,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867846946,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867847686,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867848396,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867849140,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867849865,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867850658,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 166
+    },
+    {
+      "time": 1791867851360,
+      "phase": "items",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867852078,
+      "phase": "items",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867852781,
+      "phase": "items",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867853485,
+      "phase": "items",
+      "index": 1,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867854186,
+      "phase": "items",
+      "index": 1,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867854899,
+      "phase": "items",
+      "index": 2,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867855600,
+      "phase": "items",
+      "index": 2,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867856300,
+      "phase": "items",
+      "index": 5,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867857006,
+      "phase": "items",
+      "index": 5,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867857726,
+      "phase": "items",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867858426,
+      "phase": "items",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867859130,
+      "phase": "items",
+      "index": 7,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867859834,
+      "phase": "items",
+      "index": 7,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867860549,
+      "phase": "items",
+      "index": 8,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867861251,
+      "phase": "items",
+      "index": 8,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867861954,
+      "phase": "items",
+      "index": 9,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867862661,
+      "phase": "items",
+      "index": 9,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867863374,
+      "phase": "items",
+      "index": 10,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867864081,
+      "phase": "items",
+      "index": 10,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867864785,
+      "phase": "items",
+      "index": 11,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867865494,
+      "phase": "items",
+      "index": 11,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867866203,
+      "phase": "items",
+      "index": 15,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867866913,
+      "phase": "items",
+      "index": 15,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867867619,
+      "phase": "items",
+      "index": 16,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867868330,
+      "phase": "items",
+      "index": 16,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867869031,
+      "phase": "items",
+      "index": 18,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867869747,
+      "phase": "items",
+      "index": 18,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867870457,
+      "phase": "items",
+      "index": 19,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867871170,
+      "phase": "items",
+      "index": 19,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867871872,
+      "phase": "items",
+      "index": 21,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867872576,
+      "phase": "items",
+      "index": 21,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867873279,
+      "phase": "items",
+      "index": 22,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867873984,
+      "phase": "items",
+      "index": 22,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867874691,
+      "phase": "items",
+      "index": 23,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867875395,
+      "phase": "items",
+      "index": 23,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867876101,
+      "phase": "items",
+      "index": 25,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867876808,
+      "phase": "items",
+      "index": 25,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867877511,
+      "phase": "items",
+      "index": 28,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867878225,
+      "phase": "items",
+      "index": 28,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867878932,
+      "phase": "items",
+      "index": 29,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867879634,
+      "phase": "items",
+      "index": 29,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867880349,
+      "phase": "apply",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867881053,
+      "phase": "apply",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867881758,
+      "phase": "apply",
+      "index": 1,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867882465,
+      "phase": "apply",
+      "index": 2,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867883166,
+      "phase": "apply",
+      "index": 3,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867883874,
+      "phase": "apply",
+      "index": 4,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867884580,
+      "phase": "apply",
+      "index": 5,
+      "hidden": true,
+      "busy": false,
+      "remaining": 166
+    },
+    {
+      "time": 1791867885288,
+      "phase": "finish",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867885996,
+      "phase": "finish",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867886700,
+      "phase": "finish",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867887405,
+      "phase": "finish",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1791867888123,
+      "phase": "finish",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    }
+  ],
+  "nativeControls": {
+    "footers": [],
+    "animations": []
+  },
+  "scope": "Real browser visibility and scheduler; temporary profile and reward-disabled demo. Actual frozen/discarded tabs and authenticated PvP are not verified."
+}
