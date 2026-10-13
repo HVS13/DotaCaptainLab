@@ -1,5 +1,5 @@
 const fs=require('node:fs'),path=require('node:path');
-const version='2.8.6',root=path.resolve(__dirname,'..'),dist=path.join(root,'dist'),source=path.join(root,'rebuild');
+const version='2.8.7',root=path.resolve(__dirname,'..'),dist=path.join(root,'dist'),source=path.join(root,'rebuild');
 for(const name of ['frame-clock.js','solver.js','detector.js','game-controls.js','daily.js','overlay.js','index.html'])fs.writeFileSync(path.join(dist,name),fs.readFileSync(path.join(source,name),'utf8').replaceAll('__DCL_VERSION__',version));
 const read=name=>fs.readFileSync(path.join(dist,name),'utf8');
 const workerSource=`const scope={};(function(window){${read('engine.js')}\n${read('solver.js')}\n})(scope);const Advisor=scope.Advisor;self.onmessage=({data})=>{try{const row=data.cases.map(c=>Advisor.simulate(data.state,data.plan,c.choices,data.state.side,data.items,c.opponent));postMessage({row})}catch(e){postMessage({error:e.message})}};`;

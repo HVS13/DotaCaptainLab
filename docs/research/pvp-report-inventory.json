@@ -1,0 +1,234 @@
+{
+  "checkedAt": "2026-10-13T09:39:00.086Z",
+  "scope": "Selected uploaded reports across versions, not a representative execution-failure or PvP win-rate sample. Application flags and deep equality distinguish verified settings; missing acknowledgements do not prove nothing applied.",
+  "counts": {
+    "application-not-fully-verified": 8,
+    "verified-pregame-settings": 8,
+    "daily-server-settings": 3
+  },
+  "rows": [
+    {
+      "file": "dotacaptain-auto-report (1).json",
+      "version": "2.4.4",
+      "classification": "application-not-fully-verified",
+      "configurationVerified": false,
+      "application": {
+        "Roles": false,
+        "Items": false,
+        "Strategy": false
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (10).json",
+      "version": "2.8.3",
+      "classification": "application-not-fully-verified",
+      "configurationVerified": false,
+      "submissionAcknowledged": false,
+      "application": {
+        "Roles": true,
+        "Items": false,
+        "Strategy": false
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (11).json",
+      "version": "2.8.4",
+      "classification": "verified-pregame-settings",
+      "configurationVerified": true,
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": true,
+        "Items": true,
+        "Strategy": true
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (12).json",
+      "version": "2.8.5",
+      "classification": "verified-pregame-settings",
+      "configurationVerified": true,
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": true,
+        "Items": true,
+        "Strategy": true
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (13).json",
+      "version": "2.8.5",
+      "classification": "verified-pregame-settings",
+      "configurationVerified": true,
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": true,
+        "Items": true,
+        "Strategy": true
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (14).json",
+      "version": "2.8.6",
+      "classification": "application-not-fully-verified",
+      "configurationVerified": false,
+      "submissionAcknowledged": false,
+      "application": {
+        "Roles": false,
+        "Items": false,
+        "Strategy": false
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (15).json",
+      "version": "2.8.6",
+      "classification": "verified-pregame-settings",
+      "configurationVerified": true,
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": true,
+        "Items": true,
+        "Strategy": true
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (2).json",
+      "version": "2.5.0",
+      "classification": "verified-pregame-settings",
+      "configurationVerified": true,
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": true,
+        "Items": true,
+        "Strategy": true
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (3).json",
+      "version": "2.6.0",
+      "classification": "verified-pregame-settings",
+      "configurationVerified": true,
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": true,
+        "Items": true,
+        "Strategy": true
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (4).json",
+      "version": "2.6.0",
+      "classification": "verified-pregame-settings",
+      "configurationVerified": true,
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": true,
+        "Items": true,
+        "Strategy": true
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (5).json",
+      "version": "2.6.0",
+      "classification": "verified-pregame-settings",
+      "configurationVerified": true,
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": true,
+        "Items": true,
+        "Strategy": true
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (6).json",
+      "version": "2.7.3",
+      "classification": "application-not-fully-verified",
+      "configurationVerified": false,
+      "submissionAcknowledged": false,
+      "application": {
+        "Roles": true,
+        "Items": false,
+        "Strategy": false
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (7).json",
+      "version": "2.7.4",
+      "classification": "application-not-fully-verified",
+      "configurationVerified": false,
+      "submissionAcknowledged": false,
+      "application": {
+        "Roles": true,
+        "Items": true,
+        "Strategy": true
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (8).json",
+      "version": "2.8.0",
+      "classification": "application-not-fully-verified",
+      "configurationVerified": false,
+      "submissionAcknowledged": false,
+      "application": {
+        "Roles": true,
+        "Items": false,
+        "Strategy": false
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report (9).json",
+      "version": "2.8.2",
+      "classification": "application-not-fully-verified",
+      "configurationVerified": false,
+      "submissionAcknowledged": false,
+      "application": {
+        "Roles": true,
+        "Items": false,
+        "Strategy": false
+      }
+    },
+    {
+      "file": "dotacaptain-auto-report.json",
+      "version": "2.4.3",
+      "classification": "application-not-fully-verified",
+      "configurationVerified": false,
+      "application": {
+        "Roles": false,
+        "Items": false,
+        "Strategy": false
+      }
+    },
+    {
+      "file": "dotacaptain-daily-report (1).json",
+      "version": "2.7.1",
+      "classification": "daily-server-settings",
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": false,
+        "Items": false,
+        "Strategy": false
+      }
+    },
+    {
+      "file": "dotacaptain-daily-report (2).json",
+      "version": "2.7.4",
+      "classification": "daily-server-settings",
+      "submissionAcknowledged": true,
+      "application": {
+        "Roles": false,
+        "Items": false,
+        "Strategy": false
+      }
+    },
+    {
+      "file": "dotacaptain-daily-report.json",
+      "version": "2.7.0",
+      "classification": "daily-server-settings",
+      "submissionAcknowledged": false,
+      "application": {
+        "Roles": false,
+        "Items": false,
+        "Strategy": false
+      }
+    }
+  ]
+}

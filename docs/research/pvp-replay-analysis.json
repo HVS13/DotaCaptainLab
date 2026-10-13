@@ -1,0 +1,145 @@
+{
+  "fixtures": 3,
+  "forecastReplays": 3,
+  "compatibleOutcomeReplays": 4,
+  "directNativeCases": 768,
+  "engineSha256": "508f8c16bffbb4c53df03e4bb08a899d2c13a1c6f6e5914355fd889ef8e9b45c",
+  "cases": [
+    {
+      "id": "match-11",
+      "recordedOutcome": "win",
+      "compatibleEnemyPlans": 1,
+      "forecast": {
+        "wins": 3,
+        "total": 3,
+        "nw": 37736.50996870795,
+        "worstNW": 23627.213366536336
+      },
+      "variants": [
+        {
+          "label": "Inferred roles / default item order",
+          "wins": 47,
+          "total": 64,
+          "severe": 9,
+          "meanNW": 15021.770214881655,
+          "worstNW": -36252.01508015882
+        },
+        {
+          "label": "Role swap: Hoodwink / Nyx Assassin",
+          "wins": 37,
+          "total": 64,
+          "severe": 7,
+          "meanNW": 6346.308877506536,
+          "worstNW": -36290.87964919972
+        },
+        {
+          "label": "Inferred roles / default item order + carry purchases 1/2",
+          "wins": 46,
+          "total": 64,
+          "severe": 9,
+          "meanNW": 14535.065798460697,
+          "worstNW": -36252.01508015882
+        },
+        {
+          "label": "Role swap: Hoodwink / Nyx Assassin + carry purchases 1/2",
+          "wins": 37,
+          "total": 64,
+          "severe": 7,
+          "meanNW": 6346.308877563509,
+          "worstNW": -36290.87964919972
+        }
+      ]
+    },
+    {
+      "id": "match-13",
+      "recordedOutcome": "loss",
+      "compatibleEnemyPlans": 2,
+      "forecast": {
+        "wins": 3,
+        "total": 3,
+        "nw": 30493.798121515152,
+        "worstNW": 20799.8907076241
+      },
+      "variants": [
+        {
+          "label": "Inferred roles / default item order",
+          "wins": 17,
+          "total": 64,
+          "severe": 36,
+          "meanNW": -15221.369881031902,
+          "worstNW": -55069.193386994506
+        },
+        {
+          "label": "Role swap: Warlock / Sand King",
+          "wins": 13,
+          "total": 64,
+          "severe": 30,
+          "meanNW": -14850.270233543213,
+          "worstNW": -55533.60057577002
+        },
+        {
+          "label": "Inferred roles / default item order + carry purchases 1/2",
+          "wins": 17,
+          "total": 64,
+          "severe": 36,
+          "meanNW": -15387.453029861044,
+          "worstNW": -54952.44636581924
+        },
+        {
+          "label": "Role swap: Warlock / Sand King + carry purchases 1/2",
+          "wins": 17,
+          "total": 64,
+          "severe": 27,
+          "meanNW": -12623.035724400419,
+          "worstNW": -55531.55223663279
+        }
+      ]
+    },
+    {
+      "id": "match-15",
+      "recordedOutcome": "loss",
+      "compatibleEnemyPlans": 1,
+      "forecast": {
+        "wins": 34,
+        "total": 64,
+        "nw": 4121.575249420249,
+        "worstNW": -33905.061359886604
+      },
+      "variants": [
+        {
+          "label": "Inferred roles / default item order",
+          "wins": 34,
+          "total": 64,
+          "severe": 5,
+          "meanNW": 4121.57524942025,
+          "worstNW": -33905.061359886604
+        },
+        {
+          "label": "Role swap: Vengeful Spirit / Ancient Apparition",
+          "wins": 24,
+          "total": 64,
+          "severe": 15,
+          "meanNW": -3651.446454959817,
+          "worstNW": -36729.76962881576
+        },
+        {
+          "label": "Inferred roles / default item order + carry purchases 1/2",
+          "wins": 34,
+          "total": 64,
+          "severe": 5,
+          "meanNW": 4289.211609767843,
+          "worstNW": -33905.061359886604
+        },
+        {
+          "label": "Role swap: Vengeful Spirit / Ancient Apparition + carry purchases 1/2",
+          "wins": 25,
+          "total": 64,
+          "severe": 14,
+          "meanNW": -2808.1643606908583,
+          "worstNW": -36729.76962881576
+        }
+      ]
+    }
+  ],
+  "interpretation": "Selected uploaded matches; no observed PvP win-rate estimate. Enemy configurations remain inferred. Future completed matches must validate changes prospectively."
+}

@@ -1,0 +1,999 @@
+{
+  "engineSha256": "508f8c16bffbb4c53df03e4bb08a899d2c13a1c6f6e5914355fd889ef8e9b45c",
+  "scope": "Sanitized native inputs from fully verified Auto reports. Recap-compatible enemy settings remain inferred, not independently observed. Outcomes selected before diagnostics; this set is not representative PvP sampling.",
+  "fixtures": [
+    {
+      "id": "match-11",
+      "source": "dotacaptain-auto-report (11).json",
+      "sourceSha256": "b45550cb99cfe1694c16d8a88ef11cb4dae1c5d94a5a9d79d82efb20ae782852",
+      "version": "2.8.4",
+      "state": {
+        "own": [
+          131,
+          3,
+          90,
+          28,
+          65
+        ],
+        "enemy": [
+          123,
+          129,
+          88,
+          93,
+          20
+        ],
+        "roles": {
+          "3": "hard_support",
+          "28": "carry",
+          "65": "mid",
+          "90": "support",
+          "131": "offlane"
+        },
+        "enemyRoles": {},
+        "enemyChoices": {},
+        "bans": [
+          1,
+          75,
+          2,
+          27,
+          74,
+          68,
+          66,
+          14,
+          7,
+          41,
+          71,
+          104,
+          83,
+          25
+        ],
+        "ownBans": [
+          1,
+          75,
+          27,
+          14,
+          7,
+          71,
+          83
+        ],
+        "side": "radiant"
+      },
+      "ownChoices": {
+        "early_late": "a",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "b",
+        "map_control": "b"
+      },
+      "ownItems": {
+        "3": [
+          "glimmer_cape",
+          "force_staff",
+          "arcane_boots",
+          "aghanims_scepter",
+          "blink_dagger",
+          "solar_crest"
+        ],
+        "28": [
+          "black_king_bar",
+          "boots_of_travel",
+          "aeon_disk",
+          "hand_of_midas",
+          "power_treads",
+          "blink_dagger"
+        ],
+        "65": [
+          "black_king_bar",
+          "power_treads",
+          "blink_dagger",
+          "rod_of_atos",
+          "tranquil_boots",
+          "boots_of_travel"
+        ],
+        "90": [
+          "force_staff",
+          "tranquil_boots",
+          "holy_locket",
+          "aether_lens",
+          "aghanims_scepter",
+          "scythe_of_vyse"
+        ],
+        "131": [
+          "phase_boots",
+          "echo_sabre",
+          "sange_and_yasha",
+          "black_king_bar",
+          "assault_cuirass",
+          "abyssal_blade"
+        ]
+      },
+      "modeledEnemyRoles": {
+        "20": "hard_support",
+        "88": "mid",
+        "93": "carry",
+        "123": "offlane",
+        "129": "support"
+      },
+      "forecast": {
+        "wins": 3,
+        "total": 3,
+        "nw": 37736.50996870795,
+        "worstNW": 23627.213366536336
+      },
+      "forecastEnemyPlans": [
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        }
+      ],
+      "criteria": {
+        "win": true,
+        "seconds": 5343,
+        "nwHundreds": 431,
+        "kda": {
+          "28": [
+            13,
+            6,
+            10
+          ],
+          "93": [
+            17,
+            10,
+            10
+          ]
+        },
+        "deaths": {
+          "3": 14,
+          "20": 11
+        }
+      }
+    },
+    {
+      "id": "match-13",
+      "source": "dotacaptain-auto-report (13).json",
+      "sourceSha256": "975eadfeb6b0e33fda895f03d051771b01aae1569f24cf46b828925600141bd4",
+      "version": "2.8.5",
+      "state": {
+        "own": [
+          51,
+          90,
+          111,
+          39,
+          137
+        ],
+        "enemy": [
+          2,
+          37,
+          16,
+          8,
+          74
+        ],
+        "roles": {
+          "39": "mid",
+          "51": "offlane",
+          "90": "hard_support",
+          "111": "support",
+          "137": "carry"
+        },
+        "enemyRoles": {},
+        "enemyChoices": {},
+        "bans": [
+          112,
+          131,
+          14,
+          69,
+          13,
+          3,
+          32,
+          66,
+          41,
+          20,
+          1,
+          46,
+          25,
+          88
+        ],
+        "ownBans": [
+          14,
+          13,
+          3,
+          32,
+          20,
+          46,
+          88
+        ],
+        "side": "dire"
+      },
+      "ownChoices": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "b",
+        "farm_gank": "b",
+        "objective_style": "a",
+        "map_control": "b"
+      },
+      "ownItems": {
+        "39": [
+          "power_treads",
+          "wind_waker",
+          "bloodstone",
+          "kaya_and_sange",
+          "octarine_core",
+          "aghanims_scepter"
+        ],
+        "51": [
+          "blade_mail",
+          "phase_boots",
+          "black_king_bar",
+          "shivas_guard",
+          "crimson_guard",
+          "aghanims_scepter"
+        ],
+        "90": [
+          "aghanims_scepter",
+          "tranquil_boots",
+          "glimmer_cape",
+          "solar_crest",
+          "force_staff",
+          "refresher"
+        ],
+        "111": [
+          "blink_dagger",
+          "rod_of_atos",
+          "force_staff",
+          "glimmer_cape",
+          "solar_crest",
+          "arcane_boots"
+        ],
+        "137": [
+          "force_staff",
+          "maelstrom",
+          "dragon_lance",
+          "power_treads",
+          "manta_style",
+          "black_king_bar"
+        ]
+      },
+      "modeledEnemyRoles": {
+        "2": "offlane",
+        "8": "carry",
+        "16": "support",
+        "37": "hard_support",
+        "74": "mid"
+      },
+      "forecast": {
+        "wins": 3,
+        "total": 3,
+        "nw": 30493.798121515152,
+        "worstNW": 20799.8907076241
+      },
+      "forecastEnemyPlans": [
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        }
+      ],
+      "criteria": {
+        "win": false,
+        "seconds": 2942,
+        "nwHundreds": -191,
+        "kda": {
+          "8": [
+            12,
+            3,
+            5
+          ],
+          "137": [
+            7,
+            3,
+            4
+          ]
+        },
+        "deaths": {
+          "39": 11
+        }
+      }
+    },
+    {
+      "id": "match-15",
+      "source": "dotacaptain-auto-report (15).json",
+      "sourceSha256": "de1bf9d5b543aebcf45bdbd89793bc6dfc4dd1ca3babee8127038ad55e5deac4",
+      "version": "2.8.6",
+      "state": {
+        "own": [
+          131,
+          64,
+          112,
+          65,
+          59
+        ],
+        "enemy": [
+          20,
+          13,
+          2,
+          93,
+          68
+        ],
+        "roles": {
+          "59": "carry",
+          "64": "hard_support",
+          "65": "mid",
+          "112": "support",
+          "131": "offlane"
+        },
+        "enemyRoles": {},
+        "enemyChoices": {},
+        "bans": [
+          74,
+          14,
+          3,
+          69,
+          101,
+          26,
+          27,
+          32,
+          104,
+          62,
+          7,
+          8,
+          75,
+          25
+        ],
+        "ownBans": [
+          14,
+          69,
+          26,
+          27,
+          104,
+          7,
+          75
+        ],
+        "side": "radiant"
+      },
+      "ownChoices": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "a",
+        "objective_style": "a",
+        "map_control": "a"
+      },
+      "ownItems": {
+        "59": [
+          "power_treads",
+          "blink_dagger",
+          "black_king_bar",
+          "dragon_lance",
+          "sange_and_yasha",
+          "force_staff"
+        ],
+        "64": [
+          "arcane_boots",
+          "pavise",
+          "glimmer_cape",
+          "force_staff",
+          "aghanims_scepter",
+          "refresher"
+        ],
+        "65": [
+          "black_king_bar",
+          "veil_of_discord",
+          "blink_dagger",
+          "tranquil_boots",
+          "force_staff",
+          "lotus_orb"
+        ],
+        "112": [
+          "glimmer_cape",
+          "arcane_boots",
+          "force_staff",
+          "blink_dagger",
+          "solar_crest",
+          "rod_of_atos"
+        ],
+        "131": [
+          "black_king_bar",
+          "sange_and_yasha",
+          "phase_boots",
+          "echo_sabre",
+          "assault_cuirass",
+          "abyssal_blade"
+        ]
+      },
+      "modeledEnemyRoles": {
+        "2": "offlane",
+        "13": "mid",
+        "20": "support",
+        "68": "hard_support",
+        "93": "carry"
+      },
+      "forecast": {
+        "wins": 34,
+        "total": 64,
+        "nw": 4121.575249420249,
+        "worstNW": -33905.061359886604
+      },
+      "forecastEnemyPlans": [
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        }
+      ],
+      "criteria": {
+        "win": false,
+        "seconds": 4750,
+        "nwHundreds": -339,
+        "kda": {
+          "13": [
+            13,
+            6,
+            15
+          ],
+          "59": [
+            18,
+            8,
+            10
+          ],
+          "93": [
+            12,
+            8,
+            16
+          ]
+        },
+        "deaths": {
+          "20": 15,
+          "131": 13
+        }
+      }
+    }
+  ]
+}
