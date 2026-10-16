@@ -1,0 +1,57 @@
+{
+  "status": "Completed all 248 independent confirmation drafts without extension. Frozen outcome criteria passed; 744 sampled native replays matched and three headless Chrome combined-budget timing fixtures passed. Full Auto/minimized application remains unverified; no production integration or deployment.",
+  "baseline": "Published v2.8.7 completed Standard draft, selected roles, StrategyRisk.prepare with 64 initial strategies and at most 30 order candidates, followed by the original four-by-64 strategy check and its winner.",
+  "candidate": "Preserve that complete winning configuration. For each own hero in draft order, inspect native builds.GX recommendations at their original six purchase positions. Admit the first two legal single-item identity replacements whose item is nonretired, role-affine, absent from the current build, and preserves six unique items under native builds.c6. Each replacement is relative to the unchanged winning build; do not chain replacements. Maximum ten proposals. No new heuristic weights or changes to roles, strategy, drafting or existing item-order optimization.",
+  "nomination": "With the published winning strategy fixed, screen every proposal against compatible native Early Aggro, Late Scale and Teamfight/Rosh presets. Reuse the published winner's matching preset cells from its original 64-case row. Nominate the single best proposal that improves the existing wins-then-mean-NW comparator over that preset baseline. Stable enumeration breaks exact ties. If no proposal improves, retain the published configuration.",
+  "selection": "Compare only the nominee and the complete published winner against the same compatible enemy strategies and default inferred roles/items. Reuse the nominee's screened preset cells. The unchanged StrategyRisk.select guard requires nondecreasing wins, nonincreasing severe losses, and strict improvement in at least one. Ties or unfinished work retain the full published configuration. No strategy retuning for the nominee.",
+  "computation": "Original preparation and 256 final-check calls are shared across policies. At most ten times three new preset simulations plus 61 other-strategy simulations: 91 extra calls for the unknown-scout case, zero if no legal proposals. No-compatible-preset states retain the baseline. Native hero recommendation and legality enumeration add CPU work. Fixed completed work in the outcome benchmark does not prove browser timing.",
+  "seedStart": 1709000167,
+  "seedStep": 104729,
+  "drafts": 248,
+  "opponents": [
+    "weighted",
+    "greedy",
+    "counter",
+    "creative"
+  ],
+  "sides": "Alternating Radiant/Dire; four draft clusters per side/opponent stratum",
+  "holdout": "16 paired seeded nondefault eligible enemy role/item-order profiles per draft, excluding the full inferred-role/default-order training variant. All 64 enemy strategies can be drawn. Generate after selection with seed +259000069 and per-case step 99991. Both policies use identical profiles. Holdouts never enter nomination or selection.",
+  "acceptance": {
+    "bootstrap": "10000 stratified paired whole-draft resamples",
+    "winLower95Minimum": -0.005,
+    "severeLossUpper95Maximum": 0.005,
+    "severeLoss": "Native loss with signed own net worth below -20000",
+    "benefit": "At least one item identity changes and either total held-out wins increase or severe losses decrease.",
+    "preservation": "All draft actions, first picks/bans, selected own roles and published winning strategy remain unchanged."
+  },
+  "execution": "Check fresh seed disjointness against recorded research and freeze source hashes before testing. Parallel outcome batches use fixed work without deadlines and are not timing evidence. Do not tune proposal rules or thresholds after seeing outcomes.",
+  "timingIfOutcomePasses": "Only if all outcome criteria pass: verify real browser worker execution inside the existing maximum 20-second final-check budget and preserve the 90-second application reserve. Cover cancellation, reduced time and unfinished item work falling back to the complete published configuration. Then verify all 30 actual item slots, roles, strategy and Continue/match-start flow before release. Do not extend the deadline to make the candidate pass.",
+  "release": "Retain v2.8.7 unless outcome, deadline and application checks pass. Failed outcome gate stops integration. This experiment tests native recommended alternatives, not the global best item build or all catalog substitutions.",
+  "limits": "Native-simulator hypothetical coverage, not calibrated opponent likelihoods, real PvP win rates, private-server equivalence or proof of professional drafting behavior.",
+  "nativeEngineSha256": "508f8c16bffbb4c53df03e4bb08a899d2c13a1c6f6e5914355fd889ef8e9b45c",
+  "samplePlanning": {
+    "pilotDrafts": 32,
+    "pilotMean": -0.001953125,
+    "averageWithinStratumVariance": 0.0003662109375,
+    "targetPower": 0.8,
+    "oneSidedAlpha": 0.05,
+    "noninferiorityMargin": 0.005,
+    "formula": "ceil_to_8((z0.95+z0.80)^2 * variance / (pilotMean + .005)^2)",
+    "drafts": 248,
+    "limits": "Normal approximation assumes the sparse pilot mean/variance generalize. This is not guaranteed power or an estimate of real PvP performance."
+  },
+  "confirmation": "Evaluate all 248 new drafts once, separate from the 32-draft pilot. No interim statistical acceptance, optional extension, threshold relaxation or nomination changes. Same stratified 10000 bootstrap acceptance checks and benefit requirement. If failed, shelve this candidate. Timing/full Auto tests remain conditional on all outcome criteria passing.",
+  "policySha256": "41224713f1b11a43f7b760a86a475d2e7a562dbcca47e870881d000b5580d3ec",
+  "partStarts": [
+    0,
+    64,
+    128,
+    192
+  ],
+  "partCounts": [
+    64,
+    64,
+    64,
+    56
+  ]
+}

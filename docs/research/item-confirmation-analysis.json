@@ -1,0 +1,274 @@
+{
+  "draftClusters": 248,
+  "scenarioCases": 3968,
+  "bootstrapResamples": 10000,
+  "point": {
+    "successDelta": 0.0005040322580645161,
+    "severeLossDelta": -0.0010080645161290322,
+    "firstPickEntropyDelta": 0,
+    "firstBanEntropyDelta": 0,
+    "entropySumDelta": 0
+  },
+  "bounds": {
+    "successLower95": -0.0005040322580645161,
+    "severeLossUpper95": 0,
+    "entropySumLower95": 0
+  },
+  "checks": {
+    "success": true,
+    "severeLoss": true,
+    "benefit": true,
+    "preservation": true
+  },
+  "passes": true,
+  "standard": {
+    "wins": 2409,
+    "severeLosses": 697,
+    "firstPick": {
+      "entropy": 3.3112927190864387,
+      "distinct": 14
+    },
+    "firstBan": {
+      "entropy": 3.169946148425507,
+      "distinct": 11
+    }
+  },
+  "interpretation": "Frozen-rule fresh paired native-simulator comparison. Single native-recommended role-affine item replacements only; published winning strategy, roles and complete fallback preserved. Fixed-work benchmark, not browser deadline or live PvP win-rate evidence; does not search all catalog items or the global best build.",
+  "candidate": {
+    "wins": 2411,
+    "severeLosses": 693
+  },
+  "proposedDrafts": 232,
+  "screenedIdentityReplacements": 765,
+  "nominatedDrafts": 135,
+  "changedBuilds": 25,
+  "extraSimulations": 10530,
+  "itemChanges": [
+    {
+      "index": 5,
+      "hero": "Sand King",
+      "slot": 3,
+      "from": "arcane_boots",
+      "to": "aghanims_scepter",
+      "winDelta": 0,
+      "severeLossDelta": -2
+    },
+    {
+      "index": 18,
+      "hero": "Keeper of the Light",
+      "slot": 3,
+      "from": "tranquil_boots",
+      "to": "dagon",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 24,
+      "hero": "Tiny",
+      "slot": 3,
+      "from": "black_king_bar",
+      "to": "vladmirs_offering",
+      "winDelta": 1,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 29,
+      "hero": "Dawnbreaker",
+      "slot": 2,
+      "from": "echo_sabre",
+      "to": "vladmirs_offering",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 38,
+      "hero": "Jakiro",
+      "slot": 3,
+      "from": "pavise",
+      "to": "aether_lens",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 39,
+      "hero": "Queen of Pain",
+      "slot": 2,
+      "from": "kaya_and_sange",
+      "to": "kaya",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 49,
+      "hero": "Kunkka",
+      "slot": 5,
+      "from": "daedalus",
+      "to": "sange_and_yasha",
+      "winDelta": 1,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 73,
+      "hero": "Dawnbreaker",
+      "slot": 2,
+      "from": "echo_sabre",
+      "to": "vladmirs_offering",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 110,
+      "hero": "Queen of Pain",
+      "slot": 2,
+      "from": "kaya_and_sange",
+      "to": "kaya",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 122,
+      "hero": "Tiny",
+      "slot": 3,
+      "from": "blink_dagger",
+      "to": "vladmirs_offering",
+      "winDelta": -1,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 131,
+      "hero": "Tiny",
+      "slot": 5,
+      "from": "power_treads",
+      "to": "silver_edge",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 133,
+      "hero": "Dawnbreaker",
+      "slot": 2,
+      "from": "sange_and_yasha",
+      "to": "vladmirs_offering",
+      "winDelta": 1,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 145,
+      "hero": "Beastmaster",
+      "slot": 3,
+      "from": "phase_boots",
+      "to": "helm_of_the_overlord",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 150,
+      "hero": "Dawnbreaker",
+      "slot": 2,
+      "from": "echo_sabre",
+      "to": "vladmirs_offering",
+      "winDelta": -1,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 153,
+      "hero": "Sand King",
+      "slot": 3,
+      "from": "force_staff",
+      "to": "aghanims_scepter",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 159,
+      "hero": "Earth Spirit",
+      "slot": 3,
+      "from": "kaya_and_sange",
+      "to": "veil_of_discord",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 164,
+      "hero": "Dawnbreaker",
+      "slot": 2,
+      "from": "sange_and_yasha",
+      "to": "vladmirs_offering",
+      "winDelta": 1,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 173,
+      "hero": "Queen of Pain",
+      "slot": 2,
+      "from": "kaya_and_sange",
+      "to": "kaya",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 198,
+      "hero": "Sand King",
+      "slot": 3,
+      "from": "force_staff",
+      "to": "aghanims_scepter",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 202,
+      "hero": "Tiny",
+      "slot": 3,
+      "from": "blink_dagger",
+      "to": "vladmirs_offering",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 210,
+      "hero": "Nyx Assassin",
+      "slot": 3,
+      "from": "aghanims_scepter",
+      "to": "blink_dagger",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 221,
+      "hero": "Sand King",
+      "slot": 3,
+      "from": "arcane_boots",
+      "to": "aghanims_scepter",
+      "winDelta": 0,
+      "severeLossDelta": -2
+    },
+    {
+      "index": 234,
+      "hero": "Keeper of the Light",
+      "slot": 3,
+      "from": "tranquil_boots",
+      "to": "dagon",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 240,
+      "hero": "Tiny",
+      "slot": 3,
+      "from": "black_king_bar",
+      "to": "vladmirs_offering",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    },
+    {
+      "index": 245,
+      "hero": "Dawnbreaker",
+      "slot": 2,
+      "from": "echo_sabre",
+      "to": "vladmirs_offering",
+      "winDelta": 0,
+      "severeLossDelta": 0
+    }
+  ],
+  "decision": "Qualifies for targeted browser preparation timing and full Auto item-application checks before release."
+}

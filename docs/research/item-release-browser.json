@@ -1,0 +1,87 @@
+{
+  "version": "2.8.8",
+  "browser": "155.0.8059.80",
+  "cases": [
+    {
+      "index": 74,
+      "elapsedMs": 16692.100000023842,
+      "itemCheck": {
+        "completed": true,
+        "changed": false,
+        "reason": "Published configuration retained",
+        "screened": 8,
+        "simulations": 85,
+        "replacement": null
+      },
+      "selectedIndex": 1
+    },
+    {
+      "index": 164,
+      "elapsedMs": 15938.09999999404,
+      "itemCheck": {
+        "completed": true,
+        "changed": true,
+        "reason": "Guarded item replacement selected",
+        "screened": 6,
+        "simulations": 79,
+        "replacement": {
+          "heroId": 131,
+          "slot": 1,
+          "from": "sange_and_yasha",
+          "to": "vladmirs_offering"
+        }
+      },
+      "selectedIndex": 4
+    },
+    {
+      "index": 7,
+      "elapsedMs": 8073.199999988079,
+      "itemCheck": {
+        "completed": true,
+        "changed": false,
+        "reason": "No preset-screen improvement",
+        "screened": 0,
+        "simulations": 0,
+        "replacement": null
+      },
+      "selectedIndex": 3
+    }
+  ],
+  "fallback": [
+    {
+      "mode": "deadline",
+      "elapsedMs": 20026.100000023842,
+      "retainedIndex": 2,
+      "itemCheck": {
+        "completed": false,
+        "changed": false,
+        "reason": "deadline"
+      }
+    },
+    {
+      "mode": "cancelled",
+      "elapsedMs": 7495.700000017881,
+      "retainedIndex": 2,
+      "itemCheck": {
+        "completed": false,
+        "changed": false,
+        "reason": "cancelled"
+      }
+    },
+    {
+      "mode": "blocked",
+      "elapsedMs": 7555.5,
+      "retainedIndex": 2,
+      "itemCheck": {
+        "completed": false,
+        "changed": false,
+        "reason": "worker-error"
+      }
+    }
+  ],
+  "scope": "Generated dist/challenger.js, actual Blob workers and explicit native fixture inputs in headless Chrome. Native full Auto/minimized flow is separate.",
+  "checkedCells": 832,
+  "maxNumericDifference": 2.9103830456733704e-11,
+  "numericTolerance": 1e-8,
+  "passes": true
+}

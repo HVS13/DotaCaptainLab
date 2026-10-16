@@ -1,0 +1,52 @@
+{
+  "browser": "155.0.8059.40",
+  "budgetMs": 20000,
+  "reserveSeconds": 90,
+  "cases": [
+    {
+      "index": 74,
+      "baselineCompleted": true,
+      "baselineIndex": 1,
+      "riskElapsedMs": 6107.70000000298,
+      "itemCompleted": true,
+      "reason": "Published configuration retained",
+      "itemElapsedMs": 4670,
+      "elapsedMs": 10777.90000000596
+    },
+    {
+      "index": 164,
+      "baselineCompleted": true,
+      "baselineIndex": 2,
+      "riskElapsedMs": 5764.20000000298,
+      "itemCompleted": true,
+      "reason": "Guarded item replacement selected",
+      "itemElapsedMs": 4714.899999991059,
+      "elapsedMs": 10479.09999999404
+    },
+    {
+      "index": 7,
+      "baselineCompleted": true,
+      "baselineIndex": 3,
+      "riskElapsedMs": 6392.20000000298,
+      "itemCompleted": true,
+      "reason": "No preset-screen improvement",
+      "itemElapsedMs": 96.59999999403954,
+      "elapsedMs": 6488.79999999702
+    }
+  ],
+  "scope": "Headless Chrome native workers on three prespecified representative confirmation fixtures. Full baseline risk check and optional item work share 20 seconds. Not live/minimized browser, full preparation/application or private-server certification.",
+  "maxNumericDifference": 2.9103830456733704e-11,
+  "numericTolerance": 1e-8,
+  "rollback": {
+    "deadline": {
+      "completed": false,
+      "reason": "deadline"
+    },
+    "cancelled": {
+      "completed": false,
+      "reason": "cancelled"
+    }
+  },
+  "passes": true,
+  "decision": "Timing gate passed for sampled headless fixtures only; full Auto application remains required."
+}

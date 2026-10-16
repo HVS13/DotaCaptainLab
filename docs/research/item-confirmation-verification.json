@@ -1,0 +1,6 @@
+{
+  "drafts": 248,
+  "directNativeReplays": 744,
+  "matched": true,
+  "scope": "One sampled held-out native replay per policy arm plus one nominee verification, identity-screen or baseline cell per draft. Not exhaustive engine/server equivalence or browser verification."
+}
