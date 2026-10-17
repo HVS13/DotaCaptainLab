@@ -1,0 +1,162 @@
+{
+  "pairs": 10,
+  "matchedCells": 2688,
+  "maxDifference": 0,
+  "tolerance": 1e-8,
+  "completed": {
+    "baseline": 10,
+    "reuse": 10
+  },
+  "medianTotalMs": {
+    "baseline": 11188.75,
+    "reuse": 11521.399999999907
+  },
+  "medianItemMs": {
+    "baseline": 4224.25,
+    "reuse": 3851.5500000002794
+  },
+  "pairedMedianSavedMs": 346.90000000037253,
+  "paired": [
+    {
+      "block": 0,
+      "name": "fixture-74",
+      "baseline": {
+        "total": 14208.099999999627,
+        "risk": 8664.299999999814,
+        "item": 5453.4000000003725
+      },
+      "reuse": {
+        "total": 13085.899999999441,
+        "risk": 8850.200000000186,
+        "item": 4230.0999999996275
+      }
+    },
+    {
+      "block": 0,
+      "name": "fixture-164",
+      "baseline": {
+        "total": 11634.5,
+        "risk": 5974.799999999814,
+        "item": 5562.799999999814
+      },
+      "reuse": {
+        "total": 11788.299999999814,
+        "risk": 7318.299999999814,
+        "item": 4450.700000000186
+      }
+    },
+    {
+      "block": 0,
+      "name": "fixture-7",
+      "baseline": {
+        "total": 7719.600000000559,
+        "risk": 7640.4000000003725,
+        "item": 1.599999999627471
+      },
+      "reuse": {
+        "total": 7120.699999999255,
+        "risk": 7117.399999999441,
+        "item": 2.3999999994412065
+      }
+    },
+    {
+      "block": 0,
+      "name": "native-minimized",
+      "baseline": {
+        "total": 12122.200000000186,
+        "risk": 7901,
+        "item": 4125.5999999996275
+      },
+      "reuse": {
+        "total": 11556.5,
+        "risk": 7764.600000000559,
+        "item": 3789
+      }
+    },
+    {
+      "block": 0,
+      "name": "native-foreground",
+      "baseline": {
+        "total": 7523.5,
+        "risk": 7073.199999999255,
+        "item": 377.30000000074506
+      },
+      "reuse": {
+        "total": 6906.299999999814,
+        "risk": 6721,
+        "item": 184.1000000005588
+      }
+    },
+    {
+      "block": 1,
+      "name": "fixture-74",
+      "baseline": {
+        "total": 12809,
+        "risk": 7831.300000000745,
+        "item": 4879.600000000559
+      },
+      "reuse": {
+        "total": 13758,
+        "risk": 9842.5,
+        "item": 3914.100000000559
+      }
+    },
+    {
+      "block": 1,
+      "name": "fixture-164",
+      "baseline": {
+        "total": 13048.299999999814,
+        "risk": 8560.599999999627,
+        "item": 4374.799999999814
+      },
+      "reuse": {
+        "total": 11486.299999999814,
+        "risk": 6948.299999999814,
+        "item": 4533.9000000003725
+      }
+    },
+    {
+      "block": 1,
+      "name": "fixture-7",
+      "baseline": {
+        "total": 7493.799999999814,
+        "risk": 7350.9000000003725,
+        "item": 1.2999999998137355
+      },
+      "reuse": {
+        "total": 8225.399999999441,
+        "risk": 8222.299999999814,
+        "item": 1.7000000001862645
+      }
+    },
+    {
+      "block": 1,
+      "name": "native-minimized",
+      "baseline": {
+        "total": 10743,
+        "risk": 6332,
+        "item": 4322.9000000003725
+      },
+      "reuse": {
+        "total": 14503.800000000745,
+        "risk": 9683.900000000373,
+        "item": 4816.800000000745
+      }
+    },
+    {
+      "block": 1,
+      "name": "native-foreground",
+      "baseline": {
+        "total": 8000.700000000186,
+        "risk": 7560,
+        "item": 375.5
+      },
+      "reuse": {
+        "total": 7872.5999999996275,
+        "risk": 7673.0999999996275,
+        "item": 198.70000000018626
+      }
+    }
+  ],
+  "scope": "Descriptive order-balanced timing on five fixed inputs, two blocks, headless Chrome. Foreground input retains the deliberately forced legal application-probe build. Both arms completed all samples; this does not establish higher completion probability, PvP win rate, or universal timing improvement."
+}

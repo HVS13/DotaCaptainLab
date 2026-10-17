@@ -34,6 +34,8 @@ Version 2.8.8 adds a bounded item check after that strategy winner is complete, 
 
 See [release verification and limits](docs/research/item-release-notes.md), including actual minimized native flow, the separate forced item-application probe, and generated-package selection/fallback checks. Optional item work can time out on complex compositions and retain the completed strategy result.
 
+Version 2.8.9 reuses the completed winning-strategy worker for the optional item check instead of creating a fifth worker. Formulas, simulation inputs, selection rules, the 20-second check allowance and 90-second application reserve are unchanged. [Paired profiling](docs/research/worker-reuse-notes.md) found a modest reduction in item-stage time with identical simulated outcomes; total timings were mixed and a higher completion rate has not been established.
+
 The [risk-check pilot](docs/research/strategy-risk-analysis.json) passed its prespecified limits on 16 fresh paired drafts and 256 nondefault role/item-order holdouts: modeled wins 127 to 158 and severe losses 80 to 54 under the same computation bound. Allocation and checking change jointly; this is not a measured PvP win rate. All 512 saved arm outcomes were [replayed through explicit native engine inputs](docs/research/strategy-risk-replay.json), and the production preparation port matched all 16 tested baselines. The [minimized native flow](docs/research/auto-risk-background-native.json) completed the 64-strategy check and every setting/Continue acknowledgement; its demo scout axes were masked only for the test to exercise unknown-enemy behavior.
 
 ## Auto Daily (2.7.0)

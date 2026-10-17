@@ -1,0 +1,6202 @@
+{
+  "browser": "Chrome",
+  "hiddenDuringDraft": true,
+  "unknownScoutMasked": true,
+  "mode": "Native Solo background preparation with real hidden visibility; window starts minimized; intensive timer grace shortened to 10 seconds for bounded reproduction",
+  "hiddenVerified": true,
+  "hiddenAtCompletion": true,
+  "bounds": {
+    "bounds": {
+      "left": 10,
+      "top": 10,
+      "width": 1050,
+      "height": 732,
+      "windowState": "minimized"
+    }
+  },
+  "elapsedMs": 289393,
+  "progress": [
+    {
+      "elapsedMs": 10730,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 22131,
+      "status": "Auto on · ban in 4.5s · random delay."
+    },
+    {
+      "elapsedMs": 23159,
+      "status": "Auto on · ban in 3.8s · random delay."
+    },
+    {
+      "elapsedMs": 23672,
+      "status": "Auto on · ban in 3.1s · random delay."
+    },
+    {
+      "elapsedMs": 24187,
+      "status": "Auto on · ban in 2.4s · random delay."
+    },
+    {
+      "elapsedMs": 25212,
+      "status": "Auto on · ban in 1.7s · random delay."
+    },
+    {
+      "elapsedMs": 25725,
+      "status": "Auto on · ban in 1.0s · random delay."
+    },
+    {
+      "elapsedMs": 26239,
+      "status": "Auto on · ban in 0.3s · random delay."
+    },
+    {
+      "elapsedMs": 27271,
+      "status": "Auto on · finding Anti-Mage for ban."
+    },
+    {
+      "elapsedMs": 27804,
+      "status": "Auto on · selecting Anti-Mage for ban · weighted native choice (39.4 points)."
+    },
+    {
+      "elapsedMs": 28828,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 29342,
+      "status": "Auto on · ban in 3.1s · random delay."
+    },
+    {
+      "elapsedMs": 29857,
+      "status": "Auto on · ban in 2.6s · random delay."
+    },
+    {
+      "elapsedMs": 30888,
+      "status": "Auto on · ban in 1.9s · random delay."
+    },
+    {
+      "elapsedMs": 31401,
+      "status": "Auto on · ban in 1.2s · random delay."
+    },
+    {
+      "elapsedMs": 31918,
+      "status": "Auto on · ban in 0.5s · random delay."
+    },
+    {
+      "elapsedMs": 32942,
+      "status": "Auto on · finding Silencer for ban."
+    },
+    {
+      "elapsedMs": 33466,
+      "status": "Auto on · selecting Silencer for ban · weighted native choice (17.1 points)."
+    },
+    {
+      "elapsedMs": 34015,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 35059,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 37627,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 38656,
+      "status": "Auto on · ban in 2.2s · random delay."
+    },
+    {
+      "elapsedMs": 39172,
+      "status": "Auto on · ban in 1.5s · random delay."
+    },
+    {
+      "elapsedMs": 39688,
+      "status": "Auto on · ban in 0.8s · random delay."
+    },
+    {
+      "elapsedMs": 40717,
+      "status": "Auto on · ban in 0.1s · random delay."
+    },
+    {
+      "elapsedMs": 41227,
+      "status": "Auto on · finding Shadow Shaman for ban."
+    },
+    {
+      "elapsedMs": 42259,
+      "status": "Auto on · selecting Shadow Shaman for ban · weighted native choice (4.7 points)."
+    },
+    {
+      "elapsedMs": 42814,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 43343,
+      "status": "Auto on · ban in 2.5s · random delay."
+    },
+    {
+      "elapsedMs": 44417,
+      "status": "Auto on · ban in 1.8s · random delay."
+    },
+    {
+      "elapsedMs": 44992,
+      "status": "Auto on · ban in 1.1s · random delay."
+    },
+    {
+      "elapsedMs": 45506,
+      "status": "Auto on · ban in 0.4s · random delay."
+    },
+    {
+      "elapsedMs": 46534,
+      "status": "Auto on · finding Mirana for ban."
+    },
+    {
+      "elapsedMs": 47053,
+      "status": "Auto on · selecting Mirana for ban · weighted native choice (0.1 points)."
+    },
+    {
+      "elapsedMs": 47570,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 48597,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 56834,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 57346,
+      "status": "Auto on · pick in 3.0s · random delay."
+    },
+    {
+      "elapsedMs": 58378,
+      "status": "Auto on · pick in 2.3s · random delay."
+    },
+    {
+      "elapsedMs": 58891,
+      "status": "Auto on · pick in 1.6s · random delay."
+    },
+    {
+      "elapsedMs": 59926,
+      "status": "Auto on · pick in 0.9s · random delay."
+    },
+    {
+      "elapsedMs": 60442,
+      "status": "Auto on · pick in 0.2s · random delay."
+    },
+    {
+      "elapsedMs": 60995,
+      "status": "Auto on · finding Dawnbreaker for pick."
+    },
+    {
+      "elapsedMs": 62031,
+      "status": "Auto on · selecting Dawnbreaker for pick · weighted native choice (25.6 points)."
+    },
+    {
+      "elapsedMs": 62549,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 63067,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 74530,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 75042,
+      "status": "Auto on · ban in 1.3s · random delay."
+    },
+    {
+      "elapsedMs": 76093,
+      "status": "Auto on · ban in 0.5s · random delay."
+    },
+    {
+      "elapsedMs": 76618,
+      "status": "Auto on · finding Axe for ban."
+    },
+    {
+      "elapsedMs": 77644,
+      "status": "Auto on · selecting Axe for ban · weighted native choice (24.0 points)."
+    },
+    {
+      "elapsedMs": 78160,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 78673,
+      "status": "Auto on · pick in 4.3s · random delay."
+    },
+    {
+      "elapsedMs": 79735,
+      "status": "Auto on · pick in 3.7s · random delay."
+    },
+    {
+      "elapsedMs": 80268,
+      "status": "Auto on · pick in 3.0s · random delay."
+    },
+    {
+      "elapsedMs": 80777,
+      "status": "Auto on · pick in 2.3s · random delay."
+    },
+    {
+      "elapsedMs": 81804,
+      "status": "Auto on · pick in 1.5s · random delay."
+    },
+    {
+      "elapsedMs": 82322,
+      "status": "Auto on · pick in 0.8s · random delay."
+    },
+    {
+      "elapsedMs": 82838,
+      "status": "Auto on · pick in 0.1s · random delay."
+    },
+    {
+      "elapsedMs": 83870,
+      "status": "Auto on · finding Jakiro for pick."
+    },
+    {
+      "elapsedMs": 84384,
+      "status": "Auto on · selecting Jakiro for pick · weighted native choice (43.7 points)."
+    },
+    {
+      "elapsedMs": 84927,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 86006,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 103053,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 103574,
+      "status": "Auto on · pick in 3.4s · random delay."
+    },
+    {
+      "elapsedMs": 104089,
+      "status": "Auto on · pick in 2.7s · random delay."
+    },
+    {
+      "elapsedMs": 105117,
+      "status": "Auto on · pick in 2.0s · random delay."
+    },
+    {
+      "elapsedMs": 105630,
+      "status": "Auto on · pick in 1.3s · random delay."
+    },
+    {
+      "elapsedMs": 106144,
+      "status": "Auto on · pick in 0.6s · random delay."
+    },
+    {
+      "elapsedMs": 107174,
+      "status": "Auto on · finding Hoodwink for pick."
+    },
+    {
+      "elapsedMs": 107696,
+      "status": "Auto on · selecting Hoodwink for pick · weighted native choice (46.1 points)."
+    },
+    {
+      "elapsedMs": 108718,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 109231,
+      "status": "Auto on · pick in 2.5s · random delay."
+    },
+    {
+      "elapsedMs": 109746,
+      "status": "Auto on · pick in 1.9s · random delay."
+    },
+    {
+      "elapsedMs": 110774,
+      "status": "Auto on · pick in 1.2s · random delay."
+    },
+    {
+      "elapsedMs": 111288,
+      "status": "Auto on · pick in 0.5s · random delay."
+    },
+    {
+      "elapsedMs": 111802,
+      "status": "Auto on · finding Batrider for pick."
+    },
+    {
+      "elapsedMs": 112858,
+      "status": "Auto on · selecting Batrider for pick · weighted native choice (44.1 points)."
+    },
+    {
+      "elapsedMs": 113374,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 113997,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 129601,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 130114,
+      "status": "Auto on · ban in 3.1s · random delay."
+    },
+    {
+      "elapsedMs": 131173,
+      "status": "Auto on · ban in 2.3s · random delay."
+    },
+    {
+      "elapsedMs": 131684,
+      "status": "Auto on · ban in 1.6s · random delay."
+    },
+    {
+      "elapsedMs": 132712,
+      "status": "Auto on · ban in 0.9s · random delay."
+    },
+    {
+      "elapsedMs": 133223,
+      "status": "Auto on · ban in 0.2s · random delay."
+    },
+    {
+      "elapsedMs": 133746,
+      "status": "Auto on · finding Treant Protector for ban."
+    },
+    {
+      "elapsedMs": 134767,
+      "status": "Auto on · selecting Treant Protector for ban · weighted native choice (29.2 points)."
+    },
+    {
+      "elapsedMs": 135289,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 135816,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 141482,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 142506,
+      "status": "Auto on · ban in 2.4s · random delay."
+    },
+    {
+      "elapsedMs": 143022,
+      "status": "Auto on · ban in 1.7s · random delay."
+    },
+    {
+      "elapsedMs": 143535,
+      "status": "Auto on · ban in 1.0s · random delay."
+    },
+    {
+      "elapsedMs": 144566,
+      "status": "Auto on · ban in 0.3s · random delay."
+    },
+    {
+      "elapsedMs": 145086,
+      "status": "Auto on · finding Timbersaw for ban."
+    },
+    {
+      "elapsedMs": 146116,
+      "status": "Auto on · selecting Timbersaw for ban · weighted native choice (27.7 points)."
+    },
+    {
+      "elapsedMs": 146631,
+      "status": "Auto on · ban submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 147143,
+      "status": "Auto on · waiting for opponent."
+    },
+    {
+      "elapsedMs": 154972,
+      "status": "Auto on · waiting for the game to verify your turn."
+    },
+    {
+      "elapsedMs": 155499,
+      "status": "Auto on · pick in 3.2s · random delay."
+    },
+    {
+      "elapsedMs": 156528,
+      "status": "Auto on · pick in 2.4s · random delay."
+    },
+    {
+      "elapsedMs": 157040,
+      "status": "Auto on · pick in 1.7s · random delay."
+    },
+    {
+      "elapsedMs": 158068,
+      "status": "Auto on · pick in 1.0s · random delay."
+    },
+    {
+      "elapsedMs": 158584,
+      "status": "Auto on · pick in 0.3s · random delay."
+    },
+    {
+      "elapsedMs": 159098,
+      "status": "Auto on · finding Bloodseeker for pick."
+    },
+    {
+      "elapsedMs": 160124,
+      "status": "Auto on · selecting Bloodseeker for pick · weighted native choice (49.1 points)."
+    },
+    {
+      "elapsedMs": 160650,
+      "status": "Auto on · pick submitted; waiting for next turn."
+    },
+    {
+      "elapsedMs": 161163,
+      "status": "Auto on · draft complete · native strategy screen is opening."
+    },
+    {
+      "elapsedMs": 166937,
+      "status": "Auto on · assigning roles before optimization."
+    },
+    {
+      "elapsedMs": 167961,
+      "status": "Auto on · assigning roles 1/5."
+    },
+    {
+      "elapsedMs": 168474,
+      "status": "Auto on · assigning roles 2/5."
+    },
+    {
+      "elapsedMs": 168990,
+      "status": "Auto on · assigning roles 3/5."
+    },
+    {
+      "elapsedMs": 170017,
+      "status": "Auto on · assigning roles 4/5."
+    },
+    {
+      "elapsedMs": 170532,
+      "status": "Auto on · assigning roles 5/5."
+    },
+    {
+      "elapsedMs": 171699,
+      "status": "Auto on · Risk preparation · initial strategy 1/64"
+    },
+    {
+      "elapsedMs": 173051,
+      "status": "Auto on · Risk preparation · initial strategy 2/64"
+    },
+    {
+      "elapsedMs": 173923,
+      "status": "Auto on · Risk preparation · initial strategy 3/64"
+    },
+    {
+      "elapsedMs": 175136,
+      "status": "Auto on · Risk preparation · initial strategy 5/64"
+    },
+    {
+      "elapsedMs": 175944,
+      "status": "Auto on · Risk preparation · initial strategy 7/64"
+    },
+    {
+      "elapsedMs": 176744,
+      "status": "Auto on · Risk preparation · initial strategy 8/64"
+    },
+    {
+      "elapsedMs": 177611,
+      "status": "Auto on · Risk preparation · initial strategy 10/64"
+    },
+    {
+      "elapsedMs": 178537,
+      "status": "Auto on · Risk preparation · initial strategy 11/64"
+    },
+    {
+      "elapsedMs": 179502,
+      "status": "Auto on · Risk preparation · initial strategy 12/64"
+    },
+    {
+      "elapsedMs": 180353,
+      "status": "Auto on · Risk preparation · initial strategy 13/64"
+    },
+    {
+      "elapsedMs": 181505,
+      "status": "Auto on · Risk preparation · initial strategy 14/64"
+    },
+    {
+      "elapsedMs": 182414,
+      "status": "Auto on · Risk preparation · initial strategy 15/64"
+    },
+    {
+      "elapsedMs": 183310,
+      "status": "Auto on · Risk preparation · initial strategy 17/64"
+    },
+    {
+      "elapsedMs": 184139,
+      "status": "Auto on · Risk preparation · initial strategy 18/64"
+    },
+    {
+      "elapsedMs": 184923,
+      "status": "Auto on · Risk preparation · initial strategy 20/64"
+    },
+    {
+      "elapsedMs": 185723,
+      "status": "Auto on · Risk preparation · initial strategy 21/64"
+    },
+    {
+      "elapsedMs": 186466,
+      "status": "Auto on · Risk preparation · initial strategy 23/64"
+    },
+    {
+      "elapsedMs": 187316,
+      "status": "Auto on · Risk preparation · initial strategy 24/64"
+    },
+    {
+      "elapsedMs": 188234,
+      "status": "Auto on · Risk preparation · initial strategy 25/64"
+    },
+    {
+      "elapsedMs": 189107,
+      "status": "Auto on · Risk preparation · initial strategy 27/64"
+    },
+    {
+      "elapsedMs": 190099,
+      "status": "Auto on · Risk preparation · initial strategy 28/64"
+    },
+    {
+      "elapsedMs": 190924,
+      "status": "Auto on · Risk preparation · initial strategy 30/64"
+    },
+    {
+      "elapsedMs": 191833,
+      "status": "Auto on · Risk preparation · initial strategy 31/64"
+    },
+    {
+      "elapsedMs": 193116,
+      "status": "Auto on · Risk preparation · initial strategy 33/64"
+    },
+    {
+      "elapsedMs": 194735,
+      "status": "Auto on · Risk preparation · initial strategy 34/64"
+    },
+    {
+      "elapsedMs": 195901,
+      "status": "Auto on · Risk preparation · initial strategy 36/64"
+    },
+    {
+      "elapsedMs": 196744,
+      "status": "Auto on · Risk preparation · initial strategy 37/64"
+    },
+    {
+      "elapsedMs": 197511,
+      "status": "Auto on · Risk preparation · initial strategy 39/64"
+    },
+    {
+      "elapsedMs": 198365,
+      "status": "Auto on · Risk preparation · initial strategy 41/64"
+    },
+    {
+      "elapsedMs": 200204,
+      "status": "Auto on · Risk preparation · initial strategy 43/64"
+    },
+    {
+      "elapsedMs": 201020,
+      "status": "Auto on · Risk preparation · initial strategy 44/64"
+    },
+    {
+      "elapsedMs": 201961,
+      "status": "Auto on · Risk preparation · initial strategy 45/64"
+    },
+    {
+      "elapsedMs": 202635,
+      "status": "Auto on · Risk preparation · initial strategy 47/64"
+    },
+    {
+      "elapsedMs": 203395,
+      "status": "Auto on · Risk preparation · initial strategy 48/64"
+    },
+    {
+      "elapsedMs": 204260,
+      "status": "Auto on · Risk preparation · initial strategy 50/64"
+    },
+    {
+      "elapsedMs": 205147,
+      "status": "Auto on · Risk preparation · initial strategy 51/64"
+    },
+    {
+      "elapsedMs": 206052,
+      "status": "Auto on · Risk preparation · initial strategy 52/64"
+    },
+    {
+      "elapsedMs": 206773,
+      "status": "Auto on · Risk preparation · initial strategy 53/64"
+    },
+    {
+      "elapsedMs": 207556,
+      "status": "Auto on · Risk preparation · initial strategy 54/64"
+    },
+    {
+      "elapsedMs": 208332,
+      "status": "Auto on · Risk preparation · initial strategy 55/64"
+    },
+    {
+      "elapsedMs": 209154,
+      "status": "Auto on · Risk preparation · initial strategy 57/64"
+    },
+    {
+      "elapsedMs": 210086,
+      "status": "Auto on · Risk preparation · initial strategy 58/64"
+    },
+    {
+      "elapsedMs": 211156,
+      "status": "Auto on · Risk preparation · initial strategy 59/64"
+    },
+    {
+      "elapsedMs": 211934,
+      "status": "Auto on · Risk preparation · initial strategy 60/64"
+    },
+    {
+      "elapsedMs": 212673,
+      "status": "Auto on · Risk preparation · initial strategy 61/64"
+    },
+    {
+      "elapsedMs": 213679,
+      "status": "Auto on · Risk preparation · initial strategy 63/64"
+    },
+    {
+      "elapsedMs": 214513,
+      "status": "Auto on · Risk preparation · initial strategy 64/64"
+    },
+    {
+      "elapsedMs": 215830,
+      "status": "Auto on · Risk preparation · item candidate 1/30"
+    },
+    {
+      "elapsedMs": 216498,
+      "status": "Auto on · Risk preparation · item candidate 2/30"
+    },
+    {
+      "elapsedMs": 217520,
+      "status": "Auto on · Risk preparation · item candidate 4/30"
+    },
+    {
+      "elapsedMs": 218251,
+      "status": "Auto on · Risk preparation · item candidate 5/30"
+    },
+    {
+      "elapsedMs": 219260,
+      "status": "Auto on · Risk preparation · item candidate 6/30"
+    },
+    {
+      "elapsedMs": 220226,
+      "status": "Auto on · Risk preparation · item candidate 7/30"
+    },
+    {
+      "elapsedMs": 221161,
+      "status": "Auto on · Risk preparation · item candidate 8/30"
+    },
+    {
+      "elapsedMs": 222212,
+      "status": "Auto on · Risk preparation · item candidate 9/30"
+    },
+    {
+      "elapsedMs": 223037,
+      "status": "Auto on · Risk preparation · item candidate 10/30"
+    },
+    {
+      "elapsedMs": 223902,
+      "status": "Auto on · Risk preparation · item candidate 12/30"
+    },
+    {
+      "elapsedMs": 225129,
+      "status": "Auto on · Risk preparation · item candidate 13/30"
+    },
+    {
+      "elapsedMs": 225987,
+      "status": "Auto on · Risk preparation · item candidate 14/30"
+    },
+    {
+      "elapsedMs": 227165,
+      "status": "Auto on · Risk preparation · item candidate 15/30"
+    },
+    {
+      "elapsedMs": 228002,
+      "status": "Auto on · Risk preparation · item candidate 17/30"
+    },
+    {
+      "elapsedMs": 228882,
+      "status": "Auto on · Risk preparation · item candidate 18/30"
+    },
+    {
+      "elapsedMs": 229785,
+      "status": "Auto on · Risk preparation · item candidate 19/30"
+    },
+    {
+      "elapsedMs": 230563,
+      "status": "Auto on · Risk preparation · item candidate 20/30"
+    },
+    {
+      "elapsedMs": 231449,
+      "status": "Auto on · Risk preparation · item candidate 21/30"
+    },
+    {
+      "elapsedMs": 232478,
+      "status": "Auto on · Risk preparation · item candidate 22/30"
+    },
+    {
+      "elapsedMs": 233383,
+      "status": "Auto on · Risk preparation · item candidate 23/30"
+    },
+    {
+      "elapsedMs": 234255,
+      "status": "Auto on · Risk preparation · item candidate 24/30"
+    },
+    {
+      "elapsedMs": 235770,
+      "status": "Auto on · Risk preparation · item candidate 25/30"
+    },
+    {
+      "elapsedMs": 236905,
+      "status": "Auto on · checking compatible nonpreset enemy strategies."
+    },
+    {
+      "elapsedMs": 256568,
+      "status": "Auto on · applying selected item builds, then strategy."
+    },
+    {
+      "elapsedMs": 257094,
+      "status": "Auto on · applying items 1/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 261229,
+      "status": "Auto on · applying items 2/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 266902,
+      "status": "Auto on · applying items 3/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 272629,
+      "status": "Auto on · applying items 4/5 heroes · verifying purchase order."
+    },
+    {
+      "elapsedMs": 285933,
+      "status": "Auto on · selected configuration applied · verifying Continue."
+    },
+    {
+      "elapsedMs": 286441,
+      "status": "Auto on · Continue submitted · verifying game acknowledgement."
+    },
+    {
+      "elapsedMs": 289332,
+      "status": "Auto off · Configuration submitted; match started."
+    }
+  ],
+  "record": {
+    "version": "2.8.9",
+    "savedAt": "2026-10-17T02:35:39.570Z",
+    "status": "Configuration submitted; match started.",
+    "phase": "finish",
+    "applicationIndex": 6,
+    "configurationVerified": true,
+    "searchCoverage": {
+      "initialStrategies": {
+        "completed": 64,
+        "total": 64
+      },
+      "selectedItemStrategies": {
+        "completed": 1,
+        "total": 64
+      },
+      "itemCandidates": 25,
+      "extraCheck": {
+        "completed": true,
+        "changed": false,
+        "kind": "strategy-risk",
+        "reason": "Baseline retained",
+        "budgetMs": 20000,
+        "elapsedMs": 20051.099999999627,
+        "shortlisted": 4,
+        "baselineChoices": {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        "variants": [
+          {
+            "label": "Inferred roles / default item order",
+            "roles": {
+              "13": "mid",
+              "20": "support",
+              "68": "hard_support",
+              "93": "carry",
+              "107": "offlane"
+            },
+            "items": {
+              "13": [
+                "power_treads",
+                "witch_blade",
+                "blink_dagger",
+                "eul_scepter",
+                "aeon_disk",
+                "force_staff"
+              ],
+              "20": [
+                "power_treads",
+                "vladmirs_offering",
+                "aghanims_scepter",
+                "solar_crest",
+                "force_staff",
+                "assault_cuirass"
+              ],
+              "68": [
+                "arcane_boots",
+                "rod_of_atos",
+                "glimmer_cape",
+                "force_staff",
+                "solar_crest",
+                "eul_scepter"
+              ],
+              "93": [
+                "power_treads",
+                "diffusal_blade",
+                "hand_of_midas",
+                "echo_sabre",
+                "aghanims_scepter",
+                "silver_edge"
+              ],
+              "107": [
+                "tranquil_boots",
+                "kaya_and_sange",
+                "blade_mail",
+                "black_king_bar",
+                "shivas_guard",
+                "heart_of_tarrasque"
+              ]
+            }
+          }
+        ],
+        "enemyPlans": [
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          }
+        ],
+        "metrics": [
+          [
+            {
+              "wins": 37,
+              "severe": 8,
+              "nw": 2576.0008351324877
+            }
+          ],
+          [
+            {
+              "wins": 37,
+              "severe": 14,
+              "nw": 5884.826977050406
+            }
+          ],
+          [
+            {
+              "wins": 39,
+              "severe": 10,
+              "nw": 4541.114708954384
+            }
+          ],
+          [
+            {
+              "wins": 27,
+              "severe": 16,
+              "nw": -5137.514981078984
+            }
+          ]
+        ],
+        "selectedIndex": 0,
+        "itemCheck": {
+          "completed": false,
+          "changed": false,
+          "reason": "deadline"
+        }
+      }
+    },
+    "scheduling": {
+      "driver": "worker",
+      "lastWakeAt": 1792204539567,
+      "frameClockInstalledAt": "loading",
+      "frameState": {
+        "active": true,
+        "pending": 1,
+        "lastFrameAt": 288430.60000000056
+      }
+    },
+    "preparationEvidence": {
+      "observedAt": 1792204536231,
+      "status": null,
+      "tabHidden": true,
+      "remainingSeconds": 174,
+      "expectedOwn": [
+        131,
+        64,
+        129,
+        65,
+        4
+      ],
+      "expectedEnemy": [
+        13,
+        107,
+        68,
+        93,
+        20
+      ],
+      "observedOwn": [
+        131,
+        64,
+        129,
+        65,
+        4
+      ],
+      "observedEnemy": [
+        13,
+        107,
+        68,
+        93,
+        20
+      ],
+      "observedRoles": {
+        "4": "carry",
+        "64": "hard_support",
+        "65": "mid",
+        "129": "support",
+        "131": "offlane"
+      }
+    },
+    "draft": {
+      "own": [
+        131,
+        64,
+        129,
+        65,
+        4
+      ],
+      "enemy": [
+        13,
+        107,
+        68,
+        93,
+        20
+      ],
+      "bans": [
+        3,
+        1,
+        14,
+        75,
+        69,
+        27,
+        9,
+        19,
+        2,
+        62,
+        83,
+        104,
+        98,
+        25
+      ],
+      "ownBans": [
+        1,
+        75,
+        27,
+        9,
+        2,
+        83,
+        98
+      ],
+      "roles": {
+        "4": "carry",
+        "64": "hard_support",
+        "65": "mid",
+        "129": "support",
+        "131": "offlane"
+      },
+      "enemyRoles": {},
+      "enemyChoices": {},
+      "side": "radiant",
+      "turn": null,
+      "source": "automatic",
+      "detected": true
+    },
+    "heroNames": {
+      "1": "Anti-Mage",
+      "2": "Axe",
+      "3": "Bane",
+      "4": "Bloodseeker",
+      "9": "Mirana",
+      "13": "Puck",
+      "14": "Pudge",
+      "19": "Tiny",
+      "20": "Vengeful Spirit",
+      "25": "Lina",
+      "27": "Shadow Shaman",
+      "62": "Bounty Hunter",
+      "64": "Jakiro",
+      "65": "Batrider",
+      "68": "Ancient Apparition",
+      "69": "Doom",
+      "75": "Silencer",
+      "83": "Treant Protector",
+      "93": "Slark",
+      "98": "Timbersaw",
+      "104": "Legion Commander",
+      "107": "Earth Spirit",
+      "129": "Hoodwink",
+      "131": "Dawnbreaker"
+    },
+    "observedApplication": {
+      "roles": {
+        "4": "carry",
+        "64": "hard_support",
+        "65": "mid",
+        "129": "support",
+        "131": "offlane"
+      },
+      "items": {
+        "4": [
+          "hand_of_midas",
+          "phase_boots",
+          "maelstrom",
+          "diffusal_blade",
+          "black_king_bar",
+          "manta_style"
+        ],
+        "64": [
+          "refresher",
+          "pavise",
+          "glimmer_cape",
+          "arcane_boots",
+          "aghanims_scepter",
+          "force_staff"
+        ],
+        "65": [
+          "force_staff",
+          "veil_of_discord",
+          "blink_dagger",
+          "tranquil_boots",
+          "black_king_bar",
+          "lotus_orb"
+        ],
+        "129": [
+          "aghanims_scepter",
+          "arcane_boots",
+          "glimmer_cape",
+          "force_staff",
+          "gleipnir",
+          "scythe_of_vyse"
+        ],
+        "131": [
+          "phase_boots",
+          "echo_sabre",
+          "sange_and_yasha",
+          "black_king_bar",
+          "assault_cuirass",
+          "abyssal_blade"
+        ]
+      },
+      "strategy": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "b",
+        "objective_style": "b",
+        "map_control": "a"
+      }
+    },
+    "submissionAcknowledged": true,
+    "pendingStrategy": null,
+    "strategyEvidence": "Visible call progression after requested click; completed choice values are no longer exposed by the native screen.",
+    "selectedRoles": {
+      "4": "carry",
+      "64": "hard_support",
+      "65": "mid",
+      "129": "support",
+      "131": "offlane"
+    },
+    "selectedStrategy": {
+      "early_late": "b",
+      "aggro_passive": "b",
+      "fight_split": "a",
+      "farm_gank": "b",
+      "objective_style": "b",
+      "map_control": "a"
+    },
+    "selectedItems": {
+      "4": [
+        "hand_of_midas",
+        "phase_boots",
+        "maelstrom",
+        "diffusal_blade",
+        "black_king_bar",
+        "manta_style"
+      ],
+      "64": [
+        "refresher",
+        "pavise",
+        "glimmer_cape",
+        "arcane_boots",
+        "aghanims_scepter",
+        "force_staff"
+      ],
+      "65": [
+        "force_staff",
+        "veil_of_discord",
+        "blink_dagger",
+        "tranquil_boots",
+        "black_king_bar",
+        "lotus_orb"
+      ],
+      "129": [
+        "aghanims_scepter",
+        "arcane_boots",
+        "glimmer_cape",
+        "force_staff",
+        "gleipnir",
+        "scythe_of_vyse"
+      ],
+      "131": [
+        "phase_boots",
+        "echo_sabre",
+        "sange_and_yasha",
+        "black_king_bar",
+        "assault_cuirass",
+        "abyssal_blade"
+      ]
+    },
+    "forecast": {
+      "choices": {
+        "early_late": "b",
+        "aggro_passive": "b",
+        "fight_split": "a",
+        "farm_gank": "b",
+        "objective_style": "b",
+        "map_control": "a"
+      },
+      "wins": 37,
+      "total": 64,
+      "nw": 2576.0008351324877,
+      "worstNW": -41277.48657982469,
+      "itemBuilds": {
+        "4": [
+          "hand_of_midas",
+          "phase_boots",
+          "maelstrom",
+          "diffusal_blade",
+          "black_king_bar",
+          "manta_style"
+        ],
+        "64": [
+          "refresher",
+          "pavise",
+          "glimmer_cape",
+          "arcane_boots",
+          "aghanims_scepter",
+          "force_staff"
+        ],
+        "65": [
+          "force_staff",
+          "veil_of_discord",
+          "blink_dagger",
+          "tranquil_boots",
+          "black_king_bar",
+          "lotus_orb"
+        ],
+        "129": [
+          "aghanims_scepter",
+          "arcane_boots",
+          "glimmer_cape",
+          "force_staff",
+          "gleipnir",
+          "scythe_of_vyse"
+        ],
+        "131": [
+          "phase_boots",
+          "echo_sabre",
+          "sange_and_yasha",
+          "black_king_bar",
+          "assault_cuirass",
+          "abyssal_blade"
+        ]
+      },
+      "alternatives": [
+        {
+          "choices": {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "wins": 37,
+          "total": 64,
+          "nw": 2576.0008351324877,
+          "worstNW": -41277.48657982469,
+          "itemBuilds": {
+            "4": [
+              "hand_of_midas",
+              "phase_boots",
+              "maelstrom",
+              "diffusal_blade",
+              "black_king_bar",
+              "manta_style"
+            ],
+            "64": [
+              "refresher",
+              "pavise",
+              "glimmer_cape",
+              "arcane_boots",
+              "aghanims_scepter",
+              "force_staff"
+            ],
+            "65": [
+              "force_staff",
+              "veil_of_discord",
+              "blink_dagger",
+              "tranquil_boots",
+              "black_king_bar",
+              "lotus_orb"
+            ],
+            "129": [
+              "aghanims_scepter",
+              "arcane_boots",
+              "glimmer_cape",
+              "force_staff",
+              "gleipnir",
+              "scythe_of_vyse"
+            ],
+            "131": [
+              "phase_boots",
+              "echo_sabre",
+              "sange_and_yasha",
+              "black_king_bar",
+              "assault_cuirass",
+              "abyssal_blade"
+            ]
+          }
+        },
+        {
+          "choices": {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "wins": 37,
+          "total": 64,
+          "nw": 5884.826977050406,
+          "worstNW": -40027.953120143284,
+          "itemBuilds": {
+            "4": [
+              "hand_of_midas",
+              "phase_boots",
+              "maelstrom",
+              "diffusal_blade",
+              "black_king_bar",
+              "manta_style"
+            ],
+            "64": [
+              "refresher",
+              "pavise",
+              "glimmer_cape",
+              "arcane_boots",
+              "aghanims_scepter",
+              "force_staff"
+            ],
+            "65": [
+              "force_staff",
+              "veil_of_discord",
+              "blink_dagger",
+              "tranquil_boots",
+              "black_king_bar",
+              "lotus_orb"
+            ],
+            "129": [
+              "aghanims_scepter",
+              "arcane_boots",
+              "glimmer_cape",
+              "force_staff",
+              "gleipnir",
+              "scythe_of_vyse"
+            ],
+            "131": [
+              "phase_boots",
+              "echo_sabre",
+              "sange_and_yasha",
+              "black_king_bar",
+              "assault_cuirass",
+              "abyssal_blade"
+            ]
+          }
+        },
+        {
+          "choices": {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          "wins": 39,
+          "total": 64,
+          "nw": 4541.114708954384,
+          "worstNW": -52310.866325446565,
+          "itemBuilds": {
+            "4": [
+              "hand_of_midas",
+              "phase_boots",
+              "maelstrom",
+              "diffusal_blade",
+              "black_king_bar",
+              "manta_style"
+            ],
+            "64": [
+              "refresher",
+              "pavise",
+              "glimmer_cape",
+              "arcane_boots",
+              "aghanims_scepter",
+              "force_staff"
+            ],
+            "65": [
+              "force_staff",
+              "veil_of_discord",
+              "blink_dagger",
+              "tranquil_boots",
+              "black_king_bar",
+              "lotus_orb"
+            ],
+            "129": [
+              "aghanims_scepter",
+              "arcane_boots",
+              "glimmer_cape",
+              "force_staff",
+              "gleipnir",
+              "scythe_of_vyse"
+            ],
+            "131": [
+              "phase_boots",
+              "echo_sabre",
+              "sange_and_yasha",
+              "black_king_bar",
+              "assault_cuirass",
+              "abyssal_blade"
+            ]
+          }
+        },
+        {
+          "choices": {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          "wins": 27,
+          "total": 64,
+          "nw": -5137.514981078984,
+          "worstNW": -57940.99929257482,
+          "itemBuilds": {
+            "4": [
+              "hand_of_midas",
+              "phase_boots",
+              "maelstrom",
+              "diffusal_blade",
+              "black_king_bar",
+              "manta_style"
+            ],
+            "64": [
+              "refresher",
+              "pavise",
+              "glimmer_cape",
+              "arcane_boots",
+              "aghanims_scepter",
+              "force_staff"
+            ],
+            "65": [
+              "force_staff",
+              "veil_of_discord",
+              "blink_dagger",
+              "tranquil_boots",
+              "black_king_bar",
+              "lotus_orb"
+            ],
+            "129": [
+              "aghanims_scepter",
+              "arcane_boots",
+              "glimmer_cape",
+              "force_staff",
+              "gleipnir",
+              "scythe_of_vyse"
+            ],
+            "131": [
+              "phase_boots",
+              "echo_sabre",
+              "sange_and_yasha",
+              "black_king_bar",
+              "assault_cuirass",
+              "abyssal_blade"
+            ]
+          }
+        }
+      ],
+      "mode": "fast",
+      "evaluated": 1,
+      "screened": 64,
+      "enemyPlanCount": 3,
+      "refinement": null,
+      "itemTests": 25,
+      "passes": 1,
+      "challenger": {
+        "completed": true,
+        "changed": false,
+        "kind": "strategy-risk",
+        "reason": "Baseline retained",
+        "budgetMs": 20000,
+        "elapsedMs": 20051.099999999627,
+        "shortlisted": 4,
+        "baselineChoices": {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        "variants": [
+          {
+            "label": "Inferred roles / default item order",
+            "roles": {
+              "13": "mid",
+              "20": "support",
+              "68": "hard_support",
+              "93": "carry",
+              "107": "offlane"
+            },
+            "items": {
+              "13": [
+                "power_treads",
+                "witch_blade",
+                "blink_dagger",
+                "eul_scepter",
+                "aeon_disk",
+                "force_staff"
+              ],
+              "20": [
+                "power_treads",
+                "vladmirs_offering",
+                "aghanims_scepter",
+                "solar_crest",
+                "force_staff",
+                "assault_cuirass"
+              ],
+              "68": [
+                "arcane_boots",
+                "rod_of_atos",
+                "glimmer_cape",
+                "force_staff",
+                "solar_crest",
+                "eul_scepter"
+              ],
+              "93": [
+                "power_treads",
+                "diffusal_blade",
+                "hand_of_midas",
+                "echo_sabre",
+                "aghanims_scepter",
+                "silver_edge"
+              ],
+              "107": [
+                "tranquil_boots",
+                "kaya_and_sange",
+                "blade_mail",
+                "black_king_bar",
+                "shivas_guard",
+                "heart_of_tarrasque"
+              ]
+            }
+          }
+        ],
+        "enemyPlans": [
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "a"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "a",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "a",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "a",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "a",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "a",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          },
+          {
+            "early_late": "b",
+            "aggro_passive": "b",
+            "fight_split": "b",
+            "farm_gank": "b",
+            "objective_style": "b",
+            "map_control": "b"
+          }
+        ],
+        "metrics": [
+          [
+            {
+              "wins": 37,
+              "severe": 8,
+              "nw": 2576.0008351324877
+            }
+          ],
+          [
+            {
+              "wins": 37,
+              "severe": 14,
+              "nw": 5884.826977050406
+            }
+          ],
+          [
+            {
+              "wins": 39,
+              "severe": 10,
+              "nw": 4541.114708954384
+            }
+          ],
+          [
+            {
+              "wins": 27,
+              "severe": 16,
+              "nw": -5137.514981078984
+            }
+          ]
+        ],
+        "selectedIndex": 0,
+        "itemCheck": {
+          "completed": false,
+          "changed": false,
+          "reason": "deadline"
+        }
+      }
+    },
+    "assumptions": {
+      "enemyRoles": {
+        "13": "mid",
+        "20": "support",
+        "68": "hard_support",
+        "93": "carry",
+        "107": "offlane"
+      },
+      "enemyItems": "Modeled native role defaults",
+      "enemyVariants": [
+        {
+          "label": "Inferred roles / default item order",
+          "roles": {
+            "13": "mid",
+            "20": "support",
+            "68": "hard_support",
+            "93": "carry",
+            "107": "offlane"
+          },
+          "items": {
+            "13": [
+              "power_treads",
+              "witch_blade",
+              "blink_dagger",
+              "eul_scepter",
+              "aeon_disk",
+              "force_staff"
+            ],
+            "20": [
+              "power_treads",
+              "vladmirs_offering",
+              "aghanims_scepter",
+              "solar_crest",
+              "force_staff",
+              "assault_cuirass"
+            ],
+            "68": [
+              "arcane_boots",
+              "rod_of_atos",
+              "glimmer_cape",
+              "force_staff",
+              "solar_crest",
+              "eul_scepter"
+            ],
+            "93": [
+              "power_treads",
+              "diffusal_blade",
+              "hand_of_midas",
+              "echo_sabre",
+              "aghanims_scepter",
+              "silver_edge"
+            ],
+            "107": [
+              "tranquil_boots",
+              "kaya_and_sange",
+              "blade_mail",
+              "black_king_bar",
+              "shivas_guard",
+              "heart_of_tarrasque"
+            ]
+          }
+        }
+      ],
+      "enemyStrategies": [
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "a"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "a",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "a",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "a",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "a",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "a",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        },
+        {
+          "early_late": "b",
+          "aggro_passive": "b",
+          "fight_split": "b",
+          "farm_gank": "b",
+          "objective_style": "b",
+          "map_control": "b"
+        }
+      ],
+      "interpretation": "Deterministic scenario counts, not win probabilities; this is a pregame record, not a match replay."
+    }
+  },
+  "trace": [
+    {
+      "time": 1792204260877,
+      "phase": "draft",
+      "index": 0,
+      "hidden": false,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204261862,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204262567,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204263269,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204263970,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204264681,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204265381,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204266094,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204266802,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204267515,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204268244,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204268952,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204269661,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204270366,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204271070,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204271779,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204272480,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204273180,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204273883,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204274583,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204275283,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204275996,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204276697,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204277401,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204278122,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204278835,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204279536,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204280238,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204280943,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204281658,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204282370,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204283074,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204283784,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204284492,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204285205,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204285905,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204286620,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204287320,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204288024,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204288729,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204289442,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204290146,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204290847,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204291562,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204292265,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204292979,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204293705,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204294421,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204295135,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204295839,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204296545,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204297245,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204297949,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204298651,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204299366,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204300071,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204300771,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204301483,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204302185,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204302887,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204303593,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204304294,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204305013,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204305718,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204306422,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204307135,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204307836,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204308540,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204309241,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204309948,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204310650,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204311350,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204312062,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204312774,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204313477,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204314180,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204314881,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204315595,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204316296,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204317001,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204317703,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204318422,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204319134,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204319842,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204320555,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204321265,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204321966,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204322670,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204323383,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204324087,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204324808,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204325515,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204326231,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204326936,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204327652,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204328352,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204329052,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204329754,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204330458,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204331161,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204331875,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204332577,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204333279,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204333987,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204334701,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204335404,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204336109,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204336812,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204337516,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204338221,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204338934,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204339634,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204340338,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204341038,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204341740,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204342443,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204343154,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204343859,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204344562,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204345277,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204345983,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204346699,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204347400,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204348106,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204348810,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204349513,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204350216,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204350927,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204351629,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204352345,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204353058,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204353781,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204354487,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204355202,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204355904,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204356618,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204357320,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204358023,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204358724,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204359424,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204360126,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204360827,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204361529,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204362229,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204362943,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204363646,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204364349,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204365049,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204365751,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204366456,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204367156,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204367859,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204368562,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204369262,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204369969,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204370671,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204371382,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204372088,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204372809,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204373518,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204374234,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204374935,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204375638,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204376340,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204377044,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204377747,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204378448,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204379159,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204379865,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204380575,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204381290,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204382004,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204382719,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204383419,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204384130,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204384835,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204385539,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204386240,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204386949,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204387662,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204388363,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204389077,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204389778,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204390481,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204391195,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204391895,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204392604,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204393309,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204394010,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204394712,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204395420,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204396122,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204396822,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204397526,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204398227,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204398942,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204399654,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204400357,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204401058,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204401758,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204402460,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204403175,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204403882,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204404586,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204405287,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204406002,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204406706,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204407406,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204408108,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204408808,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204409526,
+      "phase": "draft",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204410228,
+      "phase": "select",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204410941,
+      "phase": "confirm",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204411669,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204412372,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204413074,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204413783,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204414500,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204415203,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204415905,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204416606,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204417316,
+      "phase": "submitted",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 178
+    },
+    {
+      "time": 1792204418029,
+      "phase": "roles",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 178
+    },
+    {
+      "time": 1792204418747,
+      "phase": "roles",
+      "index": 1,
+      "hidden": true,
+      "busy": false,
+      "remaining": 178
+    },
+    {
+      "time": 1792204419478,
+      "phase": "roles",
+      "index": 2,
+      "hidden": true,
+      "busy": false,
+      "remaining": 177
+    },
+    {
+      "time": 1792204420199,
+      "phase": "roles",
+      "index": 3,
+      "hidden": true,
+      "busy": false,
+      "remaining": 176
+    },
+    {
+      "time": 1792204420912,
+      "phase": "roles",
+      "index": 4,
+      "hidden": true,
+      "busy": false,
+      "remaining": 176
+    },
+    {
+      "time": 1792204421613,
+      "phase": "roles",
+      "index": 5,
+      "hidden": true,
+      "busy": false,
+      "remaining": 175
+    },
+    {
+      "time": 1792204422511,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 175
+    },
+    {
+      "time": 1792204423546,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 175
+    },
+    {
+      "time": 1792204424427,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204425139,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204425875,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204426588,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204427419,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204428274,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204429043,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204430007,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204430858,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204431786,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204432550,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204433252,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204434100,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204434862,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204435588,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204436465,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204437266,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204438109,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204438956,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204439862,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204440605,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204441430,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204442339,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204443047,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204444030,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204444951,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204445757,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204446590,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204447361,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204448292,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204449157,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204449988,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204450710,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204451525,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204452467,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204453335,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204454224,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204455060,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204455980,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204456807,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204457549,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204458327,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204459028,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204459989,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204461016,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204461832,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204462563,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204463287,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204464184,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204465018,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204466337,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204467255,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204468026,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204468756,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204469767,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204470732,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204471657,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204472718,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204473543,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204474408,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204475164,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204476013,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204476895,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204477671,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204478507,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204479388,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204480291,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204481069,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204481955,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204482984,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204483888,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204484760,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204485662,
+      "phase": "optimize",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204486896,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204487600,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204488300,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204489005,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204489704,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204490408,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204491115,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204491828,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204492533,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204493235,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204493937,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204494640,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204495347,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204496052,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204496758,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204497459,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204498162,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204498862,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204499565,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204500268,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204500985,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204501682,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204502385,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204503089,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204503789,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204504506,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204505201,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204505902,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204506605,
+      "phase": "challenge",
+      "index": 5,
+      "hidden": true,
+      "busy": true,
+      "remaining": 174
+    },
+    {
+      "time": 1792204507305,
+      "phase": "items",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204508007,
+      "phase": "items",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204508707,
+      "phase": "items",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204509422,
+      "phase": "items",
+      "index": 9,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204510122,
+      "phase": "items",
+      "index": 9,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204510824,
+      "phase": "items",
+      "index": 11,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204511532,
+      "phase": "items",
+      "index": 11,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204512238,
+      "phase": "items",
+      "index": 12,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204512938,
+      "phase": "items",
+      "index": 12,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204513640,
+      "phase": "items",
+      "index": 13,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204514343,
+      "phase": "items",
+      "index": 13,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204515051,
+      "phase": "items",
+      "index": 16,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204515751,
+      "phase": "items",
+      "index": 16,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204516456,
+      "phase": "items",
+      "index": 17,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204517173,
+      "phase": "items",
+      "index": 17,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204517880,
+      "phase": "items",
+      "index": 18,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204518583,
+      "phase": "items",
+      "index": 18,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204519300,
+      "phase": "items",
+      "index": 21,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204520002,
+      "phase": "items",
+      "index": 21,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204520709,
+      "phase": "items",
+      "index": 22,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204521409,
+      "phase": "items",
+      "index": 22,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204522114,
+      "phase": "items",
+      "index": 23,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204522826,
+      "phase": "items",
+      "index": 23,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204523527,
+      "phase": "items",
+      "index": 24,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204524227,
+      "phase": "items",
+      "index": 24,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204524941,
+      "phase": "items",
+      "index": 25,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204525641,
+      "phase": "items",
+      "index": 25,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204526345,
+      "phase": "items",
+      "index": 26,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204527048,
+      "phase": "items",
+      "index": 26,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204527758,
+      "phase": "items",
+      "index": 27,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204528460,
+      "phase": "items",
+      "index": 27,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204529160,
+      "phase": "items",
+      "index": 28,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204529873,
+      "phase": "items",
+      "index": 28,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204530576,
+      "phase": "items",
+      "index": 29,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204531287,
+      "phase": "items",
+      "index": 29,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204532000,
+      "phase": "apply",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204532700,
+      "phase": "apply",
+      "index": 0,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204533409,
+      "phase": "apply",
+      "index": 1,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204534110,
+      "phase": "apply",
+      "index": 2,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204534819,
+      "phase": "apply",
+      "index": 3,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204535521,
+      "phase": "apply",
+      "index": 4,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204536225,
+      "phase": "apply",
+      "index": 5,
+      "hidden": true,
+      "busy": false,
+      "remaining": 174
+    },
+    {
+      "time": 1792204536931,
+      "phase": "finish",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204537639,
+      "phase": "finish",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204538340,
+      "phase": "finish",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    },
+    {
+      "time": 1792204539567,
+      "phase": "finish",
+      "index": 6,
+      "hidden": true,
+      "busy": false,
+      "remaining": null
+    }
+  ],
+  "nativeControls": {
+    "footers": [],
+    "animations": []
+  },
+  "scope": "Real browser visibility and scheduler; temporary profile and reward-disabled demo. Unknown-scout mode masks only visible axes for this reward-disabled demo to exercise the PvP-style information limit; actual game choices remain unchanged. Frozen/discarded tabs and authenticated PvP are not verified."
+}
